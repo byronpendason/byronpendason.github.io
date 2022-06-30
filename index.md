@@ -1,5 +1,6 @@
 ---
 title: "Home"
+author: ByronTheFyrnsidere
 ---
 
 # *Wes hāl* and welcome to my personal website
