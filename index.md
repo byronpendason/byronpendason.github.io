@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Home"
+---
+
 # *Wes hāl* and welcome to my personal website
 
 I am a Fyrnsidere (a practitioner of Fyrnsidu, 
