@@ -1,5 +1,5 @@
 ---
-title: Fyrnsidic Life
+title: Home
 author: ByronTheFyrnsidere
 permalink: /
 ---
