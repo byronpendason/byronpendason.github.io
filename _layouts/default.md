@@ -1,4 +1,5 @@
-[Home](index.md) | [About Me](about.md)
+* [Home](index.md)  
+* [About Me](about.md)
 
 # {{ page.title }}
 
