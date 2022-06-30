@@ -28,6 +28,9 @@ url: "https://byronthefyrnsidere.github.io/" # the base hostname & protocol for 
 twitter_username: byronfyrnsidere
 #github_username:  byronthefyrnsidere
 show_excerpts: true
+header_pages:
+  - index.md
+  - about.md
 
 # Build settings
 theme: jekyll-theme-hacker
