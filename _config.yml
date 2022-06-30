@@ -29,7 +29,7 @@ twitter_username: byronfyrnsidere
 #github_username:  byronthefyrnsidere
 show_excerpts: true
 header_pages:
-  - title: Home
+  - title: Blog
     url: /
   - title: About
     url: /about/
