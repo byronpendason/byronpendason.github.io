@@ -6,7 +6,7 @@ permalink: /
 
 ## Wes hal!
 
-Welcome to *Mine Wyrtruman*!
+{{ site.description }}
 
 ## Blog posts
 
