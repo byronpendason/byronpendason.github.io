@@ -4,6 +4,10 @@ author: ByronTheFyrnsidere
 permalink: /
 ---
 
+## Wes hal!
+
+Welcome to *Mine Wyrtruman*!
+
 ## Blog posts
 
 {% for post in site.posts %}
