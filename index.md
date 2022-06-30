@@ -1,7 +1,6 @@
 ---
 title: Home
 author: ByronTheFyrnsidere
-layout: home
 ---
 
 Wes hal!
