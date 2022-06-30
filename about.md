@@ -1,6 +1,7 @@
 ---
 title: About
 author: ByronTheFyrnsidere
+permalink: /about/
 ---
 
 About the blog
