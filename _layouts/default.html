@@ -12,20 +12,67 @@
     <link rel="stylesheet" href="css/colors.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        {% for item in site.header_pages %}
-        <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-    <div id="header">
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-      <hr />
+<div id="header">
+    <div id="endcap_left_header">
+        <svg class="lc235703">
+            <use xlink:href="svg/sprites.svg#lcars-svg-endcap_left" height="30" width="45"></use>
+        </svg>
     </div>
-    <div id="content">
-    {{content}}
+    <div id="block_header" class="blocktext_black">
     </div>
-  </body>
-</html>
+    <div id="headline_header">hmt3design.com</div>
+    <div id="endcap_right_header">
+        <svg class="lc235703">
+            <use xlink:href="svg/sprites.svg#lcars-svg-endcap_right" height="30" width="45"></use>
+        </svg>
+    </div>
+</div>
+<br>
+<div id="main">
+    <div id="main_top">
+        <div id="elbow_left_top_main">
+            <svg class="lc236907">
+                <use xlink:href="svg/sprites.svg#lcars-svg-elbow_left_top" height="90" width="300"></use>
+            </svg>
+        </div>
+        <div id="block_main">
+        </div>
+        <div id="headline_main">Main menu</div>
+        <div id="endcap_right_main">
+            <svg class="lc236907">
+                <use xlink:href="svg/sprites.svg#lcars-svg-endcap_right" height="30" width="45"></use>
+            </svg>
+        </div>
+    </div>
+    <div id="main_center">
+        <div id="main_buttons">
+            <div id="main_button_column">
+                <button class="button01">031306</button>
+                <button class="button01">gndn</button>
+                <button class="button01">062207</button>
+            </div>
+            <div id="main_button_block">
+            </div>
+        </div>
+        <div id="main_text" class="text">
+          {{ content }}
+        </div>
+    </div>
+    <div id="main_bottom">
+        <div id="elbow_left_bottom_main">
+            <svg class="lc236907">
+                <use xlink:href="svg/sprites.svg#lcars-svg-elbow_left_bottom" height="90" width="300"></use>
+            </svg>
+        </div>
+        <div id="block_main_bottom">
+        </div>
+        <div id="endcap_right_main_bottom">
+            <svg class="lc236907">
+                <use xlink:href="svg/sprites.svg#lcars-svg-endcap_right" height="30" width="45"></use>
+            </svg>
+        </div>
+
+    </div>
+</div>
+</body>
+   
