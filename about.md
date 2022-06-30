@@ -1,6 +1,7 @@
 ---
 title: About
 author: ByronTheFyrnsidere
+layout: default
 permalink: /about/
 ---
 
