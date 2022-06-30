@@ -7,8 +7,6 @@ author: ByronTheFyrnsidere
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+* [{{ post title }}]({{ post.url }}) *{{ post.date }}*
   {% endfor %}
 </ul>
