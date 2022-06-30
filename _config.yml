@@ -28,7 +28,7 @@ twitter_username: byronfyrnsidere
 github_username:  byronthefyrnsidere
 
 # Build settings
-theme: jekyll-theme-modernist
+theme: jekyll-theme-time-machine
 plugins:
   - jekyll-feed
 
