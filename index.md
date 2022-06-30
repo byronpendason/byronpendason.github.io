@@ -1,6 +1,7 @@
 ---
 title: Fyrnsidic Life
 author: ByronTheFyrnsidere
+permalink: /
 ---
 
 ## Blog posts
