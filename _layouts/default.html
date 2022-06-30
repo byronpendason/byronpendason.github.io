@@ -3,12 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <style>
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li {
+        margin-right: 10px;
+      }
+      nav ul li a {
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      .active {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <div id="header">
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
     </div>
+    <nav>
+      <ul>
+        { % for entry in site.header_pages % }
+          <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+        { % endfor % }
+      </ul>
+    </nav>
     <div id="content">
       {{ content }}
     </div
