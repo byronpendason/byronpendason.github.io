@@ -16,8 +16,7 @@
         padding: 0px;
       }
       nav ul li {
-        margin-right: 10px
-        color: white;
+        margin-right: 10px;
         font-size: 50px;
         margin-left: 0px;
         margin-right: 10px;
@@ -25,7 +24,6 @@
       }
       nav ul li a {
         text-decoration: none;
-        color: white;
         font-size: 25px;
       }
       nav ul li a:hover {
@@ -48,6 +46,7 @@
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
     </div>
+    <div id="content">
     <nav>
       <ul>
         {% for item in site.header_pages %}
@@ -55,7 +54,6 @@
         {% endfor %}
       </ul>
     </nav>
-    <div id="content">
       {{ content }}
     </div
   </body>
