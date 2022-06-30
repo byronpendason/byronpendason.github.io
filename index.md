@@ -3,6 +3,8 @@ title: Fyrnsidic Life
 author: ByronTheFyrnsidere
 ---
 
+## Blog posts
+
 <ul>
   {% for post in site.posts %}
     <li>
