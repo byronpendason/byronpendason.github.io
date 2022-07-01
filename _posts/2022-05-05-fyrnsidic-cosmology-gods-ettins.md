@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Fyrnsidic Cosmology: Gods & Ettins"
+title: Fyrnsidic Cosmology: Gods & Ettins
 date: 2022-05-05 06:50
 author: byronarn
 comments: true
 categories: [cosmology, heathen basics, heathen worldview, Heathenry, myths, reconstruction]
 ---
+
 I would like to preface this with a disclaimer. While Jotnar and ettins are cognates of one another, the way they are viewed by their respective religious traditions can vary wildly. While there might be Norse Heathens who would agree with my takes here, and Anglo-Saxon Heathens who may disagree with them, this seems to generally be the Anglo-Saxon view (at least, among those who self identify their religion as Fyrnsidu) and typically isn't the modern Norse Heathen view.
 
 This blog post will build upon my last blog post about <a href="https://minewyrtruman.wordpress.com/2022/04/23/fyrnsidic-cosmology-order-vs-chaos/">Order and Chaos</a>. The key take away from that is that the gods established the cosmic order, and that the Þing (assembly) of the gods maintains that cosmic order. A lot of what will be said here is much more eloquently stated in <em>Wind in the Worldtree</em>'s video <a href="https://youtu.be/Z5CKS8hAoag">What makes a god?</a>, and further expanded upon in his video <a href="https://youtu.be/haHf0rundss">Gray Areas of Deity</a>.
@@ -26,7 +27,7 @@ So, for a quick recap, the first being to emerge from the chaos was Gimm (Gyme/Y
 
 Hail the gods, maintainers of the cosmic order!
 
-<h3>For more info</h3>
+### For more info
 
 <ul>
 <li><a href="https://minewyrtruman.wordpress.com/2022/04/23/fyrnsidic-cosmology-order-vs-chaos/">Order and Chaos</a></li>
