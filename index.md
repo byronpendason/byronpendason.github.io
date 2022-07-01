@@ -8,6 +8,4 @@ permalink: /
 
 ## [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%B %-d, %Y"}})
 
-{{ post.excerpt }}
-
 {% endfor %}
