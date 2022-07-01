@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I Wrote a Heathen Fable: "The Old Wanderer"
+title: I Wrote a Heathen Fable- "The Old Wanderer"
 date: 2020-07-30 09:23
 author: byronarn
 comments: true
