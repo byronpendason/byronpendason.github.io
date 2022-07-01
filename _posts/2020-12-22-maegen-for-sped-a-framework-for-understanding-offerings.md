@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mægen for Spēd: A Framework for Understanding Offerings
+title: Mægen for Spēd- A Framework for Understanding Offerings
 date: 2020-12-22 22:07
 author: byronarn
 comments: true
