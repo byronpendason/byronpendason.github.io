@@ -6,7 +6,7 @@ permalink: /
 
 {% for post in site.posts %}
 
-{% if page.title != "" %}
+{% if post.title != "" %}
 ## [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%B %-d, %Y"}})
 {% endif %}
 
