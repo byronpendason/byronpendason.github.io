@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Releasing RuneTyper 0.2.0: Four Rune Sets are now in the App!
+title: Releasing RuneTyper 0.2.0- Four Rune Sets are now in the App!
 date: 2021-02-07 16:47
 author: byronarn
 comments: true
 categories: [Uncategorized]
 ---
+
 <!-- wp:paragraph -->
 <p>Three days ago, I published an apk of my <a href="https://minewyrtruman.wordpress.com/2021/02/04/introducing-runetyper-0-1-1/">RuneTyper</a>. It's an app that allows you to type in runes and copy it to your phone's clipboard so you can post it to other apps. Any app that uses Unicode (which is every social media site I've tried it on, so far). The last version only had the Anglo-Saxon runes available, but I've now updated it to also include Elder Futhark and both variants of the Younger Futhark (Long Branch and Short Twig)!</p>
 <!-- /wp:paragraph -->
