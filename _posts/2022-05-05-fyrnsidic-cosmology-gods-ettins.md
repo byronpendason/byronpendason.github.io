@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fyrnsidic Cosmology: Gods &amp; Ettins
+title: "Fyrnsidic Cosmology: Gods & Ettins"
 date: 2022-05-05 06:50
 author: byronarn
 comments: true
