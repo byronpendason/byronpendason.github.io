@@ -62,7 +62,7 @@
     </div>
     <nav>
       <ul>
-        <p>&nbsp| {% for item in site.header_pages %}<li> <a class="{% if page.url == item.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a> |</li>{% endfor %}</p>
+        <p>&nbsp;|&nbsp;{% for item in site.header_pages %}<li><a class="{% if page.url == item.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a> |</li>{% endfor %}</p>
       </ul>
     </nav>
     <div id="content">
