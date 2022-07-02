@@ -29,7 +29,7 @@
         padding: 0px;
       }
       nav ul li {
-        margin-right: 10px;
+        margin-right: 25px;
         font-size: 40px;
         margin-left: 0px;
         margin-right: 10px;
@@ -60,7 +60,6 @@
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
     </div>
-    <div id="content">
     <nav>
       <ul>
         {% for item in site.header_pages %}
@@ -68,6 +67,7 @@
         {% endfor %}
       </ul>
     </nav>
+    <div id="content">
       <h1>{{ page.title }}</h1>
       {% if page.layout == "post"%}
       <h3>{{ page.date | date: "%B %-d, %Y"}}</h3>
