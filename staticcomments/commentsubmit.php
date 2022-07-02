@@ -36,7 +36,7 @@ $SUBJECT = "Blog comment received";
 // The contents of the following file (relative to this PHP file) will be
 // displayed after the comment is received.  Customise it to your heart's
 // content.
-$COMMENT_RECEIVED = "comment_received.html";
+$COMMENT_RECEIVED = "/staticcomments/comment_received.html";
 
 /****************************************************************************
  * HERE BE CODE
