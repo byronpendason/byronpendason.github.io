@@ -33,7 +33,7 @@ header_pages:
   - title: Blog
     url: /
   - title: About
-    url: /about/
+    url: /about
 
 # Exclude from processing.
 # The following items will not be processed, by default.
