@@ -10,7 +10,7 @@ permalink: /
 
 ## [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%B %-d, %Y"}}) 
 
-**Categories:** | {{% for tag in page.categories %} {{tag}} |{% endfor %}
+
 
 {% endif %}
 
