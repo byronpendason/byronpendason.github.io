@@ -67,3 +67,4 @@ else
 {
 	echo "There was a problem sending the comment. Please contact the site's owner.";
 }
+?>
