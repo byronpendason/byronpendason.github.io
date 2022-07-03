@@ -27,6 +27,8 @@ Categories: *{{ post.categories | array_to_sentence_string}}*
 
 {{ post.excerpt | strip_html | strip_newlines | truncatewords: 50 }}
 
+--------
+
 {% endif %}
 
 {% endfor %}
