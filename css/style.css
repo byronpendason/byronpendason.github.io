@@ -12,7 +12,7 @@
         padding: 10px;
         border-style: solid;
         border-width: 25px;
-        border-color: darkgreen;
+        border-color: green;
         border-radius: 25px;
       }
       nav ul {
@@ -30,6 +30,7 @@
         border-width: 10px;
         border-radius: 25px;
         font-size: 30px;
+        color: black
       }
       nav ul li a {
         text-decoration: none;
@@ -54,7 +55,6 @@
         color: lightgreen;
       }
       #content h1:first-child {
-        color: darkgreen;
         text-align: right;
       }
       p + p {
