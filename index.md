@@ -25,7 +25,7 @@ websites as well, once your familiar with the basics.
 
 Categories: *{{ post.categories | array_to_sentence_string}}*
 
-{{ post.excerpt }}
+{{ post.excerpt truncate:156 }} *[Read more...]({{post.url}})*
 
 {% endif %}
 
