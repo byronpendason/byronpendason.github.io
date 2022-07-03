@@ -4,7 +4,7 @@ title: Writing in Runes Revisited- What we can learn from Tolkien
 date: 2022-01-13 19:45
 author: byronarn
 comments: true
-categories: [runes, Uncategorized]
+categories: [runes]
 ---
 <!-- wp:paragraph -->
 <p>About a year and a half ago, I did a blog post about <a href="https://minewyrtruman.wordpress.com/2020/06/10/writing-in-anglo-saxon-runes/">writing in Anglo-Saxon runes</a>. I explained both the runic substitution method (which more or less uses modern spelling) and phonetic method of writing in runes. At the time, I used the runes to write phonetically. And I continued to do it that way until rather recently. One day, though, a thought struck me. When Old English started writing in Latin letters instead of the Futhorc runes, they pretty much chose a letter to represent each rune. We can see this by examining runic inscriptions with the words of as they developed later. So the thought that came to me was, how would reversing that process be any different? (For another argument in favour of using modern spelling with runes, see <a href="https://www.vikingrune.com/2014/08/write-in-runes-phonetically/">this article</a>.)</p>
