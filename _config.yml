@@ -30,8 +30,10 @@ twitter_username: byronfyrnsidere
 #github_username:  byronthefyrnsidere
 show_excerpts: true
 header_pages:
-  - title: Blog
+  - title: Home
     url: /
+  - title: Blog
+    url: /blog
   - title: About
     url: /about
   - title: Contact
