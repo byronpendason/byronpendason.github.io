@@ -61,6 +61,9 @@
       #content h1:first-child {
         text-align: right;
       }
+      #footer {
+        color: black;
+      }
       p + p {
         margin-top: 1.25em;
       }
