@@ -8,3 +8,21 @@ religion based upon the worship of the Anglo-Saxon gods, one's ancestors, and th
 of the land around us and in our homes. If you're curious about Fyrnsidu, the best resource to
 learn more about it is [Fyrnsidu.faith](https://Fyrnsidu.faith). Feel free to check out this
 websites as well, once your familiar with the basics.
+
+## Recent Blog Posts
+
+{% for post in site.posts limit:3 %}
+
+{% if post.layout == "post" %}
+
+## [{{ post.title }}]({{ post.url }}) 
+
+({{ post.date | date: "%B %-d, %Y"}}) 
+
+*{{ post.categories | array_to_sentence_string}}*
+
+{% endif %}
+
+----------
+
+{% endfor %}
