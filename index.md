@@ -27,8 +27,6 @@ Categories: *{{ post.categories | array_to_sentence_string}}*
 
 {{ post.excerpt | truncatewords: 20 }}
 
------
-
 {% endif %}
 
 {% endfor %}
