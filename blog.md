@@ -10,8 +10,6 @@ permalink: /blog
 
 ## [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%B %-d, %Y"}}) *{{ post.categories | array_to_sentence_string}}*
 
-
-
 {% endif %}
 
 {% endfor %}
