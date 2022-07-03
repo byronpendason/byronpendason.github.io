@@ -15,7 +15,7 @@ websites as well, once your familiar with the basics.
 
 ## Recent Blog Posts
 
-{% for post in site.posts | limit:3 %}
+{% for post in site.posts limit:3 %}
 
 {% if post.layout == "post" %}
 
