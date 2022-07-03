@@ -25,10 +25,10 @@ websites as well, once your familiar with the basics.
 
 Categories: *{{ post.categories | array_to_sentence_string}}*
 
-{{ post.excerpt | truncatewords: 20 }} *[Read more...]({{post.url}})*
+{{ post.excerpt | truncatewords: 20 | "" }} [*Read more...*]({{ post.url }})
+
+-----
 
 {% endif %}
-
-----------
 
 {% endfor %}
