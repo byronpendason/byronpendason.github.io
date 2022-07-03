@@ -13,13 +13,13 @@ of the land around us and in our homes. If you're curious about Fyrnsidu, the be
 learn more about it is [Fyrnsidu.faith](https://Fyrnsidu.faith). Feel free to check out this
 websites as well, once your familiar with the basics.
 
-## Recent Blog Posts
+# Recent Blog Posts
 
 {% for post in site.posts limit:3 %}
 
 {% if post.layout == "post" %}
 
-### [{{ post.title }}]({{ post.url }}) 
+## [{{ post.title }}]({{ post.url }}) 
 
 ({{ post.date | date: "%B %-d, %Y"}}) 
 
