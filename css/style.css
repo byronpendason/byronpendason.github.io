@@ -54,6 +54,9 @@
       #content a {
         color: white;
       }
+      #content h1:first-child {
+        color: orange;
+      }
       p + p {
         margin-top: 1.25em;
       }
