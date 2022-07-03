@@ -18,12 +18,15 @@
         background-color: white;
         color: black;
         opacity: 0.66;
+        padding-bottom: 0px;
       }
       nav ul {
         display: flex;
         list-style: none;
         margin: 0px;
         padding: 10px;
+        background-color:blue;
+        margin-bottom: 0px;
       }
       nav ul li {
         margin-left: auto;
@@ -38,7 +41,7 @@
       }
       nav ul li a {
         text-decoration: none;
-        color: black;
+        color: white;
       }
       nav ul li a:hover {
         text-decoration: underline;
