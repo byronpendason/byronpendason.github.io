@@ -76,6 +76,7 @@
         display: block;
         width: auto;
         overflow: hidden;
+        font-size: 20px;
       }
      .PageNavigation a {
        display: block;
@@ -108,10 +109,10 @@
       {% if page.layout == "post" %}
       <div class="PageNavigation">
         {% if page.previous.url %}
-          << Previous: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+          <a class="prev" href="{{page.previous.url}}">&laquo; Previous Post: {{page.previous.title}}</a>
         {% endif %}
         {% if page.next.url %}
-          >> Next: <a class="next" href="{{page.next.url}}"{{page.next.title}} &raquo;</a>
+          >> Next: <a class="next" href="{{page.next.url}}"> Next Post: {{page.next.title}} &raquo;</a>
         {% endif %}
      </div>
 <div id="disqus_thread"></div>
