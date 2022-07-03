@@ -1,8 +1,10 @@
 ---
-title: Welcome to Mīne Wyrtruman!
+title: Home
 author: ByronTheFyrnsidere
 permalink: /
 ---
+
+## Welcome to Mīne Wyrtruman!
 
 This website is dedicated to ***Fyrnsidu***, a modern religion based upon the religion of the
 pre-Christian Germanic tribes that settled in Britain in the fifth century of the common era.
