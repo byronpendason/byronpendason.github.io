@@ -15,7 +15,7 @@ websites as well, once your familiar with the basics.
 
 ## Recent Blog Posts
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts | limit:3 %}
 
 {% if post.layout == "post" %}
 
@@ -25,7 +25,7 @@ websites as well, once your familiar with the basics.
 
 Categories: *{{ post.categories | array_to_sentence_string}}*
 
-{{ post.excerpt truncate:156 }} *[Read more...]({{post.url}})*
+{{ post.excerpt | truncatewords: 20 }} *[Read more...]({{post.url}})*
 
 {% endif %}
 
