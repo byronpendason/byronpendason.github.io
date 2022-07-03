@@ -29,7 +29,7 @@
         width: 25%;
         padding: 5px;
       }
-      #header a {
+      #header-text a {
         color: lightblue;
       }
       #header-text {
@@ -73,7 +73,6 @@
         margin-top: 1.25em;
       }
       .PageNavigation {
-        font-size: 14px;
         display: block;
         width: auto;
         overflow: hidden;
@@ -109,10 +108,10 @@
       {% if page.layout == "post" %}
       <div class="PageNavigation">
         {% if page.previous.url %}
-          <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+          << Previous: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
         {% endif %}
         {% if page.next.url %}
-          <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+          >> Next: <a class="next" href="{{page.next.url}}"{{page.next.title}} &raquo;</a>
         {% endif %}
      </div>
 <div id="disqus_thread"></div>
