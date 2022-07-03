@@ -13,8 +13,11 @@
         padding: 10px;
         border-style: solid;
         border-width: 25px;
-        border-color: green;
+        border-color: blue;
         border-radius: 50px;
+        background-color: white;
+        color: black;
+        opacity: 0.75
       }
       nav ul {
         display: flex;
@@ -26,8 +29,8 @@
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        background-color: green;
-        border-color: green;
+        background-color: blue;
+        border-color: blue;
         border-width: 10px;
         border-radius: 25px;
         font-size: 30px;
