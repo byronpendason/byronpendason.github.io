@@ -15,7 +15,7 @@ websites as well, once your familiar with the basics.
 
 {% if post.layout == "post" %}
 
-## [{{ post.title }}]({{ post.url }}) 
+### [{{ post.title }}]({{ post.url }}) 
 
 ({{ post.date | date: "%B %-d, %Y"}}) 
 
