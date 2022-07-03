@@ -23,7 +23,9 @@ websites as well, once your familiar with the basics.
 
 ({{ post.date | date: "%B %-d, %Y"}}) 
 
-*{{ post.categories | array_to_sentence_string}}*
+Categories: *{{ post.categories | array_to_sentence_string}}*
+
+{{ post.excerpt }}
 
 {% endif %}
 
