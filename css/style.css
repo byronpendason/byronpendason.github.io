@@ -1,19 +1,18 @@
       body {
         background-color: black;
-        color: gold;
+        color: green;
         margin: 0px;
         padding: 10px;
       }
-      #header-text a {
-        color: white;
+      a {
+        color: lightgreen;
       }
       #header-text {
         margin: 10px;
         padding: 10px;
         border-style: solid;
         border-width: 60px 30px;
-        border-color: blue;
-        color: lightblue;
+        border-color: green;
         border-radius: 100px;
       }
       nav ul {
@@ -28,7 +27,9 @@
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        background-color: purple;
+        background-color: black;
+        border-color: green;
+        border-width: 5px;
         border-radius: 50px;
       }
       nav ul li a {
@@ -40,7 +41,7 @@
       }
       nav ul li .active {
         text-decoration: none;
-        color: lightblue;
+        color: lightgreen;
       }
       #content {
         margin: 10px;
@@ -48,11 +49,11 @@
         border-radius: 100px;
         border-style: solid;
         border-width: 60px 30px;
-        border-color: orange;
+        border-color: green;
         color: gold;
       }
       #content a {
-        color: white;
+        color: lightgreen;
       }
       #content h1:first-child {
         color: orange;
