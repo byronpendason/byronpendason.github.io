@@ -15,6 +15,7 @@ html, body {
 body {
   background-image: url("/media/blue-sky-with-small-cloud.jpg");
   background-color: CornflowerBlue;
+  background-attachment: fixed;
   color: black;
 }
 #header-text {
