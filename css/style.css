@@ -17,8 +17,6 @@
         padding-bottom: 10px;
         margin-bottom: 10px;
         opacity: 66%;
-        position: sticky;
-        top: 0;
       }
       nav ul {
         display: flex;
@@ -58,6 +56,7 @@
         background-color: white;
         color: black;
         opacity: 0.66;
+        overflow: auto;
       }
       #footer {
         color: black;
