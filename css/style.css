@@ -31,6 +31,8 @@ body {
 }
 nav {
   padding: 0;
+  align-items: center;
+  list-style: none;
 }
 nav ul {
   display: flex;
