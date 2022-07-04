@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }} | Mine Wyrtruman</title>
-    {% if page.name == "index" %}
+    {% if page.title == "Home" %}
     <meta name="description" content="{{ site.description }}">
     {% endif %}
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
@@ -20,8 +20,8 @@
       </nav>
     </div>
     <div id="content">
+      {% if page.layout == "post" %}
       <h1>{{ page.title }}</h1>
-      {% if page.layout == "post"%}
       <h3>{{ page.date | date: "%B %-d, %Y"}}</h3>
       {% endif %}
       {{ content }}
