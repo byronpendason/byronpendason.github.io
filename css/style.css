@@ -34,17 +34,14 @@ body {
   margin-bottom: 0px;
   padding: 0px;
 }
-nav * {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
-}
 nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 nav ul li {
   margin-left: auto;
