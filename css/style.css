@@ -29,6 +29,9 @@ body {
   color: white;
   opacity: 66%;
 }
+nav {
+  padding: 0;
+}
 nav ul {
   display: flex;
   justify-content: center;
