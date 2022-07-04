@@ -15,6 +15,7 @@ body {
   border-radius: 25px 25px 0px 0px;
   border-color: midnightblue;
   border-width: 10px;
+  text-align: center;
 }
 nav {
   background-color: midnightblue;
@@ -30,9 +31,13 @@ nav ul {
   padding: 0px;
   margin: 0px;
 }
-nav ul a {
+nav ul li {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0px 10px 0px 10px;
+}
+nav ul li a {
   color: white;
-  margin: 0px auto 0px auto;
 }
 .PageNavigation {
   display: block;
