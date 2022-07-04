@@ -1,7 +1,7 @@
       body {
         background-image: url("/media/blue-sky-with-small-cloud.jpg");
-        background-color: black;
-        color: green;
+        background-color: white;
+        color: black;
         margin: 0px;
         padding: 10px;
       }
@@ -15,7 +15,7 @@
         border-width: 25px;
         border-color: blue;
         border-radius: 50px;
-        background-color: blue;
+        background-color: royalblue;
         color: white;
         padding-bottom: 0px;
         margin-bottom: 10px;
@@ -27,14 +27,14 @@
         padding: 10px;
         border-width: 25px;
         border-radius: 50px;
-        background-color:blue;
+        background-color: royalblue;
         margin-bottom: 0px;
       }
       nav ul li {
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        background-color: blue;
+        background-color: royalblue;
         border-color: blue;
         border-width: 10px;
         border-radius: 25px;
@@ -58,7 +58,7 @@
         border-radius: 50px;
         border-style: solid;
         border-width: 25px;
-        border-color: blue;
+        border-color: royalblue;
         background-color: white;
         color: black;
         opacity: 0.66;
