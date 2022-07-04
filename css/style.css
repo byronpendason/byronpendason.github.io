@@ -16,25 +16,24 @@
         color: white;
         padding-bottom: 0px;
         margin-bottom: 10px;
+        opacity: 66%;
       }
       nav ul {
         display: flex;
         list-style: none;
         margin: 0px;
-        padding: 10px;
-        border-width: 25px;
+        padding: 0px;
+        border-width: 10px;
         border-radius: 50px;
         background-color: midnightblue;
-        margin-bottom: 0px;
       }
       nav ul li {
         margin-left: auto;
         margin-right: auto;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         border-width: 10px;
-        border-radius: 25px;
         font-size: 30px;
-        color: black;
       }
       nav ul li a {
         text-decoration: none;
@@ -44,7 +43,7 @@
         text-decoration: underline;
       }
       nav ul li .active {
-        text-decoration: none;
+        text-decoration: underline overline;
         color: white;
       }
       #content {
@@ -57,7 +56,6 @@
         background-color: white;
         color: black;
         opacity: 0.66;
-        margin-top: 10px;
       }
       #footer {
         color: black;
