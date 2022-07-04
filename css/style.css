@@ -32,25 +32,16 @@ body {
 nav {
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
   list-style: none;
   background-color: midnightblue;
   opacity: 66%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 nav ul li {
   margin-left: auto;
   margin-right: auto;
-  padding: 0px;
 }
 nav ul li a {
   text-decoration: none;
