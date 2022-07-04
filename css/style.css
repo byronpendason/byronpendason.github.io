@@ -9,6 +9,8 @@ html, body {
 #header-text, #content, #footer {
   box-sizing: border-box;
   height: auto;
+  padding: 0px;
+  margin: 0px;
 }
 body {
   background-image: url("/media/blue-sky-with-small-cloud.jpg");
