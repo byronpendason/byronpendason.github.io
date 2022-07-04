@@ -6,6 +6,25 @@ body {
   position: center;
   color: black;
 }
+#header {
+  background-color: midnightblue;
+  color: white;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-radius: 25px 25px 0px 0px;
+  border-color: midnightblue;
+  border-width: 10px;
+}
+nav {
+  background-color: midnightblue;
+  color: white;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-color: midnightblue;
+  border-width: 0px 10px 0px 10px;
+}
 .PageNavigation {
   display: block;
   width: auto;
