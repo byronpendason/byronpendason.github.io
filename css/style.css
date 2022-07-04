@@ -19,7 +19,7 @@ body {
   border-style: solid;
   border-width: 10px;
   border-color: midnightblue;
-  border-radius: 25px;
+  border-radius: 25px 0px;
   background-color: midnightblue;
   color: white;
   opacity: 66%;
