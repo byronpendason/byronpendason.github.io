@@ -9,8 +9,8 @@ html, body {
 #header, nav, #content, #footer {
   box-sizing: border-box;
   height: auto;
-  padding: 0px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 body {
   background-image: url("/media/blue-sky-with-small-cloud.jpg");
@@ -34,8 +34,6 @@ nav {
   align-items: center;
   background-color: midnightblue;
   opacity: 66%;
-  margin-top: 0px:
-  margin-bottom: 0px;
 }
 nav ul {
   display: flex;
