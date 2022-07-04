@@ -6,6 +6,9 @@ html, body {
 }
 * {
   box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: auto;
 }
 #page {
   height: 100%;
@@ -17,8 +20,6 @@ html, body {
         background-image: url("/media/blue-sky-with-small-cloud.jpg");
         background-color: CornflowerBlue;
         color: black;
-        margin: 0px;
-        padding: 0px;
       }
       #header-text {
         border-style: solid;
@@ -28,7 +29,6 @@ html, body {
         background-color: midnightblue;
         color: white;
         opacity: 66%;
-        height: 3%;
       }
       nav ul {
         display: flex;
@@ -64,11 +64,9 @@ html, body {
         color: black;
         opacity: 0.66;
         overflow: auto;
-        height: auto;
       }
       #footer {
         color: black;
-        height: 1%;
       }
       p + p {
         margin-top: 1.25em;
