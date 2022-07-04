@@ -6,7 +6,7 @@ html, body {
   height: 100vh;
   width: 100%:
 }
-#header, #content, #footer {
+#header, nav, #content, #footer {
   box-sizing: border-box;
   height: auto;
   padding: 0px;
@@ -31,6 +31,9 @@ body {
 }
 nav {
   background-color: midnightblue;
+  opacity: 66%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 nav ul {
   display: flex;
