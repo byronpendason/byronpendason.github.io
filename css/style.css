@@ -29,20 +29,6 @@ body {
   color: white;
   opacity: 66%;
 }
-#header * {
-  margin: 0px;
-  padding: 0px;
-}
-nav {
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding: 0px;
-}
-nav * {
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding: 0px;
-}
 nav ul {
   display: flex;
   justify-content: center;
