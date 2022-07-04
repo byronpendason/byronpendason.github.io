@@ -29,6 +29,11 @@ body {
   color: white;
   opacity: 66%;
 }
+#header * {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
 nav * {
   margin-top: 0px;
   margin-bottom: 0px;
