@@ -1,9 +1,14 @@
-      body {
+html {
+  height: 100vh;
+}
+
+     body {
         background-image: url("/media/blue-sky-with-small-cloud.jpg");
         background-color: CornflowerBlue;
         color: black;
         margin: 0px;
         padding: 10px;
+        height: 100vh;
       }
       #header-text {
         margin: 10px;
