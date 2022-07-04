@@ -17,6 +17,7 @@ body {
 }
 nav {
   background-color: midnightblue;
+  border-color: midnightblue;
   opacity: 66%;
 }
 nav ul {
