@@ -30,7 +30,6 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  background-color: red;
 }
 nav ul li {
   margin-left: auto;
