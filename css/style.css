@@ -30,8 +30,17 @@ body {
   opacity: 66%;
 }
 #header * {
-  margin-top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  margin-top: 20px;
   margin-bottom: 0px;
+  padding: 0px;
+}
+nav * {
+  margin-bottom: 0px;
+  margin-top: 0px;
   padding: 0px;
 }
 nav ul {
@@ -39,9 +48,6 @@ nav ul {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  padding: 0px;
 }
 nav ul li {
   margin-left: auto;
