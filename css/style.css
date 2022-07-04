@@ -32,12 +32,12 @@ body {
 nav {
   justify-content: center;
   align-items: center;
+  background-color: midnightblue;
+  opacity: 66%;
 }
 nav ul {
   display: flex;
   list-style: none;
-  background-color: midnightblue;
-  opacity: 66%;
 }
 nav ul li {
   margin-left: auto;
