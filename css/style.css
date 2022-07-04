@@ -34,6 +34,8 @@ nav {
   align-items: center;
   background-color: midnightblue;
   opacity: 66%;
+  margin-top: 0px:
+  margin-bottom: 0px;
 }
 nav ul {
   display: flex;
