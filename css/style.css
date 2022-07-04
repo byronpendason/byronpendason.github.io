@@ -1,6 +1,9 @@
 html, body {
   height: 100vh;
 }
+* {
+    box-sizing: border-box;
+  }
 #page {
   height: 100vh;
   max-height: 100vh;
