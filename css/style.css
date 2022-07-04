@@ -28,7 +28,7 @@ nav {
   border-width: 0px 10px 0px 10px;
 }
 nav ul {
-  display: flex;
+  display: inline;
   list-style: none;
 }
 nav ul li {
