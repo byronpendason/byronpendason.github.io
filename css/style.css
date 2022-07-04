@@ -18,6 +18,8 @@ body {
 nav {
   background-color: midnightblue;
   border-color: midnightblue;
+  border-style: midnightblue;
+  border-width: 10px;
   opacity: 66%;
 }
 nav ul {
