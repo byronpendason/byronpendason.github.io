@@ -33,9 +33,6 @@ html, body {
       nav ul {
         display: flex;
         list-style: none;
-        border-width: 1px;
-        border-radius: 50px;
-        background-color: midnightblue;
       }
       nav ul li {
         margin-left: auto;
