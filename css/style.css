@@ -64,9 +64,6 @@
         opacity: 0.66;
         margin-top: 10px;
       }
-      #content h1:first-child {
-        text-align: right;
-      }
       #footer {
         color: black;
       }
