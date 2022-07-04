@@ -1,13 +1,13 @@
 html, body {
   height: 100%;
   width: 100%:
-  max-width: 100%;
 }
 #header-text, #content, #footer {
   box-sizing: border-box;
   margin-top: 1%;
   margin-bottom: 1%;
   height: auto;
+  padding: 1%;
 }
 #page {
   height: 100vh;
