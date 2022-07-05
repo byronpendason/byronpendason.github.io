@@ -29,12 +29,12 @@ body {
   padding: 10px;
 }
 
-.dropdown-content {
+.dropdownContent {
   display: none;
   position: absolute;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdownContent {
   display:block;
 }
 }
