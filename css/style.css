@@ -30,7 +30,6 @@ nav a {
 .dropdown {
   position: relative;
   display: block;
-  width: 100;
 }
 .dropbtn {
   display: block;
@@ -40,6 +39,7 @@ nav a {
   display: none;
   position: absolute;
   background: rgb(25, 25, 112);
+  width: 100%;
 }
 .dropdown:hover .dropdownContent {
   display: block;
