@@ -29,9 +29,7 @@ body {
 }
 .dropbtn {
   background-color: midnightblue;
-  padding: 10px;
   text-decoration: underline overline;
-  margin-top: 10px;
 }
 .dropdownContent {
   display: none;
