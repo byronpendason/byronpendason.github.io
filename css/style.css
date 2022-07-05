@@ -39,7 +39,6 @@ body {
   position: absolute;
   background-color: white;
 }
-
 .dropdown:hover .dropdownContent {
   display:block;
 }
@@ -48,7 +47,7 @@ body {
   border-width: 10px;
   border-radius: 0px 0px 25px 25px;
   border-color: midnightblue;
-  margin-top: 0px
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 #footer {
