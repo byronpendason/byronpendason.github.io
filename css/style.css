@@ -30,6 +30,7 @@ body {
 .dropbtn {
   background-color: midnightblue;
   text-decoration: underline overline;
+  margin: 15px;
 }
 .dropdownContent {
   display: none;
