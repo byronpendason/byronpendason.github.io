@@ -21,7 +21,7 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
-  background-color: midnight-blue;
+  background-color: midnightblue;
 }
 .dropbtn {
   background-color: midnightblue;
