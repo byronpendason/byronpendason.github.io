@@ -38,6 +38,8 @@ header_pages:
     url: /about
   - title: Glossary and Resources for Beginners
     url: /glossary
+  - title: Declaration of Deeds
+    url: /declaration-of-deeds
   - title: RuneTyper
     utl: /runetyper
 
