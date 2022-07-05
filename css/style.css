@@ -39,8 +39,6 @@ nav * {
 }
 .dropdown:hover .dropdownContent {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
 #content {
   background: rgba(255, 255, 255, 0);
