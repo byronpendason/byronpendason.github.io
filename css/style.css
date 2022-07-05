@@ -19,24 +19,24 @@ body {
 #header * {
   text-align: center;
 }
-nav {
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
   background-color: midnightblue;
-  color: white;
-  padding: 0px 10px 0 10px;
-  margin: 0px;
-  border-color: midnightblue;
-  border-width: 0px 10px 0px 10px;
+  padding: 10px;
 }
-nav ul {
-  display: flex;
-  list-style: none;
+
+.dropdown-content {
+  display: none;
+  position: absolute;
 }
-nav ul li {
-  margin-left: auto;
-  margin-right: auto;
+
+.dropdown:hover .dropdown-content {
+  display:block;
 }
-nav ul li a {
-  color: white;
 }
 .PageNavigation {
   display: block;
