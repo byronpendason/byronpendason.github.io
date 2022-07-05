@@ -27,6 +27,11 @@ body {
 nav {
   background: rgba(25, 25, 112, 0.66);
 }
+nav * {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
 .dropdown {
   position: relative;
   display: block;
@@ -60,11 +65,12 @@ nav {
 #content {
   background-color: white;
   opacity: 0.66;
+  color: black;
   border-radius: 0px 0px 25px 25px;
   border-color: midnightblue;
   border-width: 10px;
   border-style: solid;
-  padding: 1em;
+  padding: 15px;
 }
 #footer {
   margin-top: 0px;
