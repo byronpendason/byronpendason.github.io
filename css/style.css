@@ -18,6 +18,7 @@ body {
 }
 #header * {
   text-align: center;
+  margin: 0px;
 }
 .dropdown {
   position: relative;
@@ -30,6 +31,7 @@ body {
   background-color: midnightblue;
   padding: 10px;
   text-decoration: underline overline;
+  margin-top: 10px;
 }
 .dropdownContent {
   display: none;
@@ -41,6 +43,7 @@ body {
   border-style: none solid solid solid;
   margin-right: auto;
   margin-left: auto;
+  padding: 10px;
 }
 .dropdown:hover .dropdownContent {
   display:block;
@@ -51,6 +54,7 @@ body {
   border-color: midnightblue;
   border-width: 10px;
   border-style: solid;
+  padding: 15px;
 }
 #footer {
   margin-top: 0px;
