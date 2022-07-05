@@ -36,10 +36,10 @@ header_pages:
     url: /blog
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Links
-    utl: /links
+  - title: Glossary and Resources for Beginners
+    url: /glossary
+  - title: RuneTyper
+    utl: /runetyper
 
 # Exclude from processing.
 # The following items will not be processed, by default.
