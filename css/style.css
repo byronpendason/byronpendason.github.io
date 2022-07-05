@@ -40,6 +40,9 @@ nav a {
   position: absolute;
   background: rgb(25, 25, 112);
   width: 100%;
+  border-color: white;
+  border-width: 0px 5px 5px 5px;
+  border-style: solid;
 }
 .dropdown:hover .dropdownContent {
   display: block;
