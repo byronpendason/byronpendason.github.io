@@ -24,7 +24,6 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
-  width: 100%;
   background-color: midnight-blue;
 }
 
@@ -33,7 +32,6 @@ body {
   padding: 10px;
   text-decoration: underline overline;
 }
-
 .dropdownContent {
   display: none;
   position: absolute;
