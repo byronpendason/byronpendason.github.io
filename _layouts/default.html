@@ -17,7 +17,7 @@
         <span class="dropbtn">Menu</span>
         <div class="dropdownContent">
           {% for item in site.header_pages %}
-          <a {% if page.url == item.url %}class="active"{% endif %} href="{{ item.url }}">{{ item.title }}</a>
+          <a {% if page.url == item.url %}class="active"{% endif %} href="{{ item.url }}">{{ item.title }}</a><br>
           {% endfor %}
         </div>
       </div>
