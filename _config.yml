@@ -41,7 +41,7 @@ header_pages:
   - title: Declaration of Deeds
     url: /declaration-of-deeds
   - title: RuneTyper
-    utl: /runetyper
+    url: /runetyper
 
 # Exclude from processing.
 # The following items will not be processed, by default.
