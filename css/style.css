@@ -8,7 +8,7 @@ body {
   padding: 10px;
 }
 #header {
-  background: rgba(25, 25, 112, 0.66);
+  background: rgba(25, 25, 112, 1.0);
   color: white;
   border-radius: 25px 25px 0px 0px;
   border-color: midnightblue;
@@ -24,7 +24,7 @@ body {
   margin-left: auto;
 }
 nav {
-  background: rgba(25, 25, 112, 0.66);
+  background: rgba(25, 25, 112, 1.0);
 }
 nav * {
   text-align: center;
@@ -65,7 +65,7 @@ nav * {
   opacity: 1.0;
 }
 #content {
-  background: rgba(255, 255, 255, 0.66);
+  background: rgba(255, 255, 255, 0.33);
   color: black;
   border-radius: 0px 0px 25px 25px;
   border-color: midnightblue;
