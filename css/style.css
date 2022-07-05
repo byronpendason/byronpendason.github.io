@@ -9,9 +9,6 @@ body {
 #header {
   background-color: midnightblue;
   color: white;
-  padding: 0px;
-  margin-top: 10px;
-  margin-bottom: 0px;
   border-radius: 25px 25px 0px 0px;
   border-color: midnightblue;
   border-width: 10px;
@@ -26,7 +23,6 @@ body {
   display: inline-block;
   background-color: midnight-blue;
 }
-
 .dropbtn {
   background-color: midnightblue;
   padding: 10px;
@@ -39,14 +35,14 @@ body {
 }
 .dropdown:hover .dropdownContent {
   display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
-#content{
+#content {
   background-color: white;
-  border-width: 10px;
   border-radius: 0px 0px 25px 25px;
   border-color: midnightblue;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  border-width: 10px;
 }
 #footer {
   margin-top: 0px;
