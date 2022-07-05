@@ -25,10 +25,6 @@ body {
   background-color: midnightblue;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0px 0px 25px 25px;
-  border-color: midnightblue;
-  border-width: 10px;
-  border-style: solid;
 }
 .dropbtn {
   background-color: midnightblue;
@@ -39,6 +35,12 @@ body {
   display: none;
   position: absolute;
   background-color: white;
+  border-radius: 0px 0px 25px 25px;
+  border-color: midnightblue;
+  border-width: 10px;
+  border-style: none solid solid solid;
+  margin-right: auto;
+  margin-left: auto;
 }
 .dropdown:hover .dropdownContent {
   display:block;
