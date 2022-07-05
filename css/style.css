@@ -25,7 +25,7 @@ nav * {
   text-align: center;
 }
 nav a {
-  color: midnightblue;
+  color: white;
   text-decoration: underline solid 1px;
 }
 .dropdown {
@@ -39,7 +39,7 @@ nav a {
 .dropdownContent {
   display: none;
   position: absolute;
-  background: rgb(255, 255, 255);
+  background: rgb(25, 25, 112);
   width: 100%;
   box-sizing: border-box;
 }
