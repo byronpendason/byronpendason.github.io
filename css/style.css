@@ -19,7 +19,6 @@ body {
 }
 #header * {
   text-align: center;
-  margin: 0px;
 }
 .dropdown {
   position: relative;
@@ -42,6 +41,8 @@ body {
   border-width: 10px;
   border-style: none solid solid solid;
   padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .dropdown:hover .dropdownContent {
   display:block;
