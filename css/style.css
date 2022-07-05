@@ -22,7 +22,7 @@ body {
 }
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   background-color: midnightblue;
   margin-left: auto;
   margin-right: auto;
