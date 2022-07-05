@@ -25,7 +25,8 @@ nav * {
   text-align: center;
 }
 nav a {
-  color: white;
+  color: midnightblue;
+  text-decoration: underline overline solid 1px;
 }
 .dropdown {
   position: relative;
@@ -33,16 +34,13 @@ nav a {
 }
 .dropbtn {
   display: block;
-  border: 5px solid white;
+  text-decoration: underline overline double 3px;
 }
 .dropdownContent {
   display: none;
   position: absolute;
-  background: rgb(25, 25, 112);
+  background: rgb(255, 255, 255);
   width: 100%;
-  border-color: white;
-  border-width: 0px 5px 5px 5px;
-  border-style: solid;
   box-sizing: border-box;
 }
 .dropdown:hover .dropdownContent {
