@@ -8,7 +8,8 @@ body {
   padding: 10px;
 }
 #header {
-  background: rgba(25, 25, 112, 0.5);
+  background-color: midnightblue;
+  opacity: 0.66
   color: white;
   border-radius: 25px 25px 0px 0px;
   border-color: midnightblue;
@@ -23,12 +24,14 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+nav {
+  background: rgba(25, 25, 112, 0.66);
+}
 .dropdown {
   position: relative;
   display: block;
   background-color: midnightblue;
   margin-left: auto;
-  opacity: 1.0;
   margin-right: auto;
 }
 .dropbtn {
@@ -56,12 +59,12 @@ body {
 }
 #content {
   background-color: white;
+  opacity: 0.66;
   border-radius: 0px 0px 25px 25px;
   border-color: midnightblue;
   border-width: 10px;
   border-style: solid;
   padding: 1em;
-  opacity: 0.5;
 }
 #footer {
   margin-top: 0px;
