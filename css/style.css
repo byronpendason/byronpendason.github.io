@@ -18,6 +18,8 @@ body {
 }
 #header * {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .dropdown {
   position: relative;
@@ -32,6 +34,7 @@ body {
 .dropdownContent {
   display: none;
   position: absolute;
+  background-color: white;
 }
 
 .dropdown:hover .dropdownContent {
