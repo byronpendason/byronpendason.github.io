@@ -26,7 +26,7 @@ nav * {
 }
 nav a {
   color: midnightblue;
-  text-decoration: underline overline solid 1px;
+  text-decoration: underline solid 1px;
 }
 .dropdown {
   position: relative;
@@ -34,7 +34,7 @@ nav a {
 }
 .dropbtn {
   display: block;
-  text-decoration: underline overline double 3px;
+  text-decoration: underline overline double 1px;
 }
 .dropdownContent {
   display: none;
