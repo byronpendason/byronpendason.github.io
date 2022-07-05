@@ -24,11 +24,14 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100%;
+  background-color: midnight-blue;
 }
 
 .dropbtn {
   background-color: midnightblue;
   padding: 10px;
+  text-decoration: underline overline;
 }
 
 .dropdownContent {
@@ -40,6 +43,17 @@ body {
 .dropdown:hover .dropdownContent {
   display:block;
 }
+#content{
+  background-color: white;
+  border-width: 10px;
+  border-radius: 0px 0px 25px 25px;
+  border-color: midnightblue;
+  margin-top: 0px
+  margin-bottom: 10px;
+}
+#footer {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .PageNavigation {
   display: block;
