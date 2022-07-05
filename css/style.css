@@ -29,7 +29,7 @@ body {
 }
 .dropbtn {
   background-color: midnightblue;
-  text-decoration: underline overline;
+  border: 1px solid white;
   margin: 15px;
 }
 .dropdownContent {
@@ -40,12 +40,12 @@ body {
   border-color: midnightblue;
   border-width: 10px;
   border-style: none solid solid solid;
-  margin-right: auto;
-  margin-left: auto;
   padding: 10px;
 }
 .dropdown:hover .dropdownContent {
   display:block;
+  margin-right: auto;
+  margin-left: auto;
 }
 #content {
   background-color: white;
