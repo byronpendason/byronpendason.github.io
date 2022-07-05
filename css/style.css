@@ -19,17 +19,20 @@ body {
 }
 nav {
   background: rgb(25, 25, 112);
+  color: white;
 }
 nav * {
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+}
+nav a {
+  color: white;
 }
 .dropdown {
   position: relative;
   display: block;
 }
 .dropbtn {
+  display: block;
   border: 5px solid white;
 }
 .dropdownContent {
@@ -41,11 +44,11 @@ nav * {
   display: block;
 }
 #content {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.5);
   color: black;
   border-radius: 0px 0px 25px 25px;
   border-color: midnightblue;
-  border-width: 1em;
+  border-width: 10px;
   border-style: solid;
   padding: 10px;
 }
