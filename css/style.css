@@ -27,6 +27,8 @@ nav * {
 nav a {
   color: white;
   text-decoration: underline solid 1px;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 .dropdown {
   position: relative;
