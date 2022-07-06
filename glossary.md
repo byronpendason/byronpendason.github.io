@@ -32,7 +32,7 @@ Old English
 : The language of the Anglo-Saxon tribes. It was a Germanic language that evolved into Middle English by mixing with the French language of their Norman conquerors in the eleventh century.
 
 Orlæg
-: (Old English) The portions of our wyrd that are comprised of things that are completely outside of our control, such as the actions of our ancestors and our parents before our birth and into our early childhood. See *<a href="https://minewyrtruman.wordpress.com/2019/10/02/wyrd-the-heathen-concept-of-fate/">Wyrd- the Heathen Concept of Fate</a>.
+: (Old English) The portions of our wyrd that are comprised of things that are completely outside of our control, such as the actions of our ancestors and our parents before our birth and into our early childhood. See *<a href="https://minewyrtruman.wordpress.com/2019/10/02/wyrd-the-heathen-concept-of-fate/">Wyrd- the Heathen Concept of Fate</a>*.
 
 Wyrd
-: (Old English) Our "fate", but not in the modern sense. Instead of being decreed by a deity, our wyrd is created by our actions and can be changed by changing what we do. See *<a href="https://minewyrtruman.wordpress.com/2019/10/02/wyrd-the-heathen-concept-of-fate/">Wyrd- the Heathen Concept of Fate</a>.
+: (Old English) Our "fate", but not in the modern sense. Instead of being decreed by a deity, our wyrd is created by our actions and can be changed by changing what we do. See *<a href="https://minewyrtruman.wordpress.com/2019/10/02/wyrd-the-heathen-concept-of-fate/">Wyrd- the Heathen Concept of Fate</a>*.
