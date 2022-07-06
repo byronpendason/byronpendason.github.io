@@ -58,6 +58,9 @@ nav a {
   border-style: solid;
   padding: 10px;
 }
+dt {
+  font-weight: bold;
+}
 .PageNavigation {
   display: block;
   width: auto;
