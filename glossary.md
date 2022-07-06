@@ -11,11 +11,7 @@ categories: []
 
 The very best resource for learning about Fyrnsidu (Anglo-Saxon Heathenry) is the website <a target="_blank" rel="noopener" href="https://fyrnsidu.faith">Fyrnsidu.Faith</a>. It is aimed at people new to the path to give them all the information needed to get started practicing right away. The website also contains a directory of current Fyrnsidu groups, websites, blogs, and podcasts. I highly encourage everyone to check it out!
 
-Other than Fynrnsidu.Faith, the following websites are the best resources available on heathenry. The first one, Lārhus Fyrnsida, is specifically for Anglo-Saxon heathenry, while the second one is for heathenry in general.
-
-<a href="https://larhusfyrnsida.com/">Lārhus Fyrnsida</a>
-
-<a href="http://www.thelongship.net/">The Longship</a>
+Other than Fynrnsidu.Faith, the best resources available on heathenry are <a href="https://larhusfyrnsida.com/">Lārhus Fyrnsida</a> and <a href="http://www.thelongship.net/">The Longship</a>. The first one, Lārhus Fyrnsida, is specifically for Anglo-Saxon heathenry, while the second one is for heathenry in general.
 
 ## Glossary
 
