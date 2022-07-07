@@ -1,3 +1,10 @@
+---
+title: Havamal: The Ballad of the High One
+author: Henry Adams Bellows
+date: 2022-07-06
+permalink: /havamal
+---
+
 # Havamal: The Ballad of the High One
 
 Fyrnsidu does not have any scriptures. The closest thing our Norse Heathen cousins have to scriptures are the Eddas. The most revered work of the Eddas among Norse Heathens seem to be the Havamal, which is found in the Poetic (or Elder) Edda. It is a collection of mostly proverbs that is attributed to Odin. Bellows does a good job of giving the academic information in his [Introductory Note](#introductory-note) below.
