@@ -13,14 +13,14 @@ permalink: /havamal
 
 - [Introductory Note](#introductory-note)
 - [The Havamal Proper](#the-havamal-proper) (1-80)
-- [The Ways of Women](#the-ways-of-women) (81-89)
+- [General Wisdom](#general-wisdom) (81-89)
 - [Odin and Billing's Daughter](#odin-and-billings-daughter) (90-102)
 - [Odin's adventure with Gunnlöd](#odins-adventure-with-gunnlöd) (103-110)
 - [The Speech of Loddfafnir](#the-speech-of-loddfafnir) (111-138)
 - [The List of Secrets](#the-list-of-secrets) (139-146)
 - [The List of Magic Songs](#the-list-of-magic-songs) (147-165)
 
-Fyrnsidu does not have any scriptures. The closest thing our Norse Heathen cousins have to scriptures are the Eddas. The most revered work of the Eddas among Norse Heathens seem to be the Havamal, which is found in the Poetic (or Elder) Edda. It is a collection of mostly proverbs that is attributed to Odin. Bellows does a good job of giving the academic information in his [Introductory Note](#introductory-note) below.
+Fyrnsidu, or any other form of Heathenry for that matter, does not have any scriptures. The closest thing our Norse Heathen cousins have to scriptures are the Eddas. The most revered work of the Eddas among Norse Heathens seem to be the Havamal, which is found in the Poetic (or Elder) Edda. It is a collection of mostly proverbs that is attributed to Odin. Bellows does a good job of giving the academic information in his [Introductory Note](#introductory-note) below.
 
 As Fyrnsidu is based upon the pre-Christian Germanic tribes that migrated to Britain in the fifth century, Norse sources are not authoritative to Fyrnsidu. The Havamal, however, is an invaluable source when trying to reconstruct pre-Christian Germanic philosophy and worldview. It is my hope, therefore, that this webpage will be useful.
 
@@ -519,7 +519,7 @@ Straight forward he fares in conceit.
 
 [Back to the top](#havamal-the-ballad-of-the-high-one)
 
-## The Ways of Women
+## General Wisdom
 
 **81** Give praise to the day at evening, \| to a woman on her pyre,  
 To a weapon which is tried, \| to a maid at wed lock,  
@@ -560,7 +560,7 @@ A flattering witch \| or a foe new slain.
 *In a light, clear sky \| or a laughing throng,  
 In the bowl of a dog \| or a harlot's grief!*[^87]
 
-[^87]: The stanza is doubtless incomplete. Some editors add from a late paper manuscript these two lines
+[^87]: The stanza is doubtless incomplete. Some editors add lines 3 and 4 from a late paper manuscript.
 
 **88** In a brother's slayer, \| if thou meet him abroad,  
 In a half-burned house, \| in a horse full swift--  
