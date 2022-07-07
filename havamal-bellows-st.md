@@ -1,5 +1,5 @@
 ---
-title: Havamal- The Ballad of the High One
+title: Havamal: The Ballad of the High One
 author: Henry Adams Bellows
 date: 2022-07-06
 permalink: /havamal
@@ -525,7 +525,7 @@ Straight forward he fares in conceit.
 To a weapon which is tried, \| to a maid at wed lock,  
 To ice when it is crossed, \| to ale that is drunk.[^81]
 
-[^81]: With this stanza the verse-form, as indicated in the translation, abruptly changes to Malahattr. What has happened seems to have been something like this. Stanza 80 introduces the idea of man's love for woman. Consequently some reciter or compiler (or possibly even a copyist) took occasion to insert at this point certain stanzas concerning the ways of women. Thus stanza 80 would account for the introduction of stanzas 81 and 82, which, in turn, apparently drew stanza 83 in with them. Stanza 84 suggests the fickleness of women, and is immediately followed--again with a change of verse-form--by a list of things equally untrustworthy (stanzas 85-90). Then, after a few more stanzas on love in the regular measure of the *Havamal* (stanza 91-9s), is introduced, by way of illustration, Odin's story of his [fp. 46] adventure with Billing's daughter (stanzas 96-102). Some such process of growth, whatever its specific stages may have been, must be assumed to account for the curious chaos of the whole passage from stanza 81 to stanza 102.
+[^81]: With this stanza the verse-form, as indicated in the translation, abruptly changes to Malahattr. What has happened seems to have been something like this. Stanza 80 introduces the idea of man's love for woman. Consequently some reciter or compiler (or possibly even a copyist) took occasion to insert at this point certain stanzas concerning the ways of women. Thus stanza 80 would account for the introduction of stanzas 81 and 82, which, in turn, apparently drew stanza 83 in with them. Stanza 84 suggests the fickleness of women, and is immediately followed--again with a change of verse-form--by a list of things equally untrustworthy (stanzas 85-90). Then, after a few more stanzas on love in the regular measure of the *Havamal* (stanza 91-95), is introduced, by way of illustration, Odin's story of his [fp. 46] adventure with Billing's daughter (stanzas 96-102). Some such process of growth, whatever its specific stages may have been, must be assumed to account for the curious chaos of the whole passage from stanza 81 to stanza 102.
 
 **82** When the gale blows hew wood, \| in fair winds seek the water;  
 Sport with maidens at dusk, \| for day's eyes are many;  
