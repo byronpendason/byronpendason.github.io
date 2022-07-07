@@ -35,7 +35,7 @@ The *Introductory Note*, translation of the text, and footnotes are all as they 
 
 *ByronTheFyrnsidere*, June 6, 2022.
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## Introductory Note
 
@@ -51,7 +51,7 @@ It seems all but meaningless to talk about "interpolations" in a poem which has 
 
 Few gnomic collections in the world's literary history present sounder wisdom more tersely expressed than the Havamal. Like the Book of Proverbs it occasionally rises to lofty heights of poetry. If it presents the worldly wisdom of a violent race, it also shows noble ideals of loyalty, truth, and unfaltering courage.
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## The Havamal Proper
 
@@ -517,7 +517,7 @@ Straight forward he fares in conceit.
 
 * * *
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## General Wisdom
 
@@ -578,7 +578,7 @@ And oft is either denied.[^89]
 
 * * *
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## Odin and Billing's Daughter
 
@@ -664,7 +664,7 @@ And nought from the woman I won.[^102]
 
 * * *
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## Odin's adventure with Gunnlöd
 
@@ -728,7 +728,7 @@ And Gunnloth to grief he left.
 
 * * *
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## The Speech of Loddfafnir
 
@@ -945,7 +945,7 @@ Hail to them who hearken! [^138]
 
 * * *
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## The List of Secrets
 
@@ -1009,7 +1009,7 @@ Where he rose on high \| when home he came.[^146]
 
 * * *
 
-[Back to the top](#havamal-the-ballad-of-the-high-one)
+[Back to the top](#havamal--the-ballad-of-the-high-one)
 
 ## The List of Magic Songs
 
