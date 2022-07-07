@@ -1,11 +1,11 @@
 ---
-title: Havamal: The Ballad of the High One
+title: Havamal- The Ballad of the High One
 author: Henry Adams Bellows
 date: 2022-07-06
 permalink: /havamal
 ---
 
-# Havamal: The Ballad of the High One
+# Havamal- The Ballad of the High One
 
 ## Translated by Henry Adams Bellows, 1936
 
