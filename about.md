@@ -4,7 +4,7 @@ author: ByronTheFyrnsidere
 permalink: /about
 ---
 
-## The blog
+## About the Website
 
 *Mīne Wyrtruman* means *My Roots* in Old English. As a Fyrnsidere (Anglo-Saxon Heathen), the culture and religion of the ancient pre-Christian Anglo-Saxon peoples are the roots of my faith. I use the little that we know about them as a foundation upon which I build my religion.
 
@@ -14,8 +14,10 @@ As the ancient Anglo-Saxon heathens were polytheistic, so is Mine Wyrtruman. I r
 
 I plan to cover a wide range of heathen related subjects on this blog, from heathen basics (frith, inner and outer yard, wyrd, orlæg, etc.), runes, racism within heathenry, among many other things.
 
-## The author
+## About the Author
 
 I am an Anglo-Saxon Heathen man in my early thirties living in the Midwestern United States. My interests include studying comparative religion, history, and computer programming. I love science fiction, and playing video games. I’m currently studying the Futhorc (Anglo-Saxon) runes, both from an academic perspective as well as a more magical perspective.
+
+I am not an expert, nor an academic. I have a blue-collar job that I put in about 40 hours a week. All my information about Fyrnsidu had been gathered from my own research and other Heathens. Please do not take anything on this website as gospel truth. If you like any ideas that I present on this website, feel free to adopt them. If you don't agree with something, feel free to not adopt it.
 
 You can follow me on Twitter at [@ByronEugene1](https://twitter.com/ByronFyrnsidere)!
