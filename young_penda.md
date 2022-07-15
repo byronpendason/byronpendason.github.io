@@ -351,7 +351,7 @@ The bellows of pain had brought out all the warriors, who watched the battle in 
 
 Again, Penda lifted his blade and brought it down into another part of Wāse's neck. This he did several times until at last the ettin fell.
 
-Penda stood up over the beast, and decapitated him. He grabbed the head and lifted it high. The entire camp began to cheer as Penda fell to the ground, losing consciousness.
+Penda stood up over the beast, and decapitated him. He grabbed the head and lifted it high. The entire camp began to cheer, until Penda fell to the ground losing consciousness.
 
 * * *
 
