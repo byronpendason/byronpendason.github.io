@@ -159,4 +159,5 @@ The thegn smiled weakly, "At least it wasn't as bad as the last time. Only half 
 
 * * *
 
-To be continued...
+To be continued...  
+(On this page, so keep checking back for the continuing story.)
