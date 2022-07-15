@@ -7,7 +7,7 @@ layout: post
 
 ## By ByronTheFyrnsidere
 
-This is an incomplete rough draft of an original story written by me. It's a mix of historical fact, historical suppositions, and the UPG of myself and other Fyrnsideras. I hope you enjoy it!
+This is an incomplete rough draft of an original story written by me. It's a mix of historical fact, historical suppositions, artistic license, and the UPG of myself and other Fyrnsideras. I hope you enjoy it!
 
 # Act I
 
