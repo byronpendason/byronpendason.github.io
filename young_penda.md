@@ -151,7 +151,9 @@ Penda turned around to face the thegn. "I'm so sorry."
 
 The thegn smiled weakly, "At least it wasn't as bad as the last time. Only half a dozen people were killed, and there was no great fire this time."
 
-"I swear to you, I shall kill this ettin and get revenge for the lives lost this night. What can you tell me about this ettin?"
+"I swear to you, I shall kill this ettin and get revenge for the lives lost this night."
+
+The thegn looked skeptical, but Penda did not notice this. "What can you tell me about this ettin?"
 
 "Only that he's been in that swamp since before your father gave me this town. The people here told me about him when I arrived, that he attacked every full moon. We tried many things to stop his attacks, but nothing worked until we started huddling together in the mead hall every night."
 
