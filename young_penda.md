@@ -2,10 +2,12 @@
 title: Young Penda and the Swamp Ettin
 date: 2022-07-14
 permalink: /young_penda
+layout: post
 ---
 
-# Young Penda and the Swamp Ettin
 ## By ByronTheFyrnsidere
+
+This is an incomplete rough draft of an original story written by me. It's a mix of historical fact, historical suppositions, and the UPG of myself and other Fyrnsideras. I hope you enjoy it!
 
 # Act I
 
@@ -217,7 +219,7 @@ The witch clapped in delight. "Very impressive, son of Pybba! I've never seen an
 
 "What I need to know is, how do I kill this ettin?"
 
-The witch walked over to a table with many things on it. She rifled through the things there and picked up a chainmail tunic. "At the behest of Wōden, I've been working on this for several weeks. The enchantments I've placed on it should render it impenetrable to his claws. But every hit on it, regardless of the source of that hit, will weaken the enchantments until, eventually, the enchantments will fail completely. This, along with Icel's seax, should give you everything you need to
+The witch walked over to a table with many things on it. She rifled through the things there and picked up a chainmail tunic. "At the behest of Wōden, I've been working on this for several weeks. The enchantments I've placed on it should render it impenetrable to his claws. But every hit on it, regardless of the source of that hit, will weaken the enchantments until, eventually, the enchantments will fail completely. This, along with Icel's seax, should give you everything you need to fight Wāse and emerge victorious!"
 
 Penda took the tunic and examined it. Several subtle runic-like symbols were all over it, painted in only a slightly darker shade of gray than the tunic itself. "What do you mean, it *should* make it impenetrable?"
 
