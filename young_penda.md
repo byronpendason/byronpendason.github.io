@@ -229,6 +229,10 @@ Penda took the tunic and examined it. Several subtle runic-like symbols were all
 
 "One last thing," the witch said, "Be sure to go alone when you face the ettin. Anyone else with you will only be in harm's way, and death will be the result."
 
+After Penda left the witch's hut, she transformed from an old hag to a beautiful, youthful woman. "Very impressive performance, Hrethe!" a voice said from behind her.
+
+Hrethe turned to face Wōden, the god of sorcery. "We have done all that we can. It's in his hands now."
+
 * * *
 
 Penda made camp halfway between the witch's hut and the town, and stayed the night there. He awoke with Sunne and walked to town. The first person he saw said, "Quick, into the mead hall! It's not safe out in the open!"
@@ -267,7 +271,7 @@ When Sunne disappeared over the horizon, Penda was where he had first met the et
 
 "But he's not alone!" came the voice of Coenwalh behind him, "The sons of Pybba stands together!"
 
-Penda spun around and looked at his two brothers in horror. "I told you to stay home!"
+Penda spun around and looked at his two brothers in horror. "I told you to stay in the town!"
 
 "More half-breeds to kill!" Wāse declared with joy. He charged Penda and with his claws slashed at him.
 
@@ -307,7 +311,41 @@ Eowa was hopeful that the swamp ettin had been mortally wounded, but Penda knew 
 
 For two more weeks, Penda spent every night in the swamp. He finally gave up though, and rejoined Eowa's army as they toured the countryside of Mercia, staying one step ahead of Cearl as their army continued to grow.
 
+* * *
 
+Three months after the death of Coenwalh, Penda once again woke up to screaming. Penda grabbed his seax and rushed out of the tent. Wāse was there, thrashing around the body of a screaming warrior.
+
+"Drop him Wāse," Penda commanded, "This is between me and you. Let's finish this!"
+
+Wāse threw the warrior, knocking over the tree the warrior hit.
+
+"My thoughts exactly!" snarled Wāse, and he charged Penda.
+
+Penda side stepped the ettin, bringing his seax down onto the monster's back. Wāse bellowed out in pain.
+
+"Are you going to once again flee as a coward when wounded?" Penda asked.
+
+The ettin turned to face Penda, straightening up to his full height. "No," Wāse answered, "This ends here tonight, with one of us dying here."
+
+"You will die just like your father Gimm," Penda declared, "Perhaps I will build my castle from *your* corpse!"
+
+Wāse roared in anger, and again he charged Penda. He gut checked Penda with his shoulder, sending him flying. Wāse bellowed in pain from where his shoulder had made contact with Penda's chainmail.
+
+As soon as Penda landed, he jumped to his feet. "Is that all you got?"
+
+This time, Penda charged the ettin. Wāse swung his claws at Penda, but Penda ducked underneath the massive arm and jabbed his seax into Wāse's side. Slime-like blood oozed from the wound.
+
+"This isn't over!" Wāse shouted as he turned to flee.
+
+Penda wasn't going to allow the ettin to get away once again. He jumped onto the ettin's back and sank his seax into Wāse's neck.
+
+Wāse desperately tried shaking the young warrior off his back as he tried to flee, but Penda held on tight. He lifted his blade and sunk it into Wāse's shoulder.
+
+The bellows of pain had brought out all the warriors, who watched the battle in stunned silence.
+
+Again, Penda lifted his blade and brought it down into another part of Wāse's neck. This he did several times until at last the ettin fell.
+
+Penda stood up over the beast, and decapitated the beast. He grabbed the head and lifted it high. The entire camp began to cheer.
 
 * * *
 
