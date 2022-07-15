@@ -351,9 +351,13 @@ The bellows of pain had brought out all the warriors, who watched the battle in 
 
 Again, Penda lifted his blade and brought it down into another part of Wāse's neck. This he did several times until at last the ettin fell.
 
-Penda stood up over the beast, and decapitated him. He grabbed the head and lifted it high. The entire camp began to cheer, until Penda fell to the ground losing consciousness.
+Penda stood up over the beast, and decapitated him. He grabbed the head and lifted it high. The entire camp began to cheer, as Cadwallon and Eowa ran up to Penda.
 
-* * *
+"That was the greatest fight I've ever seen!" Cadwallon exclaimed.
 
-To be continued...  
-(On this page, so keep checking back for the continuing story.)
+"All hail Penda, the son of Pybba!" Eowa declared, "The greatest warrior to ever arise in Britain, and the future king of Mercia!"
+
+Eowa fell to one knee, bowing his head to Penda. All the warriors from Mercia followed suit, and all the warriors from Wessex and Gwynned began to cheer and applaud.
+
+THE END  
+(Maybe? Let me know what you think in the comments below!)
