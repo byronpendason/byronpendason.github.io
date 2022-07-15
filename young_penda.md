@@ -130,9 +130,13 @@ Penda drew his seax[^seax] from his cloak, and pointed it at the monster.
 
 [^seax]: A *seax* is the Old English word for a weapon that was either a short sword or really long knife (depending upon your perspective) that was a popular weapon among the Anglo-Saxons.
 
-The monster began to laugh. "I am an ettin, one of the first sons of Gymm[^gymm]! My skin cannot be pierced by any human-made weapon."
+The monster began to laugh. "I am an ettin[^ettin], one of the first sons of Gymm[^gymm]! My skin cannot be pierced by any human-made weapon[^weapon]."
 
-[^gymm]: Gymm (pronounced like *yimm*, rhyming with modern English *him*) is one of two Old English reconstructed cognates of the Norse Ymir. The other is Gyme.
+[^ettin]: My conception of an ettin (Old English *eoten*, plural *eotenas*) is based mainly upon the Norse cognate *jötunn*, as our examples in Old English sources doesn't really give us anything to work off of.
+
+[^gymm]: Gymm (pronounced like *yimm*, rhyming with modern English *him*) is one of two Old English reconstructed cognates of the Norse Ymir. The other OE reconstruction is Gyme.
+
+[^weapon]: Human weapons being unable to penetrate ettin skin is derived from the Old English poem *Beowulf*, where human weapons were ineffective against both Grendel and his mother.
 
 Penda just smiled. "This seax is no human sword; it was forged by Wayland the Smith for my ancestor Icel!"
 
@@ -184,7 +188,7 @@ The thegn looked skeptical, but Penda did not notice this. "What can you tell me
 
 "Only that he's been in that swamp since before your father gave me this town. The people here told me about him when I arrived, that he attacked every full moon. We tried many things to stop his attacks, but nothing worked until we started huddling together in the mead hall every night."
 
-The thegn was silent for a moment, as if considering his next words carefully. He hesitantly said, "Deep in the woods to the south of town, there is an old witch's hut. It is said that the witch has been there since before I've even been alive. She may know more about this ettin."
+The thegn was silent for a moment, as if considering his next words carefully. He hesitantly added, "Deep in the woods to the south of town, there is an old witch's hut. It is said that the witch has been there since before I've even been alive. She may know more about this ettin."
 
 "Then that's where I shall go!" Penda declared.
 
