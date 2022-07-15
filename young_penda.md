@@ -63,7 +63,7 @@ After Cadwallon departed back for his home, Penda entered to find his brothers f
 
 Coenwalh snorted. "I say-"
 
-"You have clearly said enough already!" Penda retorted, before turning to head to his room to begin gathering his stuff.
+"You have clearly said enough already!" Penda retorted, before turning to head to his room to begin gathering his things.
 
 * * *
 
@@ -243,9 +243,9 @@ Eowa stepped forward, "We've been declared outlaws by the king. A messenger was 
 
 "Out of loyalty to your father, you will always have a safe haven here!" the thegn declared, "Please, just try to stay hidden. My men would be no match for the king's army."
 
-"We would surrender ourselves before we let them harm you or your town," Penda assured the thegn.
+"We would surrender ourselves before we let them harm you or your town," Coenwalh assured the thegn.
 
-Eowa immediately agreed wholeheartedly. After a moment, Coenwalh reluctantly agreed.
+Eowa and Penda agreed wholeheartedly.
 
 "I will be leaving before sunset anyways," Penda told them.
 
@@ -282,6 +282,30 @@ The life left Coenwalh as soon as he finished saying these words.
 * * *
 
 # Act III
+
+Penda stared into the flames of the funeral pyre. In the flames, he kept seeing that fateful moment when his knife slew his brother, and hearing the final words of the eldest son of Pybba. 
+
+"He may have had his flaws," Cadwallon told him, "But Coenwalh was a great man that shall not be forgotten anytime soon."
+
+Penda could not respond to him. He just continued to stare into the flames.
+
+Word of Coenwalh's death had spread quickly. For days, warriors had been showing up, wanting to be at the funeral to pay their respects to the eldest son of Pybba. Cadwallon and several Welsh warriors had shown up first. Then warriors from all over Mercia began to appear. Even warriors from Wessex, where their sister was married to the king, had shown up to pay their respects.
+
+Cadwallon had declared his loyalty to the house of Pybba, and placed his warriors under the command of the brothers. The warriors from Wessex had passed on a message from their king that while he couldn't put his kingdom into a war, the warriors he had sent were at their command. Every warrior from Mercia who had shown up, had declared their fealty to the brothers. 
+
+Eowa had been busy planning the downfall of Cearl, but Penda could not focus on anything. His mind kept playing those final moments of his eldest brother. Coenwalh had told him not to blame himself, but he couldn't help it.
+
+"I tried to warn him," Penda told his best friend, "I should have specified exactly what the witch had said, and made it crystal clear why I needed to go alone."
+
+"Your brother loved you," Cadwallon replied, "That love motivated him to be at your side. Do not fault him for that."
+
+The emotions that Penda had been holding in came flooding out as he began to weep for his brother.
+
+Eowa was busy scanning the perimeter of the woods, diligently watching for the ettin. Penda had spent every night since the death of Coenwalh in the swamp, trying to coax out Wāse, to no avail. Tonight, however, Penda couldn't stay away. He needed to be here for his brother's funeral, so Eowa had assured him he would keep watch.
+
+Eowa was hopeful that the swamp ettin had been mortally wounded, but Penda knew better. Penda was sure the ettin was just tending his wounds and would be back when he was back at full strength.
+
+For two more weeks, Penda spent every night in the swamp. He finally gave up though, and rejoined Eowa's army as they toured the countryside of Mercia, staying one step ahead of Cearl as their army continued to grow.
 
 
 
