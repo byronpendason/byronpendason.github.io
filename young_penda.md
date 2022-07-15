@@ -107,7 +107,7 @@ Penda rose to his feet cautiously, looking around to see what had hit him. He sa
 
 Penda drew his seax from his cloak, and pointed it at the monster.
 
-The monster began to laugh. "I am an ettin, one of the first sons of Gimm! My skin cannot be pierced by any human-made weapon."
+The monster began to laugh. "I am an ettin, one of the first sons of Gymm! My skin cannot be pierced by any human-made weapon."
 
 Penda just smiled. "This seax is no human sword; it was forged by Wayland the Smith for my ancestor Icel!"
 
@@ -197,21 +197,21 @@ She picked up some powder, and tossed it into the fire. The fire cackled, and sp
 
 "In the beginning," the witch said, "There was only chaos! The building blocks for everything in the universe existed in the chaos, but could not take any form.
 
-"From the chaos emerged Gimm, the father of the ettins and the father of the gods. Gimm fed himself from the teets of a cow that had emerged with him, and then laid down and slept "
+"From the chaos emerged Gymm, the father of the ettins and the father of the gods. Gymm fed himself from the teets of a cow that had emerged with him, and then laid down and slept "
 
 Penda saw a human-like form emerge from nothingness, along with a cow. After drinking of the cow's milk, the human form laid down.
 
-As the witch continued her story, the forms Penda saw in the fire acted out her words. "As he slept, beings began to emerge from Gimm's armpits and thighs. Most of these beings reveled in the chaos, these were the ettins. But some of them wanted to form order from the chaos. These were the gods.
+As the witch continued her story, the forms Penda saw in the fire acted out her words. "As he slept, beings began to emerge from Gymm's armpits and thighs. Most of these beings reveled in the chaos, these were the ettins. But some of them wanted to form order from the chaos. These were the gods.
 
-"The gods tried to bring order to the chaos, but the ettins refused to allow them to. 'We must await until father Gimm awakens,' the ettins said. But the father would only awaken for a long enough time to feed from the cow, and then immediately fall back asleep, and more chaotic beings would emerge from his sleeping body. The gods, unable to get permission from father Gimm, rose up and slew the father of the ettins and the father of the gods."
+"The gods tried to bring order to the chaos, but the ettins refused to allow them to. 'We must await until father Gymm awakens,' the ettins said. But the father would only awaken for a long enough time to feed from the cow, and then immediately fall back asleep, and more chaotic beings would emerge from his sleeping body. The gods, unable to get permission from father Gymm, rose up and slew the father of the ettins and the father of the gods."
 
-Penda watched a few of the figures that emerged from Gimm kill their father.
+Penda watched a few of the figures that emerged from Gymm kill their father.
 
 "This sparked a war between the ettins and the gods, but the gods emerged victorious and the ettins were dispersed, thanks to the tactical knowledge of Tﾄｫw and the wisdom of Wﾅ硬en. Never again would the ettins be an united force to threaten the gods, but they would always be a threat to mankind."
 
 Penda's eyes had begun to burn from not blinking, but he gritted his teeth and continued to stare into the fire.
 
-"From the body of Gimm, the gods formed our world Middengeard. The ettins never forgot the betrayal of the gods. Many decided to come to our world in order to sow chaos, in order to try to sink the world back into the chaos from which it came."
+"From the body of Gymm, the gods formed our world Middengeard. The ettins never forgot the betrayal of the gods. Many decided to come to our world in order to sow chaos, in order to try to sink the world back into the chaos from which it came."
 
 The scene before Penda changed to the swamp Penda had just visited the previous night, and there he saw himself confronting Wﾄ《e.
 
@@ -333,7 +333,7 @@ Penda side stepped the ettin, bringing his seax down into the monster's back. Wﾄ
 
 The ettin turned to face Penda, straightening up to his full height. "No," Wﾄ《e answered, "This ends here tonight, with one of us dying here."
 
-"You will die just like your father Gimm," Penda declared, "Perhaps I will build my castle from *your* corpse!"
+"You will die just like your father Gymm," Penda declared, "Perhaps I will build my castle from *your* corpse!"
 
 Wﾄ《e roared in anger, and again he charged. He gut checked Penda with his shoulder, sending the young warrior flying. Wﾄ《e bellowed in pain from where his shoulder had made contact with Penda's chainmail.
 
