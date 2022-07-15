@@ -99,7 +99,7 @@ Penda rose to his feet cautiously, looking around to see what had hit him. He sa
 
 "I am Penda, the son of Pybba, and the trespassing was not intentional. I'm just trying to make my way to my uncle's place."
 
-"Pybba... Pybba.... Why does that name sound familiar?" the monster asked.
+"Pybba... Pybba.... Why does that name sound familiar?" the monster wondered aloud.
 
 "He was the previous king of Mercia," Penda answered.
 
@@ -107,7 +107,7 @@ Penda rose to his feet cautiously, looking around to see what had hit him. He sa
 
 Penda drew his seax from his cloak, and pointed it at the monster.
 
-The monster began to laugh. "I am an ettin, one of the first sons of Gimm! No human sword can pierce my skin!"
+The monster began to laugh. "I am an ettin, one of the first sons of Gimm! My skin cannot be pierced by any human-made weapon."
 
 Penda just smiled. "This seax is no human sword; it was forged by Wayland the Smith for my ancestor Icel!"
 
@@ -156,6 +156,74 @@ The thegn smiled weakly, "At least it wasn't as bad as the last time. Only half 
 "Only that he's been in that swamp since before your father gave me this town. The people here told me about him when I arrived, that he attacked every full moon. We tried many things to stop his attacks, but nothing worked until we started huddling together in the mead hall every night."
 
 "Then that's where I shall go!" Penda declared.
+
+* * *
+
+With Sunne's first rays, Penda set off for the witch's hut. It was an uneventful trip, and he made it to the hut at about noon. He walked up to the door, and gave it three hard knocks. The door swung open.
+
+"Penda," came a voice from within, "The son of Pybba, the future king of Mercia, hail!"
+
+These words confused Penda. *Future king of Mercia?* he thought, *She's either sucking up, or she's insane!*
+
+"Are you going to come in, or are you just going to stand out there questioning my sanity?"
+
+Penda stepped into the doorway, and looked around. He thought of his father's words, *Enter every strange doorway carefully, observe what's inside before entering. You never know what enemy could be inside.*
+
+"A wise man, King Pybba was," the witch said, "Does my humble abode pass your test?"
+
+"So now you're reading my thoughts?" Penda asked.
+
+"I've been having dreams the last several weeks," the witch replied, "I've seen much of your life, and even some of your futures. With that kind of knowledge, reading your thoughts from your body language is child's play!"
+
+"My futures?" Penda asked incredulously, "As in more than one?"
+
+"Many futures lie before you. Not even the Wyrd Sisters know for sure which one you will choose, until you choose it. Whatever you do, you cannot let yourself die before you take the throne. Otherwise, Edwin shall unite all the English kingdoms. And it is far too early for an united England."
+
+The confused look on Penda's face spoke volumes to the witch. "Never mind," she said, "Just make sure you don't die before Edwin. I know the questions you're wanting to ask, but I will humour you and allow you to ask them. *After* you come in."
+
+Penda entered the hut. "What do you know about the ettin in the swamp that terrorises the town on the swamp's edge?"
+
+"His name is Wāse," the witch replied, "Would you like me to tell you about him, or *show* you his story?"
+
+"What do you mean, *show* me?"
+
+The witch smiled. She walked over to an altar, and walked to the other side of it. She beckoned him to approach, and he did. Between them was a metal bowl with a fire inside. "Stare into the fire," she commanded, "Don't blink or look away!"
+
+She picked up some powder, and tossed it into the fire. The fire cackled, and sparks jumped towards Penda. He did not look away or flinch, and the sparks died before reaching him.
+
+"In the beginning," the witch said, "There was only chaos! The building blocks for everything in the universe existed in the chaos, but could not take any form.
+
+"From the chaos emerged Gimm, the father of the ettins and the father of the gods. Gimm fed himself from the teets of a cow that emerged with him, and then laid down and slept "
+
+Penda saw a human-like form emerge from nothingness, along with a cow. After drinking of the cow's milk, the human form slept.
+
+As the witch continued her story, the forms Penda saw in the fire acted out her words. "As he slept, beings began to emerge from Gimm's armpits and thighs. Most of these beings reveled in the chaos, these were the ettins. But some of them wanted to form order from the chaos. These were the gods.
+
+"The gods tried to bring order to the chaos, but the ettins refused to allow them to. 'We must await until Father Gimm awakens,' they said. But the gods got tired of waiting, so they rose up and slew the father of the ettins and the gods."
+
+Penda watched a few of the figures that emerged from Gimm kill their father.
+
+"This sparked a war between the ettins and the gods, but the gods emerged victorious and the ettins were dispersed. Never again would the ettins be an united force to threaten the gods, but they would always be a threat to mankind."
+
+Penda's eyes had begun to burn from not blinking, but he gritted his teeth and continued to stare into the fire.
+
+"From the body of Gimm, the gods formed our world Middengeard. The ettins never forgot the betrayal of the gods. Many decided to come to our world in order to sow chaos, in order to try to sink the world back into the chaos from which it came."
+
+The scene before Penda changed to the swamp Penda had just visited the previous night, and there he saw himself confronting Wāse.
+
+Penda could not keep himself from blinking any longer, and just like that, the scene in the fire vanished.
+
+The witch clapped in delight. "Very impressive, son of Pybba! I've never seen anyone hold out that long."
+
+"What I need to know is, how do I kill this ettin?"
+
+The witch walked over to a table with many things on it. She rifled through the things there and picked up a chainmail tunic. "At the behest of Wōden, I've been working on this for several weeks. The enchantments I've placed on it should render it impenetrable to his claws. But every hit on it, regardless of the source of that hit, will weaken the enchantments until, eventually, the enchantments will fail completely. This, along with Icel's seax, should give you everything you need to
+
+Penda took the tunic and examined it. Several subtle runic-like symbols were all over it, painted in only a slightly darker shade of gray than the tunic itself. "What do you mean, it *should* make it impenetrable?"
+
+"I couldn't test it without weakening the enchantments," the witch replied, "But I have complete faith in the magics given to me by Wōden, and divination has confirmed everything is as it should be."
+
+"Very well," Penda said, "I shall have faith in your faith."
 
 * * *
 
