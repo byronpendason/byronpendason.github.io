@@ -5,8 +5,6 @@ permalink: /young_penda
 layout: post
 ---
 
-## By ByronTheFyrnsidere
-
 This is an incomplete rough draft of an original story written by me. It's a mix of historical fact, historical suppositions, artistic license, and the UPG of myself and other Fyrnsideras. I hope you enjoy it!
 
 # Act I
@@ -226,6 +224,8 @@ Penda took the tunic and examined it. Several subtle runic-like symbols were all
 "I couldn't test it without weakening the enchantments," the witch replied, "But I have complete faith in the magics given to me by Wōden, and divination has confirmed everything is as it should be."
 
 "Very well," Penda said, "I shall have faith in your faith."
+
+"One last thing," the witch said, "Be sure to go alone when you face the ettin. Anyone else with you will only be in harm's way, and death will be the result."
 
 * * *
 
