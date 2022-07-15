@@ -1,6 +1,6 @@
 ---
 title: Young Penda and the Swamp Ettin
-date: 2022-07-14
+date: 2022-07-14 (last updated 2202-07-15)
 permalink: /young_penda
 layout: post
 ---
@@ -21,7 +21,7 @@ Cadwallon took a deep swig of his ale. "If your ealdormen had chosen your brothe
 
 Penda rolled his eyes, as their brother Eowa spoke up. "Come now, brother, you must be more careful what you say. Our dearest uncle has his spies everywhere. If he were to catch word of you speaking like that, I would be inheriting this fine mead hall from you."
 
-"If it wasn't for Cearl, Edwin king of Northumbria would have conquered Mercia and all the sons of Pybba would have been executed years ago!"
+"If it wasn't for Cearl, King Edwin of Northumbria would have conquered Mercia and all the sons of Pybba would have been executed years ago!"
 
 Every head in the mead hall turned towards Oswald, glaring. "We are descendants of Icel the Great!" Penda exclaimed, "Wōden would have given us the victory over those Christians! Northumbria would be bowing the knee to us!"
 
@@ -43,7 +43,7 @@ It was the next morning, and Penda's Welsh friend was preparing to depart for ho
 
 "Why grovel to that spineless coward?" Cadwallon snickered, "If he dared to move against the sons of Pybba, the people of Mercia would rise up against him. And the kingdom of Gwynedd would not stand for such an offense against the sons of their most favoured daughter!"
 
-"I know the sons of my father shall regain the throne of Mercia, but I'm not sure that provoking a war is the way to do it. The Ealdormen who placed Cearl upon the throne are not happy with his grovelling to Edwin. They're sure to choose one of Pybba's sons as the next king! We just have to survive my eldest brother's foolishness until then."
+"I know the sons of my father shall regain the throne of Mercia, but I'm not sure that provoking a war is the way to do it. The ealdormen who placed Cearl upon the throne are not happy with his grovelling to Edwin. They're sure to choose one of Pybba's sons as the next king, we just have to survive my eldest brother's foolishness until then."
 
 Cadwallon sighed. "I just have this feeling that bad things will befall you if you stay in Mercia."
 
@@ -95,7 +95,7 @@ As soon as the sun was gone, the swamp was filled with an unnatural silence. Pen
 
 Penda rose to his feet cautiously, looking around to see what had hit him. He saw a beast in the form of a human, but twice as big, with skin that looked like stone covered with splotches of moss.
 
-"Who are you, that you dare invade *my* home?" the creature asked.
+"Who are you, that you dare invade *my* home?" the creature asked angrily.
 
 "I am Penda, the son of Pybba, and the trespassing was not intentional. I'm just trying to make my way to my uncle's place."
 
@@ -113,7 +113,7 @@ Penda just smiled. "This seax is no human sword; it was forged by Wayland the Sm
 
 Penda lunged at the ettin and brought his sword to land hard on the ettin's skin. This made the ettin bellow out in pain. He smacked Penda with his huge hand, again sending Penda flying several feet.
 
-"*I should kill you for that!*" shouted the ettin, "But I think that would be too merciful on you. Instead, death shall follow you for the rest of your life! No one around you shall be safe."
+"*I should kill you for that!*" shouted the ettin, "But I think that would be too merciful on you. Instead, death shall follow you for the rest of your life! No one around you shall ever be safe."
 
 And then the ettin disappeared, leaving Penda alone.
 
@@ -125,7 +125,7 @@ It was a couple hours after sunset when Penda made it to the town. Like the swam
 
 Whenever Penda had passed through this town before, he had always thought it strange that the thegn always seemed to be hosting a party in the afternoon. Now, Penda thought it was even more strange that this soon after sunset, it was like a ghost town.
 
-Penda again knocked on the door, and it slowly crept open and stopped at the point where someone could peek out.
+Penda again knocked on the door, and it slowly crept open to the point where someone could peek out.
 
 Then the door opened up all the way, and Penda was pulled inside before the door was quickly shut again.
 
@@ -137,7 +137,7 @@ Then the door opened up all the way, and Penda was pulled inside before the door
 
 "Please, just lay down and sleep. We can talk in the morning!"
 
-Penda found an empty cot and laid down, but sleep would not come. As his eyes adjusted to the darkness, he saw cots all over the floor of the mead hall, each with a person. It looked like the entire town was inside the mead hall laying on the floor.
+Penda found an empty cot and laid down, but sleep would not come. As his eyes adjusted to the darkness, he saw cots all over the floor of the mead hall, most with a person in it. It looked like the entire town was inside the mead hall, laying on the floor.
 
 At some point he must have fallen asleep, because he woke up to screaming. There was a trail of bloody corpses leading outside.
 
@@ -157,25 +157,27 @@ The thegn looked skeptical, but Penda did not notice this. "What can you tell me
 
 "Only that he's been in that swamp since before your father gave me this town. The people here told me about him when I arrived, that he attacked every full moon. We tried many things to stop his attacks, but nothing worked until we started huddling together in the mead hall every night."
 
+The thegn was silent for a moment, as if considering his next words carefully. He hesitantly said, "Deep in the woods to the south of town, there is an old witch's hut. It is said that the witch has been there since before I've even been alive. She may know more about this ettin."
+
 "Then that's where I shall go!" Penda declared.
 
 * * *
 
-With Sunne's first rays, Penda set off for the witch's hut. It was an uneventful trip, and he made it to the hut at about noon. He walked up to the door, and gave it three hard knocks. The door swung open.
+With Sunne's first rays, Penda set off for the witch's hut. It was an uneventful trip, and he made it to the hut at about noon. He walked up to the door, and gave it three hard knocks. The door swung open, as of it's own accord."
 
 "Penda," came a voice from within, "The son of Pybba, the future king of Mercia, hail!"
 
-These words confused Penda. *Future king of Mercia?* he thought, *She's either sucking up, or she's insane!*
+*Future king of Mercia?* Penda thought, *She's either sucking up, or she's insane!*
 
 "Are you going to come in, or are you just going to stand out there questioning my sanity?"
 
-Penda stepped into the doorway, and looked around. He thought of his father's words, *Enter every strange doorway carefully, observe what's inside before entering. You never know what enemy could be inside.*
+Penda stepped into the doorway, and looked around. He thought of his father's words, *Enter every strange doorway carefully, observe what's inside before entering. You never know what enemy could be hiding there.*
 
 "A wise man, King Pybba was," the witch said, "Does my humble abode pass your test?"
 
 "So now you're reading my thoughts?" Penda asked.
 
-"I've been having dreams the last several weeks," the witch replied, "I've seen much of your life, and even some of your futures. With that kind of knowledge, reading your thoughts from your body language is child's play!"
+"I've been having dreams these last several weeks," the witch replied, "I've seen much of your life, and even some of your futures. With that kind of knowledge, reading your thoughts from your body language is child's play!"
 
 "My futures?" Penda asked incredulously, "As in more than one?"
 
@@ -195,17 +197,17 @@ She picked up some powder, and tossed it into the fire. The fire cackled, and sp
 
 "In the beginning," the witch said, "There was only chaos! The building blocks for everything in the universe existed in the chaos, but could not take any form.
 
-"From the chaos emerged Gimm, the father of the ettins and the father of the gods. Gimm fed himself from the teets of a cow that emerged with him, and then laid down and slept "
+"From the chaos emerged Gimm, the father of the ettins and the father of the gods. Gimm fed himself from the teets of a cow that had emerged with him, and then laid down and slept "
 
-Penda saw a human-like form emerge from nothingness, along with a cow. After drinking of the cow's milk, the human form slept.
+Penda saw a human-like form emerge from nothingness, along with a cow. After drinking of the cow's milk, the human form laid down.
 
 As the witch continued her story, the forms Penda saw in the fire acted out her words. "As he slept, beings began to emerge from Gimm's armpits and thighs. Most of these beings reveled in the chaos, these were the ettins. But some of them wanted to form order from the chaos. These were the gods.
 
-"The gods tried to bring order to the chaos, but the ettins refused to allow them to. 'We must await until Father Gimm awakens,' they said. But the gods got tired of waiting, so they rose up and slew the father of the ettins and the gods."
+"The gods tried to bring order to the chaos, but the ettins refused to allow them to. 'We must await until father Gimm awakens,' the ettins said. But the father would only awaken for a long enough time to feed from the cow, and then immediately fall back asleep, and more chaotic beings would emerge from his sleeping body. The gods, unable to get permission from father Gimm, rose up and slew the father of the ettins and the father of the gods."
 
 Penda watched a few of the figures that emerged from Gimm kill their father.
 
-"This sparked a war between the ettins and the gods, but the gods emerged victorious and the ettins were dispersed. Never again would the ettins be an united force to threaten the gods, but they would always be a threat to mankind."
+"This sparked a war between the ettins and the gods, but the gods emerged victorious and the ettins were dispersed, thanks to the tactical knowledge of Tīw and the wisdom of Wōden. Never again would the ettins be an united force to threaten the gods, but they would always be a threat to mankind."
 
 Penda's eyes had begun to burn from not blinking, but he gritted his teeth and continued to stare into the fire.
 
@@ -221,7 +223,7 @@ The witch clapped in delight. "Very impressive, son of Pybba! I've never seen an
 
 The witch walked over to a table with many things on it. She rifled through the things there and picked up a chainmail tunic. "At the behest of Wōden, I've been working on this for several weeks. The enchantments I've placed on it should render it impenetrable to his claws. But every hit on it, regardless of the source of that hit, will weaken the enchantments until, eventually, the enchantments will fail completely. This, along with Icel's seax, should give you everything you need to fight Wāse and emerge victorious!"
 
-Penda took the tunic and examined it. Several subtle runic-like symbols were all over it, painted in only a slightly darker shade of gray than the tunic itself. "What do you mean, it *should* make it impenetrable?"
+Penda took the tunic and examined it. Several subtle runic-like symbols were all over it, painted in only a slightly darker shade of gray than the tunic itself. "What do you mean, it *should* make it impenetrable?" Penda asked.
 
 "I couldn't test it without weakening the enchantments," the witch replied, "But I have complete faith in the magics given to me by Wōden, and divination has confirmed everything is as it should be."
 
@@ -229,17 +231,19 @@ Penda took the tunic and examined it. Several subtle runic-like symbols were all
 
 "One last thing," the witch said, "Be sure to go alone when you face the ettin. Anyone else with you will only be in harm's way, and death will be the result."
 
-After Penda left the witch's hut, she transformed from an old hag to a beautiful, youthful woman. "Very impressive performance, Hrethe!" a voice said from behind her.
+After Penda left the witch's hut, she transformed from an old hag into a beautiful, youthful woman. "Very impressive performance, Hrethe!" a voice said from behind her.
 
 Hrethe turned to face Wōden, the god of sorcery. "We have done all that we can. It's in his hands now."
 
 * * *
 
-Penda made camp halfway between the witch's hut and the town, and stayed the night there. He awoke with Sunne and walked to town. The first person he saw said, "Quick, into the mead hall! It's not safe out in the open!"
+Penda made camp halfway between the witch's hut and the town, and stayed the night there. He did not want more people to die at the ettin's claws.
 
-This confused Penda. It was mid-morning, and ettins were nocturnal creatures. They cowered in their dens during the day, for the daylight sky was the domain of their most feared enemy, the sky father Tīw.
+He awoke with Sunne's first rays, and saw that his camp had been completely trashed. He sighed in annoyance, but was glad that at least there was no death. He finished his journey back to town. The first person he saw said, "Quick, into the mead hall! It's not safe for you out in the open!"
 
-Nonetheless, Penda complied. When he entered the mead hall, he not only saw the thegn but also his brothers Coenwalh and Eowa. "What are you guys doing here?" Penda asked.
+This confused Penda. It was mid-morning, and ettins were nocturnal creatures. They cowered in their dens during the day, for the daylight sky was the domain of the sky father Tīw, who would alert their most feared enemy Thunor of their presence.
+
+Nonetheless, Penda complied with the townsman. When he entered the mead hall, he not only saw the thegn but also his brothers Coenwalh and Eowa. "What are you guys doing here?" Penda asked.
 
 Eowa stepped forward, "We've been declared outlaws by the king. A messenger was able to warn us, and we got away before an army descended upon our home."
 
@@ -253,29 +257,31 @@ Eowa and Penda agreed wholeheartedly.
 
 "I will be leaving before sunset anyways," Penda told them.
 
-"Where will you go?" Coenwalh asked.
+"Where will you go?" Eowa asked.
 
 "To the swamp," answered Penda, 'There's an ettin who resides there who needs to be slain."
 
-"We will go with you!" Eowa declared.
+"We will go with you!" Coenwalh declared.
 
 "No! The witch was explicit that I need to face this ettin alone. Anyone else will only be a liability."
 
 * * *
 
-When Sunne disappeared over the horizon, Penda was where he had first met the ettin. "Wāse! I know you're here, come out and face me."
+When Sunne disappeared over the horizon, Penda was already where he had first met the ettin. "Wāse! I know you're here, come out and face me."
 
-"Back for more, half-breed? Still alone, I see."
+"Back for more, half-breed? And still alone, I see."
 
 "This is between you and me. Let's finish this!"
 
-"But he's not alone!" came the voice of Coenwalh behind him, "The sons of Pybba stands together!"
+"But he's not alone!" came the voice of Coenwalh behind him, "The sons of Pybba stand together!"
 
 Penda spun around and looked at his two brothers in horror. "I told you to stay in the town!"
 
 "More half-breeds to kill!" Wāse declared with joy. He charged Penda and with his claws slashed at him.
 
 When his claws met the enchanted chainmail tunic, Wāse bellowed out in pain. Penda took the chance provided him and sunk his seax into the ettins gut.
+
+Coenwalh saw an opportunity, and began to charge the monster with his father's sword held high.
 
 Wāse pulled the seax out of his gut and threw it. There was a grunt from Coenwalh as the seax sank into his chest. Penda caught him as Coenwalh fell to the ground and the ettin ran away.
 
@@ -287,7 +293,7 @@ The life left Coenwalh as soon as he finished saying these words.
 
 # Act III
 
-Penda stared into the flames of the funeral pyre. In the flames, he kept seeing that fateful moment when his knife slew his brother, and hearing the final words of the eldest son of Pybba. 
+Penda stared into the flames of the funeral pyre. In the flames, he kept seeing that fateful moment when his own seax slew his brother, and hearing the final words of the eldest son of Pybba. 
 
 "He may have had his flaws," Cadwallon told him, "But Coenwalh was a great man that shall not be forgotten anytime soon."
 
@@ -295,7 +301,7 @@ Penda could not respond to him. He just continued to stare into the flames.
 
 Word of Coenwalh's death had spread quickly. For days, warriors had been showing up, wanting to be at the funeral to pay their respects to the eldest son of Pybba. Cadwallon and several Welsh warriors had shown up first. Then warriors from all over Mercia began to appear. Even warriors from Wessex, where their sister was married to the king, had shown up to pay their respects.
 
-Cadwallon had declared his loyalty to the house of Pybba, and placed his warriors under the command of the brothers. The warriors from Wessex had passed on a message from their king that while he couldn't put his kingdom into a war, the warriors he had sent were at their command. Every warrior from Mercia who had shown up, had declared their fealty to the brothers. 
+Cadwallon had declared his loyalty to the house of Pybba, and placed his warriors under the command of the brothers. The warriors from Wessex had passed on a message from their king that while he couldn't put his kingdom into a war, the warriors he had sent were at their command. Every warrior from Mercia who had shown up, had declared their fealty to the sons of Pybba.
 
 Eowa had been busy planning the downfall of Cearl, but Penda could not focus on anything. His mind kept playing those final moments of his eldest brother. Coenwalh had told him not to blame himself, but he couldn't help it.
 
@@ -303,7 +309,7 @@ Eowa had been busy planning the downfall of Cearl, but Penda could not focus on 
 
 "Your brother loved you," Cadwallon replied, "That love motivated him to be at your side. Do not fault him for that."
 
-The emotions that Penda had been holding in came flooding out as he began to weep for his brother.
+The emotions that Penda had been holding in came flooding out as he began to weep for his brother's loss.
 
 Eowa was busy scanning the perimeter of the woods, diligently watching for the ettin. Penda had spent every night since the death of Coenwalh in the swamp, trying to coax out Wāse, to no avail. Tonight, however, Penda couldn't stay away. He needed to be here for his brother's funeral, so Eowa had assured him he would keep watch.
 
@@ -313,7 +319,7 @@ For two more weeks, Penda spent every night in the swamp. He finally gave up tho
 
 * * *
 
-Three months after the death of Coenwalh, Penda once again woke up to screaming. Penda grabbed his seax and rushed out of the tent. Wāse was there, thrashing around the body of a screaming warrior.
+Three months after the death of Coenwalh, Penda once again woke up to screaming. Knowing exactly what this meant, Penda grabbed his seax and rushed out of the tent. Wāse was there, thrashing around the body of a screaming warrior.
 
 "Drop him Wāse," Penda commanded, "This is between me and you. Let's finish this!"
 
@@ -321,7 +327,7 @@ Wāse threw the warrior, knocking over the tree the warrior hit.
 
 "My thoughts exactly!" snarled Wāse, and he charged Penda.
 
-Penda side stepped the ettin, bringing his seax down onto the monster's back. Wāse bellowed out in pain.
+Penda side stepped the ettin, bringing his seax down into the monster's back. Wāse bellowed out in pain as slime-like blood oozed from the wound.
 
 "Are you going to once again flee as a coward when wounded?" Penda asked.
 
@@ -329,15 +335,15 @@ The ettin turned to face Penda, straightening up to his full height. "No," Wāse
 
 "You will die just like your father Gimm," Penda declared, "Perhaps I will build my castle from *your* corpse!"
 
-Wāse roared in anger, and again he charged Penda. He gut checked Penda with his shoulder, sending him flying. Wāse bellowed in pain from where his shoulder had made contact with Penda's chainmail.
+Wāse roared in anger, and again he charged. He gut checked Penda with his shoulder, sending the young warrior flying. Wāse bellowed in pain from where his shoulder had made contact with Penda's chainmail.
 
 As soon as Penda landed, he jumped to his feet. "Is that all you got?"
 
-This time, Penda charged the ettin. Wāse swung his claws at Penda, but Penda ducked underneath the massive arm and jabbed his seax into Wāse's side. Slime-like blood oozed from the wound.
+This time, Penda charged the ettin. Wāse swung his claws at Penda, but Penda ducked underneath the massive arm and jabbed his seax into Wāse's side.
 
 "This isn't over!" Wāse shouted as he turned to flee.
 
-Penda wasn't going to allow the ettin to get away once again. He jumped onto the ettin's back and sank his seax into Wāse's neck.
+Penda wasn't going to allow the ettin to get away once again. He jumped onto the ettin's back and sank his seax into Wāse's neck as more slime-like blood oozed from around the knife.
 
 Wāse desperately tried shaking the young warrior off his back as he tried to flee, but Penda held on tight. He lifted his blade and sunk it into Wāse's shoulder.
 
@@ -345,7 +351,7 @@ The bellows of pain had brought out all the warriors, who watched the battle in 
 
 Again, Penda lifted his blade and brought it down into another part of Wāse's neck. This he did several times until at last the ettin fell.
 
-Penda stood up over the beast, and decapitated the beast. He grabbed the head and lifted it high. The entire camp began to cheer.
+Penda stood up over the beast, and decapitated him. He grabbed the head and lifted it high. The entire camp began to cheer as Penda fell to the ground, losing consciousness.
 
 * * *
 
