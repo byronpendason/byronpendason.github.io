@@ -1,5 +1,6 @@
 ---
 title: Young Penda and the Swamp Ettin
+author: ByronTheFyrnsidere
 date: 2022-07-14 (last updated 2202-07-15)
 permalink: /young_penda
 layout: post
