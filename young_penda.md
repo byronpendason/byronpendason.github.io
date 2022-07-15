@@ -231,5 +231,55 @@ Penda took the tunic and examined it. Several subtle runic-like symbols were all
 
 * * *
 
+Penda made camp halfway between the witch's hut and the town, and stayed the night there. He awoke with Sunne and walked to town. The first person he saw said, "Quick, into the mead hall! It's not safe out in the open!"
+
+This confused Penda. It was mid-morning, and ettins were nocturnal creatures. They cowered in their dens during the day, for the daylight sky was the domain of their most feared enemy, the sky father Tīw.
+
+Nonetheless, Penda complied. When he entered the mead hall, he not only saw the thegn but also his brothers Coenwalh and Eowa. "What are you guys doing here?" Penda asked.
+
+Eowa stepped forward, "We've been declared outlaws by the king. A messenger was able to warn us, and we got away before an army descended upon our home."
+
+"It's been burned to the ground," Coenwalh announced.
+
+"Out of loyalty to your father, you will always have a safe haven here!" the thegn declared, "Please, just try to stay hidden. My men would be no match for the king's army."
+
+"We would surrender ourselves before we let them harm you or your town," Penda assured the thegn.
+
+Eowa immediately agreed wholeheartedly. After a moment, Coenwalh reluctantly agreed.
+
+"I will be leaving before sunset anyways," Penda told them.
+
+"Where will you go?" Coenwalh asked.
+
+"To the swamp," answered Penda, 'There's an ettin who resides there who needs to be slain."
+
+"We will go with you!" Eowa declared.
+
+"No! The witch was explicit that I need to face this ettin alone. Anyone else will only be a liability."
+
+* * *
+
+When Sunne disappeared over the horizon, Penda was where he had first met the ettin. "Wāse! I know you're here, come out and face me."
+
+"Back for more, half-breed? Still alone, I see."
+
+"This is between you and me. Let's finish this!"
+
+"But he's not alone!" came the voice of Coenwalh behind him, "The sons of Pybba stands together!"
+
+Penda spun around and looked at his two brothers in horror. "I told you to stay home!"
+
+"More half-breeds to kill!" Wāse declared with joy. He charged Penda and with his claws slashed at him.
+
+When his claws met the enchanted chainmail tunic, Wāse bellowed out in pain. Penda took the chance provided him and sunk his seax into the ettins gut.
+
+Wāse pulled the seax out of his gut and threw it. There was a grunt from Coenwalh as the seax sank into his chest. Penda caught him as Coenwalh fell to the ground and the ettin ran away.
+
+"This is not your fault," Coenwalh managed to get out, "So don't... blame yourself brother. ... You've been the best... of Pybba's sons. ... He would be proud ... of you."
+
+The life left Coenwalh as soon as he finished saying these words.
+
+* * *
+
 To be continued...  
 (On this page, so keep checking back for the continuing story.)
