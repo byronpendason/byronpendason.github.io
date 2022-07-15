@@ -275,11 +275,13 @@ When his claws met the enchanted chainmail tunic, Wāse bellowed out in pain. Pe
 
 Wāse pulled the seax out of his gut and threw it. There was a grunt from Coenwalh as the seax sank into his chest. Penda caught him as Coenwalh fell to the ground and the ettin ran away.
 
-"This is not your fault," Coenwalh managed to get out, "So don't... blame yourself brother. ... You've been the best... of Pybba's sons. ... He would be proud ... of you."
+"This is not your fault," Coenwalh managed to get out through laboured breathing, "So don't... blame yourself brother. ... You've been... the best... of Pybba's sons. ... He... would be... proud... of you."
 
 The life left Coenwalh as soon as he finished saying these words.
 
 * * *
+
+# Act III
 
 To be continued...  
 (On this page, so keep checking back for the continuing story.)
