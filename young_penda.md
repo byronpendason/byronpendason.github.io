@@ -1,6 +1,6 @@
 ---
 title: Young Penda and the Swamp Ettin
-author: ByronTheFyrnsidere
+author: ByronPendason
 date: 2022-07-14 (last updated 2202-07-15)
 permalink: /young_penda
 layout: post
@@ -72,7 +72,7 @@ Cadwallon sighed. "I just have this feeling that bad things will befall you if y
 
 Penda smiled at him, "My gods go with me, just as surely as your god goes with you.[^religion]"
 
-[^religion]: All the Welsh kingdoms were Christian from the days the Romans ruled over Britain. At this time, most of the Anglo-Saxon kingdoms were still pagan. This would change quickly though. Kent converted to Christianity in 597 CE. Edwin of Northumbria was baptized in 627. When Penda died in 655 CE, he was the last pagan king of the Heptarchy. The last Anglo-Saxon king who was pagan was Arwald of the Island of Wight. In 686 CE, his kingdom was invaded by the Christian king of Wessex, Cædwalla. The people of Wight were massacred and Arwald was slain. His two sons managed to escape, but were later captured and allegedly converted to Christianity before they were executed. Bede later would describe Arwald's two unnamed sons as "the first fruits" of the massacre because of their alleged conversion. To add insult to injury, Arwald's sons are considered saints and are venerated on the date of their murder, February 22.
+[^religion]: All the Welsh kingdoms were Christian from the days the Romans ruled over Britain. At this time, most of the Anglo-Saxon kingdoms were still pagan. This would change quickly though. Kent converted to Christianity in 597 CE. Edwin of Northumbria was baptized in 627. When Penda died in 655 CE, he was the last pagan king of the Heptarchy. The last Anglo-Saxon king who was pagan was Arwald of the Island of Wight. In 686 CE, his kingdom was invaded by the Christian king of Wessex, Cædwalla. The people of Wight were massacred and Arwald was slain. His two sons managed to escape, but were later captured and allegedly converted to Christianity before they were executed. Bede later would describe Arwald's two unnamed sons as "the first fruits" of the massacre because of their alleged conversion. To add insult to injury, Arwald's sons are considered saints and are venerated on the date of their murder, April 22.
 
 After Cadwallon departed back for his home, Penda entered to find his brothers fighting.
 
@@ -204,11 +204,11 @@ With Sunne's first rays, Penda set off for the witch's hut. It was an uneventful
 
 Penda stepped into the doorway, and looked around. He thought of his father's words, *Enter every strange doorway carefully, observe what's inside before entering. You never know what enemy could be hiding there.*
 
-"A wise man, King Pybba was," the witch said, "Does my humble abode pass your test?"
+"A wise man, King Pybba was," the witch said, "Does the humble abode of Rowena the witch pass your test?"
 
 "So now you're reading my thoughts?" Penda asked.
 
-"I've been having dreams these last several weeks," the witch replied, "I've seen much of your life, and even some of your futures. With that kind of knowledge, reading your thoughts from your body language is child's play!"
+"I've been having dreams these last several weeks," Rowena replied, "I've seen much of your life, and even some of your futures. With that kind of knowledge, reading your thoughts from your body language is child's play!"
 
 "My futures?" Penda asked incredulously, "As in more than one?"
 
@@ -218,21 +218,21 @@ The confused look on Penda's face spoke volumes to the witch. "Never mind," she 
 
 Penda entered the hut. "What do you know about the ettin in the swamp that terrorises the town on the swamp's edge?"
 
-"His name is Wāse," the witch replied, "Would you like me to tell you about him, or *show* you his story?"
+"His name is Wāse," Rowena replied, "Would you like me to tell you about him, or *show* you his story?"
 
 "What do you mean, *show* me?"
 
-The witch smiled. She walked over to an altar, and walked to the other side of it. She beckoned him to approach, and he did. Between them was a metal bowl with a fire inside. "Stare into the fire," she commanded, "Don't blink or look away!"
+The witch just smiled. She walked over to an altar, and walked to the other side of it. She beckoned him to approach, and he did. Between them was a metal bowl with a fire inside. "Stare into the fire," she commanded, "Don't blink or look away!"
 
 She picked up some powder, and tossed it into the fire. The fire cackled, and sparks jumped towards Penda. He did not look away or flinch, and the sparks died before reaching him.
 
-"In the beginning," the witch said, "There was only chaos! The building blocks for everything in the universe existed in the chaos, but could not take any form.
+"In the beginning," Rowena began, "There was only chaos! The building blocks for everything in the universe existed in the chaos, but could not take form.
 
 "From the chaos emerged Gymm, the father of the ettins and the father of the gods. Gymm fed himself from the teets of a cow that had emerged with him, and then laid down and slept "
 
 Penda saw a human-like form emerge from nothingness, along with a cow. After drinking of the cow's milk, the human form laid down.
 
-As the witch continued her story, the forms Penda saw in the fire acted out her words. "As he slept, beings began to emerge from Gymm's armpits and thighs. Most of these beings reveled in the chaos, these were the ettins. But some of them wanted to form order from the chaos. These were the gods.
+As Rowena continued her story, the forms Penda saw in the fire acted out her words. "As he slept, beings began to emerge from Gymm's armpits and thighs. Most of these beings reveled in the chaos, these were the ettins. But some of them wanted to form order from the chaos. These were the gods.
 
 "The gods tried to bring order to the chaos, but the ettins refused to allow them to. 'We must await until father Gymm awakens,' the ettins said. But the father would only awaken for a long enough time to feed from the cow, and then immediately fall back asleep, and more chaotic beings would emerge from his sleeping body. The gods, unable to get permission from father Gymm, rose up and slew the father of the ettins and the father of the gods."
 
@@ -244,7 +244,7 @@ Penda's eyes had begun to burn from not blinking, but he gritted his teeth and c
 
 "From the body of Gymm, the gods formed our world Middengeard. The ettins never forgot the betrayal of the gods. Many decided to come to our world in order to sow chaos, in order to try to sink the world back into the chaos from which it came.[^myth]"
 
-[^myth]: This creation myth, recounted by the witch to Penda, is written by me and is based loosely upon the Norse creation myth as well as the UPG (unverified personal gnosis) of some of my fellow Fyrnsideras.
+[^myth]: This creation myth, recounted by the witch Rowena to Penda, is written by me and is based loosely upon the Norse creation myth as well as the UPG (unverified personal gnosis) of some of my fellow Fyrnsideras.
 
 The scene before Penda changed to the swamp Penda had just visited the previous night, and there he saw himself confronting Wāse.
 
@@ -254,15 +254,15 @@ The witch clapped in delight. "Very impressive, son of Pybba! I've never seen an
 
 "What I need to know is, how do I kill this ettin?"
 
-The witch walked over to a table with many things on it. She rifled through the things there and picked up a chainmail tunic. "At the behest of Wōden, I've been working on this for several weeks. The enchantments I've placed on it should render it impenetrable to his claws. But every hit on it, regardless of the source of that hit, will weaken the enchantments until, eventually, the enchantments will fail completely. This, along with Icel's seax, should give you everything you need to fight Wāse and emerge victorious!"
+Rowena walked over to a table with many things on it. She rifled through the things there and picked up a chainmail tunic. "At the behest of Wōden, I've been working on this for several weeks. The enchantments I've placed on it should render it impenetrable to his claws. But every hit on it, regardless of the source of that hit, will weaken the enchantments until, eventually, the enchantments will fail completely. This, along with Icel's seax, should give you everything you need to fight Wāse and emerge victorious!"
 
 Penda took the tunic and examined it. Several subtle runic-like symbols were all over it, painted in only a slightly darker shade of gray than the tunic itself. "What do you mean, it *should* make it impenetrable?" Penda asked.
 
-"I couldn't test it without weakening the enchantments," the witch replied, "But I have complete faith in the magics given to me by Wōden, and divination has confirmed everything is as it should be."
+"I couldn't test it without weakening the enchantments," Rowena replied, "But I have complete faith in the magics given to me by Wōden, and divination has confirmed everything is as it should be."
 
 "Very well," Penda said, "I shall have faith in your faith."
 
-"One last thing," the witch said, "Be sure to go alone when you face the ettin. Anyone else with you will only be in harm's way, and death will be the result."
+"One last thing," Rowena added, "Be sure to go alone when you face the ettin. Anyone else with you will only be in harm's way, and death will be the result."
 
 After Penda left the witch's hut, she transformed from an old hag into a beautiful, youthful woman. "Very impressive performance, Hrethe[^hrethe]!" a voice said from behind her.
 
