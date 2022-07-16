@@ -1,7 +1,7 @@
 ---
 title: Young Penda and the Swamp Ettin
 author: ByronPendason
-date: 2022-07-14 (last updated 2202-07-15)
+date: 2022-07-14 (last updated 2202-07-16)
 permalink: /young_penda
 layout: post
 ---
@@ -10,9 +10,11 @@ This is an incomplete rough draft of an original story written by me. It's a mix
 
 # Act I
 
-The mead hall of Coenwalh[^coenwalh] was loud, way too loud. Penda adored his older brother, but he did not enjoy the rambunctious parties his brother held every night.
+The mead hall of Coenwalh[^coenwalh] was loud, way too loud. Penda[^penda] adored his older brother, but he did not enjoy the rambunctious parties his brother held every night.
 
 [^coenwalh]: Coenwalh was a son of Pybba who, as far as I can tell, is never mentioned in any source except as as an ancestor to later kings of Mercia. Some genealogical websites I found seem to date his death at 655 CE, but I can't seem to find a source for this. The fact that he is the oldest brother is artistic license on my part, because we really don't know who the oldest of Pybba's sons was.
+
+[^penda]: Penda, our protagonist in this story, was a son of Pybba who reigned sometime during the second quarter of the seventh century. He was the last Anglo-Saxon king of the major Anglo-Saxon Kingdoms who wasn't a Christian at his death (655 CE). His death is often seen as the death blow to Anglo-Saxon paganism, though the last Anglo-Saxon King who was pagan was Arwald from the island of Wight, who's Kingdom was invaded by Christian Wessex in 686 CE. Very little to nothing is known about Penda's early years.
 
 "Have another ale, my friend, and rid your face of that grimace," said a thick Welsh accent.
 
