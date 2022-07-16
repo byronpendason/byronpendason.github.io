@@ -68,7 +68,7 @@ Cadwallon sighed. "I just have this feeling that bad things will befall you if y
 
 "Just be careful, Penda. Seventeen winters[^seventeen] is far too young to be on your king's bad side."
 
-[^seventeen] The Anglo-Saxons often measured years by winters passed. Penda being 17 years old places this story at about 623 CE, assuming Penda began his reign in 626 CE when he was 20 years old. (There is debate about what year Penda began his reign, and how old he was, as the sources don't always line up.)
+[^seventeen]: The Anglo-Saxons often measured years by winters passed. Penda being 17 years old places this story at about 623 CE, assuming Penda began his reign in 626 CE when he was 20 years old. (There is debate about what year Penda began his reign, and how old he was, as the sources don't always line up.)
 
 Penda smiled at him, "My gods go with me, just as surely as your god goes with you.[^religion]"
 
@@ -142,7 +142,7 @@ Penda just smiled. "This seax is no human sword; it was forged by Wayland the Sm
 
 Penda lunged at the ettin and brought his sword to land hard on the ettin's skin. This made the ettin bellow out in pain. He smacked Penda with his huge hand, again sending Penda flying several feet.
 
-"*I should kill you for that!*" shouted the ettin, "But I think that would be too merciful on you. Instead, death shall follow you for the rest of your life! No one around you shall ever be safe."
+"*I should kill you for that!*" shouted the ettin, "*But I think that would be too merciful on you. Instead, death shall follow you for the rest of your life! No one around you shall ever be safe.*"
 
 And then the ettin disappeared, leaving Penda alone.
 
