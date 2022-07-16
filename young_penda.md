@@ -16,7 +16,7 @@ The mead hall of Coenwalh[^coenwalh] was loud, way too loud. Penda adored his ol
 
 "Have another ale, my friend, and rid your face of that grimace," said a thick Welsh accent.
 
-Penda smiled weakly at his friend Cadwallon[^cadeallon]. "A party on occasion is wonderful, but you're not here every night to endure the endless drama."
+Penda smiled weakly at his friend Cadwallon[^cadwallon]. "A party on occasion is wonderful, but you're not here every night to endure the endless drama."
 
 [^cadwallon]: Cadwallon ap Cadfan was a king of Gwynedd who began his reign about 625 CE. He was an ally of Penda at the Battle of Hatfield Chase in 633 CE.
 
