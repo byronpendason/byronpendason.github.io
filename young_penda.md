@@ -122,11 +122,11 @@ And then the ettin disappeared, leaving Penda alone.
 
 # Act II
 
-On the opposite side of the swamp was a small town. Like the swamp, Penda had been through this town many times. But always during the day.
+On the opposite side of the swamp was a small town called Hrethfeld[^hrethfeld]. Like the swamp, Penda had been through this town many times. But always during the day.
 
-It was a couple hours after sunset when Penda made it to the town. Like the swamp, it was unnaturally quiet. Penda went up to the building that he knew was the mead hall and the residence of the local thegn, and he knocked on the door.
+It was a couple hours after sunset when Penda made it to the town. Like the swamp, it was unnaturally quiet. Penda went up to the building that he knew was the mead hall and the residence of the local thegn[^thanage], Æþelred, and he knocked on the door.
 
-Whenever Penda had passed through this town before, he had always thought it strange that the thegn always seemed to be hosting a party in the afternoon. Now, Penda thought it was even more strange that this soon after sunset, it was like a ghost town.
+Whenever Penda had passed through this town before, he had always thought it strange that Æþelred always seemed to be hosting a party in the afternoon. Now, Penda thought it was even more strange that this soon after sunset, it was like a ghost town.
 
 Penda again knocked on the door, and it slowly crept open to the point where someone could peek out.
 
@@ -134,7 +134,7 @@ Then the door opened up all the way, and Penda was pulled inside before the door
 
 "What is going on?" Penda asked.
 
-"Please, be quiet, lord Penda!" whispered the thegn[^thanage] urgently, "We do not want the ettin from the swamp to hear us!"
+"Please, be quiet, lord Penda!" whispered Æþelred urgently, "We do not want the ettin from the swamp to hear us!"
 
 "What is going on?" Penda again tried asking, this time in a whisper.
 
@@ -152,15 +152,15 @@ The ettin was gone by the time Penda reached where the ettin had been.
 
 Penda turned around to face the thegn. "I'm so sorry."
 
-The thegn smiled weakly, "At least it wasn't as bad as the last time. Only half a dozen people were killed, and there was no great fire this time."
+Æþelred smiled weakly, "At least it wasn't as bad as the last time. Only half a dozen people were killed, and there was no great fire this time."
 
 "I swear to you, I shall kill this ettin and get revenge for the lives lost this night."
 
-The thegn looked skeptical, but Penda did not notice this. "What can you tell me about this ettin?"
+Æþelred looked skeptical, but Penda did not notice this. "What can you tell me about this ettin?"
 
 "Only that he's been in that swamp since before your father gave me this town. The people here told me about him when I arrived, that he attacked every full moon. We tried many things to stop his attacks, but nothing worked until we started huddling together in the mead hall every night."
 
-The thegn was silent for a moment, as if considering his next words carefully. He hesitantly added, "Deep in the woods to the south of town, there is an old witch's hut. It is said that the witch has been there since before I've even been alive. She may know more about this ettin."
+Æþelred was silent for a moment, as if considering his next words carefully. He hesitantly added, "Deep in the woods to the south of town, there is an old witch's hut. It is said that the witch has been there since before I've even been alive. She may know more about this ettin."
 
 "Then that's where I shall go!" Penda declared.
 
@@ -188,7 +188,7 @@ Penda stepped into the doorway, and looked around. He thought of his father's wo
 
 The confused look on Penda's face spoke volumes to the witch. "Never mind," she said, "Just make sure you don't die before Edwin. I know the questions you're wanting to ask, but I will humour you and allow you to ask them. *After* you come in."
 
-Penda entered the hut. "What do you know about the ettin in the swamp that terrorises the town on the swamp's edge?"
+Penda entered the hut. "What do you know about the ettin in the swamp that terrorises the town of Hrethfeld?"
 
 "His name is Wāse," Rowena replied, "Would you like me to tell you about him, or *show* you his story?"
 
@@ -240,9 +240,9 @@ Hrethe turned to face Wōden[^woden], the god of sorcery. "We have done all that
 
 * * *
 
-Penda made camp halfway between the witch's hut and the town, and stayed the night there. He did not want any more people to die at the ettin's claws.
+Penda made camp halfway between the witch's hut and Hrethfeld, and stayed the night there. He did not want any more people to die at the ettin's claws.
 
-He awoke with Sunne's first rays, and saw that his camp had been completely trashed. He sighed in annoyance, but was glad that at least there was no death. He finished his journey back to town. The first person he saw in town said, "Quick, into the mead hall! It's not safe for you out in the open!"
+He awoke with Sunne's first rays, and saw that his camp had been completely trashed. He sighed in annoyance, but was glad that at least there was no death. He finished his journey back to town. But the first person he saw in town said, "Quick, into the mead hall! It's not safe for you out in the open!"
 
 This confused Penda. It was mid-morning, and ettins were nocturnal creatures. They cowered in their dens during the day, for the daylight sky was the domain of the sky father Tīw, who would alert their most feared enemy Thunor of their presence.[^nocturnal]
 
@@ -252,7 +252,7 @@ Eowa stepped forward, "We've been declared outlaws by the king. A messenger was 
 
 "It's been burned to the ground," Coenwalh announced.
 
-"Out of loyalty to your father, you will always have a safe haven here!" the thegn declared, "Please, just try to stay hidden. My men would be no match for the king's army."
+"Out of loyalty to your father, you will always have a safe haven here!" Æþelred declared, "Please, just try to stay hidden. My men would be no match for the king's army."
 
 "We would surrender ourselves before we let them harm you or your town," Coenwalh assured the thegn.
 
@@ -395,7 +395,9 @@ THE END
 
 [^weapon]: Human weapons being unable to penetrate ettin skin is derived from the Old English poem *Beowulf*, where human weapons were ineffective against both Grendel and his mother.
 
-[^thanage]: The Thanage was a system of nobility practiced by the Anglo-Saxons and Scandinavians. In early Anglo-Saxon England, a *thegn* or *thane* was roughly equivalent to a baron. 
+[^thanage]: The Thanage was a system of nobility practiced by the Anglo-Saxons and Scandinavians. In early Anglo-Saxon England, a *thegn* or *thane* was roughly equivalent to a baron.
+
+[^hrethfeld]: Hrethfeld is a fictitious town that originated in my imagination.
 
 [^myth]: This creation myth, recounted by the witch Rowena to Penda, is written by me and is based loosely upon the Norse creation myth as well as the UPG (unverified personal gnosis) of some of my fellow Fyrnsideras.
 
