@@ -12,29 +12,15 @@ This is an incomplete rough draft of an original story written by me. It's a mix
 
 The mead hall of Coenwalh[^coenwalh] was loud, way too loud. Penda[^penda] adored his older brother, but he did not enjoy the rambunctious parties his brother held every night.
 
-[^coenwalh]: Coenwalh was a son of Pybba who, as far as I can tell, is never mentioned in any source except as as an ancestor to later kings of Mercia. Some genealogical websites I found seem to date his death at 655 CE, but I can't seem to find a source for this. The fact that he is the oldest brother is artistic license on my part, because we really don't know who the oldest of Pybba's sons was.
-
-[^penda]: Penda, our protagonist in this story, was a son of Pybba who reigned sometime during the second quarter of the seventh century. He was the last Anglo-Saxon king of the major Anglo-Saxon Kingdoms who wasn't a Christian at his death (655 CE). His death is often seen as the death blow to Anglo-Saxon paganism, though the last Anglo-Saxon King who was pagan was Arwald from the island of Wight, who's Kingdom was invaded by Christian Wessex in 686 CE. Very little to nothing is known about Penda's early years.
-
 "Have another ale, my friend, and rid your face of that grimace," said a thick Welsh accent.
 
 Penda smiled weakly at his friend Cadwallon[^cadwallon]. "A party on occasion is wonderful, but you're not here every night to endure the endless drama."
 
-[^cadwallon]: Cadwallon ap Cadfan was a king of Gwynedd who began his reign about 625 CE. He was an ally of Penda at the Battle of Hatfield Chase in 633 CE.
-
 Cadwallon took a deep swig of his ale. "If your ealdormen[^ealdorman] had chosen your brother to be king instead of your uncle Cearl[^cearl], he wouldn't have time for the endless partying."
-
-[^ealdorman]: An *ealdorman* was a man of high status who's authority was independent of the king's, and was the equivalent of the later title *earl*. As such, ealdormen exerted a great amount of power over the politics of Anglo-Saxon England.
-
-[^cearl]: Bede mentions Cearl as the king of Mercia who married the daughter of King Edwin of Northumbria. Nothing else is known about Cearl other than he ruled as king of Mercia after King Pybba but before Pybba's sons Penda and Eowa. Cearl being the brother of Pybba, and having been chosen by the ealdormen of Mercia to be king in the stead of one of Pybba's sons is artistic license on my part, in order to explain why Cearl reigned between Penda and his sons.
 
 "Do not mention that puppet in my presence!" snarled Coenwalh, clearly having had too much to drink, "If I were the king, we wouldn't be servants to the Northumbrians[^heptarchy]! The wealth of Mercia would remain in Mercia, instead of being sent as tribute to Northumbria."
 
-[^heptarchy]: At the time this story takes place, Northumbria was the dominant kingdom of the Heptarchy. This was the name given to the seven most powerful of the Anglo-Saxon kingdoms until consolidation of power in the eighth century. These kingdoms are usually enumerated as East Anglia, Essex, Kent, Mercia, Northumbria, Sussex, and Wessex.
-
 Penda rolled his eyes, as their brother Eowa[^eowa] spoke up. "Come now, brother, you must be more careful what you say. Our dearest uncle has his spies everywhere. If he were to catch word of you speaking like that, I would be inheriting this fine mead hall from you."
-
-[^eowa]: Eowa is mentioned as king of Mercia at the Battle of Hatfield Chase, where Penda is also mentioned as king of Mercia. Some have speculated that Eowa and Penda were co-kings up to this point.
 
 "If it wasn't for Cearl, King Edwin of Northumbria would have conquered Mercia and all the sons of Pybba would have been executed years ago!"
 
@@ -54,8 +40,6 @@ By the time Coenwalh had turned back around to face Oswald, Cearl's defender was
 
 "You're not happy here," Cadwallon said to Penda, "Come back with me and spend some time among your mother's people.[^mother]"
 
-[^mother]: Penda's mother having been Welsh is artistic license on my part, but it is based upon a theory that Penda was half-Welsh since his name is listed in the ninth-century *Liber vitae Dunelmensis* as a British (Welsh) name, and Penda's reign was marked by firm alliances with several Welsh princes.
-
 It was the next morning, and Penda's Welsh friend was preparing to depart for home.
 
 "Any other time, I may have taken you up on that," Penda replied, "But after last night's events, I need to head back to the royal court and try to smooth things over with my uncle."
@@ -70,11 +54,7 @@ Cadwallon sighed. "I just have this feeling that bad things will befall you if y
 
 "Just be careful, Penda. Seventeen winters[^seventeen] is far too young to be on your king's bad side."
 
-[^seventeen]: The Anglo-Saxons often measured years by winters passed. Penda being 17 years old places this story at about 623 CE, assuming Penda began his reign in 626 CE when he was 20 years old. (There is debate about what year Penda began his reign, and how old he was, as the sources don't always line up.)
-
 Penda smiled at him, "My gods go with me, just as surely as your god goes with you.[^religion]"
-
-[^religion]: All the Welsh kingdoms were Christian from the days the Romans ruled over Britain. At this time, most of the Anglo-Saxon kingdoms were still pagan. This would change quickly though. Kent converted to Christianity in 597 CE. Edwin of Northumbria was baptized in 627. When Penda died in 655 CE, he was the last pagan king of the Heptarchy. The last Anglo-Saxon king who was pagan was Arwald of the Island of Wight. In 686 CE, his kingdom was invaded by the Christian king of Wessex, Cædwalla. The people of Wight were massacred and Arwald was slain. His two sons managed to escape, but were later captured and allegedly converted to Christianity before they were executed. Bede later would describe Arwald's two unnamed sons as "the first fruits" of the massacre because of their alleged conversion. To add insult to injury, Arwald's sons are considered saints and are venerated on the date of their murder, April 22.
 
 After Cadwallon departed back for his home, Penda entered to find his brothers fighting.
 
@@ -130,15 +110,7 @@ Penda rose to his feet cautiously, looking around to see what had hit him. He sa
 
 Penda drew his seax[^seax] from his cloak, and pointed it at the monster.
 
-[^seax]: A *seax* is the Old English word for a weapon that was either a short sword or really long knife (depending upon your perspective) that was a popular weapon among the Anglo-Saxons.
-
 The monster began to laugh. "I am an ettin[^ettin], one of the first sons of Gymm[^gymm]! My skin cannot be pierced by any human-made weapon[^weapon]."
-
-[^ettin]: My conception of an ettin (Old English *eoten*, plural *eotenas*) is based mainly upon the Norse cognate *jötunn*, as our examples in Old English sources doesn't really give us anything to work off of.
-
-[^gymm]: Gymm (pronounced like *yimm*, rhyming with modern English *him*) is one of two Old English reconstructed cognates of the Norse Ymir. The other OE reconstruction is Gyme.
-
-[^weapon]: Human weapons being unable to penetrate ettin skin is derived from the Old English poem *Beowulf*, where human weapons were ineffective against both Grendel and his mother.
 
 Penda just smiled. "This seax is no human sword; it was forged by Wayland the Smith for my ancestor Icel!"
 
@@ -163,8 +135,6 @@ Then the door opened up all the way, and Penda was pulled inside before the door
 "What is going on?" Penda asked.
 
 "Please, be quiet, lord Penda!" whispered the thegn[^thanage] urgently, "We do not want the ettin from the swamp to hear us!"
-
-[^thanage]: The Thanage was a system of nobility practiced by the Anglo-Saxons and Scandinavians. In early Anglo-Saxon England, a *thegn* or *thane* was roughly equivalent to a baron. 
 
 "What is going on?" Penda again tried asking, this time in a whisper.
 
@@ -246,8 +216,6 @@ Penda's eyes had begun to burn from not blinking, but he gritted his teeth and c
 
 "From the body of Gymm, the gods formed our world Middengeard. The ettins never forgot the betrayal of the gods. Many decided to come to our world in order to sow chaos, in order to try to sink the world back into the chaos from which it came.[^myth]"
 
-[^myth]: This creation myth, recounted by the witch Rowena to Penda, is written by me and is based loosely upon the Norse creation myth as well as the UPG (unverified personal gnosis) of some of my fellow Fyrnsideras.
-
 The scene before Penda changed to the swamp Penda had just visited the previous night, and there he saw himself confronting Wāse.
 
 Penda could not keep himself from blinking any longer, and just like that, the scene in the fire vanished.
@@ -268,11 +236,7 @@ Penda took the tunic and examined it. Several subtle runic-like symbols were all
 
 After Penda left the witch's hut, she transformed from an old hag into a beautiful, youthful woman. "Very impressive performance, Hrethe[^hrethe]!" a voice said from behind her.
 
-[^hrethe]: Hrethe (Old English: *\*Hreðe*, Latin: *Rheda*) is an Anglo-Saxon goddess mentioned by Bede. Most modern Fyrnsideras see her as a victory and spring goddess.
-
 Hrethe turned to face Wōden[^woden], the god of sorcery. "We have done all that we can. It's in his hands now."
-
-[^woden]: Wōden is the Anglo-Saxon cognate of the Norse Odin.
 
 * * *
 
@@ -281,8 +245,6 @@ Penda made camp halfway between the witch's hut and the town, and stayed the nig
 He awoke with Sunne's first rays, and saw that his camp had been completely trashed. He sighed in annoyance, but was glad that at least there was no death. He finished his journey back to town. The first person he saw in town said, "Quick, into the mead hall! It's not safe for you out in the open!"
 
 This confused Penda. It was mid-morning, and ettins were nocturnal creatures. They cowered in their dens during the day, for the daylight sky was the domain of the sky father Tīw, who would alert their most feared enemy Thunor of their presence.[^nocturnal]
-
-[^nocturnal]: Ettins being nocturnal is artistic license on my part, but explains why our primary example of an ettin from Old English sources (Grendel from the epic poem *Beowulf*) seems to only come out in the dark.
 
 Nonetheless, Penda complied with the townsman. When he entered the mead hall, he not only saw the thegn but also his brothers Coenwalh and Eowa. "What are you guys doing here?" Penda asked.
 
@@ -340,13 +302,11 @@ Penda stared into the flames of the funeral pyre. In the flames, he kept seeing 
 
 Penda could not respond to him. He just continued to stare into the flames.
 
-Word of Coenwalh's death had spread quickly. For days, warriors had been showing up, wanting to be at the funeral to pay their respects to the eldest son of Pybba. Cadwallon and several Welsh warriors had shown up first. Then warriors from all over Mercia began to appear. Even warriors from Wessex, where their sister was married to the king, had shown up to pay their respects.
+Word of Coenwalh's death had spread quickly. For days, warriors had been showing up, wanting to be at the funeral to pay their respects to the eldest son of Pybba. Cadwallon and several Welsh warriors had shown up first. Then warriors from all over Mercia began to appear. Even warriors from Wessex, where their sister had just been married off to the son of the king[^sister], had shown up to pay their respects.
 
 Cadwallon had declared his loyalty to the house of Pybba, and placed his warriors under the command of the brothers. The warriors from Wessex had passed on a message from their king that while he couldn't put his kingdom into a war, the warriors he had sent were at their command. Every warrior from Mercia who had shown up, had declared their fealty to the sons of Pybba.
 
 Eowa had been busy planning the downfall of Cearl[^civilwar], but Penda could not focus on anything. His mind kept playing those final moments of his eldest brother. Coenwalh had told him not to blame himself, but he couldn't help it.
-
-[^civilwar]: The Mercian civil war foreshadowed here (and which I plan to expand upon in future stories about young Penda) is a complete work of fiction, though not completely implausible as records from this era are very sparse.
 
 "I tried to warn him," Penda told his best friend, "I should have specified exactly what the witch had said, and made it crystal clear why I needed to go alone."
 
@@ -404,3 +364,47 @@ Eowa fell to one knee, bowing his head to Penda. All the warriors from Mercia fo
 
 THE END  
 (Maybe? Let me know if you think this is a satisfying end in the comments below!)
+
+<!-- FOOTNOTES -->
+
+[^coenwalh]: Coenwalh was a son of Pybba who, as far as I can tell, is never mentioned in any source except as as an ancestor to later kings of Mercia. Some genealogical websites I found seem to date his death at 655 CE, but I can't seem to find a source for this. The fact that he is the oldest brother is artistic license on my part, because we really don't know who the oldest of Pybba's sons was.
+
+[^penda]: Penda, our protagonist in this story, was a son of Pybba who reigned sometime during the second quarter of the seventh century. He was the last Anglo-Saxon king of the major Anglo-Saxon Kingdoms who wasn't a Christian at his death (655 CE). His death is often seen as the death blow to Anglo-Saxon paganism, though the last Anglo-Saxon King who was pagan was Arwald from the island of Wight, who's Kingdom was invaded by Christian Wessex in 686 CE. Very little to nothing is known about Penda's early years.
+
+[^cadwallon]: Cadwallon ap Cadfan was a king of Gwynedd who began his reign about 625 CE. He was an ally of Penda at the Battle of Hatfield Chase in 633 CE.
+
+[^ealdorman]: An *ealdorman* was a man of high status who's authority was independent of the king's, and was the equivalent of the later title *earl*. As such, ealdormen exerted a great amount of power over the politics of Anglo-Saxon England.
+
+[^cearl]: Bede mentions Cearl as the king of Mercia who married the daughter of King Edwin of Northumbria. Nothing else is known about Cearl other than he ruled as king of Mercia after King Pybba but before Pybba's sons Penda and Eowa. Cearl being the brother of Pybba, and having been chosen by the ealdormen of Mercia to be king in the stead of one of Pybba's sons is artistic license on my part, in order to explain why Cearl reigned between Penda and his sons.
+
+[^heptarchy]: At the time this story takes place, Northumbria was the dominant kingdom of the Heptarchy. This was the name given to the seven most powerful of the Anglo-Saxon kingdoms until consolidation of power in the eighth century. These kingdoms are usually enumerated as East Anglia, Essex, Kent, Mercia, Northumbria, Sussex, and Wessex.
+
+[^eowa]: Eowa is mentioned as king of Mercia at the Battle of Hatfield Chase, where Penda is also mentioned as king of Mercia. Some have speculated that Eowa and Penda were co-kings up to this point.
+
+[^mother]: Penda's mother having been Welsh is artistic license on my part, but it is based upon a theory that Penda was half-Welsh since his name is listed in the ninth-century *Liber vitae Dunelmensis* as a British (Welsh) name, and Penda's reign was marked by firm alliances with several Welsh princes.
+
+[^seventeen]: The Anglo-Saxons often measured years by winters passed. Penda being 17 years old places this story at about 623 CE, assuming Penda began his reign in 626 CE when he was 20 years old. (There is debate about what year Penda began his reign, and how old he was, as the sources don't always line up.)
+
+[^religion]: All the Welsh kingdoms were Christian from the days the Romans ruled over Britain. At this time, most of the Anglo-Saxon kingdoms were still pagan. This would change quickly though. Kent converted to Christianity in 597 CE. Edwin of Northumbria was baptized in 627. When Penda died in 655 CE, he was the last pagan king of the Heptarchy. The last Anglo-Saxon king who was pagan was Arwald of the Island of Wight. In 686 CE, his kingdom was invaded by the Christian king of Wessex, Cædwalla. The people of Wight were massacred and Arwald was slain. His two sons managed to escape, but were later captured and allegedly converted to Christianity before they were executed. Bede later would describe Arwald's two unnamed sons as "the first fruits" of the massacre because of their alleged conversion. To add insult to injury, Arwald's sons are considered saints and are venerated on the date of their murder, April 22.
+
+[^seax]: A *seax* is the Old English word for a weapon that was either a short sword or really long knife (depending upon your perspective) that was a popular weapon among the Anglo-Saxons.
+
+[^ettin]: My conception of an ettin (Old English *eoten*, plural *eotenas*) is based mainly upon the Norse cognate *jötunn*, as our examples in Old English sources doesn't really give us anything to work off of.
+
+[^gymm]: Gymm (pronounced like *yimm*, rhyming with modern English *him*) is one of two Old English reconstructed cognates of the Norse Ymir. The other OE reconstruction is Gyme.
+
+[^weapon]: Human weapons being unable to penetrate ettin skin is derived from the Old English poem *Beowulf*, where human weapons were ineffective against both Grendel and his mother.
+
+[^thanage]: The Thanage was a system of nobility practiced by the Anglo-Saxons and Scandinavians. In early Anglo-Saxon England, a *thegn* or *thane* was roughly equivalent to a baron. 
+
+[^myth]: This creation myth, recounted by the witch Rowena to Penda, is written by me and is based loosely upon the Norse creation myth as well as the UPG (unverified personal gnosis) of some of my fellow Fyrnsideras.
+
+[^hrethe]: Hrethe (Old English: *\*Hreðe*, Latin: *Rheda*) is an Anglo-Saxon goddess mentioned by Bede. Most modern Fyrnsideras see her as a victory and spring goddess.
+
+[^woden]: Wōden is the Anglo-Saxon cognate of the Norse Odin.
+
+[^nocturnal]: Ettins being nocturnal is artistic license on my part, but explains why our primary example of an ettin from Old English sources (Grendel from the epic poem *Beowulf*) seems to only come out in the dark.
+
+[^sister]: We know that around 645 CE, Cenwalh the king of Wessex divorced Penda's sister. Even they married, we don't know for sure. One source places his birth in 601 CE. This would make him the right age for marriage when this story is taking place (about 623 CE)
+
+[^civilwar]: The Mercian civil war foreshadowed here (and which I plan to expand upon in future stories about young Penda) is a complete work of fiction, though not completely implausible as records from this era are very sparse.
