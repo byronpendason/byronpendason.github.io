@@ -6,8 +6,7 @@ permalink: /young_penda
 layout: post
 ---
 
-This is an incomplete rough draft of an original story written by me. It's a mix of historical fact, historical suppositions, and artistic license. I have added footnotes to help the reader distinguish between fiction and historical fact, but they are not necessary to enjoy the story
- Feel free to ignore them if you wish. I hope you enjoy the story!
+This is an incomplete rough draft of an original story written by me. It's a mix of historical fact, historical suppositions, and artistic license. I have added footnotes to help the reader distinguish between fiction and historical fact, but they are not necessary to enjoy the story. Feel free to ignore them if you wish. I hope you enjoy the story!
 
 # Act I
 
