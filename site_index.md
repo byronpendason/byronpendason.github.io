@@ -12,6 +12,6 @@ permalink: /site_index
 
 ### {{ category_name }}
 {% for post in site_categories[category_name] %}
-- [{{ post.title }}]({{ site.baseurl }}/{{ post.url }})
+- {{ post.title }}
 {% endfor %}
 {% endfor %}
