@@ -2,7 +2,7 @@
 ---
 {
 "categories": [
-    {%- for category in site.categories | sort_natural: 'title' -%}
+    {%- for category in site.categories | sort_natural -%}
     "{{ category[0]}}"{% unless forloop.last %},{% endunless %}
     {%- endfor -%}
 ]
