@@ -20,7 +20,7 @@ The three parts of this prayer structure is the Calling, the Purpose, and the Of
     > Hail Hreðe, the victorious goddess, who defeated Winter to make way for the return of Summer!
     
     The Calling is important because, as a polytheistic religion, there are plenty of gods in Fyrnsidu. We specify which deity we are addressing in this section. In the Latin, this was called the *invocatio*, so you may see it sometimes called the invocation.
-2. **Purpose**- In the Latin, this is called the the *pars epica*. It is generally represented in academia as *the argument*. While *Larhus Fyrnsida* calls it **the Petition**, this does not fit my practice very well as most of my prayers are prayers of thanksgiving as opposed to petitions. This is the *why* of the prayer. Why are you addressing this deity, both the reason why you are praying (for example, to thank the deity for something) and three reason why this deity specifically. This is also a good place to put the reasons why this deity should listen to your prayer. To continue the example prayer we started in the last section, let's consider a purpose for our prayer to Hreðe:
+2. **Purpose**- In the Latin, this is called the the *pars epica*. It is generally represented in academia as *the argument*. While *Larhus Fyrnsida* calls it **the Petition**, this does not fit my practice very well as most of my prayers are prayers of thanksgiving as opposed to petitions. This is the *why* of the prayer. Why are you addressing this deity, both the reason why you are praying (for example, to thank the deity for something) and the reason why this deity specifically. This is also a good place to put the reasons why this deity should listen to your prayer. To continue the example prayer we started in the last section, let's consider a purpose for our prayer to Hreðe:
     > With your help, I have overcome many obstacles, and been given many victories. I come before you today in thanksgiving, asking for nothing except that you accept my gratitude.
 3. **Offering**: This is the climax of the prayer, the action or task that was the whole reason for the prayer. Since reciprocity is fundamental to Heathenry, this is usually an offering. Let's conclude the prayer we have been working on:
     > I offer you this bread to say thanks for all the victories that you have given me.  May it be well received. *[place the bread in the offering bowl]* A gift for a gift!
@@ -48,12 +48,12 @@ Prayers can also be made to groups, as opposed to individual deities. For exampl
 > * * *
 > Many are the blessings that you bestow upon us,  
 > Far too many to ever list them all.  
-> We are extremely grateful for your generosity,
-> More than words could ever express.
-> Humbly we come before you today,
-> To express our gratitude the best that we are able.
-> * * *
-> We bring to you these gifts, to thank you for all you have done, and will do 
+> We are extremely grateful for your generosity,  
+> More than words could ever express.  
+> Humbly we come before you today,  
+> To express our gratitude the best that we are able.  
+> * * *  
+> We bring to you these gifts, to thank you for all you have done, and will do.  
 > A gift for a gift!
 
 Finally, here is an example not by me. You will notice how it's different in style, yet still follows the same structure. Notice that each part doesn't have to be in its own paragraph, and how the Offering is much longer than mine are. To visually differentiate the three parts without messing with its structure, I will put the Purpose (the middle part) in bold.
