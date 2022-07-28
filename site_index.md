@@ -11,7 +11,7 @@ permalink: /site_index
 {% capture category_name %}{{ category | first }}{% endcapture %}
 
 ### {{ category_name | capitalize }}
-{% for post in site.categories[category_name] %}
+{% for post in site_categories[category_name] %}
 - [{{post.title}}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 {% endfor %}
