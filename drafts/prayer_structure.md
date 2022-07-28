@@ -5,7 +5,7 @@ date:
 layout: draft
 ---
 
-*Prayer structure*. What is it? As the name implies, it is the structure of prayer. We do not have any surviving prayers from the pre-Christian Anglo-Saxons, so we can't be certain how they structured their prayers. However, we can make a pretty good guess based upon how other Proto-Indo-Europeans did it. As [Larhus Fyrnsida](https://larhusfyrnsida.com) notes:
+*Prayer structure*. What is it? As the name implies, it is the structure of prayer. Many religions have a prescribed prayer structure. Christianity has several of the them, two of the most popular forms being A-C-T-S (Adoration, Confession, Thanksgiving, Supplication) and the You-Who-Do-Through format. We do not have any surviving prayers from the pre-Christian Anglo-Saxons, so we can't be certain how they structured their prayers. However, we can make a pretty good guess based upon how other Proto-Indo-Europeans[^7] did it. As [Larhus Fyrnsida](https://larhusfyrnsida.com) notes:
 
 > This tripartite division of prayer composition is inherent within Indo-European cultural prayers. Studies of Homeric hymns, Skaldic texts, local magcial and medicinal charms, and other similar writings. This indicates an important tradition of commonality in such things as meter and format, irrespective of the “level” of divinity being approached.[^1]
 
@@ -80,7 +80,7 @@ This day and always.[^6]
 
 I hope you found this post informative. As usual, feel free to leave any questions or comments in the comments section below!
 
-[^1]: [Prayer in a Heathen Context](https://larhusfyrnsida.com/2016/09/19/prayer-in-a-heathen-context/), from *Larhus Fyrnsida*.
+[^1]: ["Prayer" in a Heathen Context](https://larhusfyrnsida.com/2016/09/19/prayer-in-a-heathen-context/), from *Larhus Fyrnsida*. There is also a follow up article called ["Prayer in a Fyrnsidu Context](https://larhusfyrnsida.com/2016/09/22/prayer-in-a-fyrnsidu-context/).
 
 [^2]: Marc is also the author of the blog *[Of Axe and Plough](https://axeandplough.com/)*
 
@@ -88,6 +88,8 @@ I hope you found this post informative. As usual, feel free to leave any questio
 
 [^4]: For an example, check out Ocean Keltoi's video *[How do you pray to the Norse Gods?](https://youtu.be/7n8L7ie8Ges)*
 
-[^5]: \**Ese* is a reconstructed Old English cognate of the Old Norse Æsir. It is pronounced *AY-zeh*.
+[^5]: \**Ese* is a reconstructed Old English cognate of the Old Norse Æsir. It is pronounced *ay'-zeh*.
 
-[^6]: This prayer is taken from [A Beginner Ritual](http://fyrnsidu.faith/a-beginner-ritual/) from [Fyrnsidu.faith](http://fyrnsidu.faith/). It was written by one of the mods of our Discord server, known as Barbatus.
+[^6]: This prayer is taken from [A Beginner Ritual](http://fyrnsidu.faith/a-beginner-ritual/) from [Fyrnsidu.faith](http://fyrnsidu.faith/). It was written by one of the mods of our Discord server known as Barbatus.
+
+[^7]: The Proto-Indo-Europeans are the hypothesised ancestors of the vast majority of cultures from Europe and India, including the Anglo-Saxons. Other cultures in this group include (but are not limited to) the Romans, Greeks, Norse, Celts, and Hindus. Using comparative methods, the religion and language of the Proto-Indo-Europeans can be reconstructed. For more information, see [the Wikipedia article](https://en.wikipedia.org/wiki/Proto-Indo-Europeans).
