@@ -6,7 +6,7 @@ permalink: /site_index
 ---
 
 # Site Index
-{% assign site_categories = site.categories %}
+{% assign site_categories = site.categories | sort %}
 {% for category in site_categories %}
 {% capture category_name %}{{ category | first }}{% endcapture %}
 
