@@ -47,7 +47,10 @@ header_pages:
     url: /declaration-of-deeds
   - title: RuneTyper
     url: /runetyper
-
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
 plugins:
   - jekyll-feed
 
