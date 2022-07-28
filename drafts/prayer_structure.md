@@ -88,6 +88,6 @@ I hope you found this post informative. As usual, feel free to leave any questio
 
 [^4]: For an example, check out Ocean Keltoi's video *[How do you pray to the Norse Gods?](https://youtu.be/7n8L7ie8Ges)*
 
-[^5]: \**Ese* is a reconstructed Old English cognate of the Old Norse Æsir. It is pronounced *ay'-zeh*.
+[^5]: \**Ese* is a reconstructed Old English cognate of the Old Norse Æsir. It is pronounced *AY-zeh*.
 
 [^6]: This prayer is taken from [A Beginner Ritual](http://fyrnsidu.faith/a-beginner-ritual/) from [Fyrnsidu.faith](http://fyrnsidu.faith/). It was written by one of the mods of our Discord server, known as Barbatus.
