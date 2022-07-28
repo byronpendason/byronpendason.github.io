@@ -7,7 +7,7 @@ permalink: /site_index
 
 # Site Index
 
-{% for category in site.categories %}
+{% for category in site.categories | sort %}
 {% capture category_name %}{{ category | first }}{% endcapture %}
 
 ### {{ category_name }}
