@@ -84,6 +84,8 @@ This day and always.[^6]
 
 I hope you found this post informative. As usual, feel free to leave any questions or comments in the comments section below!
 
+* * *
+
 [^1]: ["Prayer" in a Heathen Context](https://larhusfyrnsida.com/2016/09/19/prayer-in-a-heathen-context/), from *Larhus Fyrnsida*. There is also a follow up article called ["Prayer in a Fyrnsidu Context](https://larhusfyrnsida.com/2016/09/22/prayer-in-a-fyrnsidu-context/).
 
 [^2]: Marc is also the author of the blog *[Of Axe and Plough](https://axeandplough.com/)*
