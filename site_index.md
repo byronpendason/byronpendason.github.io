@@ -6,12 +6,20 @@ permalink: /site_index
 ---
 
 # Site Index
-{% assign site_categories = site.categories | sort_natural %}
-{% for category in site_categories %}
-{% capture category_name %}{% endcapture %}
 
-### {{ category_name | capitalize }}
-{% for post in site_categories[category_name] %}
-- [{{post.title}}]({{ site.baseurl }}{{ post.url }})
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
 {% endfor %}
-{% endfor %}
+</div>
