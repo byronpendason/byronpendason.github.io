@@ -1,7 +1,7 @@
 ---
 title: Prayer Structure
 author: Byron Pendason
-date: 10-27-2022
+date: 07-27-2022
 layout: post
 ---
 
