@@ -4,7 +4,7 @@ title: Tīw- the Anglo-Saxon Sky Father, God of Justice and War
 date: 2021-10-06 23:56
 author: byronarn
 comments: true
-categories: [heathen worldview, Heathenry, reconstruction, Uncategorized]
+categories: [heathen worldview, Heathenry, reconstruction]
 ---
 <!-- wp:paragraph -->
 <p>Tīw was obviously an important god to the Anglo-Saxons. They named a day of the week after him, and several places in England were named after him. Tacitus lists him as one of the three most important gods (along with Wōden and Thunor) to the Germanic tribes that would later become the Anglo-Saxons. So it may be surprising that we know so little about him. By the time the Norse myths had been written down, his Norse cognate Tyr barely ranked much mention beyond the stories where Fenrir bites off his hand and him accompanying Thor to Tīw's Jotunn father. So what else can we deduce from him using the reconstructive methods we Heathens are best known for?</p>
