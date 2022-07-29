@@ -10,13 +10,13 @@ permalink: /site_index
 {% assign categories = site.categories | sort %}
 
 ## Categories
-
+- [All Blog Posts (in Alphabetic order)](#all-blog-posts)
 {% for category in categories %}
 {% assign category_name = category | first %}
 - [{{ category_name | capitalize }}](#{{ category_name | slugify }})
 {% endfor %}
 * * *
-## All Blog Posts (in Alphabetic order)
+<h2 id="all-blog-posts"> All Blog Posts (in Alphabetic order)</h2>
 {% assign posts = site.posts | sort: "title" %}
 {% for post in posts %}
 - [{{ post.title }}]({{post.url}})
