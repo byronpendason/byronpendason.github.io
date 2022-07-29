@@ -1,10 +1,10 @@
 ---
 layout: post
-title: A Statement about the #BlackLivesMatter Protests
+title: A Statement about the Black Lives Matter Protests
 date: 2020-06-08 01:43
 author: byronarn
 comments: true
-categories: [Uncategorized]
+categories: [politics]
 ---
 <cite>Wes þu hāl!</cite> (This is an Old English greeting that basically means, <em>be well/healthy/whole!</em>) I want to begin this post with an apology for my absence the last few months. The global pandemic and our government's completely incompetent handling of the crisis has been giving me episodes of depression and anxiety that's had me unable to do much of anything productive. I spent most of the lockdown buried in tv shows, movies, video games, etc. Unhealthy escapism, I know. The recent murder of George Floyd, and the government responses to the protests that followed, just made it much worse. I'm sincerely sorry if I had anyone worried. I am physically healthy (though still fighting my mental demons, so to speak).
 
