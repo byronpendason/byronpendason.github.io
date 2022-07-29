@@ -9,7 +9,7 @@ permalink: /site_index
 
 {% assign categories = site.categories | sort_natural %}
 {% for category in categories %}
-{% assign category_name = category[0] %}
+{% assign category_name = category | first %}
 
 ### {{ category_name | capitalize }}
 
