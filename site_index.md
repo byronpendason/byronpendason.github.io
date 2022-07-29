@@ -7,7 +7,7 @@ permalink: /site_index
 
 # Site Index
 
-{% assign categories = site.categories | sort %}
+{% assign categories = site.categories | sort_natural %}
 {% for category in categories %}
 {% assign category_name = category | first %}
 
