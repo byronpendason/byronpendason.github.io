@@ -4,7 +4,7 @@ title: Writing in Anglo-Saxon Runes
 date: 2020-06-10 13:13
 author: byronarn
 comments: true
-categories: [runes, Uncategorized]
+categories: [runes]
 ---
 <em>Edit: For how I write in runes now, please see my update to this post at </em><a href="https://minewyrtruman.wordpress.com/2022/01/13/writing-in-runes-revisited-what-we-can-learn-from-tolkien/"><em>here</em></a><em>. I'm leaving the blog post below untouched as a record of my journey.</em>
 
