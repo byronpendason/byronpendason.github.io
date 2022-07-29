@@ -4,7 +4,7 @@ title: My Reconstructed Anglo-Saxon Calendar for 2020
 date: 2019-11-13 04:09
 author: byronarn
 comments: true
-categories: [Uncategorized]
+categories: [heathen worship, Heathenry, reconstruction, anglo-saxon calendar]
 ---
 For details on how I reconstruct my calendar, see my page on <a href="https://minewyrtruman.wordpress.com/the-anglo-saxon-calendar/">the Anglo-Saxon calendar</a>. I will add a couple notes here, however.
 
