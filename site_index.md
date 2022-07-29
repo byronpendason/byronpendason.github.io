@@ -15,6 +15,12 @@ permalink: /site_index
 {% assign category_name = category | first %}
 - [{{ category_name | capitalize }}](#{{ category_name | slugify }})
 {% endfor %}
+* * *
+## All Blog Posts (in Alphabetic order)
+{% assign posts = site.posts | sort: "title" %}
+{% for post in posts %}
+- [{{ post.title }}]({{post.url}})
+{% endfor %}
 {% for category in categories %}
 
 * * *
