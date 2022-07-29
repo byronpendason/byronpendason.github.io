@@ -21,6 +21,7 @@ permalink: /site_index
 {% for post in posts %}
 - [{{ post.title }}]({{post.url}})
 {% endfor %}
+\[[Return to the Top](/site_index)\]
 {% for category in categories %}
 
 * * *
