@@ -4,7 +4,7 @@ title: Beginning my journey into Old English
 date: 2019-12-28 10:14
 author: byronarn
 comments: true
-categories: [Uncategorized]
+categories: [updates]
 ---
 For Yule, my girlfriend got me the book <a target="_blank" rel="noopener" href="https://www.amazon.com/Complete-Old-English-Anglo-Saxon-Yourself/dp/0071747745">Complete Old English (Anglo-Saxon)</a> by Mark Atherton. I'm really excited to start learning Old English. My goal is to eventually be able to write my prayers to the gods in the tongue that my ancestors used to worship them.
 
