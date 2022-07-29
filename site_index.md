@@ -13,7 +13,7 @@ permalink: /site_index
 
 ### {{ category_name | capitalize }}
 
-{% for post in categories.[category_name] %}
+{% for post in categories[category_name] %}
 
 - [{{ post.title }}]({{post.url}})
 
