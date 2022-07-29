@@ -16,7 +16,7 @@
     <meta property="og:title" content="{{ page.title }} | Mine Wyrtruman">
     {% endif %}
     <meta property="og:image" content="https://byronpendason.github.io/media/penda.jpg">
-    <meta property="og:description" content="{% if page.excerpt %} {{ page.excerpt }} {% else %} {{ content | strip_html | strip_newlines | truncatewords: 50 }} {% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %} {{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}} {% else %} {{ content | strip_html | strip_newlines | truncatewords: 25 }} {% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
     <link rel="shortcut icon" type="image/jpg" href="/media/penda.jpg">
