@@ -4,7 +4,7 @@ title: I Wrote a Heathen Fable- "The Old Wanderer"
 date: 2020-07-30 09:23
 author: byronarn
 comments: true
-categories: [fable, Heathenry, myths, Uncategorized]
+categories: [Heathenry, myths, reconstruction]
 ---
 I use to write fiction (mostly sci-fi short stories) quite a bit in my younger days. As I got older and had to spend more and more time doing the whole "adulting" thing, I spent less and less time writing. Until it fell by the wayside almost completely.
 
