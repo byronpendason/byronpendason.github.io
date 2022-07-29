@@ -4,7 +4,7 @@ title: My Stance on LGBT Issues within Heathenry
 date: 2020-06-27 11:49
 author: byronarn
 comments: true
-categories: [heathen worldview, Heathenry, lgbt]
+categories: [heathen worldview, Heathenry, lgbt, politics]
 ---
 A question that <em>many</em> new Heathens often ask is, <em>where does Heathenry stand on LGBTQIA+ issues?</em> The reason why it's so often asked is simple. Christianity has a long history of being a homophobic religion. Although some factions of Christianity are working to change this, it by and large still remains a homophobic religion. So defectors of Christianity, tired of this homophobia, start seeking a religion that does not have this problem. So they wonder if it's too be found within Heathenry.
 
