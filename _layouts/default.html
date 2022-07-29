@@ -30,7 +30,7 @@
       <h1>{{ page.title }}</h1>
       <h3>{{ page.date | date: "%B %-d, %Y"}}</h3>
       <div class="post-categories">
-        <h6>Categories: {% for category in page.categories %}<a href="/site_index#{{ category | slugify}}">{{ category | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</h6>
+        <h6>Categories: {% for category in page.categories %}<a href="/site_index#{{ category | slugify}}">{{ category | capitalize }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</h6>
       </div>
       {% endif %}
       {{ content }}
