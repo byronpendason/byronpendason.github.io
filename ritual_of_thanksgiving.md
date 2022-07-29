@@ -2,6 +2,7 @@
 title: A Ritual of Thanksgiving to the Gods
 author: Byron Pendason
 permalink: /ritual_of_thanksgiving
+excerpt: "This ritual is a general thanksgiving to the gods. It's designed for an inside altar used by a solo practitioner, but adapting it to outside and/or group use should not be too difficult."
 layout: page
 ---
 
