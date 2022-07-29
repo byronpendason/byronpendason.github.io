@@ -26,7 +26,7 @@ description: An inclusive blog dedicated to Fyrnsidu (Anglo-Saxon Heathenry). I 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://byronthefyrnsidere.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: byronfyrnsidere
-#github_username:  byronthefyrnsidere
+github_username:  byronpendason
 show_excerpts: true
 permalink: /:year/:month/:day/:title/
 header_pages:
