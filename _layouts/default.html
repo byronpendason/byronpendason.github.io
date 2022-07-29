@@ -1,22 +1,25 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    {% if page.title == "Home" %}
-    <title>Mine Wyrtruman</title>
-    <meta name="description" content="{{ site.description }}">
+     <!-- Primary Meta Tags -->
+    <title>{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman</title>
+    <meta name="title" content="{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman">
+    <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}} {% else %} {{ content | strip_html | strip_newlines | truncatewords: 25 }} {% endif %}">">
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Mine Wyrtruman">
-    <meta property="og:title" content="Mine Wyrtruman">
-    {% else %}
-    <title>{{ page.title }} | Mine Wyrtruman</title>
-    {% if page.categories %}<meta name="keywords" content="{{page.categories | join: ', '}}">{% endif %}
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Mine Wyrtruman">
-    <meta property="og:title" content="{{ page.title }} | Mine Wyrtruman">
-    {% endif %}
+    <meta property="og:url" content="https://byronpendason.github.io">
+    <meta property="og:title" content="{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman">
+    <meta property="og:description" content="{% if page.excerpt %} {{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}} {% else %} {{ content | strip_html | strip_newlines | truncatewords: 25 }} {% endif %}">">
     <meta property="og:image" content="https://byronpendason.github.io/media/penda.jpg">
-    <meta property="og:description" content="{% if page.excerpt %} {{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}} {% else %} {{ content | strip_html | strip_newlines | truncatewords: 25 }} {% endif %}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://byronpendason.github.io">
+    <meta property="twitter:title" content="{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman">
+    <meta property="twitter:description" content="{% if page.excerpt %} {{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}} {% else %} {{ content | strip_html | strip_newlines | truncatewords: 25 }} {% endif %}">">
+    <meta property="twitter:image" content="https://byronpendason.github.io/media/penda.jpg">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
     <link rel="shortcut icon" type="image/jpg" href="/media/penda.jpg">
