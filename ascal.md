@@ -3,6 +3,7 @@ title: The Reconstructed Anglo-Saxon Calendar
 author: ByronTheFyrnsidere
 layout: page
 permalink: /anglosaxoncalendar
+categories: [anglo-saxon calendar, heathen worship, reconstruction]
 ---
 
 # {{ page.title }}
