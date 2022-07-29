@@ -4,7 +4,7 @@ title: Introducing RuneTyper 0.1.1
 date: 2021-02-04 01:55
 author: byronarn
 comments: true
-categories: [Heathenry, runes, Uncategorized]
+categories: [runes, updates]
 ---
 <!-- wp:paragraph -->
 <p>I created an app that uses Kivy/Python to be able to type Fuþorc runes (also called Anglo-Saxon or Anglo-Frisian runes) and copy it to the clipboard so that you can paste it into other apps. It's currently only available for Android at the moment.</p>
