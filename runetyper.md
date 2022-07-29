@@ -5,7 +5,7 @@ date: 2021-03-06 23:38
 author: byronarn
 permalink: /runetyper
 comments: true
-categories: []
+excerpt: "RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!"
 ---
 
 ## Type Runes on your Android Phone or Windows PC!
