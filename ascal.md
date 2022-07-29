@@ -54,8 +54,6 @@ I know that was a lot of information to absorb, and I apologise for it. For a mo
 
 So how do I take all this information and use it to form a reconstructed Anglo-Saxon Calendar? I first get the dates of the December Solstices of the previous year and the current year. I then find all the new moon dates in between, and add 36 hours to each to estimate the young moon. If there's twelve of them in between the December Solstices, it's a normal year. If there's thirteen of them, it'll be a leap year and we will add the leap month as the seventh month. Then I find the dates for the four holy tides. Midsummer and Yule will be on the date of the winter and summer solstices, and Ēastre and Winterfylleþ will be on the full moons of Ēastremōnaþ and Wintermōnaþ, respectively. I will give an example for 2019 below:
 
-<blockquote>
-
 ## ANGLO-SAXON CALENDAR FOR 2019
 
 ### MONTHS
@@ -79,12 +77,11 @@ Blōtmōnaþ begins on Tuesday October 29, 2019.
 Midsumor is on Friday June 21, 2019.  
 Winterfylleþ is on Sunday October 13, 2019.  
 Modraniht (Yule) is on Saturday December 21, 2019
-</blockquote>
 
 Below are links to specific years:
 
-<a href="https://minewyrtruman.wordpress.com/2019/11/13/my-reconstructed-anglo-saxon-calendar-for-2020/">Reconstructed Calendar for 2020</a>
+<a href="/2019/11/13/my-reconstructed-anglo-saxon-calendar-for-2020/">Reconstructed Calendar for 2020</a>
 
-<a target="_blank" rel="noopener" href="https://minewyrtruman.wordpress.com/2020/12/21/my-reconstructed-anglo-saxon-calendar-for-2021/">Reconstructed Calendar for 2021</a>
+<a href="/2020/12/21/my-reconstructed-anglo-saxon-calendar-for-2021/">Reconstructed Calendar for 2021</a>
 
 I have created a webpage that will generate the Calendar for any year. It can be found here: <a href="http://anglo-saxon-calendar.atwebpages.com/">http://anglo-saxon-calendar.atwebpages.com/</a>
