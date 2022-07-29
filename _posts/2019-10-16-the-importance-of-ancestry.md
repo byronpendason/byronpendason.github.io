@@ -4,7 +4,7 @@ title: The Importance of Ancestry
 date: 2019-10-16 13:08
 author: byronarn
 comments: true
-categories: [heathen basics, heathen worldview, heathen worship]
+categories: [heathen basics, heathen worldview, heathen worship, politics]
 ---
 In my last blog post, I discussed ancestor veneration. It can't be denied that for heathens, our ancestors are a very important aspect of our spirituality. So you'd think that ancestry is very important to us, wouldn't you?
 
