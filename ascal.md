@@ -80,8 +80,8 @@ Modraniht (Yule) is on Saturday December 21, 2019
 
 Below are links to specific years:
 
-<a href="/2019/11/13/my-reconstructed-anglo-saxon-calendar-for-2020/">Reconstructed Calendar for 2020</a>
+- <a href="/2019/11/13/my-reconstructed-anglo-saxon-calendar-for-2020/">Reconstructed Calendar for 2020</a>
 
-<a href="/2020/12/21/my-reconstructed-anglo-saxon-calendar-for-2021/">Reconstructed Calendar for 2021</a>
+- <a href="/2020/12/21/my-reconstructed-anglo-saxon-calendar-for-2021/">Reconstructed Calendar for 2021</a>
 
 I have created a webpage that will generate the Calendar for any year. It can be found here: <a href="http://anglo-saxon-calendar.atwebpages.com/">http://anglo-saxon-calendar.atwebpages.com/</a>
