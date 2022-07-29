@@ -2,9 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} | Mine Wyrtruman</title>
     {% if page.title == "Home" %}
+    <title>Mine Wyrtruman</title>
     <meta name="description" content="{{ site.description }}">
+    {% else %}
+    <title>{{ page.title }} | Mine Wyrtruman</title>
+    {% if page.categories %}<meta name="keywords" content="{{page.categories | join: ', '}}">{% endif %}
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
