@@ -30,8 +30,8 @@
       <h1>{{ page.title }}</h1>
       <h3>{{ page.date | date: "%B %-d, %Y"}}</h3>
       <div class="post-categories">
-        {% assign categories = post.categories %}
-        <h4>Categories: {% for category in categories %}<a href="/site_index#{{category|slugize}}">{{ category | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</h4>
+        {% assign categories = page.categories %}
+        <h4>Categories: {% for category in categories %}<a href="/site_index#{{ category | first | slugize}}">{{ category | first | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</h4>
       </div>
       {% endif %}
       {{ content }}
