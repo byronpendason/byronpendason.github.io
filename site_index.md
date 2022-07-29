@@ -16,7 +16,7 @@ permalink: /site_index
 - [{{ category_name | capitalize }}](#{{ category_name | slugify }})
 {% endfor %}
 * * *
-<h2 id="all-blog-posts"> All Blog Posts (in Alphabetic order)</h2>
+<h2 id="all-blog-posts"> All Blog Posts (in Alphabetical Order)</h2>
 {% assign posts = site.posts | sort: "title" %}
 {% for post in posts %}
 - [{{ post.title }}]({{post.url}})
