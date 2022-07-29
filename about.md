@@ -1,6 +1,7 @@
 ---
 title: About
 author: ByronTheFyrnsidere
+excerpt: "Mīne Wyrtruman means My Roots in Old English. As a Fyrnsidere (Anglo-Saxon Heathen), the culture and religion of the ancient pre-Christian Anglo-Saxon peoples are the roots of my faith. I use the little that we know about them as a foundation upon which I build my religion."
 permalink: /about
 ---
 
