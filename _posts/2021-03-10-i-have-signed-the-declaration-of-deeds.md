@@ -4,7 +4,7 @@ title: I have signed the Declaration of Deeds
 date: 2021-03-10 03:22
 author: byronarn
 comments: true
-categories: [Uncategorized]
+categories: [Heathenry, politics, updates]
 ---
 <!-- wp:paragraph -->
 <p>As long as I have been a Heathen, Heathens have been complaining about Declaration 127. Rightfully so, as it is entirely inadequate as an inclusivity statement. It's a condemnation of a racist organization- the Asatru Folk Assembly. That is admirable, but it's not an inclusivity statement. Inclusive Heathenry has been trying to shoe horn into something it's not.</p>
