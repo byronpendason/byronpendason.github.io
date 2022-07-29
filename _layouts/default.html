@@ -1,28 +1,31 @@
 <!doctype html>
 <html lang="en">
   <head>
-     <!-- Primary Meta Tags -->
-    <title>{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
-    <link rel="shortcut icon" type="image/jpg" href="/media/penda.jpg">
-    <meta name="title" content="{% unless page.title == "Home" %}{{ page.title }} | {% endunless %}Mine Wyrtruman">
+        <!-- HTML Meta Tags -->
+    <title>{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://byronpendason.github.io">
-    <meta property="og:title" content="{% unless page.title == "Home" %}{{ page.title }} | {% endunless %}Mine Wyrtruman">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="https://byronpendason.github.io/media/penda.jpg">
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman">
+    <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
+    <meta itemprop="image" content="http://byronpendason.github.io/media/penda.jpg">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:url" content="https://byronpendason.github.io">
-    <meta property="twitter:title" content="{% unless page.title == "Home" %}{{ page.title }} | {% endunless %}Mine Wyrtruman">
-    <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
-    <meta property="twitter:image" content="https://byronpendason.github.io/media/penda.jpg">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://byronpendason.github.io{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="http://byronpendason.github.io/media/penda.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="http://byronpendason.github.io/media/penda.jpg">
+
+    <!-- Meta Tags Generated via http://heymeta.com -->
   </head>
   <body>
     <div id="header">
