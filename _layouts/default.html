@@ -5,10 +5,19 @@
     {% if page.title == "Home" %}
     <title>Mine Wyrtruman</title>
     <meta name="description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mine Wyrtruman">
+    <meta property="og:title" content="Mine Wyrtruman">
+    <meta property="og:description" content="{{ page.excerpt }}">
     {% else %}
     <title>{{ page.title }} | Mine Wyrtruman</title>
     {% if page.categories %}<meta name="keywords" content="{{page.categories | join: ', '}}">{% endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mine Wyrtruman">
+    <meta property="og:description" content="{{ page.excerpt }}">
+    <meta property="og:title" content="{{ page.title }} | Mine Wyrtruman">
     {% endif %}
+    <meta property="og:image" content="https://byronpendason.github.io/media/penda.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
     <link rel="shortcut icon" type="image/jpg" href="/media/penda.jpg">
