@@ -13,8 +13,8 @@ permalink: /site_index
 {% assign category_name = category | first %}
 - [{{ category_name | capitalize }}](#{{ category_name | slugify }})
 {% endfor %}
-* * *
 {% for category in categories %}
+* * *
 {% assign category_name = category | first %}
 
 <h2 id="{{ category_name | slugify }}">{{ category_name | capitalize }}</h2>
@@ -24,5 +24,4 @@ permalink: /site_index
 - [{{ post.title }}]({{post.url}})
 
 {% endfor %}
-* * *
 {% endfor %}
