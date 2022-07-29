@@ -8,13 +8,13 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Mine Wyrtruman">
     <meta property="og:title" content="Mine Wyrtruman">
-    <meta property="og:description" content="{{ page.excerpt }}">
+    <meta property="og:description" content="{{ content | strip_html | strip_newlines | truncatewords: 50 }}">
     {% else %}
     <title>{{ page.title }} | Mine Wyrtruman</title>
     {% if page.categories %}<meta name="keywords" content="{{page.categories | join: ', '}}">{% endif %}
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Mine Wyrtruman">
-    <meta property="og:description" content="{{ page.excerpt }}">
+    <meta property="og:description" content="{{ content | strip_html | strip_newlines | truncatewords: 50 }}">
     <meta property="og:title" content="{{ page.title }} | Mine Wyrtruman">
     {% endif %}
     <meta property="og:image" content="https://byronpendason.github.io/media/penda.jpg">
