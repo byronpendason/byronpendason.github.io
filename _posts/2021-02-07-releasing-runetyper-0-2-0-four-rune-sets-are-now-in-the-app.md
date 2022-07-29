@@ -4,7 +4,7 @@ title: Releasing RuneTyper 0.2.0- Four Rune Sets are now in the App!
 date: 2021-02-07 16:47
 author: byronarn
 comments: true
-categories: [Uncategorized]
+categories: [runes, updates]
 ---
 
 <!-- wp:paragraph -->
