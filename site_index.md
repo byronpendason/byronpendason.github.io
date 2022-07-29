@@ -35,4 +35,5 @@ permalink: /site_index
 - [{{ post.title }}]({{post.url}})
 
 {% endfor %}
+\[[Return to the Top](/site_index)\]
 {% endfor %}
