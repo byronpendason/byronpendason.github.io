@@ -6,7 +6,7 @@ permalink: /anglosaxoncalendar
 categories: [anglo-saxon calendar, heathen worship, reconstruction]
 ---
 
-# {{ page.title }}
+# The Reconstructed Anglo-Saxon Calendar
 
 Everything we know about the Anglo-Saxon Calendar comes from the Venerable Bede's <em>On the Reckoning of Time</em>, in which he relates the calendars of many ancient cultures. He gives us quite a bit of information. Unfortunately, as we shall soon see, he doesn't give us quite enough information to reconstruct the calendar in its entirety. A couple of assumptions have to be made.
 
