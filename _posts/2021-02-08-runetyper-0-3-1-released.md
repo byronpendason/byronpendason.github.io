@@ -4,7 +4,7 @@ title: RuneTyper 0.3.1 released
 date: 2021-02-08 18:34
 author: byronarn
 comments: true
-categories: [Heathenry, runes, Uncategorized]
+categories: [runes, updates]
 ---
 <!-- wp:paragraph -->
 <p>I've added an Old English keyboard to RuneTyper. In addition to all the runes, it should have all the letters you need to type in Old English, including Ƿ, Þ, Ᵹ, Ð, Æ, ⁊, and Ꝥ. It has two function keys: SH toggles between capitalising and lowercase the letters, while ALT adds the bars over vowels to make them long, and the dots over c and g. Check out the screenshot below:</p>
