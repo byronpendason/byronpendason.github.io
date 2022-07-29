@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- HTML Meta Tags -->
+
+    <!-- HTML Meta Tags -->
     <title>{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
 
@@ -20,7 +21,7 @@
     <meta property="og:image" content="http://byronpendason.github.io/media/penda.jpg">
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="http://byronpendason.github.io/media/penda.jpg">
