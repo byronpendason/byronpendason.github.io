@@ -25,7 +25,7 @@ websites as well, once your familiar with the basics.
 
 {{ post.date | date: "%B %-d, %Y"}}
 
-<h6>Categories: {% for category in page.categories %}<a href="/site_index#{{ category | slugify}}">{{ category | capitalize }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</h6>
+<h6>Categories: {% for category in post.categories %}<a href="/site_index#{{ category | slugify}}">{{ category | capitalize }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</h6>
 
 {{ post.excerpt | strip_html | strip_newlines | truncatewords: 50 }}
 
