@@ -37,20 +37,18 @@ header_pages:
     url: /blog
   - title: About
     url: /about
+  - title: Site Index
+    url: /site_index
+  - title: Glossary and Resources for Beginners
+    url: /glossary
   - title: The Reconstructed Anglo-Saxon Calendar
     url: /anglosaxoncalendar
   - title: A Ritual of Thanksgiving
     url: /ritual_of_thanksgiving
-  - title: Glossary and Resources for Beginners
-    url: /glossary
   - title: Declaration of Deeds
     url: /declaration-of-deeds
   - title: RuneTyper
     url: /runetyper
-collections:
-  archives:
-    output: true
-    permalink: /archives/:path/
 plugins:
   - jekyll-feed
 
