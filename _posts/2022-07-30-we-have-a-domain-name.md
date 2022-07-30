@@ -7,4 +7,4 @@ comments: true
 categories: [updates]
 ---
 
-As of today, *Mine Wyrtruman* has it's own [domain name](https://www.minewyrtruman.com/)! While the most recent url of the website (<https://byronpendason.github.io>) will redirect to the new domain name (<https://www.minewyrtruman.com>), you might as well go ahead and update your bookmarks, and news feed reader if you're using one to keep up with my blog.
+As of today, *Mine Wyrtruman* has it's own [domain name](https://www.minewyrtruman.com/)! While the most recent url of the website (<https://byronpendason.github.io>) will redirect to the new domain name (<https://www.minewyrtruman.com>), you might as well go ahead and update your bookmarks and news feed reader (if you're using one to keep up with my blog).
