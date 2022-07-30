@@ -35,3 +35,5 @@ websites as well, once your familiar with the basics.
 {% endif %}
 
 {% endfor %}
+
+[[More Blog Posts](/blog)]
