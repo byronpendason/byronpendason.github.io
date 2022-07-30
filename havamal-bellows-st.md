@@ -3,6 +3,8 @@ title: Havamal- The Ballad of the High One
 author: Henry Adams Bellows
 date: 2022-07-06
 permalink: /havamal
+sitemap:
+  exclude: true
 ---
 
 # Havamal- The Ballad of the High One
