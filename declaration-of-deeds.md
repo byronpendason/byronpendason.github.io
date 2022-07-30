@@ -4,7 +4,6 @@ title: Declaration of Deeds
 date: 2021-02-20 17:39
 author: byronarn
 permalink: /declaration-of-deeds
-comments: true
 excerpt: "I have declared this blog to be inclusive, but what does it mean to be inclusive? The standard statement of inclusivity within Heathenry is Declaration 127. The problem with Declaration 127 is that it is pretty much just a condemnation of just one group, the Asatru Folk Assembly. A much stronger statement is needed when there are much bigger problems of bigotry within Heathenry than just one racist organisation."
 ---
 
