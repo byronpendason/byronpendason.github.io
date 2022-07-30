@@ -24,7 +24,7 @@ footer: © 2022 by ByronTheFyrnsidere. If you find the information on this site 
 #email: your-email@example.com
 description: An inclusive blog dedicated to Fyrnsidu (Anglo-Saxon Heathenry). I support the Declaration of Deeds and Declaration 127.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://byronthefyrnsidere.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://byronpendason.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: byronfyrnsidere
 github_username:  byronpendason
 show_excerpts: true
