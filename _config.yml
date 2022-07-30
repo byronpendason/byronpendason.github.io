@@ -21,10 +21,10 @@
 title: Mine Wyrtruman
 byline: Where ancient spirituality meets modern praxis
 footer: © 2022 by ByronTheFyrnsidere. If you find the information on this site helpful, consider <a href="https://ko-fi.com/ByronTheFyrnsidere">buying me a coffee.</a>
-#email: your-email@example.com
+email: byronpendason@minewyrtruman.com
 description: Mine Wyrtruman explores the roots of Fyrnsidu in order to discover how to apply them to modern spirituality.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://byronpendason.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.minewyrtruman.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: byronfyrnsidere
 github_username:  byronpendason
 show_excerpts: true
