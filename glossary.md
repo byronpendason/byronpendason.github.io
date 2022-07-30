@@ -3,8 +3,6 @@ title: Glossary and Resources for Beginners
 date: 2019-10-02 23:31
 author: byronarn
 permalink: /glossary
-comments: true
-categories: []
 ---
 
 ## Resources for Beginners
