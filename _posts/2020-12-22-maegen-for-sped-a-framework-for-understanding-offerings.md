@@ -2,7 +2,7 @@
 layout: post
 title: Mægen for Spēd- A Framework for Understanding Offerings
 date: 2020-12-22 22:07
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worldview, heathen worship, Heathenry, reconstruction]
 ---
@@ -19,11 +19,11 @@ categories: [heathen worldview, heathen worship, Heathenry, reconstruction]
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>Mægen</em> (pronounced <em>my-ehn</em>, as the combination <em>æg</em> made the vowel sound in <em>my</em> and <em>try</em> in Old English) basically means might or strength. But it's not just referring to your physical might and strength, but also spiritual might and strength as well. We naturally generate mægen, but how well you take care of yourself (in a holistic way, meaning physically, mentally, socially, and spiritually) determines how much we have. The more mægen you have, the more you will be able to do, the more successful you will be in what you do. For more details, check out Beofeld's page on his blog: <a rel="noreferrer noopener" href="https://windintheworldtree.wordpress.com/about/fundamentals/maegen/" target="_blank">More on Mægen</a></p>
+<p><em>Mægen</em> (pronounced <em>my-ehn</em>, as the combination <em>æg</em> made the vowel sound in <em>my</em> and <em>try</em> in Old English) basically means might or strength. But it's not just referring to your physical might and strength, but also spiritual might and strength as well. We naturally generate mægen, but how well you take care of yourself (in a holistic way, meaning physically, mentally, socially, and spiritually) determines how much we have. The more mægen you have, the more you will be able to do, the more successful you will be in what you do. For more details, check out Beofeld's page on his blog: <a rel="noreferrer noopener" href="https://windintheworldtrees.com/about/fundamentals/maegen/" target="_blank">More on Mægen</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>Spēd</em> (pronounced like the modern English word <em>spade</em>) literally means "speed, success, means, substance, power, faculty, ability, opportunity". The term <em>Godspeed</em> has its roots in this word. It basically means "May God grant you success". In the context of Anglo-Saxon Heathenry, it means the things "which we are blessed with by the gods." For more info, check out <a href="https://windintheworldtree.wordpress.com/sped-2/">Spēd</a>, from <em>Wind in the Worldtree.</em></p>
+<p><em>Spēd</em> (pronounced like the modern English word <em>spade</em>) literally means "speed, success, means, substance, power, faculty, ability, opportunity". The term <em>Godspeed</em> has its roots in this word. It basically means "May God grant you success". In the context of Anglo-Saxon Heathenry, it means the things "which we are blessed with by the gods." For more info, check out <a href="https://windintheworldtrees.com/sped-2/">Spēd</a>, from <em>Wind in the Worldtree.</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

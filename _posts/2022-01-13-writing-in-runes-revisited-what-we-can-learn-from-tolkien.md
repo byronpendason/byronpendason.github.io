@@ -2,12 +2,12 @@
 layout: post
 title: Writing in Runes Revisited- What we can learn from Tolkien
 date: 2022-01-13 19:45
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [runes]
 ---
 <!-- wp:paragraph -->
-<p>About a year and a half ago, I did a blog post about <a href="https://minewyrtruman.wordpress.com/2020/06/10/writing-in-anglo-saxon-runes/">writing in Anglo-Saxon runes</a>. I explained both the runic substitution method (which more or less uses modern spelling) and phonetic method of writing in runes. At the time, I used the runes to write phonetically. And I continued to do it that way until rather recently. One day, though, a thought struck me. When Old English started writing in Latin letters instead of the Futhorc runes, they pretty much chose a letter to represent each rune. We can see this by examining runic inscriptions with the words of as they developed later. So the thought that came to me was, how would reversing that process be any different? (For another argument in favour of using modern spelling with runes, see <a href="https://www.vikingrune.com/2014/08/write-in-runes-phonetically/">this article</a>.)</p>
+<p>About a year and a half ago, I did a blog post about <a href="/2020/06/10/writing-in-anglo-saxon-runes/">writing in Anglo-Saxon runes</a>. I explained both the runic substitution method (which more or less uses modern spelling) and phonetic method of writing in runes. At the time, I used the runes to write phonetically. And I continued to do it that way until rather recently. One day, though, a thought struck me. When Old English started writing in Latin letters instead of the Futhorc runes, they pretty much chose a letter to represent each rune. We can see this by examining runic inscriptions with the words of as they developed later. So the thought that came to me was, how would reversing that process be any different? (For another argument in favour of using modern spelling with runes, see <a href="https://www.vikingrune.com/2014/08/write-in-runes-phonetically/">this article</a>.)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -19,7 +19,7 @@ categories: [runes]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":341,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://minewyrtruman.files.wordpress.com/2021/12/wp-image3965696367071078154..jpg?w=1024" alt="" class="wp-image-341" /></figure>
+<figure class="wp-block-image size-large"><img src="https://www.minewyrtruman.filess.com/2021/12/wp-image3965696367071078154..jpg?w=1024" alt="" class="wp-image-341" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -47,7 +47,7 @@ categories: [runes]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":343,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://minewyrtruman.files.wordpress.com/2022/01/16404693178095348895016879176233.png?w=1024" alt="" class="wp-image-343" /></figure>
+<figure class="wp-block-image size-large"><img src="https://www.minewyrtruman.filess.com/2022/01/16404693178095348895016879176233.png?w=1024" alt="" class="wp-image-343" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

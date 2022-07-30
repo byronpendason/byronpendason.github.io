@@ -2,7 +2,7 @@
 layout: post
 title: Filling in the Gaps
 date: 2019-10-29 13:03
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen basics, heathen worldview, heathen worship]
 ---

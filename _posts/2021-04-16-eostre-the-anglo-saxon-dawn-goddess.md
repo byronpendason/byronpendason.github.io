@@ -2,7 +2,7 @@
 layout: post
 title: Eostre- the Anglo-Saxon Dawn Goddess
 date: 2021-04-16 15:34
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worldview, heathen worship, Heathenry, reconstruction]
 ---

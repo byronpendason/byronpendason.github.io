@@ -2,7 +2,7 @@
 layout: post
 title: My Stance on LGBT Issues within Heathenry
 date: 2020-06-27 11:49
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worldview, Heathenry, lgbt, politics]
 ---
@@ -12,7 +12,7 @@ As with many other issues, there is a wide variety of opinions, but they general
 
 Since my knowledge of Norse Heathenry is abysmal at best, I reached out to Twitter user and YouTuber OceanKeltoi (a superstar in the online Heathen community for his very informative YouTube channel) for his help in understanding the ancient Norse Heathen views on LGBT issues. I will quote <a target="_blank" rel="noopener" href="https://twitter.com/OceanKeltoi/status/1272608417480355840?s=19">his response</a> in its entirety:
 
-<img class="wp-image-180 alignnone size-full" src="https://minewyrtruman.files.wordpress.com/2020/06/img_20200625_0329435386106912759136419.jpg" width="582" height="455">
+<img class="wp-image-180 alignnone size-full" src="https://www.minewyrtruman.filess.com/2020/06/img_20200625_0329435386106912759136419.jpg" width="582" height="455">
 
 Similar reasoning is generally used by all Heathens who advocate for the inclusion of LGBT+ people, regardless of the specific tradition they follow (Norse, Anglo-Saxon, Gothic, Old Saxon, Frankish, etc). I couldn't have said it better myself, but I would to briefly touch upon his final point a little.
 

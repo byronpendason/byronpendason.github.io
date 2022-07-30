@@ -2,7 +2,7 @@
 layout: post
 title: Workplace Wights
 date: 2020-01-28 12:39
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worldview, heathen worship, Heathenry]
 ---

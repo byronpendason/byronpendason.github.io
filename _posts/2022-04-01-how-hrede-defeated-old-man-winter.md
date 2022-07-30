@@ -2,7 +2,7 @@
 layout: post
 title: How Hreðe defeated Old Man Winter
 date: 2022-04-01 16:23
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worldview, Heathenry, myths, reconstruction]
 ---

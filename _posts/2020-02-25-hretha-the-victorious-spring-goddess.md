@@ -2,11 +2,11 @@
 layout: post
 title: Hretha, the Victorious Spring Goddess
 date: 2020-02-25 14:55
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worship, Heathenry, reconstruction]
 ---
-On my <a href="https://minewyrtruman.wordpress.com/the-anglo-saxon-calendar/">reconstructed Anglo-Saxon Calendar</a>, today is the beginning of <em>Hreþmonaþ</em> (the þ letter is called thorn, and pronounced as 'th' in <em>thin</em>). Bede tells us that it roughly corresponds to March, and the month is named after the goddess Hretha (Hrēðe in Old English, where the ð letter is called eth and is pronounced as the 'th' in that), because the Anglo-Saxons made offerings to her in this month. (Hretha is Latinised as Rheda, and you'll sometimes seen her referred to as such.)
+On my <a href="/the-anglo-saxon-calendar/">reconstructed Anglo-Saxon Calendar</a>, today is the beginning of <em>Hreþmonaþ</em> (the þ letter is called thorn, and pronounced as 'th' in <em>thin</em>). Bede tells us that it roughly corresponds to March, and the month is named after the goddess Hretha (Hrēðe in Old English, where the ð letter is called eth and is pronounced as the 'th' in that), because the Anglo-Saxons made offerings to her in this month. (Hretha is Latinised as Rheda, and you'll sometimes seen her referred to as such.)
 
 Hretha is one of two goddesses mentioned by Bede that we have no record of anywhere else, the other being Ēastre. So all we <em>actually know</em> about her for sure is her name and that she was worshipped in March. Anyone who tells you different is trying to pass their UPG off as fact. I think we can draw a couple reasonable theories about her from this scant evidence though, so read on for my UPG on Hretha!
 

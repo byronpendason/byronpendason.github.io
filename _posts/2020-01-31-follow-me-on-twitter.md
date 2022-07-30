@@ -2,7 +2,7 @@
 layout: post
 title: Follow me on Twitter!
 date: 2020-01-31 06:13
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [updates]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Beginning my journey into Old English
 date: 2019-12-28 10:14
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [updates]
 ---

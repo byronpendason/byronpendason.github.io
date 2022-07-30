@@ -2,12 +2,12 @@
 layout: post
 title: Runic Numerals- A proposal for writing numbers in runes
 date: 2022-05-31 22:02
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [runes]
 ---
 <!-- wp:paragraph -->
-<p>I've written a couple blog posts about writing modern English in runes (<a href="https://minewyrtruman.wordpress.com/2020/06/10/writing-in-anglo-saxon-runes/">Here</a> and <a href="https://minewyrtruman.wordpress.com/2020/06/10/writing-in-anglo-saxon-runes/">here</a>). One problem that arises is writing numbers in runes. As some may already know, the numbers we use on a regular basis (0, 1, 2, 3, etc) are called Arabic numerals. While it's fine to use these when writing in runes, it's not very helpful if you're wanting to keep your thoughts private. It also doesn't look as good, in my opinion. Your milage may vary though </p>
+<p>I've written a couple blog posts about writing modern English in runes (<a href="/2020/06/10/writing-in-anglo-saxon-runes/">Here</a> and <a href="/2020/06/10/writing-in-anglo-saxon-runes/">here</a>). One problem that arises is writing numbers in runes. As some may already know, the numbers we use on a regular basis (0, 1, 2, 3, etc) are called Arabic numerals. While it's fine to use these when writing in runes, it's not very helpful if you're wanting to keep your thoughts private. It also doesn't look as good, in my opinion. Your milage may vary though </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

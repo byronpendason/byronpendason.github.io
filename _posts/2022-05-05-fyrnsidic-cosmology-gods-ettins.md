@@ -2,13 +2,13 @@
 layout: post
 title: Fyrnsidic Cosmology- Gods & Ettins
 date: 2022-05-05 06:50
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [cosmology, heathen basics, heathen worldview, Heathenry, myths, reconstruction]
 ---
 I would like to preface this with a disclaimer. While Jotnar and ettins are cognates of one another, the way they are viewed by their respective religious traditions can vary wildly. While there might be Norse Heathens who would agree with my takes here, and Anglo-Saxon Heathens who may disagree with them, this seems to generally be the Anglo-Saxon view (at least, among those who self identify their religion as Fyrnsidu) and typically isn't the modern Norse Heathen view.
 
-This blog post will build upon my last blog post about <a href="https://minewyrtruman.wordpress.com/2022/04/23/fyrnsidic-cosmology-order-vs-chaos/">Order and Chaos</a>. The key take away from that is that the gods established the cosmic order, and that the Þing (assembly) of the gods maintains that cosmic order. A lot of what will be said here is much more eloquently stated in <em>Wind in the Worldtree</em>'s video <a href="https://youtu.be/Z5CKS8hAoag">What makes a god?</a>, and further expanded upon in his video <a href="https://youtu.be/haHf0rundss">Gray Areas of Deity</a>.
+This blog post will build upon my last blog post about <a href="/2022/04/23/fyrnsidic-cosmology-order-vs-chaos/">Order and Chaos</a>. The key take away from that is that the gods established the cosmic order, and that the Þing (assembly) of the gods maintains that cosmic order. A lot of what will be said here is much more eloquently stated in <em>Wind in the Worldtree</em>'s video <a href="https://youtu.be/Z5CKS8hAoag">What makes a god?</a>, and further expanded upon in his video <a href="https://youtu.be/haHf0rundss">Gray Areas of Deity</a>.
 
 Before anything else existed, there was only chaos. From that chaos, emerged the gods and the ettins. (For most Anglo-Saxon Heathens, Gimm/Gyme/Ymir was the first to emerge from the chaos, and the gods and ettins emerged from him.) The gods and the ettins are typically seen as being the same kind of beings, more or less equal in power/abilities. This can be seen even in Norse mythology in stories in which a Jotun will join the gods, usually by marrying an Æsir. So what's the difference between the gods and the ettins in Fyrnsidu?
 
@@ -29,7 +29,7 @@ Hail the gods, maintainers of the cosmic order!
 ### For more info
 
 <ul>
-<li><a href="https://minewyrtruman.wordpress.com/2022/04/23/fyrnsidic-cosmology-order-vs-chaos/">Order and Chaos</a></li>
+<li><a href="/2022/04/23/fyrnsidic-cosmology-order-vs-chaos/">Order and Chaos</a></li>
 <li><a href="https://youtu.be/Z5CKS8hAoag">What makes a god?</a></li>
 <li><a href="https://youtu.be/haHf0rundss">Gray Areas of Deity</a>.</li>
 <li><a href="https://m.youtube.com/watch?v=bQ9fnPArF74&amp;feature=share">Is Chaos Worship Historical?</a></li>

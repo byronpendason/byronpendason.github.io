@@ -2,7 +2,7 @@
 layout: post
 title: Beginning the New Year with Mothers Night
 date: 2021-12-18 19:07
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen basics, heathen worldview, heathen worship, Heathenry, reconstruction]
 ---

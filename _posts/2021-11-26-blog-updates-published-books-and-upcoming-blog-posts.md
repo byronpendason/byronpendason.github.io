@@ -2,7 +2,7 @@
 layout: post
 title: Blog updates- Published books and upcoming blog posts
 date: 2021-11-26 13:00
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [updates]
 ---

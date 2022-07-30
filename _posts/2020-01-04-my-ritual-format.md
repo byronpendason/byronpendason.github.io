@@ -2,7 +2,7 @@
 layout: post
 title: My Ritual Format
 date: 2020-01-04 00:58
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen basics, heathen worship]
 ---
@@ -48,7 +48,7 @@ Sacred flame, please cleanse this space.
 
 Sacred flame, please hallow this space.</blockquote>
 
-<em>[</em><strong><em>Update</em></strong><em>: I've switched to a new Hallowing ritual, which is based upon the Old English corpus. You can read about it </em><a target="_blank" rel="noopener" href="https://minewyrtruman.wordpress.com/2020/11/19/my-hallowing-ritual/"><em>here</em></a><em>.]</em>
+<em>[</em><strong><em>Update</em></strong><em>: I've switched to a new Hallowing ritual, which is based upon the Old English corpus. You can read about it </em><a target="_blank" rel="noopener" href="/2020/11/19/my-hallowing-ritual/"><em>here</em></a><em>.]</em>
 
 <h3>Prayers</h3>
 

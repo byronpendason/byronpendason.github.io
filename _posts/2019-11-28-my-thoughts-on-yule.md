@@ -2,7 +2,7 @@
 layout: post
 title: My Thoughts on Yule
 date: 2019-11-28 21:43
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worldview, heathen worship]
 ---

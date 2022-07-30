@@ -2,7 +2,7 @@
 layout: post
 title: A Statement about the Black Lives Matter Protests
 date: 2020-06-08 01:43
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [politics]
 ---

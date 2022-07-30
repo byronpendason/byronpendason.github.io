@@ -2,7 +2,7 @@
 layout: post
 title: I have signed the Declaration of Deeds
 date: 2021-03-10 03:22
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [Heathenry, politics, updates]
 ---
@@ -11,7 +11,7 @@ categories: [Heathenry, politics, updates]
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Beofeld, author of the Anglo-Saxon Heathen blog <a rel="noreferrer noopener" href="https://windintheworldtree.wordpress.com/" target="_blank">Wind in the Worldtree</a>, has written such an inclusivity and non-bigotry statement. Called the <a rel="noreferrer noopener" href="http://www.DeclarationofDeeds.com" target="_blank">Declaration of Deeds</a>, it makes clear that there is no basis in Heathenry for prejudice based upon things outside one's control such as race, sex, gender identity, etc. It is a much stronger and better defined statement of inclusivity and non-bigotry for Heathenry.</p>
+<p>Beofeld, author of the Anglo-Saxon Heathen blog <a rel="noreferrer noopener" href="https://windintheworldtrees.com/" target="_blank">Wind in the Worldtree</a>, has written such an inclusivity and non-bigotry statement. Called the <a rel="noreferrer noopener" href="http://www.DeclarationofDeeds.com" target="_blank">Declaration of Deeds</a>, it makes clear that there is no basis in Heathenry for prejudice based upon things outside one's control such as race, sex, gender identity, etc. It is a much stronger and better defined statement of inclusivity and non-bigotry for Heathenry.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

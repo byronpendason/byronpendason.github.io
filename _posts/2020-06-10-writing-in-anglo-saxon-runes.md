@@ -2,11 +2,11 @@
 layout: post
 title: Writing in Anglo-Saxon Runes
 date: 2020-06-10 13:13
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [runes]
 ---
-<em>Edit: For how I write in runes now, please see my update to this post at </em><a href="https://minewyrtruman.wordpress.com/2022/01/13/writing-in-runes-revisited-what-we-can-learn-from-tolkien/"><em>here</em></a><em>. I'm leaving the blog post below untouched as a record of my journey.</em>
+<em>Edit: For how I write in runes now, please see my update to this post at </em><a href="/2022/01/13/writing-in-runes-revisited-what-we-can-learn-from-tolkien/"><em>here</em></a><em>. I'm leaving the blog post below untouched as a record of my journey.</em>
 
 I threw the idea out on Twitter a couple days ago of doing a blog post on how I write in runes. About 10% of my followers liked the tweet, so I'm going to do it. While this doesn't really have anything to do with Heathenry, <em>per se</em>, it has uses that Heathens might find handy. Personally, I use them when I want to write down something private or something that is important. Writing in runes seems to impress it into my subconscious a bit more than writing it with the Latin alphabet (which is the alphabet that we usually use to write in English).
 
@@ -20,11 +20,11 @@ There are two methods people use to write in runes. One is <em>runic substitutio
 
 In this method, you use modern spelling but replace the letters with runes. Here is the key I would use to do so if I was going to do this method:
 
-<img class="wp-image-156 alignnone size-full" src="https://minewyrtruman.files.wordpress.com/2020/06/screenshot_20200610-1057492_resize_75.jpg" width="800" height="1268">
+<img class="wp-image-156 alignnone size-full" src="https://www.minewyrtruman.filess.com/2020/06/screenshot_20200610-1057492_resize_75.jpg" width="800" height="1268">
 
 (I hate the Unicode versions of the runes. Anywhere that you see curves, the rune is supposed to be straight. But that's a rant for another time.)
 
-For TH or NG, use that rune instead of the individual runes for N and G or T and H. For double letters (like the <em>t </em>in <em>letters</em>), only use one rune. I would also suggest for <em>ck</em> (as in <em>back</em>), just use the <em>K</em> rune, and getting rid of any other silent letters. This will make it harder for nosey people to decode your message without a key. Use dots in between words instead of spaces, and colon as an end of sentence (period). For example, <em>I think you are cool. </em>would be ᛁ᛫ᚦᛁᚾᛣ᛫ᚣᛟᚢ᛫ᚫᚱᛖ᛫ᚳᛟᛚ᛬ (To see this in [sloppy] handwriting, <a href="https://minewyrtruman.files.wordpress.com/2020/06/screenshot_20200610-1122362.png">check this out</a>.)
+For TH or NG, use that rune instead of the individual runes for N and G or T and H. For double letters (like the <em>t </em>in <em>letters</em>), only use one rune. I would also suggest for <em>ck</em> (as in <em>back</em>), just use the <em>K</em> rune, and getting rid of any other silent letters. This will make it harder for nosey people to decode your message without a key. Use dots in between words instead of spaces, and colon as an end of sentence (period). For example, <em>I think you are cool. </em>would be ᛁ᛫ᚦᛁᚾᛣ᛫ᚣᛟᚢ᛫ᚫᚱᛖ᛫ᚳᛟᛚ᛬ (To see this in [sloppy] handwriting, <a href="https://www.minewyrtruman.filess.com/2020/06/screenshot_20200610-1122362.png">check this out</a>.)
 
 <h2>Writing the Runes Phonetically</h2>
 

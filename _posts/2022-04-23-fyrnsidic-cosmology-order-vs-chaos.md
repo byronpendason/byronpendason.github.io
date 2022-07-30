@@ -2,7 +2,7 @@
 layout: post
 title: Fyrnsidic Cosmology- Order vs Chaos
 date: 2022-04-23 12:33
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [cosmology, heathen basics, heathen worldview, Heathenry, reconstruction]
 ---

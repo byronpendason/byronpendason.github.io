@@ -2,7 +2,7 @@
 layout: post
 title: Tīw- the Anglo-Saxon Sky Father, God of Justice and War
 date: 2021-10-06 23:56
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worldview, Heathenry, reconstruction]
 ---

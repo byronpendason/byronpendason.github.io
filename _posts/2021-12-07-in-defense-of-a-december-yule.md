@@ -2,7 +2,7 @@
 layout: post
 title: In Defense of a December Yule
 date: 2021-12-07 22:15
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen basics, heathen worship, Heathenry, reconstruction]
 ---
@@ -19,7 +19,7 @@ categories: [heathen basics, heathen worship, Heathenry, reconstruction]
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>It's when the ancient Germanic peoples observed Yule, before Hakon the Good changed it to the Solstice!</em> This is their claim. And since it's a historical claim, it's open to scrutiny. So how about we investigate this historical claim to determine its accuracy? (For a more entertaining look at this type of Heathen, see Wind in the Worldtree's <em><a rel="noreferrer noopener" href="https://windintheworldtree.wordpress.com/2020/12/22/the-grump-that-stole-yule/" target="_blank">The Grump That Stole Yule</a></em>.)</p>
+<p><em>It's when the ancient Germanic peoples observed Yule, before Hakon the Good changed it to the Solstice!</em> This is their claim. And since it's a historical claim, it's open to scrutiny. So how about we investigate this historical claim to determine its accuracy? (For a more entertaining look at this type of Heathen, see Wind in the Worldtree's <em><a rel="noreferrer noopener" href="https://windintheworldtrees.com/2020/12/22/the-grump-that-stole-yule/" target="_blank">The Grump That Stole Yule</a></em>.)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

@@ -2,7 +2,7 @@
 layout: post
 title: New Webpage to Generate the Calendar
 date: 2021-11-04 01:02
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worship, Heathenry, reconstruction, anglo-saxon calendar]
 ---

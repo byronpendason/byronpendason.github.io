@@ -2,7 +2,7 @@
 layout: post
 title: RuneTyper 0.3.1 released
 date: 2021-02-08 18:34
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [runes, updates]
 ---
@@ -11,7 +11,7 @@ categories: [runes, updates]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":232,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210208-1316496159293101204236924.png?w=512" alt="" class="wp-image-232" /></figure>
+<figure class="wp-block-image size-large"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210208-1316496159293101204236924.png?w=512" alt="" class="wp-image-232" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -35,27 +35,27 @@ categories: [runes, updates]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":235,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210208-1324595440942276329871868.png?w=512" alt="" class="wp-image-235" /></figure>
+<figure class="wp-block-image size-large"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210208-1324595440942276329871868.png?w=512" alt="" class="wp-image-235" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":233} -->
-<figure class="wp-block-image"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210208-1326144792716790853566005.png" alt="" class="wp-image-233" /></figure>
+<figure class="wp-block-image"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210208-1326144792716790853566005.png" alt="" class="wp-image-233" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":234} -->
-<figure class="wp-block-image"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210208-1324457942734066001557806.png" alt="" class="wp-image-234" /></figure>
+<figure class="wp-block-image"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210208-1324457942734066001557806.png" alt="" class="wp-image-234" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":236} -->
-<figure class="wp-block-image"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210208-1324372517800892507892279.png" alt="" class="wp-image-236" /></figure>
+<figure class="wp-block-image"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210208-1324372517800892507892279.png" alt="" class="wp-image-236" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":237} -->
-<figure class="wp-block-image"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210208-1324277420307489192829387.png" alt="" class="wp-image-237" /></figure>
+<figure class="wp-block-image"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210208-1324277420307489192829387.png" alt="" class="wp-image-237" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":238} -->
-<figure class="wp-block-image"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210208-1316498014975367607738367.png" alt="" class="wp-image-238" /></figure>
+<figure class="wp-block-image"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210208-1316498014975367607738367.png" alt="" class="wp-image-238" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

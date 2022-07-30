@@ -2,7 +2,7 @@
 layout: post
 title: The Importance of Ancestry
 date: 2019-10-16 13:08
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen basics, heathen worldview, heathen worship, politics]
 ---

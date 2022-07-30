@@ -2,12 +2,12 @@
 layout: post
 title: The Metonic Cycle
 date: 2021-10-21 01:06
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [Heathenry, reconstruction, anglo-saxon calendar]
 ---
 <!-- wp:paragraph -->
-<p>As per my <a href="https://minewyrtruman.wordpress.com/the-anglo-saxon-calendar/">Reconstructed Anglo-Saxon Calendar</a> page, my method for determining if a year is a leap year is to count how many new moons there are between the previous year's winter solstice and the current years winter solstice. If there are thirteen new moons, it is a leap year. If there are only twelve new moons, it's a regular year. In leap years, you add the extra month in between Ærra Liðe and Æfterra Liðe. This keeps Ġēola (Yule, which Bede identifies as the winter solstice) in its proper place in the final month of the year.</p>
+<p>As per my <a href="/the-anglo-saxon-calendar/">Reconstructed Anglo-Saxon Calendar</a> page, my method for determining if a year is a leap year is to count how many new moons there are between the previous year's winter solstice and the current years winter solstice. If there are thirteen new moons, it is a leap year. If there are only twelve new moons, it's a regular year. In leap years, you add the extra month in between Ærra Liðe and Æfterra Liðe. This keeps Ġēola (Yule, which Bede identifies as the winter solstice) in its proper place in the final month of the year.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -15,7 +15,7 @@ categories: [Heathenry, reconstruction, anglo-saxon calendar]
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The Metonic Cycle uses a nineteen year cycle to designate years 3, 6, 8, 11, 14, 17, and 19 as leap years. Beofeld from <a rel="noreferrer noopener" href="https://windintheworldtree.wordpress.com/" target="_blank">Wind in the Worldtree</a> uses  the Metonic Cycle to determine leap years for his Anglo-Saxon Calendar, with 2018 being year 1 of the current cycle. That makes the current year as of this being written (2021) year 4 in the current cycle. </p>
+<p>The Metonic Cycle uses a nineteen year cycle to designate years 3, 6, 8, 11, 14, 17, and 19 as leap years. Beofeld from <a rel="noreferrer noopener" href="https://windintheworldtrees.com/" target="_blank">Wind in the Worldtree</a> uses  the Metonic Cycle to determine leap years for his Anglo-Saxon Calendar, with 2018 being year 1 of the current cycle. That makes the current year as of this being written (2021) year 4 in the current cycle. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

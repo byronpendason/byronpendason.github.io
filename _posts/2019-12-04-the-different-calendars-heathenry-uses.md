@@ -2,13 +2,13 @@
 layout: post
 title: The Different Calendars Heathenry Uses
 date: 2019-12-04 12:48
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen basics, heathen worldview, heathen worship]
 ---
 It's easy for new Heathens to get confused when one of the Holy Tides (Yule, The beginning of Summer, Midsummer, and Winter Night(s)) approaches. One reason is that each one can have several names, depending upon the tradition the Heathen is from. Another reason, and dare I say the main reason, is that each can have different dates, separated by as much as a month and a half! It is this last reason that I wish to focus on in this blog post.
 
-The majority of Heathens use one of two Calendars (or a variation of one of them). These two are the Solar Calendar and the Lunisolar Calendar. A third option for Anglo-Saxon Heathens is my <a href="https://minewyrtruman.wordpress.com/the-anglo-saxon-calendar/">reconstructed Anglo-Saxon Calendar</a>, which is based upon the only attested pre-Christian Heathen Calendar, which was described by Bede. The reconstructed calendar is the one that I personally use.
+The majority of Heathens use one of two Calendars (or a variation of one of them). These two are the Solar Calendar and the Lunisolar Calendar. A third option for Anglo-Saxon Heathens is my <a href="/the-anglo-saxon-calendar/">reconstructed Anglo-Saxon Calendar</a>, which is based upon the only attested pre-Christian Heathen Calendar, which was described by Bede. The reconstructed calendar is the one that I personally use.
 
 Before I go into the modern calendars used, however, I want to discuss Historical Heathen Calendars. You can feel free to skip that section if you want, though.
 
@@ -16,7 +16,7 @@ Before I go into the modern calendars used, however, I want to discuss Historica
 
 The First Century C.E. <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Tacitus">Roman historian Tacitus</a> wrote in his book <em><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Germania_(book)">The Germania</a></em><em> </em>that the Germanic peoples used lunar months. He doesn't give us any more details than that on their calendar though.
 
-In 725 C.E., the Venerable <a href="https://en.wikipedia.org/wiki/Bede">Bede</a> describes the Anglo-Saxon calendar briefly in his <cite><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/The_Reckoning_of_Time">The Reckoning of Time</a></cite>. It is based on his description that I developed my <a href="https://minewyrtruman.wordpress.com/the-anglo-saxon-calendar/">reconstructed Anglo-Saxon Calendar</a>.
+In 725 C.E., the Venerable <a href="https://en.wikipedia.org/wiki/Bede">Bede</a> describes the Anglo-Saxon calendar briefly in his <cite><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/The_Reckoning_of_Time">The Reckoning of Time</a></cite>. It is based on his description that I developed my <a href="/the-anglo-saxon-calendar/">reconstructed Anglo-Saxon Calendar</a>.
 
 To my knowledge, this is the only historically attested pre-Christian Germanic calendar. When the last remnants of Heathenry was converted to Christianity, we lost all record of how any other Germanic people kept time.
 

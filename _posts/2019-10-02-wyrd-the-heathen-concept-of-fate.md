@@ -2,7 +2,7 @@
 layout: post
 title: Wyrd- the Heathen Concept of Fate
 date: 2019-10-02 11:26
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen basics, heathen worldview]
 ---

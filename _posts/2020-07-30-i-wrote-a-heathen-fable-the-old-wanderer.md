@@ -2,7 +2,7 @@
 layout: post
 title: I Wrote a Heathen Fable- "The Old Wanderer"
 date: 2020-07-30 09:23
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [Heathenry, myths, reconstruction]
 ---

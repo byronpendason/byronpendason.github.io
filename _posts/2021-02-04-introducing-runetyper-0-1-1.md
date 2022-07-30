@@ -2,7 +2,7 @@
 layout: post
 title: Introducing RuneTyper 0.1.1
 date: 2021-02-04 01:55
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [runes, updates]
 ---
@@ -15,7 +15,7 @@ categories: [runes, updates]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":225,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://minewyrtruman.files.wordpress.com/2021/02/screenshot_20210203-1758046411041919080711353.png?w=512" alt="" class="wp-image-225" /><figcaption>Screenshot for RuneTyper 0.1.1</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.minewyrtruman.filess.com/2021/02/screenshot_20210203-1758046411041919080711353.png?w=512" alt="" class="wp-image-225" /><figcaption>Screenshot for RuneTyper 0.1.1</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

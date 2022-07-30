@@ -2,12 +2,12 @@
 layout: post
 title: My Reconstructed Anglo-Saxon Calendar for 2021
 date: 2020-12-21 17:49
-author: byronarn
+author: Byron Pendason
 comments: true
 categories: [heathen worship, Heathenry, reconstruction, anglo-saxon calendar]
 ---
 <!-- wp:paragraph -->
-<p>For details on how I reconstruct my calendar, see my page on the <a href="https://minewyrtruman.wordpress.com/the-anglo-saxon-calendar/">Anglo-Saxon Calendar</a>. I will add a couple notes here, however.</p>
+<p>For details on how I reconstruct my calendar, see my page on the <a href="/the-anglo-saxon-calendar/">Anglo-Saxon Calendar</a>. I will add a couple notes here, however.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
