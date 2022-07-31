@@ -5,14 +5,14 @@ sitemap:
 ---
 
 [
-  {% for post in site.pages %}
+  {% for post in site.pages %}{% unless post.sitemap.exclude == true %}
     {
       "title"    : "{{ post.title }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date_to_string }}",
       "description" : "{{ post.description | strip_html | strip_newlines | escape }}"
     },
-  {% endfor %}
+  {% endunless %}{% endfor %}
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title }}",
