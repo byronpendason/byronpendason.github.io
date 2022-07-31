@@ -1,3 +1,8 @@
+---
+sitemap:
+  exclude: 'yes'
+---
+
 body {
   background-image: url("/media/blue-sky-with-small-cloud.jpg");
   background-color: CornflowerBlue;
