@@ -10,6 +10,8 @@ sitemap:
 
 This is an incomplete rough draft of an original story written by me. It's a mix of historical fact, historical suppositions, and artistic license. I have added footnotes to help the reader distinguish between fiction and historical fact, but they are not necessary to enjoy the story. Feel free to ignore them if you wish. I hope you enjoy the story!
 
+{{page.name}}
+
 # Act I
 
 The mead hall of Coenwalh[^coenwalh] was loud, way too loud. Penda[^penda] adored his older brother, but he did not enjoy the rambunctious parties his brother held every night.
