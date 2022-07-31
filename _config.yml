@@ -36,6 +36,8 @@ header_pages:
     url: /blog
   - title: About
     url: /about
+  - title: Contact Me
+    url: /contact
   - title: Site Index
     url: /site_index
   - title: Glossary and Resources for Beginners
