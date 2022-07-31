@@ -3,6 +3,8 @@ title: Site Index
 author: Byron Pendason
 layout: page
 permalink: /site_index
+sitemap:
+  exclude: 'yes'
 ---
 
 # Site Index
