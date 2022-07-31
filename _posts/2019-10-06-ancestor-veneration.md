@@ -4,7 +4,7 @@ title: Ancestor Veneration
 date: 2019-10-06 23:11
 author: Byron Pendason
 comments: true
-categories: [heathen basics, heathen worldview, heathen worship]
+categories: [heathen basics, heathen worldview, heathen worship, afterlife]
 ---
 One of my favorite Disney songs is <cite>Honor To Us All</cite> from Mulan, because of these lyrics (sang by Mulan):
 
