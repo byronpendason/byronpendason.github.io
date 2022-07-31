@@ -4,6 +4,8 @@ sitemap:
   exclude: 'yes'
 ---
 
+{{ page.name }} {
+}
 body {
   background-image: url("/media/blue-sky-with-small-cloud.jpg");
   background-color: CornflowerBlue;
