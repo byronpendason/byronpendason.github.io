@@ -10,7 +10,7 @@ sitemap:
       "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.url }}{{ post.url }}",
       "date"     : "{{ post.date | date_to_string }}",
-      "description" : "{{ post.content | strip_html | strip_newlines | truncatewords:30 | escape }} {{ post.categories | array_to_sentence_string | escape }}"
+      "description" : "{{ post.content | strip_html | strip_newlines | truncatewords:30 | escape }}"
     },
   {% endunless %}{% endfor %}
   {% for post in site.posts %}
@@ -18,7 +18,7 @@ sitemap:
       "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.url }}{{ post.url }}",
       "date"     : "{{ post.date | date_to_string }}",
-      "description" : "{{ post.content | strip_html | strip_newlines | truncatewords:30 | escape }} {{ post.categories | array_to_sentence_string | escape }}"
+      "description" : "{{ post.content | strip_html | strip_newlines | truncatewords:30 | escape }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
