@@ -3,7 +3,7 @@ title: Blog
 author: Byron Pendason
 permalink: /blog
 sitemap:
-  exclude: true
+  exclude: 'yes'
 ---
 
 {% for post in site.posts %}
