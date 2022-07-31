@@ -4,14 +4,14 @@ author: Henry Adams Bellows
 date: 2022-07-06
 permalink: /havamal
 sitemap:
-  exclude: true
+  exclude: 'yes'
 ---
 
 # Havamal- The Ballad of the High One
 
 ## Translated by Henry Adams Bellows, 1936
 
-### Formatted and lightly edited by ByronTheFyrnsidere, 2022
+### Formatted and lightly edited by Byron Pendason, 2022
 
 - [Introductory Note](#introductory-note)
 - [The Havamal Proper](#the-havamal-proper) (1-80)
