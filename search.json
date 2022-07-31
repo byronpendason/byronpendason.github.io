@@ -4,7 +4,7 @@ sitemap:
 ---
 
 [
-  {% for post in site.pages %}{% unless post.sitemap.exclude == 'yes' or post.name == 'feed.xml' or post.name == 'style.css'%}
+  {% for post in site.pages %}{% unless post.sitemap.exclude == 'yes' or post.name == 'feed.xml' or post.name == 'style.css' %}
     {
       "title"    : "{{ post.title }}",
       "url"      : "{{ site.url }}{{ post.url }}",
