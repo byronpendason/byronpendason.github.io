@@ -1,13 +1,11 @@
 ---
-title: Site Index
+title: Search
 author: Byron Pendason
 layout: page
-permalink: /site_index
+permalink: /search
 sitemap:
   exclude: 'yes'
 ---
-
-# Site Index
 
 {% assign categories = site.categories | sort %}
 
