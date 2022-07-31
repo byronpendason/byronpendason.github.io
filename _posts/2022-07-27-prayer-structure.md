@@ -13,7 +13,7 @@ categories: [heathen basics, heathen worship, Heathenry, reconstruction]
 
 The author of that article[^2] has come up with a [tripartite prayer format](https://larhusfyrnsida.com/prayer-format/) for use by Heathens, based upon the works of C. Austfeld and H. S. Versnel. (The former studied ancient Greek religion, whereas the latter studied ancient Roman religion[^3].) This prayer format has spread beyond Fyrnsidu and into the wider Heathen community. It seems to be the default prayer format among the Heathens I've encountered online[^4].
 
-So, what is prayer? Prayer is talking to the gods (or other divinities; in Fyrnsidu, we also pray to our ancestors, house wights, and land wights) with the intent to build a relationship with them. In Fyrnsidu, prayer is the main component of ritual, though it's not the entirety of ritual. Prayer structure, then, is a microcosm of [ritual structure](https://byronpendason.github.io/heathen%20basics/heathen%20worship/2020/01/04/my-ritual-format.html). I recommend treating this blog post as a follow up to my blog post on ritual format.
+So, what is prayer? Prayer is talking to the gods (or other divinities; in Fyrnsidu, we also pray to our ancestors, house wights, and land wights) with the intent to build a relationship with them. In Fyrnsidu, prayer is the main component of ritual, though it's not the entirety of ritual. Prayer structure, then, is a microcosm of [ritual structure](/2020/01/04/my-ritual-format). I recommend treating this blog post as a follow up to my blog post on ritual format.
 
 The three parts of the tripartite prayer format is the Calling, the Purpose, and the Offering.
 
