@@ -38,8 +38,8 @@ header_pages:
     url: /about
   - title: Contact Me
     url: /contact
-  - title: Site Index
-    url: /site_index
+  - title: Search Site
+    url: /search
   - title: Glossary and Resources for Beginners
     url: /glossary
   - title: The Reconstructed Anglo-Saxon Calendar
