@@ -5,7 +5,7 @@ sitemap:
 ---
 
 [
-  {% for post in site.pages %}{% unless post.sitemap.exclude == true %}
+  {% for post in site.pages %}{% unless post.sitemap.exclude == 'yes' %}
     {
       "title"    : "{{ post.title }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
