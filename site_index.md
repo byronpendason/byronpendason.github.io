@@ -11,8 +11,6 @@ sitemap:
 
 {% assign categories = site.categories | sort %}
 
-{% comment {% include search-form.html %} %}
-
 ## Categories
 - [All Blog Posts (in Alphabetic order)](#all-blog-posts)
 {% for category in categories %}
