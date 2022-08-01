@@ -11,7 +11,9 @@ sitemap:
 <p id="demo">Fetch a file to change this text.</p>
 
 <script>
-getText("https://aa.usno.navy.mil/api/moon/phases/date?date=2022-05-03&nump=52");
+$(document).ready(function() {
+  getText("https://aa.usno.navy.mil/api/moon/phases/date?date=2022-05-03&nump=52");
+}
 
 async function getText(file) {
   let myObject = await fetch(file);
