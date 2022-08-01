@@ -18,9 +18,9 @@ sitemap:
     response.json().then(function(users){
       // users is now our actual variable parsed from the json, so we can use it
       users.forEach(function(user){
-        console.log(user.name)
+        $("#demo").text = user.name;
       });
     });
-  }).catch(err => console.error(err));
+  }).catch(err => $("#demo").text = err);
   });
 </script>
