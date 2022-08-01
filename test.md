@@ -13,14 +13,8 @@ sitemap:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script>
   $(document).ready(function() {
-    fetch('http://jsonplaceholder.typicode.com/users').then(function(response) {
-    // response.json() returns a promise, use the same .then syntax to work with the results
-    response.json().then(function(users){
-      // users is now our actual variable parsed from the json, so we can use it
-      users.forEach(function(user){
-        $("#demo").text = user.name;
-      });
-    });
-  }).catch(err => $("#demo").text = err);
+    $.get("http://jsonplaceholder.typicode.com/users", function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
   });
 </script>
