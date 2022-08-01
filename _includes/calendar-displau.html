@@ -76,7 +76,6 @@
     function makeCal(year) {
       $("#submit").on('click', function() {
         //e.preventDefault();
-        $('#current-calendar').ScrollTo();
         var str = $("#yearInput").val();
         var year = parseInt(str, 10);
         if (isNaN(year)) {
