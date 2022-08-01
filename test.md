@@ -11,13 +11,13 @@ sitemap:
 <p id="demo">Fetch a file to change this text.</p>
 
 <script>
-$(document).ready(function() {
-  getText("https://aa.usno.navy.mil/api/moon/phases/date?date=2022-05-03&nump=52");
-}
-
-async function getText(file) {
-  let myObject = await fetch(file);
-  let myText = await JSON.parse(myObject);
-  document.getElementById("demo").innerHTML = "Hello World!";
-}
+  fetch('http://jsonplaceholder.typicode.com/users').then(function(response) {
+  // response.json() returns a promise, use the same .then syntax to work with the results
+  response.json().then(function(users){
+    // users is now our actual variable parsed from the json, so we can use it
+    users.forEach(function(user){
+      console.log(user.name)
+    });
+  });
+}).catch(err => console.error(err));
 </script>
