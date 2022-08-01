@@ -55,29 +55,7 @@ I know that was a lot of information to absorb, and I apologise for it. For a mo
 
 So how do I take all this information and use it to form a reconstructed Anglo-Saxon Calendar? I first get the dates of the December Solstices of the previous year and the current year. I then find all the new moon dates in between, and add 36 hours to each to estimate the young moon. If there's twelve of them in between the December Solstices, it's a normal year. If there's thirteen of them, it'll be a leap year and we will add the leap month as the seventh month. Then I find the dates for the four holy tides. Midsummer and Yule will be on the date of the winter and summer solstices, and Ēastre and Winterfylleþ will be on the full moons of Ēastremōnaþ and Wintermōnaþ, respectively. I will give an example for 2019 below:
 
-## ANGLO-SAXON CALENDAR FOR 2019
-
-### MONTHS
-
-Æfterra Gēola begins on Monday January 07, 2019.  
-Solmōnaþ begins on Tuesday February 05, 2019.  
-Hreþmonaþ begins on Thursday March 07, 2019.  
-Ēastremōnaþ begins on Friday April 05, 2019.  
-Þrimilcemōnaþ begins on Sunday May 05, 2019.  
-Ærra Liða begins on Monday June 03, 2019.  
-Æfterra Liða begins on Wednesday July 03, 2019.  
-Weodmōnaþ begins on Friday August 02, 2019.  
-Hāligmōnaþ begins on Saturday August 31, 2019.  
-Wintermōnaþ begins on Monday September 30, 2019.  
-Blōtmōnaþ begins on Tuesday October 29, 2019.  
-Ærra Gēola begins on Thursday November 28, 2019.  
-
-### HOLY TIDES
-
-Ēastre is on Friday April 19, 2019.  
-Midsumor is on Friday June 21, 2019.  
-Winterfylleþ is on Sunday October 13, 2019.  
-Modraniht (Yule) is on Saturday December 21, 2019
+{% include calendar-displau.html %}
 
 Below are links to specific years:
 
