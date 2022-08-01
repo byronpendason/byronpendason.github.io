@@ -1,8 +1,8 @@
 <div id="calendar">
   <h1 id="current-calendar"></h1>
     <form style="width:100%">
-    <label>Enter year:</label>
-    <input type="text" id="yearInput" style="width:5em">
+    <label>Enter yr:</label>
+    <input type="text" id="yrInput" style="width:5em">
     <button type="button" id="submit" value="Get Calendar">Get Calendar</button>
   </form>
   <h3 id="today"></h3>
@@ -24,7 +24,7 @@
     </tr>
   </table>
   <h2>Date Converter</h2>
-  <p>Enter a date below, and it will be converted to the Anglo-Saxon date. If the date is outside the currently selected year, this page will refresh with the calendar for that year.</p>
+  <p>Enter a date below, and it will be converted to the Anglo-Saxon date. If the date is outside the currently selected yr, this page will refresh with the calendar for that yr.</p>
   <form>
       <label for="chosendate">Choose a date:</label>
       <input type="date" id="chosendate" name="chosendate">
@@ -81,24 +81,24 @@
 </tr>\n");
     }
     
-    function makeCal(year) {
+    function makeCal(yr) {
       $("#submit").on('click', function() {
         //e.preventDefault();
-        var str = $("#yearInput").val();
-        var year = parseInt(str, 10);
-        if (isNaN(year)) {
-          alert("The input is invalid. Using the current year instead.");
+        var str = $("#yrInput").val();
+        var yr = parseInt(str, 10);
+        if (isNaN(yr)) {
+          alert("The input is invalid. Using the current yr instead.");
           d = new Date();
-          year = d.getFullYear();
+          yr = d.getFullYear();
         }
         clear();
-        makeCal(year);
+        makeCal(yr);
         return false;
       });
       newMoons = [];
       fullMoons = [];
       monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
-      var date = new Date(A.Get.winterSolstice(year-1));
+      var date = new Date(A.Get.winterSolstice(yr-1));
       var today = new Date();
       var leap = true;
       for(let i=0; i<13; i++) {
@@ -108,8 +108,8 @@
         date = nextFullMoon(date);
         fullMoons.push(new Date(date));
       }
-      var yule = new Date(A.Get.winterSolstice(year));
-      var midsummer = new Date(A.Get.summerSolstice(year));
+      var yule = new Date(A.Get.winterSolstice(yr));
+      var midsummer = new Date(A.Get.summerSolstice(yr));
       var easter = new Date(fullMoons[3]);
       if (newMoons[12] > yule) {
         leap = false;
@@ -119,7 +119,7 @@
       }
       
       if (leap==true) {
-        $('#leap').html("<p>Since there are thirteen new moons between the winter solstices of the previous year and the current year, this year is a leap year.</p>");
+        $('#leap').html("<p>Since there are thirteen new moons between the winter solstices of the previous yr and the current yr, this yr is a leap yr.</p>");
         var winterfylleth = new Date(fullMoons[10]);
       } else {
         var winterfylleth = new Date(fullMoons[9]);
@@ -130,7 +130,7 @@
       txt += "<tr>\n<td>Ġēola</td>\n<td>"+yule.toDateString()+"</td>\n<td>"+getASDate(yule)+"</td></tr>";
       $('#holidays-table').append(txt);
 
-      $('#current-calendar').text("Anglo-Saxon Calendar for "+String(year));
+      $('#current-calendar').text("Anglo-Saxon Calendar for "+String(yr));
       for(let i=0; i<newMoons.length; i++) {
         txt = "<tr>\n<td>"+monthNames[i]+"</td>\n<td>"+newMoons[i].toDateString()+"</td>\n<td>"+fullMoons[i].toDateString()+"</td>\n</tr>\n";
         $('#months-table').append(txt);
@@ -140,10 +140,10 @@
       }
       $("#today").html("Today is the "+asdate+".");
       
-      if (year<1583) {
+      if (yr<1583) {
         alert("Dates before the switch from the Julian Calendar to the Gregorian Calendar will use the Julian date that was in use at the time.");
       }
-      today.setFullYear(year);
+      today.setFullYear(yr);
       if (today.getDate() < 10) {
           day = "0"+today.getDate();
       } else {
@@ -209,8 +209,8 @@
     }
     
     function toJulian(d) {
-      year = d.getFullYear();
-      century = Math.floor(year/100);
+      yr = d.getFullYear();
+      century = Math.floor(yr/100);
       offset = Math.ceil(century*0.75)-2;
       var j = new Date(d);
       j.setDate(d.getDate()-offset);
