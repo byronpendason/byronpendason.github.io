@@ -100,3 +100,12 @@ ul#results-container {
 span.post-meta {
   font-size: 1rem;
 }
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  text-align: center;
+}
