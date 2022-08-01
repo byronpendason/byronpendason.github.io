@@ -9,6 +9,8 @@ categories: [anglo-saxon calendar, heathen worship, reconstruction]
 
 # The Reconstructed Anglo-Saxon Calendar
 
+###### *You can find [the current year's calendar](#current-calendar) at the bottom of this page.
+
 Everything we know about the Anglo-Saxon Calendar comes from the Venerable Bede's <em>On the Reckoning of Time</em>, in which he relates the calendars of many ancient cultures. He gives us quite a bit of information. Unfortunately, as we shall soon see, he doesn't give us quite enough information to reconstruct the calendar in its entirety. A couple of assumptions have to be made.
 
 So what's the purpose of learning the Anglo-Saxon Calendar? Heathenry generally recognizes four holy tides- a spring festival (in Anglo-Saxon Heathenry, it's usually called Ēastre or something similar), Midsummer, a festival for the beginning of winter (which happens in the fall as the ancient Heathens only recognized two seasons, winter and summer), and Yule. Names vary for these holidays, but how they determine the dates generally fall into one of two methods- Solar, and Lunisolar. The solar calendars tend to place them on the appropriate equinox or solstice. The Lunisolar calendars tend to place them on the full moon after the first new moon that follows each solstice and equinox. What I'm offering here is a more authentic way of determining our holy tides, one more in line with how our spiritual predecessors would have done it.
