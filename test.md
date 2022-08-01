@@ -1,13 +1,13 @@
 ---
 title: Test
 layout: default
-permalink: /test.html
+permalink: /test
 sitemap:
   exclude: 'yes'
 ---
 
-<h1>JavaScript Fetch API</h1>
-<h2>The fetch() Method</h2>
+# JavaScript Fetch API
+## The fetch() Method
 <p id="demo">Fetch a file to change this text.</p>
 
 <script>
