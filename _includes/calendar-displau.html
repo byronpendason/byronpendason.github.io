@@ -108,14 +108,13 @@
         date = nextFullMoon(date);
         fullMoons.push(new Date(date));
       }
-// NEW FUNCTION HERE!!!
+// NEW CODE HERE!!!
 /*      var M = (yr - 3) % 19;
       if (M==0 || M==3 || M==6 || M == 8 || M==11 || M==14 || M==17) leap = True;
       var datestr = String(date.getFullYear())+"-"+String(date.getMonth())+"-"String(date.getDate());
       var url = "https://aa.usno.navy.mil/api/moon/phases/date?date="+datestr+"&nump=52";
-      fetch(url)           //api for the get request
-        .then(response => response.json())
-        .then(data => console.log(data));
+      const response = await fetch(url);
+     
 */
       var yule = new Date(A.Get.winterSolstice(yr));
       var midsummer = new Date(A.Get.summerSolstice(yr));
