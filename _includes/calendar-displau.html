@@ -109,8 +109,8 @@
         fullMoons.push(new Date(date));
       }
 // NEW FUNCTION HERE!!!
-      var datestr = String(date.getFullYear())+"-"+String(date.getMonth())+"-"String(date.getDate())
-      var url = "https://aa.usno.navy.mil/api/moon/phases/date?date="+datestr+"&nump=52"
+      var datestr = String(date.getFullYear())+"-"+String(date.getMonth())+"-"String(date.getDate());
+      var url = "https://aa.usno.navy.mil/api/moon/phases/date?date="+datestr+"&nump=52";
       fetch(url)           //api for the get request
         .then(response => response.json())
         .then(data => console.log(data));
