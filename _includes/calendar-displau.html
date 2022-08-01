@@ -52,8 +52,8 @@
             d.setTime(d.getTime()+24*1000*60*60);
             if (d.getFullYear() != year) {
                 clear();
-                year = d.getFullYear()
-                makeCal(d.getFullYear());
+                year = d.getFullYear();
+                makeCal(year);
             }
             txt = d.toDateString()+" is the "+getASDate(d);
             $("#conv").html(txt);
