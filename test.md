@@ -12,6 +12,7 @@ sitemap:
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script>
+
   fetch('http://jsonplaceholder.typicode.com/users').then(function(response) {
   // response.json() returns a promise, use the same .then syntax to work with the results
   response.json().then(function(users){
@@ -20,5 +21,5 @@ sitemap:
       $('#demo').text = user.name
     });
   });
-}).catch(err => console.error(err));
+}).catch(err => $('#demo').text = err;
 </script>
