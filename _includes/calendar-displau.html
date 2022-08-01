@@ -1,4 +1,4 @@
-<div id="calendar">
+In<div id="calendar">
   <h2 id="current-calendar"></h2>
     <form style="width:100%">
     <label>Enter year:</label>
@@ -108,6 +108,12 @@
         date = nextFullMoon(date);
         fullMoons.push(new Date(date));
       }
+// NEW FUNCTION HERE!!!
+      var datestr = String(date.getFullYear())+"-"+String(date.getMonth())+"-"String(date.getDate())
+      var url = "https://aa.usno.navy.mil/api/moon/phases/date?date="+datestr+"&nump=52"
+      fetch(url)           //api for the get request
+        .then(response => response.json())
+        .then(data => console.log(data));
       var yule = new Date(A.Get.winterSolstice(yr));
       var midsummer = new Date(A.Get.summerSolstice(yr));
       var easter = new Date(fullMoons[3]);
