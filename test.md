@@ -11,7 +11,7 @@ sitemap:
 <p id="demo">Fetch a file to change this text.</p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script>
+<script defer>
 
   fetch('http://jsonplaceholder.typicode.com/users').then(function(response) {
   // response.json() returns a promise, use the same .then syntax to work with the results
