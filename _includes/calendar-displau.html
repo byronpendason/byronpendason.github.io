@@ -157,7 +157,8 @@
     
     function dateString(d) {
       var months=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      var dstr = String(d.getDate())+" "+months[d.getMonth()]+" "+String(d.getFullYear());
+      //var dstr = String(d.getDate())+" "+months[d.getMonth()]+" "+String(d.getFullYear());
+      var dstr = d.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
       return dstr;
     }
     
