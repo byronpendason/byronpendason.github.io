@@ -1,5 +1,6 @@
 <div id="calendar">
   <h1 id="current-calendar"></h1>
+  <h3 id="today"></h3>
   <h2>Months</h2>
   <div id="leap"></div>
   <table id="months-table" style="width:100%">
@@ -17,7 +18,11 @@
       <th>Anglo-Saxon Date</th>
     </tr>
   </table>
-  <h3 id="today"></h3>
+  <form style="width:100%">
+    <label>Enter year:</label>
+    <input type="text" id="yearInput"></input>
+    <button type="button" id="submit" value="Get Calendar">Get Calendar</button>
+  </form>
 </div>
 
 
