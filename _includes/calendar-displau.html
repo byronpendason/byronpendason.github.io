@@ -1,5 +1,5 @@
 <div id="calendar">
-  <h1></h1>
+  <h1 id="current-calendar"></h1>
   <h2>Months</h2>
   <div id="leap"></div>
   <table id="months-table" style="width:100%">
@@ -117,7 +117,7 @@
       txt += "<tr>\n<td>Ġēola</td>\n<td>"+yule.toDateString()+"</td>\n<td>"+getASDate(yule)+"</td></tr>";
       $('#holidays-table').append(txt);
 
-      $('h1').text("Anglo-Saxon Calendar for "+String(year));
+      $('#current-calendar').text("Anglo-Saxon Calendar for "+String(year));
       for(let i=0; i<newMoons.length; i++) {
         txt = "<tr>\n<td>"+monthNames[i]+"</td>\n<td>"+newMoons[i].toDateString()+"</td>\n<td>"+fullMoons[i].toDateString()+"</td>\n</tr>\n";
         $('#months-table').append(txt);
