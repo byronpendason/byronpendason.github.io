@@ -15,7 +15,7 @@ sitemap:
     var today = new Date();
     var date = new Date();
     for (let i=0; i<31; i++) {
-      var date = nextNewMoon(date);
+      date = nextNewMoon(date);
       $("#log").append(date.toString()+"<br />");
     }
 //    $("#log").html(String(getIllum(today)));
