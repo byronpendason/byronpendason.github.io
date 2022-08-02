@@ -22,15 +22,12 @@ sitemap:
   function nextNewMoon(d) {
     while (getIllum(d)<60) {
       d.setDate(d.getDate()+7);
-      #("#log").append(d.toString());
     }
     while (getIllum(d)<90) {
       d.setDate(d.getDate()+1);
-      #("#log").append(d.toString());
     }
-    while (Math.floor(getIllum(d)))!=0 {
+    while (getIllum(d)>1) {
       d.setMinutes(d.getMinutes()+1);
-      #("#log").append(d.toString());
     }
     return d;
   }
