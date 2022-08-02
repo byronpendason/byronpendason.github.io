@@ -12,10 +12,9 @@ sitemap:
 <script src="/js/Astro.js" type="text/javascript"></script>
 <script type="text/JavaScript">
   $(document).ready(function() {
-    $("#log").html("Hello world!<br>");
     var today = new Date();
     var illum = getIllum(today);
-    $("#log").html(String(illum));
+    $("#log").html(String(illum.fraction));
   });
   
   function getIllum(d) {
