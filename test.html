@@ -29,6 +29,7 @@ sitemap:
     while (getIllum(d)>1) {
       d.setMinutes(d.getMinutes()+1);
     }
+    $("#log").append(getIllum(d)+"<br>");
     return d;
   }
 
