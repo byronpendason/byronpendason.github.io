@@ -1,3 +1,10 @@
+---
+layout: nil
+permalink: /calendar.json
+sitemap:
+  exclude: 'yes'
+---
+
 {
   "data":  [
     1900,
