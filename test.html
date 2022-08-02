@@ -16,12 +16,9 @@ sitemap:
     var date = new Date();
     for (let i=0; i<31; i++) {
       date = nextNewMoon(date);
-//      $("#log").append(String(getIllum(date))+"<br>");
-//      date.setDate(date.getDate()+1);
       $("#log").append(date.toString()+"<br>");
       //$("#log").append("<p>"+date.toString()+"</p>");
     }
-//    $("#log").html(String(getIllum(today)));
   });
   
   function nextNewMoon(d) {
@@ -33,6 +30,7 @@ sitemap:
     }
     while (getIllum(d)<99) {
       d.setHours(d.getHours()+1);
+    }
     while (getIllum(d)!=0) {
       d.setMinutes(d.getMinutes()+1);
     }
