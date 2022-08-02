@@ -14,7 +14,7 @@ sitemap:
 <script>
   $(document).ready(function() {
     $.get("http://jsonplaceholder.typicode.com/users", function(data, status){
-    alert("Data: " + data + "\nStatus: " + status);
-  });
+      $("#demo").text = "Data: " + data + "\nStatus: " + status;
+    });
   });
 </script>
