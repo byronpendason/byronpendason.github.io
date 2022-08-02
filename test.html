@@ -13,7 +13,13 @@ sitemap:
 <script type="text/JavaScript">
   $(document).ready(function() {
     var today = new Date();
-    $("#log").html(String(getIllum(today)));
+    var date = new Date();
+    for (let i=0; i<31; i++) {
+      date.setDate(today.getDate()+i);
+      var phase = String(getIllum(date));
+      $("#log").append(date.toString()+": "+phase+"<br />");
+    }
+//    $("#log").html(String(getIllum(today)));
   });
   
   function nextNewMoon(d) {
