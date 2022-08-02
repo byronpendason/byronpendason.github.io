@@ -40,6 +40,6 @@ sitemap:
     var lon = 1.6910;
 
     var illum = A.Get.moonIllumination(d);
-    return illum.illumination;
+    return Math.floor(illum.phase*100);
   }
 </script>
