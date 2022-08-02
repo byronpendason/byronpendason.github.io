@@ -21,7 +21,7 @@ sitemap:
   
   function nextNewMoon(d) {
     while getIllum(d)<60 {
-      d.setTime(d.getDate()+7);
+      d.setDate(d.getDate()+7);
       #("#log").append(d.toString());
     }
     while getIllum(d)<90 {
