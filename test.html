@@ -15,8 +15,9 @@ sitemap:
 <script type="text/JavaScript">
   $(document).ready(function() {
     $("#btn").click(function(event) {
-      $.get("http://jsonplaceholder.typicode.com/users", function(data){
-        $("#demo").html("You touched me!");
+      $.getJSON("http://jsonplaceholder.typicode.com/users", function(data){
+              
+        $("#demo").append(JSON.stringify(data));
       });
     });
   });
