@@ -25,10 +25,10 @@ sitemap:
   });
   
   function nextNewMoon(d) {
-    while (getIllum(d)<60) {
+    while (getIllum(d)<50) {
       d.setDate(d.getDate()+7);
     }
-    while (getIllum(d)<93) {
+    while (getIllum(d)<90) {
       d.setDate(d.getDate()+1);
     }
     while (getIllum(d)!=0) {
