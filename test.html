@@ -13,8 +13,9 @@ sitemap:
 <script type="text/JavaScript">
   $(document).ready(function() {
     $("#log").html("Hello world!<br>");
-    var today = newDate();
-    $("#log").html(getIllum(today));
+    var today = new Date();
+    illum = getIllum(today);
+    $("#log").html(String(illum));
   });
   
   function getIllum(d) {
