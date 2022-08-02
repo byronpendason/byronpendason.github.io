@@ -13,9 +13,9 @@ sitemap:
 <script type="text/JavaScript">
   $(document).ready(function() {
     var today = new Date();
-    $("#log").text(today.toString());
-    var newMoon = nextNewMoon(today);
-    $("#log").append(newMoon.toString());
+    $("#log").append(today.toString());
+/*    var newMoon = nextNewMoon(today);
+    $("#log").append(newMoon.toString());*/
   });
   
   function nextNewMoon(d) {
