@@ -13,10 +13,10 @@ sitemap:
 <script type="text/JavaScript">
   $(document).ready(function() {
     var today = new Date();
-    $("#log").append(today.toString());
-    $("#log").append(getIllum(today));
-/*    var newMoon = nextNewMoon(today);
-    $("#log").append(newMoon.toString());*/
+/*    $("#log").append(today.toString());
+    $("#log").append(getIllum(today));*/
+    var newMoon = nextNewMoon(today);
+    $("#log").append(newMoon.toString());
   });
   
 /*  function nextNewMoon(d) {
