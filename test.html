@@ -18,6 +18,7 @@ sitemap:
       date = nextNewMoon(date);
       $("#log").append(String(getIllum(date))+"<br>");
       date.setDate(date.getDate()+1);
+      $("#log").append(date.toString()+": "+getIllum(date)+"<br>");
       //$("#log").append("<p>"+date.toString()+"</p>");
     }
 //    $("#log").html(String(getIllum(today)));
