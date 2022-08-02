@@ -14,17 +14,17 @@ sitemap:
   $(document).ready(function() {
     var today = new Date();
     var newMoon = nextNewMoon(today);
-    $("#log").html(String(newMoon));
+    $("#log").html(newMoon);
   });
   
   function nextNewMoon(d) {
-    while getIllum(d)<0.6 {
+    while getIllum(d)<60 {
       d.setTime(d.getDate()+7);
     }
-    while getIllum(d)<0.9 {
+    while getIllum(d)<90 {
       d.setDate(d.getDate()+1);
     }
-    while getIllum(d)!=0 {
+    while Math.floor(getIllum(d))!=0 {
       d.setMinutes(d.getMinutes()+1);
     }
     return d;
