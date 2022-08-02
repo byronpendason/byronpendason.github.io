@@ -18,7 +18,7 @@ sitemap:
       date = nextNewMoon(date);
 //      $("#log").append(String(getIllum(date))+"<br>");
 //      date.setDate(date.getDate()+1);
-      $("#log").append(date.toString()+": "+getIllum(date)+"<br>");
+      $("#log").append(date.toString()+"<br>");
       //$("#log").append("<p>"+date.toString()+"</p>");
     }
 //    $("#log").html(String(getIllum(today)));
@@ -31,6 +31,8 @@ sitemap:
     while (getIllum(d)<90) {
       d.setDate(d.getDate()+1);
     }
+    while (getIllum(d)<99) {
+      d.setHours(d.getHours()+1);
     while (getIllum(d)!=0) {
       d.setMinutes(d.getMinutes()+1);
     }
