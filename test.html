@@ -15,10 +15,10 @@ sitemap:
 <script type="text/JavaScript">
   $(document).ready(function() {
     $("#btn").click(function(event) {
-      alert("Hello world!");
+      //alert("Hello world!");
       $.getJSON("http://jsonplaceholder.typicode.com/users", function(data){
               
-        $("#demo").append(JSON.stringify(data));
+        alert(JSON.stringify(data));
       });
     });
   });
