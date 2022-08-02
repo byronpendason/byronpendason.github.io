@@ -13,15 +13,29 @@ sitemap:
 <script type="text/JavaScript">
   $(document).ready(function() {
     var today = new Date();
-    var illum = getIllum(today);
-    $("#log").html(String(illum.fraction));
+    var newMoon = nextNewMoon(today);
+    $("#log").html(String(newMoon));
   });
   
+  function nextNewMoon(d) {
+    while getIllum(d)<0.6 {
+      d.setTime(d.getDate()+7);
+    }
+    while getIllum(d)<0.9 {
+      d.setDate(d.getDate()+1);
+    }
+    while getIllum(d)!=0 {
+      d.setMinutes(d.getMinutes()+1);
+    }
+    return d;
+  }
+
   function getIllum(d) {
     // 52.6336° N, 1.6910° W
     var lat = 52.6336;
     var lon = 1.6910;
 
-    return A.Get.moonIllumination(d, lat, lon);
+    var illum = A.Get.moonIllumination(d, lat, lon);
+    return illum.illumination;
   }
 </script>
