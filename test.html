@@ -16,6 +16,7 @@ sitemap:
 /*    $("#log").append(today.toString());
     $("#log").append(getIllum(today));*/
     var newMoon = nextNewMoon(today);
+    $("#log").append(String(getIllum(newMoon))+"<br>");
     $("#log").append(newMoon.toString());
   });
   
@@ -29,7 +30,6 @@ sitemap:
     while (getIllum(d)>1) {
       d.setMinutes(d.getMinutes()+1);
     }
-    $("#log").append(String(getIllum(d))+"<br>");
     return d;
   }
 
