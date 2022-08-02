@@ -15,9 +15,8 @@ sitemap:
     var today = new Date();
     var date = new Date();
     for (let i=0; i<31; i++) {
-      date.setDate(today.getDate()+i);
-      var phase = String(Math.floor(getIllum(date)));
-      $("#log").append(date.toString()+": "+phase+"<br />");
+      var date = nextNewMoon(date);
+      $("#log").append(date.toString()+"<br />");
     }
 //    $("#log").html(String(getIllum(today)));
   });
@@ -29,7 +28,7 @@ sitemap:
     while (getIllum(d)<90) {
       d.setDate(d.getDate()+1);
     }
-    while (getIllum(d)>1) {
+    while (getIllum(d)!=0) {
       d.setMinutes(d.getMinutes()+1);
     }
     return d;
