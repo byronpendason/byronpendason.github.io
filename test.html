@@ -16,7 +16,7 @@ sitemap:
     var date = new Date();
     for (let i=0; i<31; i++) {
       date.setDate(today.getDate()+i);
-      var phase = String(getIllum(date));
+      var phase = String(Math.floor(getIllum(date)));
       $("#log").append(date.toString()+": "+phase+"<br />");
     }
 //    $("#log").html(String(getIllum(today)));
@@ -41,6 +41,6 @@ sitemap:
     var lon = 1.6910;
 
     var illum = A.Get.moonIllumination(d);
-    return illum.phase;
+    return illum.illumination;
   }
 </script>
