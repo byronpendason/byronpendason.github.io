@@ -16,8 +16,7 @@ sitemap:
   $(document).ready(function() {
     $("#btn").click(function(event) {
       $("#demo").text = "Hello world!"
-      $.get("http://jsonplaceholder.typicode.com/users", function(data, status){
-        $("#demo").html = data;
+      
       });
     });
   });
