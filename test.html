@@ -12,10 +12,8 @@ sitemap:
 <script src="/js/Astro.js" type="text/javascript"></script>
 <script type="text/JavaScript">
   $(document).ready(function() {
-    var today = new Date().getTime();
-    var newMoon = nextNewMoon(today);
-    $("#log").append(String(getIllum(newMoon))+"<br>");
-    $("#log").append(newMoon.toString());
+    var today = new Date();
+    $("#log").html(String(getIllum(today)));
   });
   
   function nextNewMoon(d) {
@@ -37,6 +35,6 @@ sitemap:
     var lon = 1.6910;
 
     var illum = A.Get.moonIllumination(d, lat, lon);
-    return illum.illumination;
+    return illum.phase;
   }
 </script>
