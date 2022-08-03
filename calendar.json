@@ -1,12 +1,5 @@
----
-layout: nil
-permalink: /calendar.json
-sitemap:
-  exclude: 'yes'
----
-
-{
-   "data": [
+[
+   [
       "1900-12-22T06:41:31",
       "1900-12-22T06:41:31",
       [
@@ -6554,4 +6547,4 @@ sitemap:
          "2099-12-27T12:57:56"
       ]
    ]
-}
+]
