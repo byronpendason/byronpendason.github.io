@@ -44,6 +44,7 @@
     var convert = new Date(1582, 9, 15);
     var today = new Date();
     var year = today.getFullYear();
+    const caldata = require("./calendar.json").parse()
     
     $(document).ready(function() {
         $("#chosendate").on('change', function() {
