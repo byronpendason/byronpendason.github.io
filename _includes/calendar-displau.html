@@ -46,8 +46,8 @@
     var year = today.getFullYear();
     var years = new Array()
 {% for yr in site.data.calendar %}
-    const yr = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", midwinter: "{{ yr.midwinter }}"};
-    years.push(yr);
+    const y{{ yr.year }} = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", yule: "{{ yr.yule }}"};
+    years.push(y{{ yr.year }});
 {% endfor %}
 
     $(document).ready(function() {
