@@ -1,6 +1,7 @@
 <div id="calendar">
   <h2 id="current-calendar"></h2>
-    <form style="width:100%">
+  <h5 id="metonic"></h5>
+  <form style="width:100%">
     <label>Enter year:</label>
     <input type="text" id="yrInput" style="width:5em">
     <button type="button" id="submit" value="Get Calendar">Get Calendar</button>
@@ -43,7 +44,7 @@
     var convert = new Date(1582, 9, 15);
     var today = new Date();
     var year = today.getFullYear();
-    var years = new Array()
+    var years = new Array();
 {% for yr in site.data.calendar %}
     var y{{ yr.year }} = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", yule: "{{ yr.yule }}", new_moons: ["{% for nm in yr.new_moons %}{{ nm }}", "{% endfor %}"], full_moons: ["{% for fm in yr.full_moons %}{{ fm }}", "{% endfor %}"], leap: {{ yr.leap }}};
     y{{ yr.year }}.new_moons.pop()
@@ -140,7 +141,9 @@
         var yule = new Date(A.Get.winterSolstice(yr));
         var midsummer = new Date(A.Get.summerSolstice(yr));
         var easter = new Date(fullMoons[3]);
-        
+        var M = int((yr - 3)/19);
+        if (M==0) M=19;
+
         if (leap == false) {
           leap = false;
           newMoons.pop();
@@ -149,8 +152,10 @@
         }
         if (leap==true) {
           var winterfylleth = new Date(fullMoons[10]);
+          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Intercalary year")
         } else {
           var winterfylleth = new Date(fullMoons[9]);
+          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Regular year")
         }
       }
       
