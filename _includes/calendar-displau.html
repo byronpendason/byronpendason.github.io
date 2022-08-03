@@ -44,7 +44,12 @@
     var convert = new Date(1582, 9, 15);
     var today = new Date();
     var year = today.getFullYear();
-    
+    var years = new Array()
+{% for yr in site.data.calendar %}
+    const yr = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", midwinter: "{{ yr.midwinter }}"};
+    years.push(yr);
+{% endfor %}
+
     $(document).ready(function() {
         $("#chosendate").on('change', function() {
             var d = new Date($("#chosendate").val());
