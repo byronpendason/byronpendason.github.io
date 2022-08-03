@@ -143,11 +143,12 @@
         var yule = new Date(A.Get.winterSolstice(yr));
         var midsummer = new Date(A.Get.summerSolstice(yr));
         var easter = new Date(fullMoons[3]);
-        var M = int((yr - 3)/19);
-        if (M==0) M=19;
+        var M = int((yr - 3) % 19);
+        if (M == 0) {
+          M=19;
+        }
 
         if (leap == false) {
-          leap = false;
           newMoons.pop();
           fullMoons.pop();
           monthNames.splice(6, 1);
