@@ -124,28 +124,28 @@
         var midsummer = new Date(years[x].midsummer);
         var yule = new Date(years[x].yule);
       } else { 
-      newMoons = [];
-      fullMoons = [];
-      monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
-      var date = new Date(A.Get.winterSolstice(yr-1));
-      var today = new Date();
-      var leap = true;
-      for(let i=0; i<13; i++) {
-        date = nextNewMoon(date);
-        date.setTime(date.getTime()+36*1000*60*60);
-        newMoons.push(new Date(date));
-        date = nextFullMoon(date);
-        fullMoons.push(new Date(date));
-      }
-      var yule = new Date(A.Get.winterSolstice(yr));
-      var midsummer = new Date(A.Get.summerSolstice(yr));
-      var easter = new Date(fullMoons[3]);
-      if (newMoons[12] > yule) {
-        leap = false;
-        newMoons.pop();
-        fullMoons.pop();
-        monthNames.splice(6, 1);
-      }
+        newMoons = [];
+        fullMoons = [];
+        monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
+        var date = new Date(A.Get.winterSolstice(yr-1));
+        var today = new Date();
+        var leap = true;
+        for(let i=0; i<13; i++) {
+          date = nextNewMoon(date);
+          date.setTime(date.getTime()+36*1000*60*60);
+          newMoons.push(new Date(date));
+          date = nextFullMoon(date);
+          fullMoons.push(new Date(date));
+        }
+        var yule = new Date(A.Get.winterSolstice(yr));
+        var midsummer = new Date(A.Get.summerSolstice(yr));
+        var easter = new Date(fullMoons[3]);
+        if (newMoons[12] > yule) {
+          leap = false;
+          newMoons.pop();
+          fullMoons.pop();
+          monthNames.splice(6, 1);
+        }
       }
       
       if (leap==true) {
