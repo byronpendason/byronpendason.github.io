@@ -102,8 +102,7 @@
         makeCal(yr);
         return false;
       });
-      if (yr < 1900 || yr > 2099) {
-        alert("Years outside the range of 1900 and 2099 are less accurate. Proceed with caution in using this data.");
+      if (yr > 1900 && yr < 2099) {
         let x = yr-1900;
         newMoons = [];
         fullMoons = [];
@@ -123,7 +122,8 @@
         }
         var midsummer = new Date(years[x].midsummer);
         var yule = new Date(years[x].yule);
-      } else { 
+      } else {
+        alert("Years outside the range of 1900 and 2099 are less accurate. Proceed with caution in using this data.");
         newMoons = [];
         fullMoons = [];
         monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
