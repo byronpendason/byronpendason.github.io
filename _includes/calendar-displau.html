@@ -46,7 +46,7 @@
     var year = today.getFullYear();
     var years = new Array()
 {% for yr in site.data.calendar %}
-    const y{{ yr.year }} = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", yule: "{{ yr.yule }}", new_moons: [{{ yr.new_moons }}], full_moons: [{{ yr.full_moons }}], leap: {{ yr.leap }}};
+    const y{{ yr.year }} = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", yule: "{{ yr.yule }}", new_moons: ["{% for nm in site.data.calendar.new_moons %}{{ nm }}", "{% endfor %}"], full_moons: [{{ yr.full_moons }}], leap: {{ yr.leap }}};
     years.push(y{{ yr.year }});
 {% endfor %}
 
