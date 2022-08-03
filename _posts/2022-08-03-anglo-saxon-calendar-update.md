@@ -7,7 +7,7 @@ comments: true
 categories: [Heathenry, anglo-saxon calendar, updates, tech]
 ---
 
-I have updated my [Anglo-Saxon Calendar page](https://www.minewyrtruman.com/anglosaxoncalendar) to use a new algorithm that determines the beginning of the month. Comparing my results with [a moon sighting websites](https://yrm.org/new-moon-network/)[^1], the old algorithm had a 50% accuracy (every other month was a day off). Using the new algorithm, it appears to have a 100% accuracy. 
+I have updated my [Anglo-Saxon Calendar page](https://www.minewyrtruman.com/anglosaxoncalendar) to use a new algorithm that determines the beginning of the month. Comparing my results with [a moon sighting website](https://yrm.org/new-moon-network/)[^1], the old algorithm had a 50% accuracy (every other month was a day off). Using the new algorithm, it appears to have a 100% accuracy. 
 
 The old algorithm simply added 36 hours to the new moon to estimate the first sliver of the moon being visible [^2]. This was the best option that I could think of at the time, but was only about 50% accurate and every other month was a day off.
 
