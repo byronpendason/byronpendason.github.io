@@ -101,8 +101,19 @@
         return false;
       });
       if (yr < 1900 || yr > 2099) {
-        alert("Years outside the range of 1900 and 2099 are less accurate. Proceed with caution in using this data.")
-      }
+        alert("Years outside the range of 1900 and 2099 are less accurate. Proceed with caution in using this data.");
+        let x = yr-1900;
+        newMoons = years[x].new_moons;
+        fullMoons = years[x].full_moons;
+        monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
+        leap = years[x].leap
+        var easter = new Date(fullMoons[3]);
+        if (newMoons[12] > yule) {
+          leap = false;
+          newMoons.pop();
+          fullMoons.pop();
+          monthNames.splice(6, 1);
+      } else {
       newMoons = [];
       fullMoons = [];
       monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
@@ -124,6 +135,7 @@
         newMoons.pop();
         fullMoons.pop();
         monthNames.splice(6, 1);
+      }
       }
       
       if (leap==true) {
