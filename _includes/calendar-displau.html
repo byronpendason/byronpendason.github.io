@@ -44,7 +44,10 @@
     var convert = new Date(1582, 9, 15);
     var today = new Date();
     var year = today.getFullYear();
-    var caldata = require("./calendar.json")
+    fetch("./students.json")
+    .then(response => {
+      return response.json();
+    })
     
     $(document).ready(function() {
         $("#chosendate").on('change', function() {
