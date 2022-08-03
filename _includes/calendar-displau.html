@@ -172,7 +172,7 @@
         date = toJulian(date);
       }
       while getMoonIllum(getSunset(date))<1 {
-        date.setDate(date.getDate+1);
+        date.setDate(date.getDate()+1);
       }
       
       return date;
