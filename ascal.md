@@ -19,7 +19,7 @@ So what's the purpose of learning the Anglo-Saxon Calendar? Heathenry generally 
 
 As in the Jewish and liturgical Christian traditions, the Anglo-Saxons started their day with the evening. So the day began when the sun went down, instead of an arbitrary hour in the middle of the night like we do here in the USA and modern Europe. As a third shifter, this feels more natural to me anyways, as from the time I go in to work at 9 pm every night, I'm doing the paperwork with the next day's date.
 
-Bede tells us that their months were lunar. He doesn't tell us what phase of the moon the months began on in the chapter on the Anglo-Saxon Calendar, but he specifies it in a later chapter[^bede]. Like the majority of ancient cultures that used lunar months, they began their months on the night that the young moon was sighted, when the first sliver of the moon was seen after the dark moon. (They called it the new moon, but what we call the new moon today is totally different. Our meaning for the term of the new moon is what they called the dark moon, when it is between the sun and the earth so it cannot be seen from the earth as the light side is facing away from us.) So I begin my months of the reconstructed calendar 36 hours after the new moon, as the young moon is usually visible by this point.
+Bede tells us that their months were lunar. He doesn't tell us what phase of the moon the months began on in the chapter on the Anglo-Saxon Calendar, but he specifies it in an earlier chapter[^bede]. Like the majority of ancient cultures that used lunar months, they began their months on the night that the young moon was sighted, when the first sliver of the moon was seen after the dark moon. (They called it the new moon, but what we call the new moon today is totally different. Our meaning for the term of the new moon is what they called the dark moon, when it is between the sun and the earth so it cannot be seen from the earth as the light side is facing away from us.) So I begin my months of the reconstructed calendar 36 hours after the new moon, as the young moon is usually visible by this point.
 
 Bede tells us that they had twelve lunar months, and gives us the Roman months (which are the same as ours) that they <em>generally</em> coincide with. Since the Anglo-Saxons based their months upon the moon and the Romans didn't, it doesn't match up exactly. Bede also tells us that they would occasionally add a thirteenth month to keep the lunar months in line with the solar year (and thus, the seasons).
 
@@ -61,7 +61,7 @@ So how do I take all this information and use it to form a reconstructed Anglo-S
 
 * * *
 
-[^bede]: To quote Bede:
+[^bede]: To quote Bede, Chapter 11 of *The Reckoning of Time*:
     > Note well that those who say that the month ought to be defined, or was defined by the ancients, as the length of time in which the Moon traverses the zodiacal circle, make a serious mistake. As more painstaking inspection of nature has taught, the Moon plainly completes the zodiac in 27 days and 8 hours, but its proper course is 29 days and 12 hours,setting aside the calculation of the ‘‘leap of the Moon’’. Therefore it is more accurate to define a lunar month as the circuit and reintegration of the lunar light from new Moon to new Moon.
     
     "Lunar light" from a new moon makes no sense if he meant the dark moon like we do today. The new moon for the ancients was when you could see the first sliver of the moon after the dark moon.
