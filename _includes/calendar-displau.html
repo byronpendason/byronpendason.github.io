@@ -105,7 +105,7 @@
         let x = yr-1700;
         newMoons = [];
         fullMoons = [];
-        l = years[x].new_moons.length
+        l = years[x].new_moons.length;
         for (let y = 0; y < l; y++) {
           newMoons.push(new Date(years[x].new_moons[y]));
           fullMoons.push(new Date(years[x].full_moons[y]));
@@ -143,11 +143,11 @@
         var yule = new Date(A.Get.winterSolstice(yr));
         var midsummer = new Date(A.Get.summerSolstice(yr));
         var easter = new Date(fullMoons[3]);
-        var M = int((yr - 3) % 19);
-        if (M == 0) {
-          M=19;
+        
+        var leap = false;
+        if (len(newMoons) == 13) {
+          leap = true;
         }
-
         if (leap == false) {
           newMoons.pop();
           fullMoons.pop();
@@ -155,11 +155,9 @@
         }
         if (leap==true) {
           var winterfylleth = new Date(fullMoons[10]);
-          $("#metonic").html("<a href=\"https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/\">Metonic year</a> "+M.toString()+": Intercalary year");
         } else {
           var winterfylleth = new Date(fullMoons[9]);
-          $("#metonic").html("<a href=\"https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/\">Metonic year</a> "+M.toString()+": Regular year");
-        }
+       }
       }
       
       var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+easter.toDateString()+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
