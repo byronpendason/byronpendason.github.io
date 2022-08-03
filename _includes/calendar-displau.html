@@ -120,8 +120,10 @@
         var yule = new Date(years[x].yule);
         if (leap==true) {
           var winterfylleth = new Date(fullMoons[10]);
+          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Intercalary year");
         } else {
           var winterfylleth = new Date(fullMoons[9]);
+          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Regular year");
         }
       } else {
         alert("Years outside the range of 1900 and 2099 are less accurate. Proceed with caution in using this data.");
@@ -152,10 +154,10 @@
         }
         if (leap==true) {
           var winterfylleth = new Date(fullMoons[10]);
-          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Intercalary year")
+          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Intercalary year");
         } else {
           var winterfylleth = new Date(fullMoons[9]);
-          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Regular year")
+          $("#metonic").html("<a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic year</a> "+M.toString()+": Regular year");
         }
       }
       
