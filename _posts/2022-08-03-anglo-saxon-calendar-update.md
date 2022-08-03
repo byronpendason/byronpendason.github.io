@@ -15,7 +15,7 @@ The new algorithm appears to provide 100% accuracy. The idea came to me during a
 
 (This paragraph is mostly technical information. If that's not your jam, feel free to skip this paragraph.) Unfortunately, I had issues with implementing this algorithm in the JavaScript of my Anglo-saxon Calendar page. It gave inaccurate results, sometimes with the day being up to two days off, whereas my implementation of this algorithm into Python provided 100% accuracy. So I came up with an unconventional solution. I created a data file using Python[^3], uploaded it to my website, and had the data hard coded into the HTML of that page (take a look at the source of that page, if you want to see what I'm talking about). I doubt it was a problem with JavaScript itself, but rather a problem with the JavaScript library I was using. But I couldn't find another library to use, so I went with the data file route.
 
-The new algorithm only works for the years 1700 to 2200. Dates outside this range use the old algorithm, and beginning of months may be up to a day off.
+The new algorithm only works for the years 1700 to 2200. Dates outside this range use the old algorithm, so the beginning of months may be up to a day off.
 
 * * *
 
