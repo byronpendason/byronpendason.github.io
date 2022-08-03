@@ -108,6 +108,14 @@
         date = nextFullMoon(date);
         fullMoons.push(new Date(date));
       }
+// NEW CODE HERE!!!
+/*      var M = (yr - 3) % 19;
+      if (M==0 || M==3 || M==6 || M == 8 || M==11 || M==14 || M==17) leap = True;
+      var datestr = String(date.getFullYear())+"-"+String(date.getMonth())+"-"String(date.getDate());
+      var url = "https://aa.usno.navy.mil/api/moon/phases/date?date="+datestr+"&nump=52";
+      const response = await fetch(url);
+     
+*/
       var yule = new Date(A.Get.winterSolstice(yr));
       var midsummer = new Date(A.Get.summerSolstice(yr));
       var easter = new Date(fullMoons[3]);
@@ -167,16 +175,10 @@
       var nm2000 = new Date(2000, 0, 6, 13, 14);
       var N = Math.ceil((date.getTime()-nm2000.getTime())/(1000*60*60*24)/29.5305888610);
       var d = (5.597661+29.5305888610*N+(102.026*10**-12)*N**2)+(-0.000739-(235*10**-12)*N**2);
-      date.setDate(j12000.getDate()+d);
+      date.setTime(j12000.getTime()+d*86400000);
       if (date<convert) {
         date = toJulian(date);
       }
-      while (getMoonIllum(getSunset(date))<1) {
-        date.setDate(date.getDate()+1);
-      }
-
-      date.setDate(date.getDate()-1);
-      
       return date;
     }
     
@@ -185,7 +187,7 @@
       var fm2000= new Date(2000, 0, 20, 23, 41)
       var N = Math.ceil((date.getTime()-fm2000.getTime())/(1000*60*60*24)/29.5305888610);
       var d = (20.362000+29.5305888610*N+(102.026*10**-12)*N**2)+(-0.000739-(235*10**-12)*N**2);
-      date.setDate(j12000.getDate()+d);
+      date.setTime(j12000.getTime()+d*86400000);
       if (date<convert) {
         date = toJulian(date);
       }
@@ -237,20 +239,5 @@
         str = String(n)+"th";
       }
       return str;
-   }
-   function getSunset(d) {
-     var lon = 52.634289;
-     var lat = -1.690710;
-
-     var times = A.Get.sunTimes(d, lat, lon);
-     return times.sunset;
-   }
-
-   function getMoonIllum(d) {
-     var lon = 52.634289;
-     var lat = -1.690710;
-
-     var illum = A.Get.moonIllumination(d, lat, lon);
-     return illum.illumination;
    }
 </script>
