@@ -1,3 +1,10 @@
+---
+layout: nil
+permalink: /calendar.json
+sitemap:
+  exclude: 'yes'
+---
+
 [
    [
       "1900-12-22T06:41:31",
