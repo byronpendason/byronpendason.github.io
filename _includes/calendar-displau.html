@@ -102,7 +102,7 @@
         makeCal(yr);
         return false;
       });
-      if (yr > 1900 && yr < 2099) {
+      if (yr >= 1900 && yr <= 2099) {
         let x = yr-1900;
         newMoons = [];
         fullMoons = [];
