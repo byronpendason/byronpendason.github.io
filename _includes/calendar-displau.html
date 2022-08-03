@@ -102,20 +102,28 @@
         makeCal(yr);
         return false;
       });
-/*      if (yr < 1900 || yr > 2099) {
+      if (yr < 1900 || yr > 2099) {
         alert("Years outside the range of 1900 and 2099 are less accurate. Proceed with caution in using this data.");
         let x = yr-1900;
-        newMoons = years[x].new_moons;
+        newMoons = [];
+        fullMoons = [];
+        l = years[x].new_moons.length
+        for (let y = 0; y < l; y++) {
+          newMoons.push(new Date(years[x].new_moons[y]));
+          fullMoons.push(new Date(years[x].full_moons[y]));
+        }
         fullMoons = years[x].full_moons;
         monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
-        leap = years[x].leap
+        var leap = years[x].leap;
         var easter = new Date(fullMoons[3]);
-        if (newMoons[12] > yule) {
-          leap = false;
+        if (leap == true) {
           newMoons.pop();
           fullMoons.pop();
           monthNames.splice(6, 1);
-      } else { */
+        }
+        var midsummer = new Date(years[x].midsummer);
+        var yule = new Date(years[x].yule);
+      } else { 
       newMoons = [];
       fullMoons = [];
       monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
@@ -138,7 +146,7 @@
         fullMoons.pop();
         monthNames.splice(6, 1);
       }
-//      }
+      }
       
       if (leap==true) {
         $('#leap').html("<p>Since there are thirteen new moons between the winter solstices of the previous yr and the current yr, this yr is a leap yr.</p>");
