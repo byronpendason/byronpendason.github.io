@@ -167,7 +167,7 @@
       var nm2000 = new Date(2000, 0, 6, 13, 14);
       var N = Math.ceil((date.getTime()-nm2000.getTime())/(1000*60*60*24)/29.5305888610);
       var d = (5.597661+29.5305888610*N+(102.026*10**-12)*N**2)+(-0.000739-(235*10**-12)*N**2);
-      date.setTime(j12000.getTime()+d*86400000);
+      date.setDate(j12000.getDate()+d);
       if (date<convert) {
         date = toJulian(date);
       }
@@ -185,7 +185,7 @@
       var fm2000= new Date(2000, 0, 20, 23, 41)
       var N = Math.ceil((date.getTime()-fm2000.getTime())/(1000*60*60*24)/29.5305888610);
       var d = (20.362000+29.5305888610*N+(102.026*10**-12)*N**2)+(-0.000739-(235*10**-12)*N**2);
-      date.setTime(j12000.getTime()+d*86400000);
+      date.setDate(j12000.getDate()+d);
       if (date<convert) {
         date = toJulian(date);
       }
