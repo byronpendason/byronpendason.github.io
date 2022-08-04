@@ -137,7 +137,7 @@
       } else {
         var x = yr - 1700;
         var leap = years[x].leap;
-        for (i=0; i<newMoons.length; i++) {
+        for (i=0; i<years[x].new_moons.length; i++) {
           newMoons.push(new Date(years[x].new_moons[i]);
           fullMoons.push(new Date(years[x].full_moons[i]);
         }
@@ -147,6 +147,7 @@
         if (leap) {
           var winterfylleth = new Date(fullMoons[10]);
         } else {
+          monthNames.splice(6, 1);
           var winterfylleth = new Date(fullMoons[9]);
         }
       }
