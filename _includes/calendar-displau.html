@@ -44,7 +44,14 @@
     var convert = new Date(1582, 9, 15);
     var today = new Date();
     var year = today.getFullYear();
-    
+    var years = new Array();
+{% for yr in site.data.calendar %}
+    var y{{ yr.year }} = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", yule: "{{ yr.yule }}", new_moons: ["{% for nm in yr.new_moons %}{{ nm }}", "{% endfor %}"], full_moons: ["{% for fm in yr.full_moons %}{{ fm }}", "{% endfor %}"], leap: {{ yr.leap }}};
+    y{{ yr.year }}.new_moons.pop();
+    y{{ yr.year }}.full_moons.pop();
+    years.push(y{{ yr.year }});
+{% endfor %}
+   
     $(document).ready(function() {
         $("#chosendate").on('change', function() {
             var d = new Date($("#chosendate").val());
