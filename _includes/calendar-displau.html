@@ -105,6 +105,8 @@
       newMoons = [];
       fullMoons = [];
       monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
+
+      if (yr < 1700 || yr > 2199) {
       var date = new Date(A.Get.winterSolstice(yr-1));
       var today = new Date();
       var leap = true;
@@ -131,6 +133,22 @@
         var winterfylleth = new Date(fullMoons[10]);
       } else {
         var winterfylleth = new Date(fullMoons[9]);
+      }
+      } else {
+        var x = yr - 1700;
+        var leap = years[x].leap;
+        for (i=0; i<newMoons.length; i++) {
+          newMoons.push(new Date(years[x].new_moons[i]);
+          fullMoons.push(new Date(years[x].full_moons[i]);
+        }
+        var midsummer = new Date(years[x].midsummer);
+        var yule = new Date(years[x].yule);
+        var easter = new Date(years[x].easter);
+        if (leap) {
+          var winterfylleth = new Date(fullMoons[10]);
+        } else {
+          var winterfylleth = new Date(fullMoons[9]);
+        }
       }
       var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+easter.toDateString()+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
       txt += "<tr>\n<td>Midsumor</td>\n<td>"+midsummer.toDateString()+"</td>\n<td>"+getASDate(midsummer)+"</td></tr>";
