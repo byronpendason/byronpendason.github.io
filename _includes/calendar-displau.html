@@ -144,15 +144,15 @@
         var midsummer = new Date(years[x].midsummer);
         var yule = new Date(years[x].yule);
         var easter = new Date(fullMoons[3]);
-        var M = int(yr - 3) % 19;
-        $('#leap').html("Metonic Year "+String(M)+": ");
+        //var M = int(yr - 3) % 19;
+       // $('#leap').html("Metonic Year "+String(M)+": ");
         if (leap) {
           var winterfylleth = new Date(fullMoons[10]);
-          $('#leap').append("Intercalary year");
+   //       $('#leap').append("Intercalary year");
         } else {
           monthNames.splice(6, 1);
           var winterfylleth = new Date(fullMoons[9]);
-          $('#leap').append("Regular year");
+  //        $('#leap').append("Regular year");
         }
       }
       var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+easter.toDateString()+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
