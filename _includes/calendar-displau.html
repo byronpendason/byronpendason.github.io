@@ -159,6 +159,11 @@
           $('#leap').append("Regular year");
         }
       }
+      if (asdate == "") {
+        asdate = getASDate(today);
+        $('#today').text("Today is the "+asdate+".");
+      
+      } 
       var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+easter.toDateString()+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
       txt += "<tr>\n<td>Midsumor</td>\n<td>"+midsummer.toDateString()+"</td>\n<td>"+getASDate(midsummer)+"</td></tr>";
       txt += "<tr>\n<td>Winterfylleþ</td>\n<td>"+winterfylleth.toDateString()+"</td>\n<td>"+getASDate(winterfylleth)+"</td></tr>";
@@ -172,15 +177,10 @@
         $('#months-table').append(txt);
       }
       
-      if (asdate == "") {
-        asdate = getASDate(today);
-        $('#today').text("Today is the "+asdate+".");
-      
-      } 
-      
       if (yr<1583) {
         alert("Dates before the switch from the Julian Calendar to the Gregorian Calendar will use the Julian date that was in use at the time.");
       }
+
       today.setFullYear(yr);
       if (today.getDate() < 10) {
           day = "0"+today.getDate();
