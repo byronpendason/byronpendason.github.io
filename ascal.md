@@ -25,9 +25,16 @@ Bede tells us that they had twelve lunar months, and gives us the Roman months (
 
 The Anglo-Saxons only recognized two seasons, winter and summer. Each was six months long, except on leap year, when summer would be seven months long! Winter would begin on the full moon of <em>Winte</em>r<em>mōnaþ</em> (October) and summer would begin six months later, presumably on the full moon of <em>Ēostremōnaþ </em>(April).
 
-The first month, <cite>Æfterra Gēola</cite>, roughly coincides with our January. It literally means "After Yule". It is for this reason that I use the December Solctice to determine when to add the leap month. This puts Yule (<em>Gēola</em> in Old English) between the young moons of Æ<em>rra Gēola</em> (literally <em>before Yule</em>) and <em>Æfterra Gēola</em>. Bede tells us that <em>Gēola</em> refers to the day that the sun "turns around" and the day begins to increase in length. Sounds like the Solctice to me!
+The first month, Æfterra Gēola, roughly coincides with our January. It literally means "After Yule". Bede tells us that Gēola refers to the day that the sun "turns around" and the day begins to increase in length. This is describing the winter solstice. Since it's the only solar event that Bede specifically mentions, it makes sense for any method of adding in the leap months will need to keep the Yule (the winter solstice) in between the months named "Before Yule" and "After Yule".
 
 (The letter <em>Æ</em> makes a short <em>a</em> sound as in <em>cat</em>. It is called the<em> ash</em> letter. It's lowercase form is <em>æ</em>. The <em>G</em> in Gēola is a soft g, pronounced like the <em>y</em> in <em>yellow</em>.)
+
+There are only two methods of determining leap years that I have found that works to accomplish this reliably:
+
+1. [The Metonic Cycle](https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/) is a 19 year cycle that adds the extra month on years  3, 6, 8, 11, 14, 17, and 19. (The current cycle began with 2018 as year 1.) This cycle was discovered by both the ancient Greeks and ancient Sumerians independently of each other, and seems to have had a wide prevalence in the ancient world. Artifacts found in Germany dating from around the 9th century BC indicates that the Celtic culture living there at the time knew about this cycle before even the Greeks.
+2. Counting the new moons (as defined by ancient peoples) between the two winter solstices. Any year that has 13 new moons will be a leap year.
+
+These two methods give the same results, so using either is acceptable. The calculated calendar on this page uses the first method for the years 1700-2199, and uses the second for the years within this range.
 
 The second month was <em>Sōlmōnaþ</em>. Bede says it means "month of cakes" and that they baked cakes during this month. The Old English word <em>sōl</em>, however, means mud, so some speculate that these cakes had mud like color and/or texture. (Most of the months end in -<em>mōnaþ</em> as this is the Old English word for month/moon. The þ letter is pronounced as the<em> th</em> in <em>thin</em> when not sandwiched between vowels, so you'll sometimes see these month names anglicised as -<em>monath</em>. When between vowels, it is pronounced as the <em>th</em> in <em>that</em>.)
 
