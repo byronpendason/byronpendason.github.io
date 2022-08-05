@@ -146,6 +146,9 @@
         var yule = new Date(years[x].yule);
         var easter = new Date(fullMoons[3]);
         var M = parseInt(yr - 3) % 19;
+        if (M == 0) {
+          M = 19;
+        }
         $('#leap').html("Metonic Year "+String(M)+": ");
         if (leap) {
           var winterfylleth = new Date(fullMoons[10]);
