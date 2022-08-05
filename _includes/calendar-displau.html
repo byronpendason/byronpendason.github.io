@@ -166,6 +166,8 @@
       $('#holidays-table').append(txt);
 
       $('#current-calendar').text("Anglo-Saxon Calendar for "+String(yr));
+      $('#today').html("Today is the "+getASDate(today)+".");
+      
       for(let i=0; i<newMoons.length; i++) {
         txt = "<tr>\n<td>"+monthNames[i]+"</td>\n<td>"+newMoons[i].toDateString()+"</td>\n<td>"+fullMoons[i].toDateString()+"</td>\n</tr>\n";
         $('#months-table').append(txt);
@@ -173,7 +175,6 @@
 /*      if (asdate == "") {
         var asdate = getASDate(today);
       } */
-      $("#today").html("Today is the "+getASDate(today)+".");
       
       if (yr<1583) {
         alert("Dates before the switch from the Julian Calendar to the Gregorian Calendar will use the Julian date that was in use at the time.");
