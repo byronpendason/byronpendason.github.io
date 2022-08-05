@@ -7,7 +7,7 @@ comments: true
 categories: [Heathenry, reconstruction, anglo-saxon calendar]
 ---
 <!-- wp:paragraph -->
-<p>As per my <a href="/the-anglo-saxon-calendar/">Reconstructed Anglo-Saxon Calendar</a> page, my method for determining if a year is a leap year is to count how many new moons there are between the previous year's winter solstice and the current years winter solstice. If there are thirteen new moons, it is a leap year. If there are only twelve new moons, it's a regular year. In leap years, you add the extra month in between Ærra Liðe and Æfterra Liðe. This keeps Ġēola (Yule, which Bede identifies as the winter solstice) in its proper place in the final month of the year.</p>
+<p>As per my <a href="https://www.minewyrtruman.com/anglosaxoncalendar/">Reconstructed Anglo-Saxon Calendar</a> page, my method for determining if a year is a leap year is to count how many new moons there are between the previous year's winter solstice and the current years winter solstice. If there are thirteen new moons, it is a leap year. If there are only twelve new moons, it's a regular year. In leap years, you add the extra month in between Ærra Liðe and Æfterra Liðe. This keeps Ġēola (Yule, which Bede identifies as the winter solstice) in its proper place in the final month of the year.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
