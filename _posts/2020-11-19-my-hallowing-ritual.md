@@ -11,7 +11,7 @@ categories: [heathen worship, Heathenry, reconstruction]
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Shortly after I wrote that blog post, I discovered the <a href="https://windintheworldtrees.com/2017/07/10/taking-sacred-space/">Hallowing</a> ritual used on Wind in the Worldtree blog. I fell in love with it instantly. It was written for outside rituals, so I adapted it slightly for use with an indoor ritual. So without further ado, here is how I do my Hallowing.</p>
+<p>Shortly after I wrote that blog post, I discovered the <a href="https://windintheworldtree.wordpress.com/2017/07/10/taking-sacred-space/">Hallowing</a> ritual used on Wind in the Worldtree blog. I fell in love with it instantly. It was written for outside rituals, so I adapted it slightly for use with an indoor ritual. So without further ado, here is how I do my Hallowing.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
