@@ -42,6 +42,8 @@ header_pages:
     url: /search
   - title: Glossary and Resources for Beginners
     url: /glossary
+  - title: Blog Post Requests
+    url: /requests
   - title: The Reconstructed Anglo-Saxon Calendar
     url: /anglosaxoncalendar
   - title: A Ritual of Thanksgiving
