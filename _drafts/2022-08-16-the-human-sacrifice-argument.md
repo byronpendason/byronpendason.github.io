@@ -2,7 +2,7 @@
 layout: post
 categories: [Heathenry, heathen basics, heathen worship, heathen worldview, reconstruction]
 date: 2022-08-16
-title: Vaush and the Human Sacrifice Argument
+title: The Human Sacrifice Argument
 author: Byron Pendason
 ---
 
