@@ -4,6 +4,7 @@ categories: [Heathenry, heathen basics, heathen worship, heathen worldview, reco
 date: 2022-08-16
 title: The Human Sacrifice Argument
 author: Byron Pendason
+comments: true
 ---
 
 In case you missed it, the antitheist Vaush had a debate with the Heathen polytheist Ocean Keltoi a few days ago on Twitch, and [Ocean uploaded the highlights](https://youtu.be/IoYNXbqDctI) to his YouTube channel yesterday. Vaush posted [the entire unedited debate followed by some gameplay](https://youtu.be/H84xjpVnbPE) to his YouTube channel. 
