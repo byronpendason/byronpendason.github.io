@@ -6,7 +6,7 @@ title: The Human Sacrifice Argument
 author: Byron Pendason
 ---
 
-In case you missed it, the antitheist Vaush had a debate with the Heathen polytheist Ocean Keltoi a few days ago on Twitch, and [Ocean uploaded the highlights](https://youtu.be/IoYNXbqDctI) to his YouTube channel yesterday. Vaush posted [the entire unedited debate followed by some gameplay](https://youtu.be/H011hBnJAkE) to his YouTube channel. 
+In case you missed it, the antitheist Vaush had a debate with the Heathen polytheist Ocean Keltoi a few days ago on Twitch, and [Ocean uploaded the highlights](https://youtu.be/IoYNXbqDctI) to his YouTube channel yesterday. Vaush posted [the entire unedited debate followed by some gameplay](https://youtu.be/H84xjpVnbPE) to his YouTube channel. 
 
 So, for a quick rundown of the debate: Ocean's main argument was that Vaush's antitheism is a hindrance to coalition building for Vaush's leftist causes. Vaush's main argument was that to soften his position to saying not all religion is bad would be *cucking* himself (his words; he seems to have some fetish for cuckolding). Most commenters I've seen have said that Ocean was the clear winner, and I absolutely agree. One of the ***many*** reasons was that Vaush had this obsession with defending human sacrifice. It was truly absurd watching an antitheist argue *for* human sacrifice, while the Heathen was firmly arguing against it.[^5]
 
