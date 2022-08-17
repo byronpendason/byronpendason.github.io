@@ -61,7 +61,7 @@
         {% endif %}
      </div>
      {% endif %}
-     {% if page.comments %}
+     {% if page.comments or page.layout == 'post' %}
      <div id="disqus_thread"></div>
      <script>
     /**
