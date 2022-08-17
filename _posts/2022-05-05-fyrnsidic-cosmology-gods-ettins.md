@@ -4,7 +4,7 @@ title: Fyrnsidic Cosmology- Gods & Ettins
 date: 2022-05-05 06:50
 author: Byron Pendason
 comments: true
-categories: [cosmology, heathen basics, heathen worldview, Heathenry, myths, reconstruction]
+categories: [cosmology, heathen basics, heathen worldview, Heathenry, reconstruction]
 ---
 I would like to preface this with a disclaimer. While Jotnar and ettins are cognates of one another, the way they are viewed by their respective religious traditions can vary wildly. While there might be Norse Heathens who would agree with my takes here, and Anglo-Saxon Heathens who may disagree with them, this seems to generally be the Anglo-Saxon view (at least, among those who self identify their religion as Fyrnsidu) and typically isn't the modern Norse Heathen view.
 
