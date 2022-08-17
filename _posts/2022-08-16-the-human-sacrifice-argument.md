@@ -46,11 +46,11 @@ Monotheism would be a bit more susceptible to this kind of abuse, especially if 
 So what do you think? Did I misrepresent Vaush's argument? Is there something in his argument that I'm missing? Do you feel that everyone else is wrong about Ocean winning the debate? Feel free to leave your thoughts in the comments below.
 
 ---
-[^1]: https://en.wikipedia.org/wiki/Antitheism
+[^1]: <https://en.wikipedia.org/wiki/Antitheism>
 
-[^2]: https://en.wikipedia.org/wiki/Polytheism
+[^2]: <https://en.wikipedia.org/wiki/Polytheism>
 
-[^3]: https://en.m.wikipedia.org/wiki/Human_sacrifice
+[^3]: <https://en.m.wikipedia.org/wiki/Human_sacrifice>
 
 [^4]: Community is used loosely here. In the ancient world, the community could be as small as a household or as large as a nation. People were sometimes part of a few different religious communities: their town could have one patron god, their family another patron god, and their kingdom could have yet another patron god. In the modern world, pagans usually have their individual praxis, but can also have a praxis with their household, and another with a coven/kindred/etc.
 
