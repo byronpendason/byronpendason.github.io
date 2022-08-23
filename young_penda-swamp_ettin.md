@@ -365,7 +365,7 @@ Penda stood up over the beast, and decapitated him. He grabbed the head and lift
 Eowa fell to one knee, bowing his head to Penda. All the warriors from Mercia followed suit, and all the warriors from Wessex and Gwynned began to cheer and applaud.
 
 THE END  
-(Maybe? Let me know if you think this is a satisfying end in the comments below!)
+(Maybe? Let me know if you think this is a satisfying end in the comments below![^Is this an inline footnote?])
 
 <!-- FOOTNOTES -->
 
