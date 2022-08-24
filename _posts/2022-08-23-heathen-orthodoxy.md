@@ -1,7 +1,7 @@
 ---
 title: Heathen Orthodoxy
 author: Byron Pendason
-date: 2022-08-03
+date: 2022-08-23
 layout: post
 categories: [Heathenry, heathen basics, rants]
 ---
