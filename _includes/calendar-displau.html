@@ -158,12 +158,7 @@
           $('#leap').append("Regular year");
         }
       }
-      if ($('#today').text() == "") {
-        var now = new Date();
-        var asdate = "Today ("+now.toDateString()+") is the "+getASDate(now);
-        $('#today').append(asdate);
       
-      }
       for(let i=0; i<newMoons.length; i++) {
         txt = "<tr>\n<td>"+monthNames[i]+"</td>\n<td>"+newMoons[i].toDateString()+"</td>\n<td>"+fullMoons[i].toDateString()+"</td>\n</tr>\n";
         $('#months-table').append(txt);
@@ -174,6 +169,13 @@
       txt += "<tr>\n<td>Winterfylleþ</td>\n<td>"+winterfylleth.toDateString()+"</td>\n<td>"+getASDate(winterfylleth)+"</td></tr>";
       txt += "<tr>\n<td>Ġēola</td>\n<td>"+yule.toDateString()+"</td>\n<td>"+getASDate(yule)+"</td></tr>";
       $('#holidays-table').append(txt);
+
+      if ($('#today').text() == "") {
+        var now = new Date();
+        var asdate = "Today ("+now.toDateString()+") is the "+getASDate(now);
+        $('#today').append(asdate);
+      
+      }
 
       $('#current-calendar').text("Anglo-Saxon Calendar for "+String(yr));
       
