@@ -234,6 +234,9 @@
         i++;
       }
       i--;
+      if (d.toDateString() == newMoons[i+1].toDateString()) {
+        return "1st of "+monthNames[i+1];
+      }
       newMoon = new Date(newMoons[i].toDateString());
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
 
