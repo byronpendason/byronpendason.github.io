@@ -4,7 +4,6 @@ author: Byron Pendason
 date: 2022-08-27
 layout: post
 categories: [Heathenry, heathen basics, heathen worldview, reconstruction]
-published: false
 ---
 
 Heathenry is, at its heart, an empirical religion.[^1]
