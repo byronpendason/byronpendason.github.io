@@ -230,6 +230,8 @@
       d.setMinutes(0);
       d.setSeconds(0);
       d.setMilliseconds(0);
+      d = new Date(d.toDateString());
+      var newMoon = new Date(newMoons[i].toDateString());
       while (d>=newMoons[i]) {
         if (d.toDateString() == newMoons[i].toDateString()) {
           return "1st of "+monthNames[i];
