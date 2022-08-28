@@ -229,7 +229,7 @@
     function getASDate(d) {
       var i=0;
       d = new Date(d.toDateString());
-      while (d >= newMoons[i]) {
+      while (d > newMoons[i]) {
         if (i-1 == newMoons.length) break;
         i++;
       }
