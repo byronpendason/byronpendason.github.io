@@ -36,4 +36,4 @@ And this is why Heathenry is an empirical religion, a religion that is based upo
 
 [^2]: <https://www.merriam-webster.com/dictionary/empirical>
 
-[^3]: > From Old French *empirique*, from Latin *empiricus*, from Ancient Greek ἐμπειρικός (empeirikós, “experienced”), from ἐμπειρία (empeiría, “experience, mere experience or practice without knowledge, especially in medicine, empiricism”), from ἔμπειρος (émpeiros, “experienced or practised in”), from ἐν (en, “in”) + πεῖρα (peîra, “a trial, experiment, attempt”). <https://en.m.wiktionary.org/wiki/empiric#English>
+[^3]: "From Old French *empirique*, from Latin *empiricus*, from Ancient Greek ἐμπειρικός (empeirikós, “experienced”), from ἐμπειρία (empeiría, “experience, mere experience or practice without knowledge, especially in medicine, empiricism”), from ἔμπειρος (émpeiros, “experienced or practised in”), from ἐν (en, “in”) + πεῖρα (peîra, “a trial, experiment, attempt”)." From <https://en.m.wiktionary.org/wiki/empiric#English>
