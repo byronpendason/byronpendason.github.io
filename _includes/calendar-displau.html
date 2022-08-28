@@ -226,22 +226,22 @@
     
     function getASDate(d) {
       i=0;
+      d.setHours(0);
+      d.setMinutes(0);
+      d.setSeconds(0);
+      d.setMilliseconds(0);
       while (d>newMoons[i]) {
+        newMoons[i].setHours(0);
+        newMoons[i].setMinutes(0);
+        newMoons[i].setSeconds(0);
+        newMoons[i].setMilliseconds(0);
         if (d.toDateString() == newMoons[i].toDateString()) {
           return "1st of "+monthNames[i];
         }
         i++;
       }
       i--;
-      newMoon = new Date(newMoons[i]);
-      newMoon.setHours(0);
-      newMoon.setMinutes(0);
-      newMoon.setSeconds(0);
-      newMoon.setMilliseconds(0);
-      d.setHours(0);
-      d.setMinutes(0);
-      d.setSeconds(0);
-      d.setMilliseconds(0);
+      
       //var day = ((d.getTime()-newMoon.getTime())/86400000)+1;
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
 
