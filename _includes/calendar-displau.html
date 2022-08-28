@@ -160,7 +160,7 @@
       }
       if ($('#today').text() == "") {
         var now = new Date();
-        var asdate = "Today is the "+getASDate(now);
+        var asdate = "Today ("+now.toDateString()+") is the "+getASDate(now);
         $('#today').append(asdate);
       
       }
