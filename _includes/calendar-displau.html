@@ -38,7 +38,6 @@
 <script type="text/JavaScript">
 
     var body = "";
-    var asdate = "";
     var newMoons = new Array();
     var fullMoons = new Array();
     var monthNames = new Array("Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola");
@@ -159,8 +158,8 @@
           $('#leap').append("Regular year");
         }
       }
-/*      if (asdate == "") {
-        asdate = "Today is the "+getASDate(today);
+/*      if ($('#today').text () == "") {
+        var asdate = "Today is the "+getASDate(today);
         $('#today').append(asdate);
       
       }*/
