@@ -231,6 +231,7 @@
         if (d == newMoons[i].toDateString())) {
           return "1st of "+monthNames[i];
         }
+        if (i+1 == newMoons.length) break;
         i++;
       }
       i--;
