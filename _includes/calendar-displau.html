@@ -159,7 +159,8 @@
         }
       }
       if ($('#today').text() == "") {
-        var asdate = "Today is the "+getASDate(new Date());
+        var now = new Date();
+        var asdate = "Today is the "+getASDate(now);
         $('#today').append(asdate);
       
       }
