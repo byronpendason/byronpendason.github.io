@@ -226,6 +226,9 @@
     function getASDate(d) {
       i=0;
       while (d>newMoons[i]) {
+        if (Math.abs((d.getTime()-newMoons[i].getTime())/86400000) < 1) {
+          return "1st of "+monthNames[i];
+        }
         i++;
       }
       i--;
