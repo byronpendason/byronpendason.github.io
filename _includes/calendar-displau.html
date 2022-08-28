@@ -161,7 +161,7 @@
       }
       if (asdate == "") {
         asdate = "Today is the "+getASDate(today);
-        $('#today').html(asdate);
+        $('#today').append(asdate);
       
       }
       var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+easter.toDateString()+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
