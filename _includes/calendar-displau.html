@@ -239,10 +239,8 @@
       d.setSeconds(0);
       d.setMilliseconds(0);
       //var day = ((d.getTime()-newMoon.getTime())/86400000)+1;
-      var day = (d.getDate()-newMoon.getDate())+1;
-      if (day <= 0) {
-        day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
-      }
+      var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
+
       var dateStr = getOrdinal(Math.round(day))+" of "+monthNames[i];
       return dateStr;
     }
