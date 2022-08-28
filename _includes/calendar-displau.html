@@ -234,7 +234,7 @@
         i++;
       }
       i--;
-      if (d.toDateString() == newMoons[i+1].toDateString()) {
+      if (d.toDateString() == newMoons[i+1].toDateString() && i != newMoons.length - 1) {
         return "1st of "+monthNames[i+1];
       }
       newMoon = new Date(newMoons[i].toDateString());
