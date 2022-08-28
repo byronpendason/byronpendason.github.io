@@ -230,11 +230,11 @@
       var i=0;
       d = new Date(d.toDateString());
       while (d >= newMoons[i]) {
-        if (d.toDateString() == newMoons[i].toDateString()) {
-          return "1st of "+monthNames[i];
-        }
         if (i-1 == newMoons.length) break;
         i++;
+      }
+      if (d.toDateString() == newMoons[i].toDateString()) {
+        return "1st of "+monthNames[i];
       }
       i--;
       newMoon = new Date(newMoons[i].toDateString());
