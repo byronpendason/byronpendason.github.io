@@ -226,25 +226,17 @@
     
     function getASDate(d) {
       i=0;
-      d.setHours(0);
-      d.setMinutes(0);
-      d.setSeconds(0);
-      d.setMilliseconds(0);
       d = new Date(d.toDateString());
       var newMoon = new Date(newMoons[i].toDateString());
-      while (d>=newMoons[i]) {
+      while (d>=newMoon) {
         if (d.toDateString() == newMoons[i].toDateString()) {
           return "1st of "+monthNames[i];
         }
         i++;
+        newMoon = new Date(newMoons[i].toDateString());
       }
       i--;
-      
-      newMoon = new Date(newMoons[i]);
-      newMoon.setHours(0);
-      newMoon.setMinutes(0);
-      newMoon.setSeconds(0);
-      newMoon.setMilliseconds(0);
+      newMoon = new Date(newMoons[i].toDateString());
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
 
       var dateStr = getOrdinal(Math.round(day))+" of "+monthNames[i];
