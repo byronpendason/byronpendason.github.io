@@ -20,6 +20,7 @@ To convert from the Common Era to the Human Era is easy. For years that are grea
 I'm personally considering making the Human Era the calendar era for my personal praxis, and I'm becoming a proponent of switching to the Human Era[^6] for international purposes (such as for the UN and WHO). While it may make sense for the West to use the Common Era, with Christianity being deeply intertwined with our history, I don't think it makes sense for it to be the global standard when only a third of the World's population are Christian. So, I humbly suggest that now is the time to change the international standard from the Christian calendar to the Human Era.
 
 Welcome to the 121st century.
+* * *
 
 <!--- Footnotes --->
 
