@@ -158,8 +158,9 @@
           $('#leap').append("Regular year");
         }
       }
-      
-      $('#current-calendar').text("Anglo-Saxon Calendar for "+String(yr));
+
+      var year = "<a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">1"+String(yr)+" HE</a>/"+String(yr)+" CE";
+      $('#current-calendar').html("Anglo-Saxon Calendar for "+year);
       
 
       for(let i=0; i<newMoons.length; i++) {
