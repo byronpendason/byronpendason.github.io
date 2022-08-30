@@ -174,14 +174,14 @@
       
 
       for(let i=0; i<newMoons.length; i++) {
-        txt = "<tr>\n<td>"+monthNames[i]+"</td>\n<td>"+newMoons[i].toDateString()+"</td>\n<td>"+fullMoons[i].toDateString()+"</td>\n</tr>\n";
+        txt = "<tr>\n<td>"+monthNames[i]+"</td>\n<td>"+dateString(newMoons[i])+"</td>\n<td>"+dateString(fullMoons[i])+"</td>\n</tr>\n";
         $('#months-table').append(txt);
       }
 
       var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+dateString(easter)+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
-      txt += "<tr>\n<td>Midsumor</td>\n<td>"+midsummer.toDateString()+"</td>\n<td>"+getASDate(midsummer)+"</td></tr>";
-      txt += "<tr>\n<td>Winterfylleþ</td>\n<td>"+winterfylleth.toDateString()+"</td>\n<td>"+getASDate(winterfylleth)+"</td></tr>";
-      txt += "<tr>\n<td>Ġēola</td>\n<td>"+yule.toDateString()+"</td>\n<td>"+getASDate(yule)+"</td></tr>";
+      txt += "<tr>\n<td>Midsumor</td>\n<td>"+dateString(midsummer)+"</td>\n<td>"+getASDate(midsummer)+"</td></tr>";
+      txt += "<tr>\n<td>Winterfylleþ</td>\n<td>"+dateString(winterfylleth)+"</td>\n<td>"+getASDate(winterfylleth)+"</td></tr>";
+      txt += "<tr>\n<td>Ġēola</td>\n<td>"+dateString(yule)+"</td>\n<td>"+getASDate(yule)+"</td></tr>";
       $('#holidays-table').append(txt);
 
       if ($('#today').text() == "") {
