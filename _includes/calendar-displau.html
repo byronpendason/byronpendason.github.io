@@ -161,12 +161,15 @@
       if (yr == 0) {
         yr = -1;
         he = 10000;
+        ce = "1 BCE";
       } else if (yr < 0) {
         he = 10001 - Math.abs(yr);
+        ce = String(Math.abs(yr))+" BCE";
       } else {
         he = 10000 + yr;
+        ce = String(yr)+" CE";
       }
-      var year = String(he) +" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a>/"+String(yr)+" CE";
+      var year = String(he)+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a>/"+ce;
       $('#current-calendar').html("Anglo-Saxon Calendar for "+year);
       
 
