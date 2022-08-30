@@ -158,7 +158,14 @@
           $('#leap').append("Regular year");
         }
       }
-
+      if (yr == 0) {
+        yr = -1;
+        he = 10000;
+      } else if (yr < 0) {
+        he = 10001 - Math.abs(yr);
+      } else {
+        he = 10000 + yr;
+      }
       var year = "1"+String(yr)+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a>/"+String(yr)+" CE";
       $('#current-calendar').html("Anglo-Saxon Calendar for "+year);
       
