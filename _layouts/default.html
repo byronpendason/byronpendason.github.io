@@ -52,8 +52,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script>
       var d = new Date("{{ page.date }}");
-      var months=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      var days=["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      var months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      var days=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       var yr = d.getFullYear();
       var he = 0;
       var ce = "";
@@ -68,9 +68,9 @@
         he = 10000 + yr;
         ce = String(yr)+" CE";
       }
-      var dstr = days[d.getDay()]+" "+months[d.getMonth()]+" "+String(d.getDate())+" "+he+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a> ("+ce+")";
+      var dstr = days[d.getDay()]+", "+months[d.getMonth()]+" "+String(d.getDate())+", "+he+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a> ("+ce+")";
       //var dstr = days[d.getDay()]+" "+months[d.getMonth()]+" "+String(d.getDate())+" "+ce;
-      $('#date').text(dstr);
+      $('#date').html(dstr);
 </script>
       {% endif %}
       {{ content }}
