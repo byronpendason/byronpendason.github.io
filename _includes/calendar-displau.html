@@ -209,6 +209,7 @@
     
     function dateString(d) {
       var months=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      var days=["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
       var yr = d.getFullYear();
       var he = 0;
       var ce = "";
@@ -223,7 +224,7 @@
         he = 10000 + yr;
         ce = String(yr)+" CE";
       }
-      var dstr = months[d.getMonth()]+" "+String(d.getDate())+", "+he+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a> ("+ce+")";
+      var dstr = days[d.getDay()]+" "+months[d.getMonth()]+" "+String(d.getDate())+" "+he+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a> ("+ce+")";
       //var dstr = d.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
       return dstr;
     }
