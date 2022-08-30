@@ -68,8 +68,8 @@
         he = 10000 + yr;
         ce = String(yr)+" CE";
       }
-      var dstr = days[d.getDay()]+", "+months[d.getMonth()]+" "+String(d.getDate())+", "+he+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a> ("+ce+")";
-      //var dstr = days[d.getDay()]+" "+months[d.getMonth()]+" "+String(d.getDate())+" "+ce;
+      //var dstr = days[d.getDay()]+", "+months[d.getMonth()]+" "+String(d.getDate())+", "+he+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a> ("+ce+")";
+      var dstr = days[d.getDay()]+", "+months[d.getMonth()]+" "+String(d.getDate())+", "+ce;
       $('#date').html(dstr);
 </script>
       {% endif %}
