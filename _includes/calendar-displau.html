@@ -178,7 +178,7 @@
         $('#months-table').append(txt);
       }
 
-      var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+easter.toDateString()+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
+      var txt="<tr>\n<td>Ēosturdæġ</td>\n<td>"+dateString(easter)+"</td>\n<td>"+getASDate(easter)+"</td></tr>";
       txt += "<tr>\n<td>Midsumor</td>\n<td>"+midsummer.toDateString()+"</td>\n<td>"+getASDate(midsummer)+"</td></tr>";
       txt += "<tr>\n<td>Winterfylleþ</td>\n<td>"+winterfylleth.toDateString()+"</td>\n<td>"+getASDate(winterfylleth)+"</td></tr>";
       txt += "<tr>\n<td>Ġēola</td>\n<td>"+yule.toDateString()+"</td>\n<td>"+getASDate(yule)+"</td></tr>";
@@ -209,8 +209,22 @@
     
     function dateString(d) {
       var months=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      //var dstr = String(d.getDate())+" "+months[d.getMonth()]+" "+String(d.getFullYear());
-      var dstr = d.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
+      var yr = d.getFullYear();
+      var he = 0;
+      var ce = "";
+      if (yr == 0) {
+        yr = -1;
+        he = 10000;
+        ce = "1 BCE";
+      } else if (yr < 0) {
+        he = 10001 - Math.abs(yr);
+        ce = String(Math.abs(yr))+" BCE";
+      } else {
+        he = 10000 + yr;
+        ce = String(yr)+" CE";
+      }
+      var dstr = String(d.getDate())+" "+months[d.getMonth()]+" "+he+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE ("+ce+")";
+      //var dstr = d.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
       return dstr;
     }
     
