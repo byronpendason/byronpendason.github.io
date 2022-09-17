@@ -70,13 +70,6 @@
     				}
     				$("#runeOutput").val(txt);
     				$("#runeOutput").show();
-    			});
-    			$("#runeOutput").bind("click", function()  {
-    					var txt = $("#runeOutput").val();
-    					//txt.setSelectionRange(0, 99999);
-    					navigator.clipboard.writeText(txt)
-    					.then(() => alert("Copied to clipboard:\n"+txt))
-    					.catch(() => $("#runeOutput".select()));
-    				});
     		});
+   
 </script>
