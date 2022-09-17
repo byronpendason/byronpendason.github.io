@@ -5,4 +5,6 @@ layout: default
 permalink: /rune_converter
 ---
 
+# Rune Converter
+
 {% include rune_converter.html %}
