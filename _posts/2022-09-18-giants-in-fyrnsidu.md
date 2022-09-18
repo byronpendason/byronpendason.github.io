@@ -31,7 +31,7 @@ The final word for giant is *thyrs*. Bosworth-Toller defines this as "a giant, a
 
 While folklore isn't as accurate a reflection of the pre-Christian cosmology of the Anglo-Saxons as historical records, it can help us in understanding that cosmology because it is descended from that cosmology. You just have to filter out the Christian influences that have shaped that cosmology into folklore over the last 1300 years.
 
-The article referenced above goes on to describe how heroes became giants in folklore, and cites legendary figures such as King Arthur and Robin Hood. It would appear that this meaning of the word *giant* has descended from that of the *ent* of the Anglo-Saxons since the entas seemed to be the giants who were at least half humans (though it could be argued that Nimrod and Goliath were fully human but were just exceptionally large, though medieval Christians often seemed to think they were nephilim).
+The article referenced above goes on to describe how heroes became giants in folklore, and cites legendary figures such as King Arthur and Robin Hood. It would appear that this meaning of the word *giant* has descended from that of the *ent* of the Anglo-Saxons since the entas seemed to be the giants who were at least half humans (it can be argued that Nimrod and Goliath were fully human but were just exceptionally large, though medieval Christians often seemed to think they were nephilim).
 
 The other sense of the word, the monstrous alien beings, probably descends from the ettins and/or the thyrsas. Ettins are clearly non-human, as are the thyrsas. In the available lore, both are often seen as being malevolent towards humans.
 
