@@ -41,7 +41,7 @@ This section is where I'm going to fit everything together into a cohesive cosmo
 
 In my cosmology, both the gods and the ettins came from *Gymm* (pronounced  as *yimm*, cognate of the Norse Ymir), and the only distinction between them is that the gods are affiliated with the Þing, whereas the ettins are not. Some ettins actively oppose the cosmic order that was instituted and continues to be maintained by the Þing, which would make these ettins evil since the cosmic order is what allows physical life to exist in the universe. These would be thyrsas.  Other ettins are neutral to the gods, and are not necessarily evil. However, they are also not affiliated with the gods so are not bound to the cosmic order. This makes them dangerous, and are at best neutral on the good-evil spectrum.
 
-There was an ancient human civilization that was fathered by a son of Tiw and Eorthe (and possibly also by other gods and/or ettins). Great and mighty, this civilization inhabited the area the Romans called Germania. They were known as *Entas*. Great heroes came from this people. They were great builders and creators of great weapons and armour. We do not know what caused the collapse of this great civilization, but the Anglo-Saxons thought that Hercules (known to the Anglo-Saxons as Ercol, and so was probably a son of Thunor) was from this civilization, and Nimrod and Goliath were probably seen as descendants of this civilization. [^5]
+There was an ancient human civilization that was fathered by a son of Tiw and Eorthe (and possibly also by other gods and/or ettins). Great and mighty, this civilization inhabited the area the Romans called Germania. They were known as *Entas*. Great heroes came from this people. They were great builders and creators of great weapons and armour. We do not know what caused the collapse of this great civilization, but the Anglo-Saxons thought that Hercules[^6] was from this civilization, and Nimrod and Goliath were probably seen as descendants of this civilization. [^5]
 
 So what do you think? Feel free to leave your comments below!
 
@@ -56,3 +56,5 @@ So what do you think? Feel free to leave your comments below!
 [^4]: https://www.academia.edu/resource/work/1588997
 
 [^5]: This was obviously not a historical civilization, but rather a mythological one.
+
+[^6]: Hercules was known to the Anglo-Saxons as Ercol. In *Germania*, Tacitus refers to Thunor/Donar/Thor as Hercules. Later writers, though, associated Thor with Jupiter/Zeus. We know from Roman sources that some of the Germanic peoples adopted Hercules, and so Ercol may have been seen as either being Thunor or a son of Thunor. Since Jupiter is the Roman sky father, it's also possible that he was seen as a son of Tīw.
