@@ -3,7 +3,6 @@ title: Giants in Fyrnsidu
 author: Byron Pendason
 date: 2022-09-18
 layout: post
-published: false
 categories: [Heathenry, heathen worldview, cosmology, reconstruction]
 ---
 
