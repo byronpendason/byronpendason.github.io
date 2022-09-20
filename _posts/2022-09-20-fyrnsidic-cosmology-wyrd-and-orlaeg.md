@@ -1,7 +1,7 @@
 ---
 title: Fyrnsidic Cosmology- Wyrd and Orlæg
 author: Byron Pendason
-date: 2022-09-19
+date: 2022-09-20
 categories: [cosmology, heathen basics, heathen worldview, Heathenry, reconstruction]
 layout: post
 published: false
@@ -23,7 +23,6 @@ The interdependence and interconnectedness of all things is a logical result of 
 
 Even the most seemingly inconsequential of actions can lead to a butterfly effect that ends up having a major impact on history. A lot of the time, we don't see the impact we've had or we see the impact but don't recognize it as having been our doing. The Doctor Who episode "Turn Left" is a good example of how wyrd works and how a seemingly inconsequential decision (to turn right instead of left at an intersection in the road) can snowball into a dystopian future. I won't say more about the episode except to say that if you haven't seen it, you should.
 
-It's a work of fiction, but the principle behind it is valid. There's a reason that most TV shows seem to have at least one episode that explores how different things would be if just one thing changed. It's because 
-even though we may not think about it very often, our society recognizes that every action has consequences that cause chain reactions along the web of wyrd that can lead to major changes.
+It's a work of fiction, but the principle behind it is valid. There's a reason that most TV shows seem to have at least one episode that explores how different things would be if just one thing changed. It's because even though we may not think about it very often, our society recognizes that every action has consequences that cause chain reactions along the web of wyrd that can lead to major changes.
 
 We need to start being mindful of the fact that our smallest decisions can have huge effects. Everything we do, we need to think about whether our action is going to lead to  better and stronger communities, or a worse one Very rarely will our decisions not have indirect consequences upon our communities. Let's start recognizing this, and living our lives to lead to a better tomorrow.
