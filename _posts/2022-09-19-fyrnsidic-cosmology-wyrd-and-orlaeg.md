@@ -7,9 +7,9 @@ layout: post
 published: false
 ---
 
-[My first blog post](https://www.minewyrtruman.com/2019/10/02/wyrd-the-heathen-concept-of-fate/) was about wyrd. Like most Heathens, I came at it from the personal scale. We each have our individual wyrd, and this should probably be our basic understanding of it. But the universe itself also has a wyrd, and I think we've reached the point in this series on cosmology that wyrd is the next logical concept to address. Before we dive into that, though, let's recap what wyrd is on a personal level.
+[My first post on this blog](https://www.minewyrtruman.com/2019/10/02/wyrd-the-heathen-concept-of-fate/) was about wyrd. Like most Heathens, I came at it from the personal scale. We each have our individual wyrd, and this should probably be our basic understanding of it. But the universe itself also has a wyrd, and I think we've reached the point in this series on cosmology that wyrd is the next logical concept to address. Before we dive into that, though, let's recap what wyrd is on a personal level.
 
-Wyrd is the Heathen concept of fate, but it's not the deterministic fate of classical religion. It's best summarized as "Where we are going is determined by where we are now and where we have been." Our every action is a thread that is weaved into the web that is our personal wyrd. Each thread determines what our wyrd looks like, and once a thread has been added it cannot be removed. What the final product will look like may not be known, but what's already been weaved into it limits what it *can* look like.
+Wyrd is the Heathen concept of fate, but it's not the deterministic fate of classical religion. It's best summarized as "Where we are going is determined by where we are now and where we have been." Our every action is a thread that is woven into the web that is our personal wyrd. Each thread determines what our wyrd looks like, and once a thread has been added it cannot be removed. What the final product will look like may not be known, but what's already been weaved into it limits what it *can* look like.
 
 The universe itself has its own wyrd. But instead of each thread being an action, each thread is the wyrd of an individual. What this means is that every individual is connected to the web, and thus everyone is connected to everyone else. That web is the wyrd of the cosmos.
 
