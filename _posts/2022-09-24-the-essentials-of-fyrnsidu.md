@@ -50,6 +50,6 @@ The following list of webpages also has a good pages for beginner's information 
 
 ## What's next?
 
-What's on this page is just the tip of the iceberg when it comes to the modern religion known as Fyrnsidu. However, it's more than enough to get one grounded in the basics and stay practicing.
+What's on this page is just the tip of the iceberg when it comes to the modern religion known as Fyrnsidu. However, it's more than enough to get one grounded in the basics and start practicing.
 
 After you've made it through the material on this page, I highly encourage you to check out the blogs, websites, and YouTube channels to be found on [The Fyrnsidu Community](https://fyrnsidu.faith/the-fyrnsidu-community/) page of Fyrnsidu.faith. 
