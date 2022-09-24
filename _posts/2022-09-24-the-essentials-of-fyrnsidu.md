@@ -2,7 +2,7 @@
 title: The Essentials of Fyrnsidu
 author: Byron Pendason
 date: 2022-09-24
-categories: []
+categories: [Heathenry, heathen basics, heathen worldview, heathen worship, reconstruction]
 layout: post
 published: false
 ---
