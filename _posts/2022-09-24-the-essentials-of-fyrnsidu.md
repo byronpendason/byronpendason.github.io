@@ -4,7 +4,6 @@ author: Byron Pendason
 date: 2022-09-24
 categories: [Heathenry, heathen basics, heathen worldview, heathen worship, reconstruction]
 layout: post
-published: false
 ---
 
 It's all too easy to lose sight of why you're doing something. I started this blog almost three years ago when I was still a baby on this path. My intention was to take what I was learning and put it into my own words in order to help fellow newbies learn about Fyrnsidu. Since then, it has become my passion to promote and contribute to Fyrnsidu, in order to help it grow. But sometimes, you have to return to the basics. So in this post, I want to outline what the essentials of Fyrnsidu are, and link to resources to help those interested in learning what Fyrnsidu is all about.
