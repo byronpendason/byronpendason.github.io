@@ -16,8 +16,17 @@
     </tr>
   </table>
   <h3>High Holidays</h3>
-  <p>these are the holidays that almost every Heathen observes (though usually by a different name and possibly at other times).</p>
+  <p>These are the holidays that almost every Heathen observes (though usually by a different name and possibly at other times).</p>
   <table id="holidays-table" style="width:100%">
+    <tr>
+      <th>Holiday</th>
+      <th>Date</th>
+      <th>Anglo-Saxon Date</th>
+    </tr>
+  </table>
+  <h3>Other Holidays</h3>
+  <p>These holidays are far from universal, but are observed by at least some Heathens who use the pre-Christian Anglo-Saxons as a primary source for their spirituality. Most of these are taken from the Ingvaeonic Society's <a href="https://ingwine.org/knowledge-base-2/the-holy-calendar/">The Holy Calendar</a></p>
+  <table id="other-holidays-table" style="width:100%">
     <tr>
       <th>Holiday</th>
       <th>Date</th>
@@ -83,6 +92,11 @@
 </tr>\n");
       
       $("#holidays-table").html("<tr> \n\
+<th>Holiday</th> \n\
+<th>Date</th> \n\
+<th>Anglo-Saxon Date</th> \n\
+</tr>\n");
+      $("#other-holidays-table").html("<tr> \n\
 <th>Holiday</th> \n\
 <th>Date</th> \n\
 <th>Anglo-Saxon Date</th> \n\
@@ -185,6 +199,24 @@
       txt += "<tr>\n<td>Ġēola</td>\n<td>"+dateString(yule)+"</td>\n<td>"+getASDate(yule)+"</td></tr>";
       $('#holidays-table').append(txt);
 
+      var sigetiber = new Date(fullMoons[1]); // Sigetiber
+      var lencten = new Date(fullMoons[2]); // Lencten-tíd
+      if (leap) {
+        var bendfeorm = new Date(newMoons[7]); //Bendfeorm
+        var harvest = new Date(fullMoons[8]); // Hærfestlíc Freólsung
+        var andetnes = new Date(fullMoons[10]); // Andetnes-blót
+      } else {
+        var bendfeorm = new Date(newMoons[8]);
+        var harvest = new Date(fullMoons[9]);
+        var andetnes = new Date(fullMoons[11]);
+      }
+      txt = "<tr>\n<td>Sigetiber</td>\n<td>"+dateString(sigetiber)+"</td>\n<td>"+getASDate(sigetiber)+"</td></tr>\n";
+      txt += "<tr>\n<td>Lencten-Tīd</td>\n<td>"+dateString(lencten)+"</td>\n<td>"+getASDate(lencten)+"</td></tr>\n";
+      txt += "<tr>\n<td>Bendfeorm</td>\n<td>"+dateString(bendfeorm)+"</td>\n<td>"+getASDate(bendfeorm)+"</td></tr>\n";
+      txt += "<tr>\n<td>Hærfestlīc Freōlsung</td>\n<td>"+dateString(harvest)+"</td>\n<td>"+getASDate(harvest)+"</td></tr>\n";
+      txt += "<tr>\n<td>Andetnes-blōt</td>\n<td>"+dateString(andetnes)+"</td>\n<td>"+getASDate(andetnes)+"</td></tr>\n";
+      $('#other-holidays-table').append(txt);
+      
       if ($('#today').text() == "") {
         var now = new Date();
         var asdate = "Today is the "+getASDate(now);
