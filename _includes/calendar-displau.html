@@ -210,11 +210,18 @@
         var harvest = new Date(fullMoons[9]);
         var andetnes = new Date(fullMoons[11]);
       }
+      var modra1 = new Date(yule);
+      var modra2 = new Date(addDays(yule), 2);
+      var modra3 = new Date(addDays(yule), 8);
       txt = "<tr>\n<td>Sigetiber</td>\n<td>"+dateString(sigetiber)+"</td>\n<td>"+getASDate(sigetiber)+"</td></tr>\n";
       txt += "<tr>\n<td>Lencten-Tīd</td>\n<td>"+dateString(lencten)+"</td>\n<td>"+getASDate(lencten)+"</td></tr>\n";
       txt += "<tr>\n<td>Bendfeorm</td>\n<td>"+dateString(bendfeorm)+"</td>\n<td>"+getASDate(bendfeorm)+"</td></tr>\n";
       txt += "<tr>\n<td>Hærfestlīc Freōlsung</td>\n<td>"+dateString(harvest)+"</td>\n<td>"+getASDate(harvest)+"</td></tr>\n";
       txt += "<tr>\n<td>Andetnes-blōt</td>\n<td>"+dateString(andetnes)+"</td>\n<td>"+getASDate(andetnes)+"</td></tr>\n";
+      txt += "<tr>\n<td>Modraniht (Traditional)</td>\n<td>"+dateString(modra1)+"</td>\n<td>"+getASDate(modra1)+"</td></tr>\n";
+      txt += "<tr>\n<td>Modraniht (Mine Wyrtruman)</td>\n<td>"+dateString(modra2)+"</td>\n<td>"+getASDate(modra2)+"</td></tr>\n";
+      txt += "<tr>\n<td>Modraniht (Ingwine)</td>\n<td>"+dateString(modra3)+"</td>\n<td>"+getASDate(modra3)+"</td></tr>\n";
+      
       $('#other-holidays-table').append(txt);
       
       if ($('#today').text() == "") {
@@ -240,6 +247,12 @@
       
     }
     
+    function addDays(d, days) {
+      var result = new Date(date);
+      result.setDate(result.getDate() + days);
+      return result;
+    }
+
     function dateString(d) {
       var months=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
       var days=["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
