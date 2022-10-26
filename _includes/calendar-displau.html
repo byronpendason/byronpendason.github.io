@@ -204,7 +204,7 @@
       var sigetiber = new Date(fullMoons[1]); // Sigetiber
       var lencten = new Date(fullMoons[2]); // Lencten-tíd
       var blost = new Date(); // Blōstmfrēols- Adding too last day of Eosturmonath
-      blost = addDays(newMoons[5], -1); // https://larhusfyrnsida.com/2017/03/18/blostmfreols/
+      blost = addDays(newMoons[4], -1); // https://larhusfyrnsida.com/2017/03/18/blostmfreols/
       if (leap) {
         var bendfeorm = new Date(newMoons[7]); //Bendfeorm
         var harvest = new Date(fullMoons[8]); // Hærfestlíc Freólsung
@@ -223,7 +223,7 @@
       twelfth = addDays(modra1, 11); // Twelftadæg
       txt = "<tr>\n<td>Sigetiber</td>\n<td>"+dateString(sigetiber)+"</td>\n<td>"+getASDate(sigetiber)+"</td></tr>\n";
       txt += "<tr>\n<td>Lencten-Tīd</td>\n<td>"+dateString(lencten)+"</td>\n<td>"+getASDate(lencten)+"</td></tr>\n";
-      txt += "<tr>\n<td>Blōstmfrēols (<a href=\"https://larhusfyrnsida.com/2017/03/18/blostmfreols/\">Lārhūs Fyrnsida</a>)</td>\n<td>"+dateString(lencten)+"</td>\n<td>"+getASDate(lencten)+"</td></tr>\n";
+      txt += "<tr>\n<td>Blōstmfrēols (<a href=\"https://larhusfyrnsida.com/2017/03/18/blostmfreols/\">Lārhūs Fyrnsida</a>)</td>\n<td>"+dateString(blost)+"</td>\n<td>"+getASDate(blost)+"</td></tr>\n";
       txt += "<tr>\n<td>Bendfeorm</td>\n<td>"+dateString(bendfeorm)+"</td>\n<td>"+getASDate(bendfeorm)+"</td></tr>\n";
       txt += "<tr>\n<td>Hærfestlīc Freōlsung</td>\n<td>"+dateString(harvest)+"</td>\n<td>"+getASDate(harvest)+"</td></tr>\n";
       txt += "<tr>\n<td>Andetnes-blōt</td>\n<td>"+dateString(andetnes)+"</td>\n<td>"+getASDate(andetnes)+"</td></tr>\n";
