@@ -333,9 +333,9 @@
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
 
       var dateStr = getOrdinal(Math.round(day))+" of "+month;
-      if (y != year) {
-        dateStr += y.toString() + "CE";
-      }
+      /*if (y != year) {
+        dateStr += ", " + y.toString() + " CE";
+      }*/
       return dateStr;
     }
     
