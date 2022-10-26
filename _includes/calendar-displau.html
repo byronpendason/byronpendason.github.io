@@ -325,15 +325,18 @@
       }
       newMoon = new Date(newMoons[i].toDateString());
       var month = monthNames[i];
-
-      if (y != year) {
-        newMoon = new Date(years[y-1700].new_moons[0]);
-        month = "Æfterra Ġēola";
-      }
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
+      var newYear = new Date(years[year+1].new_moons[0]);
+      var isNextYear = false;
+      if (d >= newYear) {
+        newMoon = newYear;
+        day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
+        month = "Æfterra Ġēola";
+        isNextYear = true;
+      }
 
       var dateStr = getOrdinal(Math.round(day))+" of "+month;
-      if (y != year) {
+      if (isNextYear) {
         dateStr += ", " + y.toString() + " CE";
       }
       return dateStr;
