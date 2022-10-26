@@ -337,7 +337,7 @@
 
       var dateStr = getOrdinal(Math.round(day))+" of "+month;
       if (isNextYear) {
-        dateStr += ", " + y.toString() + " CE";
+        dateStr += ", " + (year+1).toString() + " CE";
       }
       return dateStr;
     }
