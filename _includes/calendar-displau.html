@@ -53,6 +53,7 @@
     var monthNames = new Array("Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola");
     var convert = new Date(1582, 9, 15);
     var today = new Date();
+    var yule = new Date();
     var year = today.getFullYear();
     var years = new Array();
 {% for yr in site.data.calendar %}
@@ -117,38 +118,39 @@
         makeCal(yr);
         return false;
       });
+      year = yr;
       newMoons = [];
       fullMoons = [];
       monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
 
       if (yr < 1700 || yr > 2199) {
-      var date = new Date(A.Get.winterSolstice(yr-1));
-      var today = new Date();
-      var leap = true;
-      for(let i=0; i<13; i++) {
-        date = nextNewMoon(date);
-        date.setTime(date.getTime()+36*1000*60*60);
-        newMoons.push(new Date(date));
-        date = nextFullMoon(date);
-        fullMoons.push(new Date(date));
-      }
+        var date = new Date(A.Get.winterSolstice(yr-1));
+        var today = new Date();
+        var leap = true;
+        for(let i=0; i<13; i++) {
+          date = nextNewMoon(date);
+          date.setTime(date.getTime()+36*1000*60*60);
+          newMoons.push(new Date(date));
+          date = nextFullMoon(date);
+          fullMoons.push(new Date(date));
+        }
 
-      var yule = new Date(A.Get.winterSolstice(yr));
-      var midsummer = new Date(A.Get.summerSolstice(yr));
-      var easter = new Date(fullMoons[3]);
-      if (newMoons[12] > yule) {
-        leap = false;
-        newMoons.pop();
-        fullMoons.pop();
-        monthNames.splice(6, 1);
-      }
-      
-      if (leap==true) {
-        $('#leap').html("<p>Since there are thirteen new moons between the winter solstices of the previous yr and the current yr, this yr is a leap yr.</p>");
-        var winterfylleth = new Date(fullMoons[10]);
-      } else {
-        var winterfylleth = new Date(fullMoons[9]);
-      }
+        yule = new Date(A.Get.winterSolstice(yr)); // Not initialized because its a global
+        var midsummer = new Date(A.Get.summerSolstice(yr));
+        var easter = new Date(fullMoons[3]);
+        if (newMoons[12] > yule) {
+          leap = false;
+          newMoons.pop();
+          fullMoons.pop();
+          monthNames.splice(6, 1);
+        }
+        
+        if (leap==true) {
+          $('#leap').html("<p>Since there are thirteen new moons between the winter solstices of the previous yr and the current yr, this yr is a leap yr.</p>");
+          var winterfylleth = new Date(fullMoons[10]);
+        } else {
+          var winterfylleth = new Date(fullMoons[9]);
+        }
       } else {
         var x = yr - 1700;
         var leap = years[x].leap;
@@ -306,6 +308,8 @@
     function getASDate(d) {
       var i=0;
       d = new Date(d.toDateString());
+      var y = d.getFullYear();
+
       while (d > newMoons[i]) {
         if (i-1 == newMoons.length) break;
         i++;
@@ -320,9 +324,18 @@
         console.log(err);
       }
       newMoon = new Date(newMoons[i].toDateString());
+      var month = monthNames[i];
+
+      if (y != year) {
+        newMoon = years[y-1700].new_moons[0];
+        month = "Æfterra Ġēola";
+      }
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
 
-      var dateStr = getOrdinal(Math.round(day))+" of "+monthNames[i];
+      var dateStr = getOrdinal(Math.round(day))+" of "+month;
+      if (y != year) {
+        dateStr += y.toString() + "CE";
+      }
       return dateStr;
     }
     
