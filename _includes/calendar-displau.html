@@ -206,13 +206,13 @@
       var blost = new Date(); // Blōstmfrēols- Adding too last day of Eosturmonath
       blost = addDays(newMoons[4], -1); // https://larhusfyrnsida.com/2017/03/18/blostmfreols/
       if (leap) {
-        var bendfeorm = new Date(newMoons[6]); //Bendfeorm
-        var harvest = new Date(fullMoons[8]); // Hærfestlíc Freólsung
-        var andetnes = new Date(fullMoons[10]); // Andetnes-blót
-      } else {
-        var bendfeorm = new Date(newMoons[7]);
+        var bendfeorm = new Date(newMoons[8]);
         var harvest = new Date(fullMoons[9]);
         var andetnes = new Date(fullMoons[11]);
+      } else {
+        var bendfeorm = new Date(newMoons[7]); //Bendfeorm
+        var harvest = new Date(fullMoons[8]); // Hærfestlíc Freólsung
+        var andetnes = new Date(fullMoons[10]); // Andetnes-blót
       }
       var modra1 = new Date(yule);
       var modra2 = new Date();
