@@ -55,11 +55,8 @@ header_pages:
 plugins:
   - jekyll-feed
 # Analytics
-analytics:
-  provider               : "google-gtag"
-  google:
-    measurement_id       : "G-SE3GMKHNJ4"
-    anonymize_ip         : true
+google_analytics: 'G-SE3GMKHNJ4'
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
