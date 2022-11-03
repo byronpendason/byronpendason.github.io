@@ -54,6 +54,12 @@ header_pages:
     url: /runetyper
 plugins:
   - jekyll-feed
+# Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    measurement_id       : "G-SE3GMKHNJ4"
+    anonymize_ip         : true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
