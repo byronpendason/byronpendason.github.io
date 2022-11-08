@@ -41,10 +41,10 @@ I highly recommend *The Elder Gods* relevant sections on Entas, Eotenas, Giganta
 
 ## Bibliography
 
-*A Compendious Anglo-Saxon and English Dictionary*, by Joseph Boswell (1901). Available online at <https://bosworthtoller.com/>.
+Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote Toller, Christ Sean, and Ondřej Tichy. Prague: Faculty of Arts, Charles University, 2014. https://bosworthtoller.com/9638.
 
-*English Fairy Tales*, by Joseph Jacobs (1890). "The Red Ettin". Available online at <https://en.m.wikisource.org/wiki/English_Fairy_Tales/The_Red_Ettin>.
+Heslop, Richard Oliver. *Northumberland Words*. London: The English Dialect Society, 1892. https://archive.org/details/northumberlandv128hesluoft/mode/2up
 
-*Northumberland Words*, by Richard Oliver Heslop (1892). Available online at <https://archive.org/details/northumberlandv128hesluoft/mode/2up>.
+Jacobs, Joseph. "The Red Ettin" in *English Fairy Tales*. New York: G. P. Putnam's Sons, 1890. https://en.m.wikisource.org/wiki/English_Fairy_Tales/The_Red_Ettin
 
-*The Elder Gods*, by Stephen Pollington (2011). Published by [Anglo Saxon Books](http://www.asbooks.co.uk/t%20elder-gods.htm)
+Pollington, Stephen. *The Elder Gods*. Cambs: Anglo Saxon Books, 2011. 
