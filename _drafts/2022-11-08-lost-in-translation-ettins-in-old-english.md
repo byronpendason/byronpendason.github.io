@@ -60,10 +60,6 @@ Going with what we learned about giants in earlier sections, it would seem that 
 
 If the giant is the child of at least one human, it's probably an ent. If the giant is known to be a builder of works of construction or craftmanship (such as buildings, structures, weapons, or armour), it's likely to be an ent. As far as I am aware, nowhere in the Old English corpus is there an ent who is also referred to as an ettin, or vice versa, so the two appear to be mutually exclusive. So Wada (the child of a human and a sea-creature who is known for building roads) and his son Weyland (who is known as a famous smith) would be likely be giants of the ent variety.
 
-## Conclusion
-
-There's a trend in modern Anglo-Saxon based forms of Heathenry to treat giants of all kinds as being the same, despite having different Old English words for them. Since they're all translated into modern English as *giant*, the assumption is that they're all the same type. I feel like this approach causes us to miss nuances between the different kinds of giants that populate our literary and folkloric landscape. Unless we have evidence to show otherwise, there's no reason to assume that different words with similar meanings but different etymologies mean the same exact thing and are interchangable. This is especially true of the words translated as 'giant'. Lumping all the different types of giants together, and saying they're just different kinds of ettins is not only unjustified upon a close examination of the corpus but dulls the wisdom of our ancestors. This is how nuances are lost in translation, and we can miss out on a whole lot of our lore as a result.
-
 ## Bibliography
 
 Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote Toller, Christ Sean, and Ondřej Tichy. Prague: Faculty of Arts, Charles University, 2014. https://bosworthtoller.com.
