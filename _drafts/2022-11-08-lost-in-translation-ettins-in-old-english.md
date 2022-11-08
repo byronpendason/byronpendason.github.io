@@ -28,7 +28,7 @@ The classic example of ettins, of course, is Grendel and his mother. Grendel was
 
 Add these figures (the red ettin, the boggle, Grendel, and his mother) together, and we do not get a positive impression of ettins. Of course, these should not all be lumped together to say for certainty this is what ettins are like, but rather seen as different facets of the kinds of giants we are to find within the broad category we call ettins.
 
-People who've been in Heathenry for a while might want to stop me here and ask about Wada, the father of Wayland. As far as I am aware, he's never identified as an ettin specifically, only as a giant. People make a leap of logic from there to declare him an ettin, but there's no reason to assume that all giants are ettins. (The same argument is sometimes made for Wōden based upon Mercury the Giant. But in *Solomon and Saturn*, the OE word used for Mercury (who is generally identified as Wōden) is a *gigant*, not *eoten*.)
+People who've been in Heathenry for a while might want to stop me here and ask about Wada, the father of Wayland. As far as I am aware, he's never identified as an ettin specifically, only as a giant. People make a leap of logic from there to declare him an ettin, but there's no reason to assume that all giants are ettins. (The same argument is sometimes made for Wōden based upon Mercury the Giant. But in *Solomon and Saturn*, the OE word that is used to describe Mercury (who is generally identified as Wōden) is a *gigant*, not *eoten*. This late OE identification of Wōden as a giant is probably due to the medieval Christian tendency of "demoting" gods to lesser beings, such as giants, ancestors, or even demons.)
 
 ## Examining the Old English
 
