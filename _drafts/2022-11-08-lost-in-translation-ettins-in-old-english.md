@@ -7,11 +7,11 @@ published: false
 categories: [Heathenry, heathen worldview, cosmology, reconstruction]
 ---
 
-I came across a [blog post](https://ingwine.neocities.org/speechlore/oe_ettins.html) recently, alleging to reevaluate ettins in Old English literature. I read it with interest, because I've interacted with the author on various Discord servers and have had nothing but positive experiences with them. The argument in this case, though, falls flat. It takes every instance in Old English literature that is translated as *giant* in modern English, and declares it to be talking about ettins. This reflects a problem that is all too prevalent in the modern era, the conflating of all giants in Old English literature. But not every giant in Old English literature is an ettin.
+I came across a blog post recently, alleging to reevaluate ettins in Old English literature (Moniz, 2022). I read it with interest, because I've interacted with the author on various Discord servers and have had nothing but positive experiences with them. The argument in this case, though, falls flat. It takes every instance in Old English literature that is translated as *giant* in modern English, and declares it to be talking about ettins. This reflects a problem that is all too prevalent in the modern era, the conflating of all giants in Old English literature. But not every giant in Old English literature is an ettin.
 
 There are four words in Old English that are translated as *giant* in modern English. There is *eoten* (which is cognate to the Norse Jötunn), *ent*, *þyrs*, and *gigant*. Only the first is the ancestor of the modern English word *ettin*. The last is a Latin loanword (which ultimately descends from the Greek) that ended up replacing the other three before we get to the modern era. This is the reason, I believe that confusion between the different types of giants exist.
 
-In [another blog post](https://www.minewyrtruman.com/2022/09/18/giants-in-fyrnsidu/) I give my attempt at building giant-lore in Fyrnsidu, but for this blog post I want to focus on academic sources and not my own lore-building. As I say in the footer of every single page on this website, I'm not an expert or academic, so double check everything I say. At the end of this blog post, you will find a list of the sources I used so that you can.
+In [another blog post](https://www.minewyrtruman.com/2022/09/18/giants-in-fyrnsidu/) I give my attempt at building giant-lore in Fyrnsidu, but for this blog post I want to focus on academic sources and not my own lore-building. As I say in the footer of every single page on this website, I'm not an expert nor an academic, so double check everything I say. At the end of this blog post, you will find a list of the sources I used for this blog post so that you can.
 
 ## Exploring Giants in Anglo-Saxon lore
 
@@ -60,6 +60,8 @@ Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote
 Heslop, Richard Oliver. *Northumberland Words*. London: The English Dialect Society, 1892. https://archive.org/details/northumberlandv128hesluoft/mode/2up
 
 Jacobs, Joseph. "The Red Ettin" in *English Fairy Tales*. New York: G. P. Putnam's Sons, 1890. https://en.m.wikisource.org/wiki/English_Fairy_Tales/The_Red_Ettin
+
+Moniz, C Ryan. 2022. "Enta Ǽrgeweorc: Re-evaluating ettins in Old English literature", Ingwine's Homestead (blog). Accessed November 3, 2022. https://ingwine.neocities.org/speechlore/oe_ettins.html
 
 Pollington, Stephen. "5. Anthropomorphic Beings" in *The Elder Gods*. Cambridge: Anglo Saxon Books, 2011.
 
