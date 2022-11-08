@@ -41,7 +41,7 @@ I highly recommend *The Elder Gods* relevant sections on Entas, Eotenas, Giganta
 
 ## Bibliography
 
-Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote Toller, Christ Sean, and Ondřej Tichy. Prague: Faculty of Arts, Charles University, 2014. https://bosworthtoller.com/9638.
+Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote Toller, Christ Sean, and Ondřej Tichy. Prague: Faculty of Arts, Charles University, 2014. https://bosworthtoller.com.
 
 Heslop, Richard Oliver. *Northumberland Words*. London: The English Dialect Society, 1892. https://archive.org/details/northumberlandv128hesluoft/mode/2up
 
