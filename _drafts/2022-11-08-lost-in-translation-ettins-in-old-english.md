@@ -3,7 +3,6 @@ title: Lost in Translation- Ettins in Old English
 author: Byron Pendason
 date: 2022-11-08
 layout: post
-published: false
 categories: [Heathenry, heathen worldview, cosmology, reconstruction]
 ---
 
@@ -24,6 +23,8 @@ The word *ettin* survives in the modern English dialects of the Northumbrians an
 
 The word *boggle* is related to our word *bogeyman* and the modern fantasy monster *bugbear*. These relatives of the boggle should give you an idea of what an ettin would be to the people of Northumberland.
 
+The story of the Red Ettin (Jacobs, "Red Ettin") is another survival of the term “ettin”, it is an English/Scottish fairy tale collected by Joseph Jacobs in 1890. The titular character in this tale is a monstrous giant with three heads who kidnaps women, turns men to stone, and alludes to eating them. 
+
 The classic example of ettins, of course, is Grendel and his mother. Grendel was an ettin who lived alone with his mother in fens near Hrothgar's Hall. Being annoyed by the noise of civilization, he inflicts a twelve year long bloody era of horror upon Hrothgar's people. After he is slain by Beowulf in unarmed conflict, Grendel's mother ventures out to exact vengeance. Beowulf tracks her back to her lair, and uses an ancient sword he finds there to slay her and then chop Grendel's head from his body.
 
 Considering these figures (the red ettin, the boggle, Grendel, and his mother) together, it do not get a positive impression of ettins. Of course, these should not all be lumped together to say for certainty this is what all ettins everywhere are like, but rather seen as different facets of the kinds of giants we are to find within the broad category we call ettins.
@@ -32,7 +33,7 @@ People who've been in Heathenry for a while might want to stop me here and ask a
 
 ## Examining the Old English
 
-The author of the blog post I mentioned in the introductory paragraph did attempt an argument for equating ettins and ents. In line 1557 of *Beowulf*, our titular character finds an old ettin-ish (*eotenisc*) sword. A couple lines down it's called a work of giants (*giganta geweorc*). When it's presented to Hrothgar in line 1679, it's called an ancient work of ents (*enta ærgeweork*). Based upon this, the author claims that the ettins, entas, and gigantas are all the same. The author uses adjectives for all three words in his translation: *ent*-ish, ettin-ish, and *gigant*-ish, but only ettin-ish is an adjective in the original language, the other two are genitive (possessive) plurals. We'll get into the significance of this in a moment.
+Moniz, the author of the blog post I mentioned in the introductory paragraph, did attempt an argument for equating ettins and ents. In line 1557 of *Beowulf*, our titular character finds an old ettin-ish (*eotenisc*) sword. A couple lines down it's called a work of giants (*giganta geweorc*). When it's presented to Hrothgar in line 1679, it's called an ancient work of ents (*enta ærgeweork*). Based upon this, the author claims that the ettins, entas, and gigantas are all the same. The author uses adjectives for all three words in his translation: *ent*-ish, ettin-ish, and *gigant*-ish, but only ettin-ish is an adjective in the original language, the other two are genitive (possessive) plurals. We'll get into the significance of this in a moment.
 
 Let's examine these words in Old English, starting with the ents and gigants, and then moving on to the ettins. Pollington tells us, "The word *ent* is used to gloss the Greek *gigas* and Latin *gigant*" (Pollington, pg. 293). So the sword being referred to as a *giganta* work in the first instance and *enta* work in the second is no surprise. A literal translation of the first is *work of giants*, and the second is *ancient work of ents*. Ent and gigant are clearly meant to be equivalents. But what about it being called an old ettin-ish sword when it's introduced? The adjective used here (*eotenisc*) is modifying the noun *sweord*, "sword". In the other two cases mentioned, the words *giganta* and *enta* are genitive plural nouns.
 
