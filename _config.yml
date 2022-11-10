@@ -38,7 +38,7 @@ defaults:
       path: ""
       type: "wiki"
     values:
-      layout: "default"
+      layout: "wiki"
 header_pages:
   - title: Home
     url: /
