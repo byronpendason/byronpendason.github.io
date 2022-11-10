@@ -39,9 +39,6 @@ defaults:
       type: "wiki"
     values:
       layout: "wiki"
-wikilinks:
-  attributes:
-    enabled: true
 header_pages:
   - title: Home
     url: /
