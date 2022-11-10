@@ -33,6 +33,7 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:title
+    layout: default
 header_pages:
   - title: Home
     url: /
