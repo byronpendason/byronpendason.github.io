@@ -7,4 +7,5 @@ title: Index
 ## Pages
 
 {% for page in site.wiki %}
-- [{{page.title}}]({{page.url}}]
+- [{{page.title}}]({{page.url}})
+{% endfor %}
