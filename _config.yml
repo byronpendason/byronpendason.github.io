@@ -33,9 +33,9 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:title
-defaults
+defaults:
   - scope:
-      path: " "
+      path: ""
       type: "wiki"
     values:
       layout: "default"
