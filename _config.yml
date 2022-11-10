@@ -33,7 +33,12 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:title
-    layout: default
+defaults
+  - scope:
+      path: " "
+      type: "wiki"
+    values:
+      layout: "default"
 header_pages:
   - title: Home
     url: /
