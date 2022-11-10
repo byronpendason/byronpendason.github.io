@@ -1,5 +1,6 @@
 ---
 title: Index
+layout: default
 ---
 
 # Welcome to the Mine Wyrtruman wiki!
