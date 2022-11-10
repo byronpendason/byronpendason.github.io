@@ -10,5 +10,7 @@ In the *Mine Wyrtruman Wiki*, you will find pages for different things of import
 ## Pages
 
 {% for page in site.wiki %}
-{% if page.title != "index" %}- [{{page.title}}]({{page.url}}){% endif %}
+
+{% if page.title != "Index" %}- [{{page.title}}]({{page.url}}){% endif %}
+
 {% endfor %}
