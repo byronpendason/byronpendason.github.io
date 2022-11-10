@@ -29,6 +29,10 @@ twitter_username: byronfyrnsidere
 github_username:  byronpendason
 show_excerpts: true
 permalink: /:year/:month/:day/:title/
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:title
 header_pages:
   - title: Home
     url: /
