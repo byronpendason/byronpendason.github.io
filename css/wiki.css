@@ -30,7 +30,7 @@ body {
   padding: 10px;
   min-height: 85%;
 }
-#content p {
+#content * {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
   line-height: 1.2;
