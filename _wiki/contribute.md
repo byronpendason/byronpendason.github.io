@@ -1,5 +1,5 @@
 ---
-title: Contribute to the Fyrnsidu Wiki
+title: Help the Fyrnsidu Wiki
 ---
 
 If you'd like to help contribute to the Fyrnsidu Wiki,
