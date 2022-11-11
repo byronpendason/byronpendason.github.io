@@ -11,6 +11,7 @@ body {
   background: rgb(150, 150, 150);
   color: black;
   margin: 0px 0px 25px;
+  padding: 0px;
 }
 #header * {
   text-align: center;
