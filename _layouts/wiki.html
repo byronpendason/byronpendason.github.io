@@ -36,7 +36,7 @@
 </div>
 {% if page.title != "Index" %}
 <button type="button" id="artBtn" onClick="showArt()">Article</button><button type="button" id="talkBtn" onClick="showTalk()">Talk</button><a href="/wiki/">Wiki Home</a>
-
+<div id="content">
 <h1>Wiki: {{page.title}}</h1>
 {% endif %}
 
@@ -64,7 +64,7 @@
       })();
 </script>
 {% endunless %}
-
+</div>
 {% include wikilinks.html %}
 <script>
 function showTalk() {
