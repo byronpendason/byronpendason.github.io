@@ -3,13 +3,9 @@
   $(document).ready(function() {
     let content = $("#content").html();
     let pat = /\[\[(.+)\]\]/g;
-    content = content.replace(pat, '<a href="$1">$1</a>');
-    let results = /href=".+"/.exec(content);
-    for (int i=0; i<results.length; i++) {
-      var txt = results[i].toLowerCase();
-      content = content.replace(results[i], txt);
-    }
-    $("#content").html(content);
+    var results = pat.exec(content);
+    
+    $("#content").html(tesults);
   });
  
 </script>
