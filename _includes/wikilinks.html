@@ -2,7 +2,7 @@
 <script>
   $(document).ready(function() {
     let content = $("#content").html();
-    let pat = /\[\[(.+\)]\]/g;
+    let pat = /\[\[(.+)\]\]/g;
 
     content = content.replace(pat, '<a href="$1">$1</a>');
     $("#content").html(content);
