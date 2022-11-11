@@ -4,34 +4,111 @@ sitemap:
   exclude: 'yes'
 ---
 
-html,body {
+body {
+  background-image: url("/media/blue-sky-with-small-cloud.jpg");
+  background-color: CornflowerBlue;
+  background-attachment: fixed;
+  background-size: cover;
+  position: center;
   color: black;
-  margin: 0px;
-  padding: 0px;
+  min-height:100%;
 }
 #header {
-  background: rgb(150, 150, 150);
-  color: black;
-  margin: 0px;
-  padding: 10px;
+  background: rgb(25, 25, 112);
+  color: white;
 }
 #header * {
   text-align: center;
-  margin:0px;
-  padding: 0px;
+}
+nav {
+  background: rgb(25, 25, 112);
+  color: white;
+}
+nav * {
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: underline solid 1px;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+.dropdown {
+  position: relative;
+  display: block;
+}
+.dropbtn {
+  display: block;
+  font-size: 1.25em;
+  text-decoration: underline overline double 1px;
+}
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background: rgb(25, 25, 112);
+  width: 100%;
+  box-sizing: border-box;
+}
+.dropdown:hover .dropdownContent {
+  display: block;
 }
 #content {
-  background: rgb(200, 200, 200);
+  background: rgba(255, 255, 255, 0.5);
   color: black;
+  padding: 10px;
+  min-height: 85%;
 }
-#content p,h1,h2,h3,h4,h5,h6 {
-  margin: 0.6em;
-  line-height: 1.2;
+dt {
+  font-weight: bold;
+}
+.PageNavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  font-size: 16px;
+  color: white;
+}
+.PageNavigation .next {
+  text-align: right;
 }
 
-#content code,ul,li,ol {
-  margin: 1.2em;
-  line-height: 1.2;
+h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+ul#results-container {
+  padding: 0;
+  list-style-type: none;
 }
 
+#results-container li {
+  margin-bottom: 1.5rem;
+}
 
+span.post-meta {
+  font-size: 1rem;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, the, td {
+  border: 1px solid;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  background-color: midnightblue;
+  color: white;
+}
