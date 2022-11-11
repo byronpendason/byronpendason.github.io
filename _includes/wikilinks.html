@@ -7,7 +7,8 @@
     pat = new RegExp('href=".+"');
     let results = pat.exec(content);
     for (int i=0; i<results.length; i++) {
-      content = content.replace(results[i], results[i].toLowerCase());
+      var txt = results[i].toLowerCase();
+      content = content.replace(results[i], txt);
     }
     $("#content").html(content);
   });
