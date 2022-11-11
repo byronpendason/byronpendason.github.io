@@ -29,7 +29,12 @@ body {
   color: black;
   min-height: 85%;
 }
-#content p,ul,ol,li,h1,h2,h3,h4,h5,h6,code {
+#content p,h1,h2,h3,h4,h5,h6 {
   margin: 0.6em;
+  line-height: 1.2;
+}
+
+#content code,ul,li,ol {
+  margin: 1.2em;
   line-height: 1.2;
 }
