@@ -22,7 +22,7 @@ body {
 #header * {
   text-align: center;
   margin:0px;
-  padding: 0px;
+  padding: 25px;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
