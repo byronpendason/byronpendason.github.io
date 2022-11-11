@@ -2,11 +2,15 @@
 layout: "default"
 ---
 
-{% if page.title != "Index" %}<h1>Wiki: {{page.title}}</h1>{% endif %}
+{% if page.title != "Index" %}
+<h1>Wiki: {{page.title}}</h1>
 <button type="button">Article</button><button type="button">Talk</button>
+{% endif %}
+
 <div id="article">
 {{ content }}
 </div>
+
 <div id="talk">
 </div>
 {% include wikilinks.html %}
