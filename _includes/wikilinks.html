@@ -8,7 +8,8 @@
     for(let i=0; i<results.length; i++) {
       var x = results[i].length - 2;
       let term = results[i].substring(2, x);
-      let html = '<a href="'+term.toLowerCase()+'">'+term+'</a>';
+      let url = term.toLowerCase();
+      let html = '<a href="'+url+'">'+term+'</a>';
       content = content.replace(results[i], html);
     }
     $("#content").html(content);
