@@ -9,6 +9,11 @@
       var x = results[i].length - 2;
       let term = results[i].substring(2, x);
       let url = term.toLowerCase();
+      if (term.search("|") != -1) {
+        let temp = term split("|");
+        url = temp[0];
+        term = temp[1];
+      }
       let html = '<a href="'+url+'">'+term+'</a>';
       content = content.replace(results[i], html);
     }
