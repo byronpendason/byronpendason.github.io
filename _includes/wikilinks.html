@@ -1,11 +1,11 @@
 <script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
 <script>
   $(document).ready(function() {
-    let txt = $("#content").html();
+    let content = $("#content").html();
     let pat = /\[\[(.+)\]\]/g;
     content = txt.replace(pat, '<a href="$1">$1</a>');
     pat = /(href\=\".+\")/g;
-    content = content.replace(pat, 'hretha');
+    content = content.replace(pat, "$1".toLowerCase());
     $("#content").html(content);
   });
  
