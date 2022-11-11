@@ -4,6 +4,10 @@ sitemap:
   exclude: 'yes'
 ---
 
+*, html {
+    margin:0;
+    padding:0;  
+}
 body {
   color: black;
   margin: 0px;
