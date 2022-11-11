@@ -9,8 +9,9 @@
       var x = results[i].length - 2;
       let term = results[i].substring(2, x);
       let html = '<a href="'+term.toLowerCase()+'">'+term+'</a>';
-      $("#content").append("<br />"+html);
+      content = content.replace(results[i], html);
     }
+    $("#content").html(content);
   });
  
 </script>
