@@ -31,8 +31,7 @@ body {
   min-height: 85%;
 }
 #content * {
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
+  margin: 0.6em;
   line-height: 1.2;
 }
 dt {
