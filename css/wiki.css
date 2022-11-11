@@ -27,7 +27,6 @@ body {
 #content {
   background: rgba(255, 255, 255, 0.5);
   color: black;
-  padding: 10px;
   min-height: 85%;
 }
 #content * {
