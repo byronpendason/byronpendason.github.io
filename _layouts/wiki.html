@@ -11,19 +11,19 @@ layout: "default"
 {{ content }}
 </div>
 
-<div id="talk">
+<div id="talk" hidden>
 Blah blah blah
 </div>
 {% include wikilinks.html %}
 <script>
 function showTalk() {
-  $("#talkBtn").show();
-  $("#artBtn").hide();
+  $("#talk").show();
+  $("#article").hide();
 }
 
 function showArt() {
-  $("#talkBtn").hide();
-  $("#artBtn").show();
+  $("#talk").hide();
+  $("#article").show();
 }
 </script>
 
