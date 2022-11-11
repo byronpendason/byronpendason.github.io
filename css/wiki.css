@@ -30,6 +30,10 @@ body {
   padding: 10px;
   min-height: 85%;
 }
+#content p {
+  margin-top: 1sp;
+  margin-bottom: 1sp;
+}
 dt {
   font-weight: bold;
 }
