@@ -7,7 +7,7 @@ title: Index
 In the *Mine Wyrtruman Wiki*, you will find pages for different things of importance for Fyrnsidu. Feel free to browse the pages, and contact me if you'd like to help!
 
 ## Pages
-<div markdown=1 style="columns:auto">
+<div markdown=1 style="column-width:10sp">
 
 {% for page in site.wiki %}
 
