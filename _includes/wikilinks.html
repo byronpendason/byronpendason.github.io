@@ -4,7 +4,7 @@
     let txt = $("#content").html();
     let pat = /\[\[(.+)\]\]/g;
     content = txt.replace(pat, '<a href="$1">$1</a>');
-    pat = /(href=".+")/g;
+    pat = /(href\=\".+\")/g;
     content = content.replace(pat, '$1'.toLowerCase());
     $("#content").html(content);
   });
