@@ -4,11 +4,7 @@ sitemap:
   exclude: 'yes'
 ---
 
-*, html {
-    margin:0;
-    padding:0;  
-}
-body {
+html, body {
   color: black;
   margin: 0px;
   padding: 0px;
@@ -25,16 +21,7 @@ body {
   padding: 0px;
 }
 #content {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgb(50, 50, 50);
   color: black;
   min-height: 85%;
-}
-#content p,h1,h2,h3,h4,h5,h6 {
-  margin: 0.6em;
-  line-height: 1.2;
-}
-
-#content code,ul,li,ol {
-  margin: 1.2em;
-  line-height: 1.2;
 }
