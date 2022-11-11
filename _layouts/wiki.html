@@ -11,7 +11,7 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="{{ page.title }} | {% endunless %} Fyrnsidu Wiki">
+    <meta itemprop="name" content="{{ page.title }} | Fyrnsidu Wiki">
     <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
     <meta itemprop="image" content="https://byronpendason.github.io/media/penda.jpg">
 
@@ -31,8 +31,8 @@
     <!-- Meta Tags Generated via http://heymeta.com -->
   </head>
   <body>
-{% if page.title != "Index" %}
 <h1>Fyrnsidu Wiki</h1>
+{% if page.title != "Index" %}
 <button type="button" id="artBtn" onClick="showArt()">Article</button><button type="button" id="talkBtn" onClick="showTalk()">Talk</button><a href="/wiki/">Wiki Home</a>
 
 <h1>Wiki: {{page.title}}</h1>
