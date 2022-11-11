@@ -12,43 +12,11 @@ body {
 #header {
   background: rgb(150, 150, 150);
   color: black;
-  margin: 0px 0px 25px;
+  margin: 0px;
   padding: 0px;
 }
 #header * {
   text-align: center;
-}
-nav {
-  background: rgb(25, 25, 112);
-  color: white;
-}
-nav * {
-  text-align: center;
-}
-nav a {
-  color: white;
-  text-decoration: underline solid 1px;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
-}
-.dropdown {
-  position: relative;
-  display: block;
-}
-.dropbtn {
-  display: block;
-  font-size: 1.25em;
-  text-decoration: underline overline double 1px;
-}
-.dropdownContent {
-  display: none;
-  position: absolute;
-  background: rgb(25, 25, 112);
-  width: 100%;
-  box-sizing: border-box;
-}
-.dropdown:hover .dropdownContent {
-  display: block;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
