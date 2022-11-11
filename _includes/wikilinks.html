@@ -5,7 +5,7 @@
     let pat = /\[\[(.+)\]\]/g;
     var results = pat.exec(content);
     
-    for(let int i=0; i<results.length; i++) {
+    for(let i=0; i<results.length; i++) {
       $("#content").append("<br />"+results[i]);
     }
   });
