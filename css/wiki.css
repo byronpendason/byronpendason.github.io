@@ -11,18 +11,18 @@ sitemap:
 body {
   color: black;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
 }
 #header {
   background: rgb(150, 150, 150);
   color: black;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
 }
 #header * {
   text-align: center;
   margin:0px;
-  padding: 25px;
+  padding: 0px;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
