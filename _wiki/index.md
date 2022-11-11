@@ -1,5 +1,6 @@
 ---
 title: Index
+exclude: 'yes'
 ---
 
 # Welcome to the *Fyrnsidu Wiki*!
