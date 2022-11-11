@@ -5,7 +5,7 @@
     let pat = /\[\[(.+)\]\]/g;
 
     content = txt.replace(pat, '<a href="$1">$1</a>');
-    $("#content").append(txt);
+    $("#content").html(content);
   });
  
 </script>
