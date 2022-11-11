@@ -22,13 +22,12 @@ a single hash at the beginning of a line).
 
 - All files must start with 3 dashes, `title: Title`, and 3 more dashes.
 It should look like this:
-
-```
----
-title: Title of article
----
-
-Start writing your article here.
-```
+    ```
+    ---
+    title: Title of article
+    ---
+    
+    Start writing your article here.
+    ```
 
 You can email article submissions to the editor @ 
