@@ -32,13 +32,13 @@ permalink: /:year/:month/:day/:title/
 collections:
   wiki:
     output: true
-    permalink: /wiki/:title
 defaults:
   - scope:
       path: ""
       type: "wiki"
     values:
       layout: "wiki"
+      permalink: /wiki/:title
 header_pages:
   - title: Home
     url: /
