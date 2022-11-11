@@ -4,8 +4,7 @@
     let content = $("#content").html();
     let pat = /\[\[(.+)\]\]/g;
     content = content.replace(pat, '<a href="$1">$1</a>');
-    pat = new RegExp('href=".+"');
-    let results = pat.exec(content);
+    let results = /href=".+"/.exec(content);
     for (int i=0; i<results.length; i++) {
       var txt = results[i].toLowerCase();
       content = content.replace(results[i], txt);
