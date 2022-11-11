@@ -4,7 +4,7 @@ sitemap:
   exclude: 'yes'
 ---
 
-html, body {
+html,body {
   color: black;
   margin: 0px;
   padding: 0px;
@@ -21,7 +21,17 @@ html, body {
   padding: 0px;
 }
 #content {
-  background: rgb(50, 50, 50);
+  background: rgb(200, 200, 200);
   color: black;
-  min-height: 85%;
 }
+#content p,h1,h2,h3,h4,h5,h6 {
+  margin: 0.6em;
+  line-height: 1.2;
+}
+
+#content code,ul,li,ol {
+  margin: 1.2em;
+  line-height: 1.2;
+}
+
+
