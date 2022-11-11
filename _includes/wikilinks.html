@@ -5,7 +5,10 @@
     let pat = /\[\[(.+)\]\]/g;
     content = content.replace(pat, '<a href="$1">$1</a>');
     pat = /(href\=\".+\")/g;
-    content = content.replace(pat, "$1".toLowerCase());
+    let results = pat.exec(content);
+    for (int i=0; i<results.length; i++) {
+      content.replace(results[i], results[i].toLowerCase());
+    }
     $("#content").html(content);
   });
  
