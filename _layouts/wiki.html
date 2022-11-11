@@ -10,22 +10,9 @@ layout: "default"
 <div id="article">
 {{ content }}
 </div>
-
+{% unless page.title == "Index" %}
 <div id="disqus_thread" hidden>
 </div>
-
-{% include wikilinks.html %}
-<script>
-function showTalk() {
-  $("#disqus_thread").show();
-  $("#article").hide();
-}
-
-function showArt() {
-  $("#disqus_thread").hide();
-  $("#article").show();
-}
-</script>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -43,5 +30,18 @@ function showArt() {
         (d.head || d.body).appendChild(s);
       })();
 </script>
+{% endunless %}
 
+{% include wikilinks.html %}
+<script>
+function showTalk() {
+  $("#disqus_thread").show();
+  $("#article").hide();
+}
+
+function showArt() {
+  $("#disqus_thread").hide();
+  $("#article").show();
+}
+</script>
 
