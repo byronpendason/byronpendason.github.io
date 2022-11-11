@@ -4,10 +4,12 @@ sitemap:
   exclude: 'yes'
 ---
 
-body {
+body, html {
   background-color: rgb(150, 150, 150);
   color: black;
   min-height:100%;
+  padding: 0px;
+  margin: 0px;
 }
 #header {
   color: black;
