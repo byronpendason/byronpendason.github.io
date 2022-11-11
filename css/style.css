@@ -11,7 +11,7 @@ body {
   background-size: cover;
   position: center;
   color: black;
-  min-height: 95%
+  min-height:100%;
 }
 #header {
   background: rgb(25, 25, 112);
@@ -64,6 +64,7 @@ nav a {
   border-width: 10px;
   border-style: solid;
   padding: 10px;
+  min-height: 85%;
 }
 dt {
   font-weight: bold;
