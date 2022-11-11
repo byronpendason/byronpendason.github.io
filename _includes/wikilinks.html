@@ -6,7 +6,8 @@
     var results = pat.exec(content);
     
     for(let i=0; i<results.length; i++) {
-      let term = results[i].substring(2,-2);
+      var x = results[i].length - 2;
+      let term = results[i].substring(2, x);
       $("#content").append("<br />"+term);
     }
   });
