@@ -31,8 +31,9 @@ body {
   min-height: 85%;
 }
 #content p {
-  margin-top: 1sp;
-  margin-bottom: 1sp;
+  margin-top: 0.6sp;
+  margin-bottom: 0.6sp;
+  line-height: 1.2;
 }
 dt {
   font-weight: bold;
