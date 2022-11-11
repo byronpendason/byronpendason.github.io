@@ -6,8 +6,6 @@ title: Index
 
 In the *Mine Wyrtruman Wiki*, you will find pages for different things of importance for [[Fyrnsidu]]. Feel free to browse the pages, and contact me if you'd like to help!
 
-Check out [[hrethe|this article]] on my favorite goddess!
-
 ## Pages
 
 <div markdown=1 style="columns:auto auto">
