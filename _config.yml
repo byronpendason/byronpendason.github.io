@@ -32,7 +32,7 @@ permalink: /:year/:month/:day/:title/
 collections:
   wiki:
     output: true
-    permalink: /wiki/:title
+    permalink: /:collection/:title
 defaults:
   - scope:
       path: ""
