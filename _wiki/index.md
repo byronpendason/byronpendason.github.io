@@ -12,7 +12,7 @@ In the *Fyrnsidu Wiki*, you will find pages for different things of importance f
 
 {% for page in site.wiki %}
 
-{% if page.title != "Index" %}- [{{page.title}}]({{page.url}}){% endif %}
+{% if page.title != "Index" and !page.exclude %}- [{{page.title}}]({{page.url}}){% endif %}
 
 {% endfor %}
 
