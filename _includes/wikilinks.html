@@ -1,0 +1,11 @@
+<script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>
+  $(document).ready(function() {
+    let content = $("#content").html();
+    let pat = /\[\[(.+\)]\]/g;
+
+    content = content.replace(pat, '<a href="$1">$1</a>');
+    $("#content").html(content);
+  });
+ 
+</script>
