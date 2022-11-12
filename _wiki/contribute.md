@@ -1,5 +1,6 @@
 ---
-title: Help the Fyrnsidu Wiki
+title: Contribute to the Fyrnsidu Wiki
+exclude: yes
 ---
 
 If you'd like to help contribute to the Fyrnsidu Wiki,
@@ -30,4 +31,4 @@ It should look like this:
     Start writing your article here.
     ```
 
-You can email article submissions to the editor @ 
+You can email article submissions to the editor @ [byronpendason@minewyrtruman.com](mailto:byronpendason@minewyrtruman).
