@@ -21,7 +21,7 @@ a single hash at the beginning of a line).
 
 - Please cite your sources using footnotes.
 
-- All files must start with 3 dashes, `title: Title`, and 3 more dashes.
+- Files should start with 3 dashes, `title: Title`, and 3 more dashes on three separate lines.
 It should look like this:
     ```
     ---
@@ -31,4 +31,4 @@ It should look like this:
     Start writing your article here.
     ```
 
-You can email article submissions to the editor @ [byronpendason@minewyrtruman.com](mailto:byronpendason@minewyrtruman).
+You can email article submissions to the editor at [byronpendason@minewyrtruman.com](mailto:byronpendason@minewyrtruman).
