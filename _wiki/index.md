@@ -5,7 +5,7 @@ exclude: 'yes'
 
 # Welcome to the *Fyrnsidu Wiki*!
 
-In the *Fyrnsidu Wiki*, you will find pages for different things of importance for [[Fyrnsidu]]. Feel free to browse the pages, and learn how to [[contribute]] if you'd like to help!
+In the *Fyrnsidu Wiki*, you will find pages for different things of importance for [[Fyrnsidu]]. Feel free to browse the pages, and learn how to <contribute> if you'd like to help!
 
 ## Pages
 
