@@ -45,7 +45,7 @@ defaults:
       path: ""
       type: "games"
     values:
-      layout: games
+      layout: "game"
       completed: false
 header_pages:
   - title: Home
