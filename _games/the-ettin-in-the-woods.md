@@ -18,7 +18,7 @@ Your home is a simple one. Your bed is a cot on the ground, and your mom's cot i
 
 > She is nowhere to be found.
 
-On the west wall is a fireplace. To [the east](front-yard#been-outside) is the door to the outside.
+On the west wall is a fireplace. To [the east](/front-yard#been-outside) is the door to the outside.
 
 ## Front Yard
 
@@ -26,6 +26,6 @@ On the west wall is a fireplace. To [the east](front-yard#been-outside) is the d
 
 > Again, she's nowhere to be found.
 
-To [the west](your-home) is your home.
+To [the west](/your-home) is your home.
 
 </textarea>
