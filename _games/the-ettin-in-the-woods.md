@@ -48,7 +48,7 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 ### Got Sword
 
-You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. It's too bad you never learned to read runes. You carefully pick up the sword.
+You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. You carefully pick up the sword, wishing that you had taken the time to learn to read the runes.
 
 ## The Cave
 
@@ -64,11 +64,11 @@ You bravely charge at the ettin. Unfortunately, without a weapon you never stood
 
 ## [The Fight](?got-sword)
 
-With your father's sword held out before you, you charge at the ettin. He tries to snatch at you, but as soon as his hand touches the blade of the sword, he yanks back his hand as he roars out in pain.
+With your father's sword held out before you, you charge at the ettin. He tries to snatch at you, but as soon as his hand touches the blade of the sword, he yanks back his hand and roars out in pain.
 
 You take the opportunity to swing your sword at his other hand. The hand falls to the ground, and the ettin dives after his hand. While he's on the ground, you leap on top of him and bury the blade into his head.
 
-After you calm down your mother, the two of you head back home.
+After you calm down your mother, the two of you head back home to safety.
 
 ***You have won!***
 
