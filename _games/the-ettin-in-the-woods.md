@@ -28,7 +28,7 @@ On the west wall is a fireplace. To [the east](/front-yard) is the door to the o
 
 > Out of the corner of your eye, you see movement. Turning to the direction you saw the movement, you only see the woods.
 
-To [the west](/your-home) is your home. To [the-north](/the-barn) is your family barn. To [the-south](/the-woods) is the woods.
+To [the west](/your-home) is your home. To [the north](/the-barn) is your family barn. To [the south](/the-woods) is the woods.
 
 > You've been told all your life to *never* go into the woods at night unprotected. Legends tell of an ettin that lives in those woods who loves the taste of humans.
 
@@ -48,7 +48,7 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 ### Got Sword
 
-You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. It's too bad you never learned to read runes. You carefully pick up the sword.|There's nothing left in the chest.
+You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. It's too bad you never learned to read runes. You carefully pick up the sword.
 
 ## The Cave
 
