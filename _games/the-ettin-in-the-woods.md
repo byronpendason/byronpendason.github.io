@@ -20,7 +20,7 @@ Your home is a simple one. Your bed is a cot on the ground, and your mom's cot i
 
 > She is nowhere to be found.
 
-On the west wall is a fireplace. To [the east](/front-yard#been-outside) is the door to the outside.
+On the west wall is a fireplace. To [the east](/front-yard) is the door to the outside.
 
 ## Front Yard
 
@@ -44,17 +44,17 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 [You see the pit where the chest was hidden.|You see the loose floorboards.](?got-sword)
 
-[You can dig up ](?!got-sword)[ the chest](?!got-sword#got-sword)You can head to [the south](/front-yard) to exit of the barn. 
+[You can dig up ](?!got-sword)[ the chest.](?!got-sword#got-sword)You can head to [the south](/front-yard) to exit of the barn. 
 
 ### Got Sword
 
-[You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. It's too bad you never learned to read runes. You carefully pick up the sword.|There's nothing left in the chest.](?got-sword)
+You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. It's too bad you never learned to read runes. You carefully pick up the sword.|There's nothing left in the chest.
 
 ## The Cave
 
 A little ways into the cave, you see your mother sobbing uncontrollably in utter fear. A gigantic being with the shape of a human is taunting her about how tasty she will be.
 
-The ettin has not yet seen you. You can [attack the ettin](the-fight), or [sneak back](/the-woods) out to the woods.
+The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [sneak back](/the-woods) out to the woods.
 
 ## The Fight
 
