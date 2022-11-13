@@ -28,7 +28,7 @@ On the west wall is a fireplace. To [the east](/front-yard) is the door to the o
 
 > Out of the corner of your eye, you see movement. Turning to the direction you saw the movement, you only see the woods.
 
-To [the west](/your-home) is your home. To [the north](/the-barn) is your family barn. To [the south](/the-woods) is the woods.
+To [the west](/your-home) is your home. To [the south](/the-woods) is the woods. To [the north](/the-barn) is your family barn.
 
 > You've been told all your life to *never* go into the woods at night unprotected. Legends tell of an ettin that lives in those woods who loves the taste of humans.
 
@@ -44,7 +44,7 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 [You see the pit where the chest was hidden.|You see the loose floorboards.](?got-sword)
 
-[You can dig up ](?!got-sword)[ the chest.](?!got-sword#got-sword)You can head to [the south](/front-yard) to exit of the barn. 
+[You can dig up ](?!got-sword)[ the chest](?!got-sword#got-sword)[. ](?!got-sword)You can head to [the south](/front-yard) to exit of the barn. 
 
 ### Got Sword
 
