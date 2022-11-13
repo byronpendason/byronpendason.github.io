@@ -4,7 +4,7 @@ title: The Ettin in the Woods
 
 <textarea id="source" style="display: none;">
 
- # [The Ettin in the Woods](your-home)
+# [The Ettin in the Woods](your-home)
 
 A choose your own adventure style game by **Byron Pendason**
 
