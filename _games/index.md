@@ -7,4 +7,4 @@ exclude: yes
 
 {% if game.exclude != "yes" %}- [{{game.title}}]({{game.url}}){% endif %}
 
-{% endunless %}
+{% endfor %}
