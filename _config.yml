@@ -33,12 +33,20 @@ collections:
   wiki:
     output: true
     permalink: /:collection/:title
+  games:
+    output: true
 defaults:
   - scope:
       path: ""
       type: "wiki"
     values:
       layout: "wiki"
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: games
+      completed: false
 header_pages:
   - title: Home
     url: /
