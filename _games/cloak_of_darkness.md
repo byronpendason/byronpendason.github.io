@@ -2,6 +2,8 @@
 title: Cloak of Darkness
 ---
 
+<div id="source" style="display: none;">
+
 # [Cloak of Darkness](/foyer)
 
 A basic IF demonstration.
@@ -63,3 +65,5 @@ The message, neatly marked in the sawdust, reads...
 The message has been carelessly trampled, making it difficult to read. You can just distinguish the words...
 
 **You have lost.**
+
+</div>
