@@ -17,7 +17,7 @@ layout: default
       });
       player.play();
 
-      $("#footer").html('<p>This game was written using <a href="https://www.ficdown.com">Ficdown</a>. Displayed on this page using <a href="https://github.com/rudism/ficdown.js/">Ficdown.js</a>.</p>');
+      $("#footer").html('<p>Story © 2022 Byron Pendason. This game was written using <a href="https://www.ficdown.com">Ficdown</a>. The story is displayed on this page using <a href="https://github.com/rudism/ficdown.js/">Ficdown.js</a>.</p>');
     </script>
 
 {% else %}
