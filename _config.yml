@@ -47,7 +47,6 @@ defaults:
       type: "games"
     values:
       layout: "game"
-      completed: false
 header_pages:
   - title: Home
     url: /
