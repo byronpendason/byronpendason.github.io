@@ -4,11 +4,11 @@ layout: default
 
 {% if page.title != "Games Index" %}
 
-    <textarea id="source" style="display: none;" markdown=0>
+    <div id="source" style="display: none;" markdown=0>
 
         {{ content }}
 
-    </textarea>
+    </div>
     <div id='game'></div>
     <script src='/js/ficdown.js'></script>
     <script>
