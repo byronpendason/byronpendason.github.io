@@ -2,7 +2,7 @@
 title: Cloak of Darkness
 ---
 
-<div id="source" style="display: none;">
+<textarea id="source" style="display: none;">
 
 # [Cloak of Darkness](/foyer)
 
@@ -66,4 +66,4 @@ The message has been carelessly trampled, making it difficult to read. You can j
 
 **You have lost.**
 
-</div>
+</textarea>
