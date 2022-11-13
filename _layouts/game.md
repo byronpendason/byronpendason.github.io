@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-    <textarea id='source' markdown={% if page.title != "Index" %}0{% else %}1 style='display:none'{% endif %}>
+    <textarea id='source' markdown={% if page.title != "Games Index" %}0 style='display:none`{% else %}1{% endif %}>
         {{ content }}
     </textarea>
 {% if page.title != "Games Index" %}
