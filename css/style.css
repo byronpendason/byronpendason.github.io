@@ -122,11 +122,13 @@ th {
 }
 
 a.disabled {
-        color: #999;
-      }
-      a.disabled.chosen {
-        color: #000;
-      }
-      a.disabled:hover {
-        cursor: not-allowed;
-      }
+  color: #999;
+}
+
+a.disabled.chosen {
+  color: #000;
+}
+
+a.disabled:hover {
+  cursor: not-allowed;
+}
