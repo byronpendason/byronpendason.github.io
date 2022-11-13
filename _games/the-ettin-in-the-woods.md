@@ -34,7 +34,7 @@ To [the west](/your-home) is your home. To [the-north](/the-barn) is your family
 
 ## The Woods
 
-You enter the woods. Before you stands a cave with a giant entrance. [Your gut screams at you not to enter the cave without a weapon.| With sword in hand, you feel like you're ready to enter the cave.](?got-sword) You can head [back out](/front-yard) of the woods, or [enter the cave](/the-cave).
+You enter the woods. Before you stands a cave with a giant entrance. [With sword in hand, you feel like you're ready to enter the cave.|Your gut screams at you not to enter the cave without a weapon.](?got-sword) You can head [back out](/front-yard) of the woods, or [enter the cave](/the-cave).
 
 ## The Barn
 
@@ -42,9 +42,9 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 > You suddenly remember that your father kept a chest hidden underneath some loose floorboards. You quickly brush away some hay until you find them.
 
-[You see the pit where the chest was hidden.|You see the loose floorboards.](#got-sword?got-sword)
+[You see the pit where the chest was hidden.|You see the loose floorboards.](?got-sword)
 
-To [the south](/front-yard) is the exit of the barn.
+[You can dig up ](?!got-sword)[ the chest](?!got-sword#got-sword)You can head to [the south](/front-yard) to exit of the barn. 
 
 ### Got Sword
 
