@@ -7,7 +7,7 @@ layout: default
         {{ content }}
     </textarea>
     <div id='game' />
-    <script src='js/ficdown.js'></script>
+    <script src='/js/ficdown.js'></script>
     <script>
       var player = new Ficdown({
         id: 'game',
