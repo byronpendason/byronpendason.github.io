@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-
-    <textarea id='source' markdown= 0 style='display: none;'>
+    <textarea id='source' markdown={% if page.title != "Index" %}0{% else %}1 style='display:none'{% endif %}>
         {{ content }}
     </textarea>
+{% if page.title != "Index" %}
     <div id='game' />
     <script src='js/ficdown.js'></script>
     <script>
@@ -15,3 +15,4 @@ layout: default
       });
       player.play();
     </script>
+{% endif %}
