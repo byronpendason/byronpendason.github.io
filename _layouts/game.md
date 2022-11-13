@@ -3,8 +3,11 @@ layout: default
 ---
 
 {% if page.title != "Games Index" %}
-    <textarea markdown=0 id="source" style='display:none`>
+
+    <textarea id="source" style="display:none">
+
         {{ content }}
+
     </textarea>
     <div id='game' />
     <script src='/js/ficdown.js'></script>
@@ -16,6 +19,9 @@ layout: default
       });
       player.play();
     </script>
+
 {% else %}
+
     {{ content }}
+
 {% endif %}
