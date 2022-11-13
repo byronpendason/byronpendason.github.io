@@ -10,6 +10,8 @@ A choose your own adventure style game by **Byron Pendason**
 
 *Version 1.0*
 
+Most of us know instinctively that it's not safe to go outside in the dark. Because there's things that go bump in the night that would frighten even the greatest and bravest of heroes...
+
 ## Your Home
 
 > A blood curdling scream wakes you from your slumber. Your stumble out of your bed and look around. 
@@ -24,8 +26,50 @@ On the west wall is a fireplace. To [the east](/front-yard#been-outside) is the 
 
 > You run out into front yard, looking around frantically for your mother.
 
-> Again, she's nowhere to be found.
+> Out of the corner of your eye, you see movement. Turning to the direction you saw the movement, you only see the woods.
 
-To [the west](/your-home) is your home.
+To [the west](/your-home) is your home. To [the-north](/the-barn) is your family barn. To [the-south](/the-woods) is the woods.
+
+> You've been told all your life to *never* go into the woods at night unprotected. Legends tell of an ettin that lives in those woods who loves the taste of humans.
+
+## The Woods
+
+You enter the woods. Before you stands a cave with a giant entrance. [Your gut screams at you not to enter the cave without a weapon.| With sword in hand, you feel like you're ready to enter the cave.](?got-sword) You can head [back out](/front-yard) of the woods, or [enter the cave](/the-cave).
+
+## The Barn
+
+The animals are restless, behaving as if they're frightened. They too must have been awakened by the screaming.
+
+> You suddenly remember that your father kept a chest hidden underneath some loose floorboards. You quickly brush away some hay until you find them.
+
+[You see the pit where the chest was hidden.|You see the loose floorboards.](#got-sword?got-sword)
+
+To [the south](/front-yard) is the exit of the barn.
+
+### Got Sword
+
+[You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. It's too bad you never learned to read runes. You carefully pick up the sword.|There's nothing left in the chest.](?got-sword)
+
+## The Cave
+
+A little ways into the cave, you see your mother sobbing uncontrollably in utter fear. A gigantic being with the shape of a human is taunting her about how tasty she will be.
+
+The ettin has not yet seen you. You can [attack the ettin](the-fight), or [sneak back](/the-woods) out to the woods.
+
+## The Fight
+
+You bravely charge at the ettin. Unfortunately, without a weapon you never stood a chance. The ettin snatches you up, bites off one of your arms, and then tosses you towards your mother. Neither of you survive the night.
+
+***You have lost.***
+
+## [The Fight](?got-sword)
+
+With your father's sword held out before you, you charge at the ettin. He tries to snatch at you, but as soon as his hand touches the blade of the sword, he yanks back his hand as he roars out in pain.
+
+You take the opportunity to swing your sword at his other hand. The hand falls to the ground, and the ettin dives after his hand. While he's on the ground, you leap on top of him and bury the blade into his head.
+
+After you calm down your mother, the two of you head back home.
+
+***You have won!***
 
 </textarea>
