@@ -47,6 +47,7 @@ defaults:
       type: "games"
     values:
       layout: "game"
+      language: "ficdown"
 header_pages:
   - title: Home
     url: /
