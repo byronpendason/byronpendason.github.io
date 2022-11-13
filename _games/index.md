@@ -1,5 +1,10 @@
 ---
 title: Games Index
+exclude: yes
 ---
 
-Testing, testing, testing...
+{% for game in games %}
+
+{% if game.exclude != "yes" %}- [{{game.title}}]({{game.url}}){% endif %}
+
+{% endunless %}
