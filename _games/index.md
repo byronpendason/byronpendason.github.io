@@ -6,7 +6,5 @@ exclude: yes
 # Games Index
 
 {% for game in games %}
-
-{% if game.exclude != "yes" %}- [{{game.title}}]({{game.url}}){% endif %}
-
+- [{{game.title}}]({{game.url}})
 {% endfor %}
