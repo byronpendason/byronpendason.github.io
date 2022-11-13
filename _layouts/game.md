@@ -15,6 +15,8 @@ layout: default
         scroll: true,
       });
       player.play();
+
+      $("#footer").html('<p>This game was written using <a href="https://www.ficdown.com">Ficdown</a>. Displayed on this page using <a href="https://github.com/rudism/ficdown.js/">Ficdown.js</a>.</p>');
     </script>
 
 {% else %}
