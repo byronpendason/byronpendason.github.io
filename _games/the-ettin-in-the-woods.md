@@ -8,7 +8,7 @@ title: The Ettin in the Woods
 
 A choose your own adventure style game by **Byron Pendason**.
 
-*Version 1.1.1*
+*Version 1.2*
 
 Most of us know instinctively that it's not safe to go outside in the dark. Because there's things that go bump in the night that would frighten even the greatest and bravest of heroes...
 
@@ -20,11 +20,7 @@ Your home is a simple one. Your bed is a cot on the ground, and your mom's cot i
 
 > Her cot is empty, and she is nowhere to be found.
 
-On the west wall is a fireplace.[ On the mantle of the fireplace is ](?got-chest&!got-key)[a key](?got-chest&!got-key#got-key)[, forgotten about long ago.](?got-chest&!got-key) To [the east](/front-yard) is the door to the outside.
-
-### Got Key
-
-*You grab the key. You should probably head back to the barn!*
+On the west wall is a fireplace. To [the east](/front-yard) is the door to the outside.
 
 ## Front Yard
 
@@ -64,7 +60,23 @@ You can [dig up ](?!got-chest)[ the chest](?!got-chest#got-chest)[, or you can](
 
 > You search all over town, but your mother is nowhere to be found.
 
-To [the west](/front-yard) is your home.
+To [the north](/the-cemetery#visited-grave) is the town's cemetery. [To ](?visited-grave)[the south](/the-stream?visited-grave)[is the stream.](?visited-grave) To [the west](/front-yard) is your home.
+
+## The Cemetery
+
+The cemetery is the only one within twenty miles. It's here that your father is buried.
+
+> As you stand by your father's grave, you remember that there is a stream to the south of town that was your father's favorite place when he needed to unwind.
+
+To [the-south](/the-town) is town.
+
+## The Stream
+
+As you stand by the stream, you remember the many times that your father had brought you here. [You remember that your father would always point to ](?got-chest&!got-key)[a specific tree](?got-chest&!got-key#get-key)[and say, "That tree is special. The key is in that tree.](!got-chest&!got-key) To [the north](/the-town) is town.
+
+### Get Key
+
+*You carefully examine the tree, and see a knot in the tree. It's just big enough to fit your hand into. You reach in, and feel something metal. You pull it out, and see that it's a key!*
 
 ## The Woods
 
@@ -74,7 +86,21 @@ You enter the woods. Before you stands a cave with a giant entrance. [With sword
 
 A little ways into the cave, you see your mother sobbing uncontrollably in utter fear. A gigantic being with the shape of a human is taunting her about how tasty she will be.
 
-The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [sneak back](/the-woods) out to the woods.
+The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [sneak back](/the-woods#) out to the woods.
+
+## [The Cave](?time-passed)
+
+A little ways into the cave, you see your mother sobbing uncontrollably in utter fear.
+
+"About time, I've been waiting on you!" snarled a gigantic being with a human-like shape, razor sharp teeth, and long sharp claws.
+
+You can [attack the ettin](/the-fight) or [beg for your life](#beg-for-life).
+
+### Beg for life
+
+The ettin only laughs at you.
+
+> "*I* am the king around here!" the ettin declares, "Any human who enters my lair may never leave!"
 
 ## The Fight
 
