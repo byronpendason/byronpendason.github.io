@@ -1,14 +1,15 @@
 ---
 title: The Ettin in the Woods
+completed: true
 ---
 
 <textarea id="source" style="display: none;">
 
 # [The Ettin in the Woods](/your-home)
 
-A choose your own adventure style game by **Byron Pendason**.
+An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 1.2.1*
+*Version 1.2.2*
 
 Most of us know instinctively that it's not safe to go outside in the dark. Because there's things that go bump in the night that would frighten even the greatest and bravest of heroes...
 

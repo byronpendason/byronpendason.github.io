@@ -6,7 +6,7 @@ title: The Thyrs Army
 
 # [The Thyrs Army](/meadhall)
 
-An interactive fiction game written by **Byron Pendason**.
+An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
 *Version 0.1*
 
@@ -41,7 +41,8 @@ You can [go south](/town-square) to exit the town hall.
 ## Town Square
 
 ```
-This is an early version of the game. This is as far as the story goes for now.
+This is an early version of the game. 
+This is as far as the story goes for now.
 ```
 
 </textarea>
