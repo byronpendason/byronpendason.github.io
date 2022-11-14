@@ -8,7 +8,7 @@ title: The Ettin in the Woods
 
 A choose your own adventure style game by **Byron Pendason**.
 
-*Version 1.2*
+*Version 1.2.1*
 
 Most of us know instinctively that it's not safe to go outside in the dark. Because there's things that go bump in the night that would frighten even the greatest and bravest of heroes...
 
@@ -38,7 +38,7 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 > You suddenly remember that your father kept a chest hidden underneath some loose floorboards. You quickly brush away some hay until you find them.
 
-[You see the pit where the chest was hidden.|You see the loose floorboards.](?got-chest)[ The chest inside is](?got-chest)[ firmly closed.](?got-chest&!got-sword)[ open, there interior empty.](?got-chest&got-sword)
+[You see the pit where the chest was hidden.|You see the loose floorboards.](?got-chest)[ The chest inside is](?got-chest)[ firmly closed.](?got-chest&!got-sword)[ open, the interior empty.](?got-chest&got-sword)
 
 [Now that you have the key, you can ](?got-key&!got-sword)[try to unlock](?got-key&!got-sword#got-sword)[ the chest.](?got-key&!got-sword)
 
@@ -58,9 +58,7 @@ You can [dig up ](?!got-chest)[ the chest](?!got-chest#got-chest)[, or you can](
 
 > It is eerily quiet in town. The ettin has, on occasion, came as far as town to find his dinner, so no one is foolish enough to be out at night.
 
-> You search all over town, but your mother is nowhere to be found.
-
-To [the north](/the-cemetery#visited-grave) is the town's cemetery. [To ](?visited-grave)[the south](/the-stream?visited-grave)[ is the stream.](?visited-grave) To [the west](/front-yard) is your home.
+To [the north](/the-cemetery#visited-grave) is the town's cemetery. [To ](?visited-grave)[the south](/the-stream?visited-grave#time-passed)[ is the stream.](?visited-grave) To [the west](/front-yard) is your home.
 
 ## The Cemetery
 
