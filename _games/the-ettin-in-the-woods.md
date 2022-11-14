@@ -1,6 +1,6 @@
 ---
 title: The Ettin in the Woods
-date: 2022-11-14
+done: true
 ---
 
 <textarea id="source" style="display: none;">
