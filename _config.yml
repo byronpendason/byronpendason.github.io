@@ -53,18 +53,20 @@ header_pages:
     url: /
   - title: Blog
     url: /blog
+  - title: Glossary and Resources for Beginners
+    url: /glossary
+  - title: The Reconstructed Anglo-Saxon Calendar
+    url: /anglosaxoncalendar
+  - title: Games
+    url: /games
   - title: About
     url: /about
   - title: Contact Me
     url: /contact
   - title: Search Site
     url: /search
-  - title: Glossary and Resources for Beginners
-    url: /glossary
   - title: Blog Post Requests
     url: /requests
-  - title: The Reconstructed Anglo-Saxon Calendar
-    url: /anglosaxoncalendar
   - title: A Ritual of Thanksgiving
     url: /ritual_of_thanksgiving
   - title: Declaration of Deeds 
