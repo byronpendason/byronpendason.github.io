@@ -6,9 +6,9 @@ title: The Ettin in the Woods
 
 # [The Ettin in the Woods](/your-home)
 
-A choose your own adventure style game by **Byron Pendason**
+A choose your own adventure style game by **Byron Pendason**.
 
-*Version 1.1*
+*Version 1.1.1*
 
 Most of us know instinctively that it's not safe to go outside in the dark. Because there's things that go bump in the night that would frighten even the greatest and bravest of heroes...
 
@@ -32,13 +32,9 @@ On the west wall is a fireplace.[ On the mantle of the fireplace is ](?got-chest
 
 > Out of the corner of your eye, you see movement. Turning to the direction you saw the movement, you only see the woods.
 
-To [the west](/your-home) is your home. To [the south](/the-woods) is the woods. To [the north](/the-barn) is your family barn.
+To [the west](/your-home) is your home. To [the south](/the-woods) is the woods. To [the east](/the-town) is town. To [the north](/the-barn) is your family barn.
 
 > You've been told all your life to *never* go into the woods at night unprotected. Legends tell of an ettin that lives in those woods who loves the taste of humans.
-
-## The Woods
-
-You enter the woods. Before you stands a cave with a giant entrance. [With sword in hand, you feel like you're ready to enter the cave.|Your gut screams at you not to enter the cave without a weapon.](?got-sword) You can head [back out](/front-yard) of the woods, or [enter the cave](/the-cave).
 
 ## The Barn
 
@@ -50,15 +46,29 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 [Now that you have the key, you can ](?got-key&!got-sword)[try to unlock](?got-key&!got-sword#got-sword)[ the chest.](?got-key&!got-sword)
 
-You can [dig up ](?!got-chest)[ the chest](?!got-chest#got-chest)[, or you can](?!got-chest) head to [the south](/front-yard) to exit the barn. 
+You can [dig up ](?!got-chest)[ the chest](?!got-chest#got-chest)[, or you can](?!got-chest) head to [the south](/front-yard) to exit the barn.
 
 ### Got Chest
 
 *You carefully pull up the floorboards to find a chest. Unfortunately, it is locked.*
 
+
 ### Got Sword
 
 *Inside the chest is a sword with runes engraved in the hilt. You carefully pick up the sword, wishing that you had taken the time to learn to read the runes.*
+
+
+## The Town
+
+> It is eerily quiet in town. The ettin has, on occasion, came as far as town to find his dinner, so no one is foolish enough to be out at night.
+
+> You search all over town, but your mother is nowhere to be found.
+
+To [the west](/front-yard) is your home.
+
+## The Woods
+
+You enter the woods. Before you stands a cave with a giant entrance. [With sword in hand, you feel like you're ready to enter the cave.|Your gut screams at you not to enter the cave without a weapon.](?got-sword) You can head [back out](/front-yard) of the woods, or [enter the cave](/the-cave).
 
 ## The Cave
 
