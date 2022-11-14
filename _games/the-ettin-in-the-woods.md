@@ -72,7 +72,9 @@ To [the-south](/the-town) is town.
 
 ## The Stream
 
-As you stand by the stream, you remember the many times that your father had brought you here. [You remember that your father would always point to ](?got-chest&!got-key)[a specific tree](?got-chest&!got-key#get-key)[and say, "That tree is special. The key is in that tree.](!got-chest&!got-key) To [the north](/the-town) is town.
+As you stand by the stream, you remember the many times that your father had brought you here. [You remember that your father would always point to ](?got-chest&!got-key)[a specific tree](?got-chest&!got-key#get-key)[and say, "That tree is special. The key to our family's safety is in that tree. You had always assumed that he was being metaphorical.](?got-chest&!got-key)
+
+To [the north](/the-town) is town.
 
 ### Get Key
 
