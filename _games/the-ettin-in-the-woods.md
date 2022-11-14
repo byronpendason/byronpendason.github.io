@@ -38,7 +38,7 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 > You suddenly remember that your father kept a chest hidden underneath some loose floorboards. You quickly brush away some hay until you find them.
 
-[You see the pit where the chest was hidden.|You see the loose floorboards.](?got-chest)
+[You see the pit where the chest was hidden.|You see the loose floorboards.](?got-chest)[ The chest inside is](?got-chest)[ firmly closed.](?got-chest&!got-sword)[ open, there interior empty.](?got-chest&got-sword)
 
 [Now that you have the key, you can ](?got-key&!got-sword)[try to unlock](?got-key&!got-sword#got-sword)[ the chest.](?got-key&!got-sword)
 
