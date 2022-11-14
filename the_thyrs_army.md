@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.3.3*
+*Version 0.4.2*
 
 ```
 This is an early version of the game. 
@@ -85,7 +85,7 @@ The priest has a simple bedroom. Along one wall is a table with various scrolls 
 
 ### Got Cloak
 
-The bed is a simple one, not much more than a cloak on the ground. Reaching underneath it, you find a cloak. Pulling it out, you try to look at it but can't seem to focus your attention on it for some reason.
+The bed is a simple one, not much more than a cot on the ground. Reaching underneath it, you find a cloak. Pulling it out, you try to look at it but can't seem to focus your attention on it for some reason.
 
 ## Gate
 
@@ -129,6 +129,10 @@ You are on a highway running [east](/woods) to [west](/fen) with a road going to
 
 **Part 3**
 
+When the gathered armies see you approaching, they begin to cheer. The story of your defeat of the dragon had been getting told and retold as they awaited your arrival.
+
+You are ushered into a huge tent, where you see the commanders of the gathered army. They only await your command.
+
 ```
 This is as far as the adventure goes,
 for now. Check back later for updates!
@@ -156,7 +160,7 @@ To [the east](/tiwestun-meadhall#talked-to-thegn) is the town's meadhall where y
 
 > The thegn greets you grimly. Apparently he's already heard the news. He strokes his beard thoughtfully as he says to you, "We cannot go to war without first consulting our town's patron god. Go talk to Tiw's priestess!"
 
-[You and the thegn briefly chit chat for a few minutes before heushers you out the door.](?!priestess)
+[You and the thegn briefly chit chat for a few minutes before he ushers you out the door.](?!priestess)
 
 [The thegn says to you, "The priestess has given the go-ahead! My army will meet you at the fork in the road that leads to your hometown!](?priestess)
 
@@ -164,9 +168,7 @@ You can [exit the meadhall](/tiwestun) by going west.
 
 ## Tiwestun Temple
 
-> An elderly woman greets you as you enter the temple. "I've been waiting on you," she says, "A dream told me to expect you. In it, Tiw told me to give you his blessing, but only if you accept this gift from me. It is an ancient set of armour, made by the best craftsmen of the ancient world.
-
-> "As you know, the ents were an ancient race of giants, the makers of the best weapons and armour, and builders of the ancient world's greatest cities. With this armour, you will see victory!"
+> An elderly woman greets you as you enter the temple. "I've been waiting on you," she says, "A dream told me to expect you. In it, Tiw told me to give you his blessing, but only if you accept this gift from me. It is an ancient set of armour made by the ents, the ancient race of giants, makers of the best weapons and armour of the ancient world and the builders of its greatest cities. With this armour, you will see victory!"
 
 The priestess urges you to continue your quest. "You have great things to accomplish! I shall make offerings on your behalf, to incur the favour of Tiw."
 
@@ -180,7 +182,7 @@ To [the south](/hrethfeld-meadhall) is the Hrethfeld meadhall, where you will fi
 
 ## [Hrethfeld](?saved-daughter)
 
-> As you and the thegn's daughter enters town, the crowd is enthusiastically cheering. When you get to the entrance of the Meadhall, she gives you a kiss on the cheek before entering to see her father.
+> As you and the thegn's daughter enter town, the crowds are enthusiastically cheering. When you get to the entrance of the Meadhall, she gives you a kiss on the cheek before entering to see her father.
 
 > A soldier walks up to you, and claps you on the shoulder. "The thegn is extremely grateful to you for saving his daughter! He's sending us to meet up with the forces of Tiwestun, and we shall await you there!"
 
@@ -190,7 +192,7 @@ To [the south](/hrethfeld-meadhall) is the Hrethfeld meadhall, where you will fi
 
 > There's a lot of commotion as you enter the meadhall. The thegn is consulting with several people. You tell him of the siege of your home, but he dismisses you.
 
-> "My daughter has been kidnapped by a dragon! I do not have time to wage war at the moment.
+> "My daughter has been kidnapped by a dragon! I do not have time to wage a war at the moment."
 
 > You offer your assistance, but he scoffs at you. "One blow of his fiery breath and you will be as roasted as Ingui's boar sacrifice on Mother's Night!"
 
@@ -202,15 +204,15 @@ The thegn refuses to pay you any more attention. The only thing you can do is [e
 
 > You tell him of the siege of your town, and he replies, "Save my daughter, and my entire army is at your command! Take this sword, it will help you slay the dragon."
 
-> He gives you a sword covered in runes, including the triple *Tir* rune on its hilt that ensures victory to the bearer of the sword.
+> He gives you a sword covered in runes, including the triple *tir* rune on its hilt that ensures victory to the bearer of the sword.
 
-[The thegn embraces you enthusiastically. "Thank you so much for saving my daughter! My armies shall await you at the fork in the road that leads to your hometown! |The thegn urges you to hurry, "You must save my daughter!" ](?!saved-daughter)You can [exit the meadhall](/hrethfeld#thegns-blessing) to the north.
+[The thegn embraces you enthusiastically. "Thank you so much for saving my daughter! My armies shall await you at the fork in the road that leads to your hometown! |The thegn urges you to hurry, "You must save my daughter!" ](?saved-daughter)You can [exit the meadhall](/hrethfeld#thegns-blessing) to the north.
 
 ## Mountains
 
 > You see a guard at the entrance of a cave. "Halt! You can't go in there!"
 
-[ You explain that you were sent by the thegn of Hrethfeld to save his daughter. The guard steps aside to let you | The guard refuses to let you past.](?thegns-blessing)[enter the cave.](/cave?thegns-blessing#saved-daughter) You can [return to Hrethfeld](/hrethfeld) by traveling south.
+[ You explain to the guard that you were sent by the thegn of Hrethfeld to save his daughter. The guard steps aside to let you | The guard refuses to let you past.](?thegns-blessing)[enter the cave.](/cave?thegns-blessing#saved-daughter) You can [return to Hrethfeld](/hrethfeld) by traveling south.
 
 ## [Mountains](?saved-daughter)
 
@@ -220,11 +222,11 @@ You can [return to Hrethfeld](/hrethfeld) by traveling south.
 
 ## [Cave]("Dragon's Lair")
 
-> You enter the cave, and see a dragon sitting atop a huge pile of treasure. He's facing the corner of his lair, where a woman huddles in fear. He stops in the middle of a taunt, swinging his around to you. "What do we have here?" the dragon roars.
+> You enter the cave, and see a dragon sitting atop a huge pile of treasure. He's facing the corner of his lair, where a woman huddles in fear. He stops in the middle of a taunt, swinging his huge head around to face you. "What do we have here?" the dragon roars.
 
-> I am here to rescue the fair maiden. Hand her over, and I will spare your life!" you declare.
+> "I am here to rescue the fair maiden. Hand her over, and I will spare your life!" you declare.
 
-> The dragon laughs, and breathes fire at you, but the entish armour protects you. You push ahead and with the sword you chop off the dragon's head.
+> The dragon laughs at you, breathing fire in your direction. But the entish armour that you wear protects you. You push ahead and with the sword you chop off the dragon's head.
 
 > The thegn's daughter runs up to you and embraces you. Sobbing, she thanks you repeatedly for saving her life.
 
