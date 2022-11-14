@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.3*
+*Version 0.3.1*
 
 ```
 This is an early version of the game. 
@@ -71,7 +71,7 @@ To [the west](/town-square) is the town square, and to [the north](/temple) is t
 
 The altar is littered with offerings of different kinds, and a large bowl in the middle with an eternal flame. The people will enter occasionally to say a quick prayer and deposit another gift on to the altar. The gifts will lie there undisturbed until the priest disposes of them by casting them into the large bowl with a fire inside during his evening offerings.
 
-[You can ](?!made-offering)[make an offering](?!made-offering#made-offering)[, if you so choose](?!made-offering).
+[You can ](?!made-offering)[make an offering](?!made-offering#made-offering)[, if you so choose.](?!made-offering)
 
 ### Made Offering
 
@@ -81,7 +81,7 @@ You say a prayer to the gods to help you sneak past the thyrsas, and then place 
 
 ## [Cellar]("The Priest's Room")
 
-The priest has a simple bedroom. Along one wall is a table with various scrolls and instruments that he uses in his duties as a priest. Along the other wall is [the Priest's bed](?!got-cloak&priest#got-cloak)[the Priest's bed](?got-cloak). You can [go back up the steps](/temple) to exit the room.
+The priest has a simple bedroom. Along one wall is a table with various scrolls and instruments that he uses in his duties as a priest. Along the other wall is [the Priest's bed](?!got-cloak&priest#got-cloak)[the Priest's bed](?!got-cloak&!priest)[the Priest's bed](?got-cloak). You can [go back up the steps](/temple) to exit the room.
 
 ### Got Cloak
 
@@ -121,7 +121,7 @@ A week later, the town is attacked by the thyrsas. They leave little behind but 
 
 > **Part 2**
 
-You are on a highway running [east](/woods) to [west](/fen) with a road going to the north leading back home. [According to the thegn, Tiwestun is to the east and Hrethfeld is to the west.](#thegn)
+You are on a highway running [east](/woods) to [west](/fen) with a road going to the north leading back home. [According to the thegn, Tiwestun is to the east and Hrethfeld is to the west.](?thegn)
 
 ## Woods
 
@@ -139,23 +139,25 @@ The road goes through a fen. You can follow it to [the west](/hrethfeld) or to [
 
 > You walk up to the guards at the gate and request to see the thegn. They ask you for your identity, and you respond by telling them about the siege to your home. The guard quickly let's you through the gate, and you find yourself in the midst of town.
 
-To [the east](#tiwestun-meadhall) is the town's meadhall where you will find the thegn[, and to ](?tiwestun-meadhall)[the west](?tiwestun-meadhall#tiwestun-temple)[ is the temple](?tiwestun-meadhall). To [the south](/woods) is the road heading back home.
+To [the east](/tiwestuns-meadhall#talked-to-thegn) is the town's meadhall where you will find the thegn[, and to ](?talked-to-thegn)[the west](?tiwestun-meadhall#priestess)[ is the temple](?tiwestuns-temple). To [the south](/woods) is the road heading back home.
 
-### Tiwestun Meadhall
+## Tiwestun's Meadhall
 
 > The thegn greets you grimly. Apparently he's already heard the news. He strokes his beard thoughtfully as he says to you, "We cannot go to war without first consulting our town's patron god. Go talk to Tiw's priestess!"
 
-[You and the thegn briefly chit chat for a few minutes before heushers you out the door.](?!tiwestun-temple)
+[You and the thegn briefly chit chat for a few minutes before heushers you out the door.](?!priestess)
 
-[The thegn says to you, "The priestess has given the go-ahead! My army will meet you at the fork in the road that leads to your hometown!](?tiwestun-temple)
+[The thegn says to you, "The priestess has given the go-ahead! My army will meet you at the fork in the road that leads to your hometown!](?priestess)
 
-### Tiwestun Temple
+You can [exit the meadhall](/tiwestun) by going to 
+
+## Tiwestun Temple
 
 > An elderly woman greets you as you enter the temple. "I've been waiting on you," she says, "A dream told me to expect you. In it, Tiw told me to give you his blessing, but only if you accept this gift from me. It is an ancient set of armour, made by the best craftsmen of the ancient world.
 
 > "As you know, the ents were an ancient race of giants, the makers of the best weapons and armour, and builders of the ancient world's greatest cities. With this armour, you will see victory!"
 
-The priestess shoos you out of the temple. "You have great things to accomplish! I shall make offerings on your behalf, to incur the favour of Tiw on your behalf."
+The priestess urges you to continue your quest. "You have great things to accomplish! I shall make offerings on your behalf, to incur the favour of Tiw."
 
 ## Hrethfeld
 
