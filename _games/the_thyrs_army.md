@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.3.1*
+*Version 0.3.2*
 
 ```
 This is an early version of the game. 
@@ -139,9 +139,9 @@ The road goes through a fen. You can follow it to [the west](/hrethfeld) or to [
 
 > You walk up to the guards at the gate and request to see the thegn. They ask you for your identity, and you respond by telling them about the siege to your home. The guard quickly let's you through the gate, and you find yourself in the midst of town.
 
-To [the east](/tiwestuns-meadhall#talked-to-thegn) is the town's meadhall where you will find the thegn[, and to ](?talked-to-thegn)[the west](?tiwestun-meadhall#priestess)[ is the temple](?tiwestuns-temple). To [the south](/woods) is the road heading back home.
+To [the east](/tiwestun-meadhall#talked-to-thegn) is the town's meadhall where you will find the thegn[, and to ](?talked-to-thegn)[the west](/tiwestun-temple?talked-to-thegn#priestess)[ is the temple](?talked-to-thegn). To [the south](/woods) is the road heading back home.
 
-## Tiwestun's Meadhall
+## Tiwestun Meadhall
 
 > The thegn greets you grimly. Apparently he's already heard the news. He strokes his beard thoughtfully as he says to you, "We cannot go to war without first consulting our town's patron god. Go talk to Tiw's priestess!"
 
