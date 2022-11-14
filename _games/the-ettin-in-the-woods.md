@@ -8,7 +8,7 @@ title: The Ettin in the Woods
 
 A choose your own adventure style game by **Byron Pendason**
 
-*Version 1.0*
+*Version 1.1*
 
 Most of us know instinctively that it's not safe to go outside in the dark. Because there's things that go bump in the night that would frighten even the greatest and bravest of heroes...
 
@@ -16,11 +16,17 @@ Most of us know instinctively that it's not safe to go outside in the dark. Beca
 
 > A blood curdling scream wakes you from your slumber. Your stumble out of your bed and look around. 
 
-Your home is a simple one. Your bed is a cot on the ground, and your mom's cot is on the opposite side of the room. It is empty.
+Your home is a simple one. Your bed is a cot on the ground, and your mom's cot is on the opposite side of the room.
 
-> She is nowhere to be found.
+> Her cot is empty, and she is nowhere to be found.
+
+[On the mantle of the fireplace is ](?got-chest&!got-key)[a key](?got-chest&!got-key#got-key)[, forgotten about long ago.](?got-chest&!got-key)
 
 On the west wall is a fireplace. To [the east](/front-yard) is the door to the outside.
+
+### Got Key
+
+You grab the key. You should probably head back to the barn!
 
 ## Front Yard
 
@@ -42,13 +48,19 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 > You suddenly remember that your father kept a chest hidden underneath some loose floorboards. You quickly brush away some hay until you find them.
 
-[You see the pit where the chest was hidden.|You see the loose floorboards.](?got-sword)
+[You see the pit where the chest was hidden.|You see the loose floorboards.](?got-chest)
 
-[You can dig up ](?!got-sword)[ the chest](?!got-sword#got-sword)[. ](?!got-sword)You can head to [the south](/front-yard) to exit of the barn. 
+[Now that you have the key, you can ](?got-key&!got-sword)[try to unlock](?got-key&!got-sword#got-sword)[ the chest.](?got-key&!got-sword)
+
+You can [dig up ](?!got-chest)[ the chest](?!got-sword#got-chest)[, or you can](?!got-chest) head to [the south](/front-yard) to exit the barn. 
+
+### Got Chest
+
+You carefully pull up the floorboards to find a chest. Unfortunately, it is locked.
 
 ### Got Sword
 
-You carefully pull up the floorboards to find a chest. Inside it is a sword with runes engraved in the hilt. You carefully pick up the sword, wishing that you had taken the time to learn to read the runes.
+Inside the chest is a sword with runes engraved in the hilt. You carefully pick up the sword, wishing that you had taken the time to learn to read the runes.
 
 ## The Cave
 
