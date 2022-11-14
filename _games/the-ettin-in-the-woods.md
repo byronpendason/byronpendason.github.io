@@ -60,7 +60,7 @@ You can [dig up ](?!got-chest)[ the chest](?!got-chest#got-chest)[, or you can](
 
 > You search all over town, but your mother is nowhere to be found.
 
-To [the north](/the-cemetery#visited-grave) is the town's cemetery. [To ](?visited-grave)[the south](/the-stream?visited-grave)[is the stream.](?visited-grave) To [the west](/front-yard) is your home.
+To [the north](/the-cemetery#visited-grave) is the town's cemetery. [To ](?visited-grave)[the south](/the-stream?visited-grave)[ is the stream.](?visited-grave) To [the west](/front-yard) is your home.
 
 ## The Cemetery
 
@@ -68,7 +68,7 @@ The cemetery is the only one within twenty miles. It's here that your father is 
 
 > As you stand by your father's grave, you remember that there is a stream to the south of town that was your father's favorite place when he needed to unwind.
 
-To [the-south](/the-town) is town.
+To [the south](/the-town) is town.
 
 ## The Stream
 
