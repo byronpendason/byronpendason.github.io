@@ -88,7 +88,7 @@ You enter the woods. Before you stands a cave with a giant entrance. [With sword
 
 A little ways into the cave, you see your mother sobbing uncontrollably in utter fear. A gigantic being with the shape of a human is taunting her about how tasty she will be.
 
-The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [sneak back](/the-woods#) out to the woods.
+The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [sneak back](/the-woods#time-passed) out to the woods.
 
 ## [The Cave](?time-passed)
 
