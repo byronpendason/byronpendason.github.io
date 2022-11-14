@@ -92,6 +92,12 @@ Guards are on duty here, eyeing the sieging army.
 
 > "I would not go out there," one of the guards say, "Those monsters have been killing people on sight."
 
+To [the south](/the-thyrs-camp) is the thyrs army, with the highway going between your allies cities just beyond. To [the north](/town-square) is the town.
+
+## [Gate](?got-cloak&made-offering)
+
+Guards are on duty here, eyeing the sieging army.
+
 To [the south](/fork-in-the-road) is the thyrs army, with the highway going between your allies cities just beyond. To [the north](/town-square) is the town.
 
 ## Fork in the Road
@@ -101,26 +107,16 @@ This is as far as the adventure goes,
 for now. Check back often for updates!
 ```
 
-## [Fork in the Road]("The Thyrs Camp"?!got-cloak)
+## The Thyrs Camp
 
-You do your best to try to sneak past the thyrs army, but you fail miserably. The thyrsas drag you to their leader, a large ettin with an ancient looking face.
-
-"You thought you could get past my army, eh?" he asks, "I will make an example of you!"
-
-The thyrsas behead you, stick your head on a pike, add place it where it's in clear view of the town's gate.
-
-A week later, the town is attacked by the thyrsas. They leave little behind but burning ruins.
-
-[Fork in the Road]("The Thyrs Camp"?got-cloak&!made-offering)
-
-You do your best to try to sneak past the thyrs army, and you make it farther than you normally would have. But just as you think you're going to make it, you bump into a thyrs which grabs you. The thyrs drags you to their leader, a large ettin with an ancient looking face.
+You do your best to try to sneak past the thyrs army, [and you make it farther than you normally would have but still get caught|but you are caught right away](?got-cloak). The thyrsas drag you to their leader, a large ettin with an ancient looking face.
 
 "You thought you could get past my army, eh?" he asks, "I will make an example of you!"
 
-The thyrsas behead you, stick your head on a pike, add place it where it's in clear view of the town's gate.
+[Perhaps you should have sought the favour of the gods before trying to sneak past the thyrs army?](?got-cloak)
+
+The thyrsas behead you, stick your head on a pike, and place it where it's in clear view of the town's gate.
 
 A week later, the town is attacked by the thyrsas. They leave little behind but burning ruins.
-
-Perhaps you should have sought to gain the favour of the gods before attempting to sneak past the siege?
 
 </textarea>
