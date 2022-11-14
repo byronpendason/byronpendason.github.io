@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.2.2*
+*Version 0.2.3*
 
 ```
 This is an early version of the game. 
@@ -70,7 +70,7 @@ To [the west](/town-square) is the town square, and to [the north](/temple) is t
 
 The altar is littered with offerings of different kinds, and a large bowl in the middle with an eternal flame. The people will enter occasionally to say a quick prayer and deposit another gift on to the altar. The gifts will lie there undisturbed until the priest disposes of them by casting them into the large bowl with a fire inside during his evening offerings.
 
-[You can](?!made-offering)[make an offering](#made-offering?!made-offering)[if you so choose](?!made-offering).
+[You can ](?!made-offering)[make an offering](?!made-offering#made-offering)[, if you so choose](?!made-offering).
 
 ### Made Offering
 
