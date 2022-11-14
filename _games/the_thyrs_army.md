@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.2*
+*Version 0.2.1*
 
 ```
 This is an early version of the game. 
@@ -60,7 +60,7 @@ Most of the people are walking around disheveled and hungry. Due to the siege, f
 
 > Not many people are out in the residential part of town. The one's you do see look disheveled and hungry.
 
-To [the west](/town-square) is the town square, and to [the north](/the-temple) is the temple.
+To [the west](/town-square) is the town square, and to [the north](/temple) is the temple.
 
 ## Temple
 
@@ -104,7 +104,7 @@ To [the south](/fork-in-the-road) is the thyrs army, with the highway going betw
 
 ```
 This is as far as the adventure goes,
-for now. Check back often for updates!
+for now. Check back later for updates!
 ```
 
 ## The Thyrs Camp
