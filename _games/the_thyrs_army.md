@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.3.2*
+*Version 0.3.3*
 
 ```
 This is an early version of the game. 
@@ -149,7 +149,7 @@ To [the east](/tiwestun-meadhall#talked-to-thegn) is the town's meadhall where y
 
 [The thegn says to you, "The priestess has given the go-ahead! My army will meet you at the fork in the road that leads to your hometown!](?priestess)
 
-You can [exit the meadhall](/tiwestun) by going to 
+You can [exit the meadhall](/tiwestun) by going west.
 
 ## Tiwestun Temple
 
@@ -158,6 +158,8 @@ You can [exit the meadhall](/tiwestun) by going to
 > "As you know, the ents were an ancient race of giants, the makers of the best weapons and armour, and builders of the ancient world's greatest cities. With this armour, you will see victory!"
 
 The priestess urges you to continue your quest. "You have great things to accomplish! I shall make offerings on your behalf, to incur the favour of Tiw."
+
+You can [exit the temple](/tiwestun) by going east.
 
 ## Hrethfeld
 
