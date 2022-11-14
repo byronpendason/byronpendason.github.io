@@ -92,9 +92,9 @@ The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [snea
 
 ## [The Cave](?time-passed)
 
-A little ways into the cave, you see your mother sobbing uncontrollably in utter fear.
+> A little ways into the cave, you see your mother sobbing uncontrollably in utter fear.
 
-"About time, I've been waiting on you!" snarled a gigantic being with a human-like shape, razor sharp teeth, and long sharp claws.
+> "About time, I've been waiting on you!" snarled a gigantic being with a human-like shape, razor sharp teeth, and long sharp claws.
 
 You can [attack the ettin](/the-fight) or [beg for your life](#beg-for-life).
 
