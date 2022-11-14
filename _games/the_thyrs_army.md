@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.2.1*
+*Version 0.2.2*
 
 ```
 This is an early version of the game. 
@@ -80,7 +80,7 @@ You say a prayer to the gods to help you sneak past the thyrsas, and then place 
 
 ## [Cellar]("The Priest's Room")
 
-The priest has a simple bedroom. Along one wall is a table with various scrolls and instruments that he uses in his duties as a priest. Along the other wall is [the Priest's bed](#got-cloak?!got-cloak)[the Priest's bed](?got-cloak). You can [go back up the steps](/temple) to exit the room.
+The priest has a simple bedroom. Along one wall is a table with various scrolls and instruments that he uses in his duties as a priest. Along the other wall is [the Priest's bed](?!got-cloak#got-cloak)[the Priest's bed](?got-cloak). You can [go back up the steps](/temple) to exit the room.
 
 ### Got Cloak
 
