@@ -8,8 +8,8 @@ exclude: yes
 {% for game in site.games %}
 
 {% unless game.exclude %}
-- [{{game.title}}]({{game.url}}) {% if game.done %}(***Completed!***)
-{% endif %}
+- [{{game.title}}]({{game.url}}) {% if game.done %}(***completed!***)
+{% else %}(*incomplete*){% endif %}
 {% endunless %}
 
 {% endfor %}
