@@ -52,7 +52,7 @@ The animals are restless, behaving as if they're frightened. They too must have 
 
 [Now that you have the key, you can ](?got-key&!got-sword)[try to unlock](?got-key&!got-sword#got-sword)[ the chest.](?got-key&!got-sword)
 
-You can [dig up ](?!got-chest)[ the chest](?!got-sword#got-chest)[, or you can](?!got-chest) head to [the south](/front-yard) to exit the barn. 
+You can [dig up ](?!got-chest)[ the chest](?!got-chest#got-chest)[, or you can](?!got-chest) head to [the south](/front-yard) to exit the barn. 
 
 ### Got Chest
 
