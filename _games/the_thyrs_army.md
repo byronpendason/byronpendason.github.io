@@ -8,7 +8,7 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.2.4*
+*Version 0.3*
 
 ```
 This is an early version of the game. 
@@ -17,25 +17,25 @@ the story. Thank you!
 ```
 **Part 1**
 
-"A thyrs is a lonely fen dweller!" the town's theign declares, "How can there be an army of them laying siege to our town?!"
+"A thyrs is a lonely fen dweller!" the town's thegn declares, "How can there be an army of them laying siege to our town?!"
 
 The priest looks thoughtful. "The only time thyrsas have united into an army is when a strong leader has united them. It takes the intelligence and intimidation of an ettin to unite them into a single force and keep them under control."
 
-"What are we going to do?" the theign asks desperately.
+"What are we going to do?" the thegn asks desperately.
 
 Until now, you'd been silent. The priest turns to you, and says, "Hidden in the temple is a cloak of stealth. With it, you should be able to sneak past the thyrs army."
 
-"You must alert our allies of our plight!" the town theign declares.
+"You must alert our allies of our plight!" the town thegn declares.
 
 ## Meadhall
 
-You can see [the theign](#theign) and [the priest](#priest) here.
+You can see [the thegn](#thegn) and [the priest](#priest) here.
 
 You can [go south](/town-square) to exit the town hall.
 
 ### Theign
 
-"You must alert our allies of this siege against us!" the theign declares, "Once you get out of town, Tiwestun is to the east. To the west is our other ally Hreðfeld.
+"You must alert our allies of this siege against us!" the thegn declares, "Once you get out of town, Tiwestun is to the east. To the west is our other ally Hrethfeld.
 
 "You must hurry, I don't know how much longer we can hold out!"
 
@@ -81,7 +81,7 @@ You say a prayer to the gods to help you sneak past the thyrsas, and then place 
 
 ## [Cellar]("The Priest's Room")
 
-The priest has a simple bedroom. Along one wall is a table with various scrolls and instruments that he uses in his duties as a priest. Along the other wall is [the Priest's bed](?!got-cloak#got-cloak)[the Priest's bed](?got-cloak). You can [go back up the steps](/temple) to exit the room.
+The priest has a simple bedroom. Along one wall is a table with various scrolls and instruments that he uses in his duties as a priest. Along the other wall is [the Priest's bed](?!got-cloak&priest#got-cloak)[the Priest's bed](?got-cloak). You can [go back up the steps](/temple) to exit the room.
 
 ### Got Cloak
 
@@ -121,12 +121,51 @@ A week later, the town is attacked by the thyrsas. They leave little behind but 
 
 > **Part 2**
 
-You are on a highway running east to west, with a road going to the north leading back home.
+You are on a highway running [east](/woods) to [west](/fen) with a road going to the north leading back home. [According to the thegn, Tiwestun is to the east and Hrethfeld is to the west.](#thegn)
+
+## Woods
+
+> Out of the corner of your eye, you occasionally see some movement in the trees. According to legends, these woods are full of elves which consider these woods to be their gardens. Bad luck often befalls those who disturb the wildlife or foilage of these woods.
+
+The road goes through some woods. You can follow it to [the northeast](/tiwestun) or to [the west](/fork-in-the-road).
+
+## Fen
+
+> You hold your cloak tightly wrapped around you. A thyrs is known to live in this fen, but you see no sign of him. *He must be in one of the camps laying siege to  my home,* you think glumly.
+
+The road goes through a fen. You can follow it to [the west](/hrethfeld) or to [the east](/fork-in-the-road).
+
+## Tiwestun
+
+> You walk up to the guards at the gate and request to see the thegn. They ask you for your identity, and you respond by telling them about the siege to your home. The guard quickly let's you through the gate, and you find yourself in the midst of town.
+
+To [the east](#tiwestun-meadhall) is the town's meadhall where you will find the thegn[, and to ](?tiwestun-meadhall)[the west](?tiwestun-meadhall#tiwestun-temple)[ is the temple](?tiwestun-meadhall). To [the south](/woods) is the road heading back home.
+
+### Tiwestun Meadhall
+
+> The thegn greets you grimly. Apparently he's already heard the news. He strokes his beard thoughtfully as he says to you, "We cannot go to war without first consulting our town's patron god. Go talk to Tiw's priestess!"
+
+[You and the thegn briefly chit chat for a few minutes before heushers you out the door.](?!tiwestun-temple)
+
+[The thegn says to you, "The priestess has given the go-ahead! My army will meet you at the fork in the road that leads to your hometown!](?tiwestun-temple)
+
+### Tiwestun Temple
+
+> An elderly woman greets you as you enter the temple. "I've been waiting on you," she says, "A dream told me to expect you. In it, Tiw told me to give you his blessing, but only if you accept this gift from me. It is an ancient set of armour, made by the best craftsmen of the ancient world.
+
+> "As you know, the ents were an ancient race of giants, the makers of the best weapons and armour, and builders of the ancient world's greatest cities. With this armour, you will see victory!"
+
+The priestess shoos you out of the temple. "You have great things to accomplish! I shall make offerings on your behalf, to incur the favour of Tiw on your behalf."
+
+## Hrethfeld
+
+> You walk up to the guards at the gate and request to see the thegn. They ask you for your identity, and you respond by telling them about the siege to your home. The guard quickly let's you through the gate, and you find yourself in the midst of town.
 
 ```
-This is as far as the adventure goes,
-for now. Check back later for updates!
+There's nothing yet here.
+Please check back later for more!
 ```
 
+To [the east](/fen) is the road leading home.
 
 </textarea>
