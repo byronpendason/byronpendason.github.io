@@ -8,13 +8,14 @@ title: The Thyrs Army
 
 An interactive myth written by **Byron Pendason**, written in [Ficdown](https://www.ficdown.com/).
 
-*Version 0.2.3*
+*Version 0.2.4*
 
 ```
 This is an early version of the game. 
 Please be patient as I work to finish
 the story. Thank you!
 ```
+**Part 1**
 
 "A thyrs is a lonely fen dweller!" the town's theign declares, "How can there be an army of them laying siege to our town?!"
 
@@ -34,7 +35,7 @@ You can [go south](/town-square) to exit the town hall.
 
 ### Theign
 
-"You must alert our allies of this siege against us!" the theign declares, "Once you get out of town, Tiwestun is to the north. To the south is our other ally Hreðfeld.
+"You must alert our allies of this siege against us!" the theign declares, "Once you get out of town, Tiwestun is to the east. To the west is our other ally Hreðfeld.
 
 "You must hurry, I don't know how much longer we can hold out!"
 
@@ -100,13 +101,6 @@ Guards are on duty here, eyeing the sieging army.
 
 To [the south](/fork-in-the-road) is the thyrs army, with the highway going between your allies cities just beyond. To [the north](/town-square) is the town.
 
-## Fork in the Road
-
-```
-This is as far as the adventure goes,
-for now. Check back later for updates!
-```
-
 ## The Thyrs Camp
 
 You do your best to try to sneak past the thyrs army, [and you make it farther than you normally would have but still get caught|but you are caught right away](?got-cloak). The thyrsas drag you to their leader, a large ettin with an ancient looking face.
@@ -118,5 +112,21 @@ You do your best to try to sneak past the thyrs army, [and you make it farther t
 The thyrsas behead you, stick your head on a pike, and place it where it's in clear view of the town's gate.
 
 A week later, the town is attacked by the thyrsas. They leave little behind but burning ruins.
+
+## Fork in the Road
+
+> You do your best to sneak past the thyrs army. With your cloak tightly wrapped around, you quietly make your way through the thyrs camp. You almost bump into the largest of the thyrs, a gigantic monster with an ancient looking face, but you stop yourself in the nick of time.
+
+> You've escaped town! Now, on to gather your allies!
+
+> **Part 2**
+
+You are on a highway running east to west, with a road going to the north leading back home.
+
+```
+This is as far as the adventure goes,
+for now. Check back later for updates!
+```
+
 
 </textarea>
