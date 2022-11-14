@@ -68,14 +68,14 @@ The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [snea
 
 ## The Fight
 
-You bravely charge at the ettin. Unfortunately, without a weapon you never stood a chance. The ettin snatches you up, bites off one of your arms, and then tosses you towards your mother. Neither of you survive the night, becoming the latest meal for the bloodthirsty ettin.
+You bravely charge at the ettin. Unfortunately, without a weapon you never stood a chance. The ettin snatches you up, bites off one of your arms, and then tosses you towards your mother. Neither of you survive the night, becoming the latest meal of the bloodthirsty ettin.
 
 ## [The Fight](?got-sword)
 
 With your father's sword held out before you, you charge at the ettin. He tries to snatch at you, but as soon as his hand touches the blade of the sword, he yanks back his hand and roars out in pain.
 
-You take the opportunity to swing your sword at his other hand. The hand falls to the ground, and the ettin dives after his hand. While he's on the ground, you leap on top of him and bury the blade into his head.
+You take the opportunity to swing your sword at his other hand. The hand falls to the ground, and the ettin dives after it. While he's on the ground, you leap on top of him and bury the blade into his head.
 
-After you calm down your mother, the two of you head back home to safety.
+After you calm your mother, the two of you head back home to safety.
 
 </textarea>
