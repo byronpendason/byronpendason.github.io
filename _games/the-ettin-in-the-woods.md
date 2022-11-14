@@ -1,6 +1,6 @@
 ---
 title: The Ettin in the Woods
-done: true
+completed: true
 ---
 
 <textarea id="source" style="display: none;">
