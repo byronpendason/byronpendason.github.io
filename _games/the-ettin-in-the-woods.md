@@ -20,13 +20,11 @@ Your home is a simple one. Your bed is a cot on the ground, and your mom's cot i
 
 > Her cot is empty, and she is nowhere to be found.
 
-[On the mantle of the fireplace is ](?got-chest&!got-key)[a key](?got-chest&!got-key#got-key)[, forgotten about long ago.](?got-chest&!got-key)
-
-On the west wall is a fireplace. To [the east](/front-yard) is the door to the outside.
+On the west wall is a fireplace.[ On the mantle of the fireplace is ](?got-chest&!got-key)[a key](?got-chest&!got-key#got-key)[, forgotten about long ago.](?got-chest&!got-key) To [the east](/front-yard) is the door to the outside.
 
 ### Got Key
 
-You grab the key. You should probably head back to the barn!
+*You grab the key. You should probably head back to the barn!*
 
 ## Front Yard
 
@@ -56,11 +54,11 @@ You can [dig up ](?!got-chest)[ the chest](?!got-chest#got-chest)[, or you can](
 
 ### Got Chest
 
-You carefully pull up the floorboards to find a chest. Unfortunately, it is locked.
+*You carefully pull up the floorboards to find a chest. Unfortunately, it is locked.*
 
 ### Got Sword
 
-Inside the chest is a sword with runes engraved in the hilt. You carefully pick up the sword, wishing that you had taken the time to learn to read the runes.
+*Inside the chest is a sword with runes engraved in the hilt. You carefully pick up the sword, wishing that you had taken the time to learn to read the runes.*
 
 ## The Cave
 
@@ -70,9 +68,7 @@ The ettin has not yet seen you. You can [attack the ettin](/the-fight), or [snea
 
 ## The Fight
 
-You bravely charge at the ettin. Unfortunately, without a weapon you never stood a chance. The ettin snatches you up, bites off one of your arms, and then tosses you towards your mother. Neither of you survive the night.
-
-***You have lost.***
+You bravely charge at the ettin. Unfortunately, without a weapon you never stood a chance. The ettin snatches you up, bites off one of your arms, and then tosses you towards your mother. Neither of you survive the night, becoming the latest meal for the bloodthirsty ettin.
 
 ## [The Fight](?got-sword)
 
@@ -81,7 +77,5 @@ With your father's sword held out before you, you charge at the ettin. He tries 
 You take the opportunity to swing your sword at his other hand. The hand falls to the ground, and the ettin dives after his hand. While he's on the ground, you leap on top of him and bury the blade into his head.
 
 After you calm down your mother, the two of you head back home to safety.
-
-***You have won!***
 
 </textarea>
