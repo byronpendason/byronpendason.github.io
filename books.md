@@ -1,6 +1,6 @@
 ---
 title: My Books
-permalink: /books/
+permalink: /books
 ---
 
 # My Books
