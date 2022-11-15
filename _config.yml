@@ -48,6 +48,7 @@ defaults:
     values:
       layout: "game"
       language: "ficdown"
+      notrack: true
 header_pages:
   - title: Home
     url: /
