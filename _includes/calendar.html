@@ -1,7 +1,8 @@
 <h2 id="monthHead"></h2>
 <table id="calendar">
-
 </table>
+
+<code id="debug"></code>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
@@ -31,8 +32,9 @@
       pos += 1;
     }
     
-    $("#monthHead").text(monthNames[month]+ " "+year);
     txt += "</tr>";
+    $("#debug").text(txt);
     $("#calendar").html(txt);
+    $("#monthHead").text(monthNames[month]+ " "+year);
   }
 </script>
