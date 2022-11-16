@@ -20,7 +20,7 @@
   function showCalendar(year, month) {
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     
-    var day = new Date(year, month);
+    var day = new Date(year, month, 1);
     var txt = "<tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n</tr>\n<tr>\n";
     while (day.getMonth() == month) {
       if (day.getDay() == 0)  {
