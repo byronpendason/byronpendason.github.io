@@ -35,7 +35,7 @@
       html += "<td></td>\n";
       pos += 1;
     }
-    $("#monthHead").text(monthNames[month]+ " "+year);
+    
     while (day.getMonth() == month) {
       if (pos% 7 == 0)  {
         if (pos != 0) {
@@ -47,6 +47,7 @@
       day.setDate(day.getDate() + 1);
       pos += 1;
     }
+    $("#monthHead").text(monthNames[month]+ " "+year);
     html += "</tr>";
     $("#calendar").append(html);
   }
