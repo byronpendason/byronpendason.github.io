@@ -8,12 +8,12 @@
   var days = new Array(366);
   
   $(document).ready(function() {
-    showCalendar(date.getFullYear(), date.getMonth());
     x = new Date(date.getFullYear(), 0, 1);
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
       x += 1;
     }
+    showCalendar(date.getFullYear(), date.getMonth());
   });
   
   function addEvent(d, event) {
