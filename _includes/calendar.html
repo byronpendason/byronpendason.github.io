@@ -31,10 +31,11 @@
     var day = new Date(year, month, 0);
     var html = "";
     var pos = 0;
-    for(let i=0; i<day.getDay(), i++) {
+    for (let i=0; i<day.getDay(); i++) {
       html += "<td></td>\n";
+      pos += 1;
     }
-    while(day.getMonth() == month) {
+    while (day.getMonth() == month) {
       if (pos% 7 == 0)  {
         if (pos != 0) {
           html += "</tr>\n";
@@ -46,6 +47,6 @@
       pos += 1;
     }
     html += "</tr>";
-    $("#calendar").html(html);
+    $("#calendar").append(html);
   }
 </script>
