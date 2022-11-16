@@ -21,7 +21,7 @@
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     
     var day = new Date(year, month, 0);
-    var html = "  <tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n</tr>\n";
+    var html = "  <tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n";
     var pos = 0;
     for (let i=0; i<day.getDay(); i++) {
       html += "<td>test</td>\n";
@@ -30,10 +30,8 @@
     
     while (day.getMonth() == month) {
       if (pos% 7 == 0)  {
-        if (pos != 0) {
-          html += "</tr>\n";
+          html += "</tr>\n<tr>";
         }
-        html += "<tr>\n";
       }
       html += "<td>"+day.getDate()+"</td>\n";
       day.setDate(day.getDate() + 1);
