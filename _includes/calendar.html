@@ -1,4 +1,4 @@
-<table id="calendars">
+<table id="calendar">
   <tr>
     <th>Sun</th>
     <th>Mon</th>
@@ -17,7 +17,7 @@
   var date = new Date();
   
   $(function() {
-    showCalendar(2022, 10);
+    showCalendar(date.getFullYear(), date.getMonth());
   }):
   
   function getJday(d) {
@@ -36,13 +36,14 @@
     while(day.getMonth() == month) {
       if (day.getDay() % 7 == 0)  {
         if (day.getMonth() != 0) {
-          html += "</tr>";
+          html += "</tr>\n";
         }
-        html += "<tr";
+        html += "<tr>\n";
       }
       html += "<td>"+day.getDay()+"</td>\n";
       day.setDate(today.getDate() + 1)
     }
+    html += "</tr>";
     $("#grid").html(html);
   }
 </script>
