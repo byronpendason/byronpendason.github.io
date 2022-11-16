@@ -63,14 +63,14 @@ If the giant is the child of at least one human, it's probably an ent. If the gi
 
 ## Bibliography
 
-Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote Toller, Christ Sean, and Ondřej Tichy. Prague: Faculty of Arts, Charles University, 2014. https://bosworthtoller.com.
+Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote Toller, Christ Sean, and Ondřej Tichy. Prague: Faculty of Arts, Charles University, 2014. <https://bosworthtoller.com>.
 
-Heslop, Richard Oliver. *Northumberland Words*. London: The English Dialect Society, 1892. https://archive.org/details/northumberlandv128hesluoft/mode/2up
+Heslop, Richard Oliver. *Northumberland Words*. London: The English Dialect Society, 1892. <https://a.co/d/b0xizFs>.
 
-Jacobs, Joseph. "The Red Ettin" in *English Fairy Tales*. New York: G. P. Putnam's Sons, 1890. https://en.m.wikisource.org/wiki/English_Fairy_Tales/The_Red_Ettin
+Jacobs, Joseph. "The Red Ettin" in *English Fairy Tales*. New York: G. P. Putnam's Sons, 1890. <https://a.co/d/4MkJLj6>.
 
-Moniz, C Ryan. 2022. "Enta Ǽrgeweorc: Re-evaluating ettins in Old English literature", Ingwine's Homestead (blog). Accessed November 3, 2022. https://ingwine.neocities.org/speechlore/oe_ettins.html
+Moniz, C Ryan. 2022. "Enta Ǽrgeweorc: Re-evaluating ettins in Old English literature", Ingwine's Homestead (blog). Accessed November 3, 2022. https://ingwine.neocities.org/speechlore/oe_ettins.html.
 
-Pollington, Stephen. "5. Anthropomorphic Beings" in *The Elder Gods*. Cambridge: Anglo Saxon Books, 2011.
+Pollington, Stephen. "5. Anthropomorphic Beings" in *The Elder Gods*. Cambridge: Anglo Saxon Books, 2011. <https://a.co/d/66O22PB>.
 
-Simpson, Jacqueline and Steve Roud. “Giants” in *A Dictionary of English Folklore*. Oxford: Oxford University Press, 2000.
+Simpson, Jacqueline and Steve Roud. “Giants” in *A Dictionary of English Folklore*. Oxford: Oxford University Press, 2000. <https://a.co/d/aHwdiWx>.
