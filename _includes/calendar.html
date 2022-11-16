@@ -27,7 +27,7 @@
   
   function showCalendar(year, month) {
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    $("#monthHead").text(monthNames[month]+ " "+year);
+    
     var day = new Date(year, month, 0);
     var html = "";
     var pos = 0;
@@ -35,6 +35,7 @@
       html += "<td></td>\n";
       pos += 1;
     }
+    $("#monthHead").text(monthNames[month]+ " "+year);
     while (day.getMonth() == month) {
       if (pos% 7 == 0)  {
         if (pos != 0) {
