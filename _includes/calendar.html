@@ -11,8 +11,7 @@
    </tr>
 </table>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
   var date = new Date();
   
@@ -22,14 +21,14 @@
   });
   
   function getJday(d) {
-    var yrStart = newDate(d.getFullYear(), 0, 0);
+    var yrStart = new Date(d.getFullYear(), 0, 0);
     return Math.floor((d - yrStart)/86400000);
   }
   
   function showCalendar(year, month) {
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     $("#monthHead").text(monthNames[month]+ " "+year);
-    var day = newDate(year, month, 0);
+    var day = new Date(year, month, 0);
     var html = "";
     var pos = 0;
     for(let i=0; i<day.getDay(), i++) {
