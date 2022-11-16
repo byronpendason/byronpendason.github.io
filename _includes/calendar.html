@@ -1,0 +1,48 @@
+<table id="calendars">
+  <tr>
+    <th>Sun</th>
+    <th>Mon</th>
+    <th>Tues</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+    <th>Sat</th>
+   </tr>
+  <span id="grid"></span>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+  var date = new Date();
+  
+  $(function() {
+    showCalendar(2022, 10);
+  }):
+  
+  function getJday(d) {
+    var yrStart = newDate(date.getFullYear(), 0, 0);
+    return Math.floor((d - yrStart)/86400000);
+  }
+  
+  function showCalendar(year, month) {
+    var day = newDate(date.getFullYear(), date.getMonth(), 0);
+    var html = "";
+    if (day.getWeekday() != 0) {
+      for(let i=0; i<day.getWeekday(), i++) {
+        html += "<td></td>\n";
+      }
+    }
+    while(day.getMonth() == month) {
+      if (day.getDay() % 7 == 0)  {
+        if (day.getMonth() != 0) {
+          html += "</tr>";
+        }
+        html += "<tr";
+      }
+      html += "<td>"+day.getDay()+"</td>\n";
+      day.setDate(today.getDate() + 1)
+    }
+    $("#grid").html(html);
+  }
+</script>
