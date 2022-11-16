@@ -1,3 +1,4 @@
+<h2 id="monthHead"></h2>
 <table id="calendar">
   <tr>
     <th>Sun</th>
@@ -8,7 +9,6 @@
     <th>Fri</th>
     <th>Sat</th>
    </tr>
-  <span id="grid"></span>
 </table>
 
 <div id="debug"> </div>
@@ -20,7 +20,7 @@
   
   $(document).ready(function() {
     showCalendar(date.getFullYear(), date.getMonth());
-  }):
+  });
   
   function getJday(d) {
     var yrStart = newDate(d.getFullYear(), 0, 0);
@@ -28,13 +28,13 @@
   }
   
   function showCalendar(year, month) {
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    $("#monthHead").text(monthNames[month]+ " "+year);
     var day = newDate(year, month, 0);
     var html = "";
     var pos = 0;
-    if (day.getDay() != 0) {
-      for(let i=0; i<day.getDay(), i++) {
-        html += "<td></td>\n";
-      }
+    for(let i=0; i<day.getDay(), i++) {
+      html += "<td></td>\n";
     }
     while(day.getMonth() == month) {
       if (pos% 7 == 0)  {
@@ -48,7 +48,6 @@
       pos += 1;
     }
     html += "</tr>";
-    $("#grid").html(html);
-    $("#debug").text(html);
+    $("#calendar").html(html);
   }
 </script>
