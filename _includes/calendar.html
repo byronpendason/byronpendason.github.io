@@ -23,14 +23,16 @@
     var day = new Date(year, month, 0);
     var txt = "<tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n";
     var pos = 0;
-    for (let i=0; i<day.getDay(); i++) {
-      txt += "<td>test</td>\n";
-      pos += 1;
-    }
     
     while (day.getMonth() == month) {
       if (pos% 7 == 0)  {
           txt += "</tr>\n<tr>";
+      }
+      if (pos == 0) {
+        for (let i=0; i<day.getDay(); i++) {
+          txt += "<td></td>\n";
+          pos += 1;
+        }
       }
       txt += "<td>"+day.getDate()+"</td>\n";
       day.setDate(day.getDate() + 1);
