@@ -36,8 +36,9 @@
       day.setDate(day.getDate() + 1);
       pos += 1;
     }
+    
     $("#monthHead").text(monthNames[month]+ " "+year);
     txt += "</tr>";
-    $("#calendar").html(html);
+    $("#calendar").html(txt);
   }
 </script>
