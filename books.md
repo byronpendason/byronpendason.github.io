@@ -1,6 +1,7 @@
 ---
 title: My Books
 permalink: /books
+affiliates: true
 ---
 
 # My Books
