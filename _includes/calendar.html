@@ -1,14 +1,6 @@
 <h2 id="monthHead"></h2>
 <table id="calendar">
-  <tr>
-    <th>Sun</th>
-    <th>Mon</th>
-    <th>Tues</th>
-    <th>Wed</th>
-    <th>Thu</th>
-    <th>Fri</th>
-    <th>Sat</th>
-   </tr>
+
 </table>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -29,7 +21,7 @@
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     
     var day = new Date(year, month, 0);
-    var html = "";
+    var html = "  <tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n</tr>\n";
     var pos = 0;
     for (let i=0; i<day.getDay(); i++) {
       html += "<td></td>\n";
