@@ -1,5 +1,8 @@
 <script type="text/python">
-	from browser import document, html
+	from browser import document, html, ajax
+	
+	def read(req):
+	  document["content"] <= req.text
 	
 	document["content"] <= html.H2("Hello world!")
 </script>
