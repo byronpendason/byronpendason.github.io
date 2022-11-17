@@ -241,8 +241,6 @@
       txt += "<tr>\n<td>Twelftadæg</td>\n<td>"+dateString(twelfth)+"</td>\n<td>"+getASDate(twelfth)+"</td></tr>\n";
       $('#other-holidays-table').append(txt);
       
-      showCalendar(year, calMonth);
-      
       if ($('#today').text() == "") {
         var now = new Date();
         var asdate = "Today is the "+getASDate(now);
@@ -252,7 +250,7 @@
       if (yr<1583) {
         alert("Dates before the switch from the Julian Calendar to the Gregorian Calendar will use the Julian date that was in use at the time.");
       }
-
+      showCalendar(today.getFullYear(), today.getMonth();
       today.setFullYear(yr);
       if (today.getDate() < 10) {
           day = "0"+today.getDate();
