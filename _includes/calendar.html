@@ -392,7 +392,6 @@
   
   function initialiseDays(year) {
     var x = new Date(year, 0, 1);
-    $("#debug").append(x.toString());
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
       x.setDate(x.getDate()+1);
