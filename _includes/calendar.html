@@ -2,7 +2,8 @@
 from browser import document, html, ajax
 	
 def read(req):
-  pass
+  document["content"] <= html.PRE(html.CODE(req.text))
 
 document["content"] <= html.H2("Hello world!")
+ajax.get("https://aa.usno.navy.mil/api/seasons?year=1987", oncomplete=read)
 </script>
