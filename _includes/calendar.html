@@ -70,7 +70,6 @@
    
     $(document).ready(function() {
         $("#chosendate").on('change', function() {
-            initialiseDays();
             var d = new Date($("#chosendate").val());
             var today = new Date();
             d.setTime(d.getTime()+24*1000*60*60);
@@ -125,6 +124,7 @@
         return false;
       });
       year = yr;
+      initialiseDays(year);
       newMoons = [];
       fullMoons = [];
       monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
@@ -390,8 +390,8 @@
     return Math.floor(diff / oneDay);
   }
   
-  function initialiseDays() {
-    var x = new Date(date.getFullYear(), 0, 1);
+  function initialiseDays(year) {
+    var x = new Date(year, 0, 1);
     $("#debug").append(x.toString());
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
