@@ -258,6 +258,7 @@
       ts = today.getFullYear().toString()+"-"+(today.getMonth()+1).toString()+"-"+day;
       
       $("#chosendate").attr("value", ts);
+      $("#monthHead").text("showCalendar()");
       showCalendar(date.getFullYear(), date.getMonth());
       
     }
@@ -391,6 +392,7 @@
   }
   
   function initialiseDays(year) {
+    $("#monthHead").text("initialiseDays()");
     var x = new Date(year, 0, 1);
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
@@ -398,15 +400,16 @@
     }
   }
   
-  function showCalendar(year, month) {
+  function showCalendar(y, m) {
     const months= ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    $("#monthHead").text("#1");
     
-    var day = new Date(year, month, 1);
+    var day = new Date(y, m, 1);
     var txt = "<tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n</tr>\n<tr>\n";
     for (var i=0; i<day.getDay(); i++) {
       txt += "<td style=\"border: none;\"></td>\n";
     }
-    while (day.getMonth() == month) {
+    while (day.getMonth() == m) {
       if (day.getDay() == 0)  {
         txt += "</tr>\n<tr>";
       }
