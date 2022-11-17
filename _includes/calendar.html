@@ -8,7 +8,7 @@
   var days = new Array(366);
   
   $(document).ready(function() {
-    x = new Date(date.getFullYear(), 0, 1);
+    x = new Date(date.getFullYear(), 0, 0);
     $("#debug").append(x.toString());
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
@@ -23,13 +23,11 @@
   }
   
   function getJday(d) {
-    var j = new Date(Date.UTC(d));
-    j.setUTCHours(0);
-    j.setUTCMinutes(0);
-    j.setUTCSeconds(0);
-    j.setUTCMilliseconds(0);
-    var yrStart = new Date(Date.UTC(j.getFullYear(), 0, 1));
-    return Math.floor((j - yrStart)/86400000);
+    var now = new Date(d);
+    var start = new Date(now.getFullYear(), 0, 0);
+    var diff = now - start;
+    var oneDay = 1000 * 60 * 60 * 24;
+    return Math.floor(diff / oneDay);
   }
   
   function showCalendar(year, month) {
