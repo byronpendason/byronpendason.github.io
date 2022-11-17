@@ -1,9 +1,86 @@
-<script type="text/python">
-from browser import document, html, ajax
-	
-def read(req):
-  document["content"] <= html.PRE(html.CODE(req.text))
+<div id="calendar">
+  <h2 id="current-calendar"></h2>
+  <h5 id="leap"></h5>
+   <form style="width:100%">
+    <label>Enter year:</label>
+    <input type="text" id="yrInput" style="width:5em" placeholder="CE only">
+    <button type="button" id="submit" value="Get Calendar">Get Calendar</button>
+  </form>
+  <h3>Months</h3>
 
-document["content"] <= html.H2("Hello world!")
-ajax.get("https://aa.usno.navy.mil/api/seasons?year=1987", oncomplete=read)
+  <table id="months-table" style="width:100%">
+    <tr>
+      <th>Month</th>
+      <th>Starts</th>
+      <th>Full Moon</th>
+    </tr>
+  </table>
+  <h3>High Holidays</h3>
+  <p>These are the holidays that almost every Heathen observes (though usually by a different name and possibly at other times).</p>
+  <table id="holidays-table" style="width:100%">
+    <tr>
+      <th>Holiday</th>
+      <th>Date</th>
+      <th>Anglo-Saxon Date</th>
+    </tr>
+  </table>
+  <h3>Other Holidays</h3>
+  <p>These holidays are far from universal, but are observed by at least some Heathens who use the pre-Christian Anglo-Saxons as a primary source for their spirituality. Most of these are taken from the Ingvaeonic Society's <a href="https://ingwine.org/knowledge-base-2/the-holy-calendar/">The Holy Calendar</a>, unless another source is listed in parenthesis.</p>
+  <table id="other-holidays-table" style="width:100%">
+    <tr>
+      <th>Holiday</th>
+      <th>Date</th>
+      <th>Anglo-Saxon Date</th>
+    </tr>
+  </table>
+  <p id="today"></p>
+  <h3>Date Converter</h3>
+  <p>Enter a date below, and it will be converted to the Anglo-Saxon date. If the date is outside the currently selected year, this page will refresh with the calendar for that year.</p>
+  <form>
+      <label for="chosendate">Choose a date:</label>
+      <input type="date" id="chosendate" name="chosendate">
+  </form>
+  <p id="conv"></p>
+</div>
+
+<script type="text/python">
+from browser import document, html
+from datetime import datetime, timedelta
+
+years = []
+
+class Year:
+  self.year
+  self.midsummer
+  self.yule
+  self.newMoons = []
+  self.fullMoons = []
+  self.leap
+  def __init__(self, year, midsummer, yule, leap):
+    self.year = year
+    self.midsummer = datetime(midsummer)
+    self.yule = datetime(yule)
+    self.leap = leap
+  def addNewMoon(self, d):
+    self.newMoons.append(datetime(d))
+  def addFullMoon(self, d):
+    self.fullMoons.append(datetime(d))
+    
+{% for yr in site.data.calendar %}
+    temp = Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.yule }}, {{ yr.leap }})
+    
+{% for nm in yr.new_moons %}
+  addNewMoon(datetime({{ nm }}))
+{% endfor %}
+
+{% for fm in yr.full_moons %}
+  addFullMoon(datetime({{ fm }}))
+{% endfor %}
+    years.push(temp)
+    del temp
+{% endfor %}
+
+year = datetime.now().strftime("%Y")
+
+document["current-calendar"] <= "Anglo-Saxon Calendar for " + year
 </script>
