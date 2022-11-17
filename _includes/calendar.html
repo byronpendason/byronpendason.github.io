@@ -404,7 +404,7 @@
     const months= ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     
     var day = new Date(y, m, 1);
-    $("#monthHead").text(day);
+    $("#monthHead").text(y+"-"+m);
     var txt = "<tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n</tr>\n<tr>\n";
     for (var i=0; i<day.getDay(); i++) {
       txt += "<td style=\"border: none;\"></td>\n";
