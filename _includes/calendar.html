@@ -56,7 +56,7 @@
     var monthNames = new Array("Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola");
     var convert = new Date(1582, 9, 15);
     var today = new Date();
-    var month = today.getMonth();
+    var calMonth = today.getMonth();
     var yule = new Date();
     var year = today.getFullYear();
     var years = new Array();
@@ -73,7 +73,7 @@
         $("#chosendate").on('change', function() {
             var d = new Date($("#chosendate").val());
             var today = new Date();
-            month = 0;
+            calMonth = 0;
             d.setTime(d.getTime()+24*1000*60*60);
             if (d.getFullYear() != year) {
                 clear();
@@ -241,8 +241,7 @@
       txt += "<tr>\n<td>Twelftadæg</td>\n<td>"+dateString(twelfth)+"</td>\n<td>"+getASDate(twelfth)+"</td></tr>\n";
       $('#other-holidays-table').append(txt);
       
-      $("#monthHead").text("showCalendar()");
-      showCalendar(year, month);
+      showCalendar(year, calMonth);
       
       if ($('#today').text() == "") {
         var now = new Date();
@@ -422,6 +421,6 @@
     
     txt += "</tr>";
     $("#calDisp").html(txt);
-    $("#monthHead").text(months[month]+ " "+year);
+    $("#monthHead").text(months[m]+ " "+year);
   }
 </script>
