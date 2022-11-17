@@ -1,6 +1,3 @@
-<h2 id="monthHead"></h2>
-<table id="calDisp" style="width: 100%"></table>
-
 <div id="calendar">
   <h2 id="current-calendar"></h2>
   <h5 id="leap"></h5>
@@ -56,7 +53,6 @@
     var monthNames = new Array("Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola");
     var convert = new Date(1582, 9, 15);
     var today = new Date();
-    var calMonth = today.getMonth();
     var yule = new Date();
     var year = today.getFullYear();
     var years = new Array();
@@ -66,13 +62,11 @@
     y{{ yr.year }}.full_moons.pop();
     years.push(y{{ yr.year }});
 {% endfor %}
-  var days = new Array(366);
    
     $(document).ready(function() {
         $("#chosendate").on('change', function() {
             var d = new Date($("#chosendate").val());
             var today = new Date();
-            calMonth = 0;
             d.setTime(d.getTime()+24*1000*60*60);
             if (d.getFullYear() != year) {
                 clear();
@@ -122,11 +116,9 @@
         }
         clear();
         makeCal(yr);
-      
         return false;
       });
       year = yr;
-      initialiseDays(year);
       newMoons = [];
       fullMoons = [];
       monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
@@ -245,12 +237,13 @@
         var now = new Date();
         var asdate = "Today is the "+getASDate(now);
         $('#today').append(asdate);
+      
       }
 
       if (yr<1583) {
         alert("Dates before the switch from the Julian Calendar to the Gregorian Calendar will use the Julian date that was in use at the time.");
       }
-      showCalendar(today.getFullYear(), today.getMonth();
+
       today.setFullYear(yr);
       if (today.getDate() < 10) {
           day = "0"+today.getDate();
@@ -378,46 +371,4 @@
       }
       return str;
    }
-   
-  function addEvent(j, event) {
-    days[getJday(new Date(j))] += "<br />" + event;
-  }
-  
-  function getJday(j) {
-    var now = new Date(j);
-    var start = new Date(now.getFullYear(), 0, 1);
-    var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
-    var oneDay = 1000 * 60 * 60 * 24;
-    return Math.floor(diff / oneDay);
-  }
-  
-  function initialiseDays(year) {
-    var x = new Date(year, 0, 1);
-    for (let i=0; i<days.length; i++) {
-      days[i] = "<b>"+x.getDate()+"</b>";
-      x.setDate(x.getDate()+1);
-    }
-    $("#monthHead").text("initialiseDays() done!");
-  }
-  
-  function showCalendar(y, m) {
-    const months= ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    
-    var day = new Date(y, m, 1);
-    var txt = "<tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n</tr>\n<tr>\n";
-    for (var i=0; i<day.getDay(); i++) {
-      txt += "<td style=\"border: none;\">test</td>\n";
-    }
-    while (day.getMonth() == m) {
-      if (day.getDay() == 0)  {
-        txt += "</tr>\n<tr>";
-      }
-      txt += "<td style=\"height: 5em;word-wrap: break-word;vertical-align: top;text-align: left;width: 14%;\">"+days[getJday(day)]+"</td>\n";
-      day.setDate(day.getDate() + 1);
-    }
-    
-    txt += "</tr>";
-    $("#calDisp").html(txt);
-    $("#monthHead").text(months[m]+ " "+year);
-  }
 </script>
