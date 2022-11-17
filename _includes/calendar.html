@@ -378,12 +378,12 @@
       return str;
    }
    
-  function addEvent(d, event) {
-    days[getJday(new Date(d))] += "<br />" + event;
+  function addEvent(j, event) {
+    days[getJday(new Date(j))] += "<br />" + event;
   }
   
-  function getJday(d) {
-    var now = new Date(d);
+  function getJday(j) {
+    var now = new Date(j);
     var start = new Date(now.getFullYear(), 0, 1);
     var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
     var oneDay = 1000 * 60 * 60 * 24;
@@ -391,7 +391,7 @@
   }
   
   function initialiseDays() {
-    x = new Date(date.getFullYear(), 0, 1);
+    var x = new Date(date.getFullYear(), 0, 1);
     $("#debug").append(x.toString());
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
