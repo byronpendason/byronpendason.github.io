@@ -13,12 +13,11 @@
       days[i] = "<b>"+x.getDate()+"</b>";
       x += 1;
     }
-    $("#debug").append("So far, so good!\n");
     showCalendar(date.getFullYear(), date.getMonth());
   });
   
   function addEvent(d, event) {
-    days[getJday(new Date(d)] += "<br />" + event;
+    days[getJday(new Date(d))]+= "<br />" + event;
   }
   
   function getJday(d) {
