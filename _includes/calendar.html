@@ -72,13 +72,14 @@
         $("#chosendate").on('change', function() {
             var d = new Date($("#chosendate").val());
             var today = new Date();
+            calMonth = 0;
             d.setTime(d.getTime()+24*1000*60*60);
             if (d.getFullYear() != year) {
                 clear();
                 year = d.getFullYear();
                 makeCal(year);
             }
-            txt = d.toDateString()+" is the "+getASDate(d);1
+            txt = d.toDateString()+" is the "+getASDate(d);
             $("#conv").html(txt);
             return false;
             //alert(txt);
@@ -121,6 +122,7 @@
         }
         clear();
         makeCal(yr);
+      
         return false;
       });
       year = yr;
@@ -192,8 +194,8 @@
         he = 10000 + yr;
         ce = String(yr)+" CE";
       }
-      var yearStr = String(he)+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a>/"+ce;
-      $('#current-calendar').html("Anglo-Saxon Calendar for "+yearStr);
+      var year = String(he)+" <a href=\"https://www.minewyrtruman.com/2022/08/30/the-human-era/\">HE</a>/"+ce;
+      $('#current-calendar').html("Anglo-Saxon Calendar for "+year);
       
 
       for(let i=0; i<newMoons.length; i++) {
@@ -209,7 +211,7 @@
 
       var sigetiber = new Date(fullMoons[1]); // Sigetiber
       var lencten = new Date(fullMoons[2]); // Lencten-tíd
-      var blost = new Date(); // Blōstmfrēols- Adding to last day of Eosturmonath
+      var blost = new Date(); // Blōstmfrēols- Adding too last day of Eosturmonath
       blost = addDays(newMoons[4], -1); // https://larhusfyrnsida.com/2017/03/18/blostmfreols/
       if (leap) {
         var bendfeorm = new Date(newMoons[8]);
@@ -336,7 +338,7 @@
       newMoon = new Date(newMoons[i].toDateString());
       var month = monthNames[i];
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
-      var newYear = new Date(s[year+1-1700].new_moons[0]);
+      var newYear = new Date(years[year+1-1700].new_moons[0]);
       var isNextYear = false;
       if (d >= newYear) {
         newMoon = newYear;
@@ -397,6 +399,7 @@
       days[i] = "<b>"+x.getDate()+"</b>";
       x.setDate(x.getDate()+1);
     }
+    $("#monthHead").text("initialiseDays() done!");
   }
   
   function showCalendar(y, m) {
@@ -405,7 +408,7 @@
     var day = new Date(y, m, 1);
     var txt = "<tr>\n<th>Sun</th>\n<th>Mon</th>\n<th>Tues</th>\n<th>Wed</th>\n<th>Thu</th>\n<th>Fri</th>\n<th>Sat</th>\n</tr>\n<tr>\n";
     for (var i=0; i<day.getDay(); i++) {
-      txt += "<td style=\"border: none;\"></td>\n";
+      txt += "<td style=\"border: none;\">test</td>\n";
     }
     while (day.getMonth() == m) {
       if (day.getDay() == 0)  {
@@ -417,6 +420,6 @@
     
     txt += "</tr>";
     $("#calDisp").html(txt);
-//    $("#monthHead").text(months[m]+ " "+);
+    $("#monthHead").text(months[m]+ " "+year);
   }
 </script>
