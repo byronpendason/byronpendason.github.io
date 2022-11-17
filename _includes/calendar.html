@@ -58,8 +58,8 @@ class Year:
   self.leap
   def __init__(self, year, midsummer, yule, leap):
     self.yr = year
-    self.midsummer = datetime(midsummer)
-    self.yule = datetime(yule)
+    self.midsummer = midsummer
+    self.yule = yule
     self.leap = leap
   def addNewMoon(self, d):
     self.newMoons.append(datetime(d))
@@ -67,15 +67,15 @@ class Year:
     self.fullMoons.append(datetime(d))
     
 {% for yr in site.data.calendar %}
-  temp = Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.yule }}, {{ yr.leap }})
+temp = Year({{ yr.year }}, datetime("{{ yr.midsummer }}"), datetime("{{ yr.yule }}"), {{ yr.leap }})
 {% for nm in yr.new_moons %}
-  addNewMoon(datetime({{ nm }}))
+addNewMoon(datetime("{{ nm }}"))
 {% endfor %}
 {% for fm in yr.full_moons %}
-  addFullMoon(datetime({{ fm }}))
+addFullMoon(datetime("{{ fm }}"))
 {% endfor %}
-  years.append(temp)
-  del temp
+years.append(temp)
+del temp
 
 {% endfor %}
 x = int(datetime.now().strftime("%Y"))-1700
