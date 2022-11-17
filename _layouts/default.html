@@ -29,7 +29,7 @@
     <meta name="twitter:image" content="https://byronpendason.github.io/media/penda.jpg">
 
     <!-- Meta Tags Generated via http://heymeta.com -->
-{% unless notrack %}
+{% unless notrack%}
 {% include analytics.html %}
 {% endunless %}
   </head>
@@ -115,6 +115,6 @@
       <p><i>{{ site.footer }}</i></p>
     </div>
     <script id="dsq-count-scr" src="//mine-wyrtruman.disqus.com/count.js" async></script>
-{% include commerce-ads.html %}
+{% unless page.title == "Test Page" %}{% include commerce-ads.html %}{% endunless %}
   </body>
 </html>
