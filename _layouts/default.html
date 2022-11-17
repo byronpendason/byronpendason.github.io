@@ -33,7 +33,7 @@
 {% include analytics.html %}
 {% endunless %}
   </head>
-  <body>
+  <body{% if page.brython %} onload="brython()"{% endif %}>
     <div id="header">
       <h1><a href="/" style="color:white;text-decoration:none;">{{ site.title }}</a></h1>
       <p>{{ site.byline }}</p>
