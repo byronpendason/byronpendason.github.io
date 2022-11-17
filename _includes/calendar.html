@@ -9,9 +9,6 @@
   
   $(document).ready(function() {
     x = new Date(date.getFullYear(), 0, 1);
-    date.setMinutes(0);
-    date.setSeconds(0);
-    date.setMilliseconds(0);
     $("#debug").append(x.toString());
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
@@ -26,8 +23,8 @@
   }
   
   function getJday(d) {
-    var j = new Date(d);
-    var yrStart = new Date(j.getFullYear(), 0, 1);
+    var j = new Date(Date.UTC(d));
+    var yrStart = new Date(Date.UTC(j.getFullYear(), 0, 1));
     return Math.floor((j - yrStart)/86400000);
   }
   
