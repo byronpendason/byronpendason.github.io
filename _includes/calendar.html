@@ -12,6 +12,7 @@
     date.setMinutes(0);
     date.setSeconds(0);
     date.setMilliseconds(0);
+    $("#debug").append(x.toString());
     for (let i=0; i<days.length; i++) {
       days[i] = "<b>"+x.getDate()+"</b>";
       x.setDate(x.getDate()+1);
