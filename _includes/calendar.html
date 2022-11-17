@@ -24,6 +24,10 @@
   
   function getJday(d) {
     var j = new Date(Date.UTC(d));
+    j.setUTCHours(0);
+    j.setUTCMinutes(0);
+    j.setUTCSeconds(0);
+    j.setUTCMilliseconds(0);
     var yrStart = new Date(Date.UTC(j.getFullYear(), 0, 1));
     return Math.floor((j - yrStart)/86400000);
   }
