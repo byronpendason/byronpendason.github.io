@@ -65,6 +65,10 @@ class Year:
     self.newMoons.append(date.fromisoformat(d))
   def addFullMoon(self, d):
     self.fullMoons.append(date.fromisoformat(d))
+
+x = int(datetime.now().strftime("%Y"))
+
+document["current-calendar"] <= "Anglo-Saxon Calendar for " + str(x)
     
 {% for yr in site.data.calendar %}
 temp = Year({{ yr.year }}, date.fromisoformat("{{ yr.midsummer }}"), date.fromisoformat("{{ yr.yule }}"), {{ yr.leap }})
