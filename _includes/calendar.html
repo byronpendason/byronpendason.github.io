@@ -13,6 +13,7 @@
       days[i] = "<b>"+x.getDate()+"</b>";
       x.setDate(x.getDate()+1);
     }
+    addEvent(date, "Today!");
     showCalendar(date.getFullYear(), date.getMonth());
   });
   
@@ -38,7 +39,6 @@
       if (day.getDay() == 0)  {
         txt += "</tr>\n<tr>";
       }
-      $("#debug").append("Still good!\n");
       txt += "<td style=\"height: 5em;word-wrap: break-word;vertical-align: top;text-align: left;width: 14%;\">"+days[getJday(day)]+"</td>\n";
       day.setDate(day.getDate() + 1);
     }
@@ -46,6 +46,5 @@
     txt += "</tr>";
     $("#calendar").html(txt);
     $("#monthHead").text(monthNames[month]+ " "+year);
-    $("#debug").append("All done!\n");
   }
 </script>
