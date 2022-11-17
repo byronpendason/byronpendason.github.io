@@ -45,7 +45,7 @@
 
 <script type="text/python">
 from browser import document, html
-from datetime import datetime, timedelta
+from datetime import date, timedelta
 
 years = []
 
@@ -62,18 +62,14 @@ class Year:
     self.yule = yule
     self.leap = leap
   def addNewMoon(self, d):
-    self.newMoons.append(datetime(d))
+    self.newMoons.append(date.fromisoformat(d))
   def addFullMoon(self, d):
-    self.fullMoons.append(datetime(d))
+    self.fullMoons.append(date.fromisoformat(d))
     
 {% for yr in site.data.calendar %}
-temp = Year({{ yr.year }}, datetime("{{ yr.midsummer }}"), datetime("{{ yr.yule }}"), {{ yr.leap }})
-{% for nm in yr.new_moons %}
-addNewMoon(datetime("{{ nm }}"))
-{% endfor %}
-{% for fm in yr.full_moons %}
-addFullMoon(datetime("{{ fm }}"))
-{% endfor %}
+temp = Year({{ yr.year }}, date.fromisoformat("{{ yr.midsummer }}"), date.fromisoformat("{{ yr.yule }}"), {{ yr.leap }})
+{% for nm in yr.new_moons %}addNewMoon(date.fromisoformat("{{ nm }}")){% endfor %}
+{% for fm in yr.full_moons %}addFullMoon(date.fromisoformat("{{ fm }}")){% endfor %}
 years.append(temp)
 del temp
 
