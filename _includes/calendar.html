@@ -123,7 +123,7 @@
         makeCal(yr);
         return false;
       });
-      6year = yr;
+      year = yr;
       initialiseDays(year);
       newMoons = [];
       fullMoons = [];
@@ -397,6 +397,7 @@
       days[i] = "<b>"+x.getDate()+"</b>";
       x.setDate(x.getDate()+1);
     }
+    $("#monthHead").text("initialiseDays() done!");
   }
   
   function showCalendar(y, m) {
@@ -418,6 +419,6 @@
     
     txt += "</tr>";
     $("#calDisp").html(txt);
-    $("#monthHead").text(months[m]+ " "+y);
+//    $("#monthHead").text(months[m]+ " "+);
   }
 </script>
