@@ -20,8 +20,8 @@
   <table id="holidays-table" style="width:100%">
     <tr>
       <th>Holiday</th>
-      <th>Date</th>
-      <th>Anglo-Saxon Date</th>
+      <th>datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
+      <th>Anglo-Saxon datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
     </tr>
   </table>
   <h3>Other Holidays</h3>
@@ -29,23 +29,23 @@
   <table id="other-holidays-table" style="width:100%">
     <tr>
       <th>Holiday</th>
-      <th>Date</th>
-      <th>Anglo-Saxon Date</th>
+      <th>datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
+      <th>Anglo-Saxon datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
     </tr>
   </table>
   <p id="today"></p>
-  <h3>Date Converter</h3>
-  <p>Enter a date below, and it will be converted to the Anglo-Saxon date. If the date is outside the currently selected year, this page will refresh with the calendar for that year.</p>
+  <h3>datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S') Converter</h3>
+  <p>Enter a datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S') below, and it will be converted to the Anglo-Saxon datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S'). If the datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S') is outside the currently selected year, this page will refresh with the calendar for that year.</p>
   <form>
-      <label for="chosendate">Choose a date:</label>
-      <input type="date" id="chosendate" name="chosendate">
+      <label for="chosendatetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')">Choose a datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S'):</label>
+      <input type="datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')" id="chosendatetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')" name="chosendatetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')">
   </form>
   <p id="conv"></p>
 </div>
 
 <script type="text/python">
 from browser import document, html
-from datetime import date, timedelta
+import datetime
 
 class Year:
   self.yr
@@ -55,30 +55,32 @@ class Year:
   self.fullMoons = []
   self.leap
   def __init__(self, year, midsummer, yule, leap):
-    self.yr = year
-    self.midsummer = midsummer
-    self.yule = yule
+    date_string = '%Y/%m/%d %H:%M:%S'
+    self.yr = int(year)
+    self.midsummer = datetime.datetime.strptime(date_string, midsummer)
+    self.yule = datetime.datetime.strptime(date_string, yule)
     self.leap = leap
   def addNewMoon(self, d):
-    self.newMoons.append(date.fromisoformat(d))
+    date_string = '%Y/%m/%dT%H:%M:%S'
+    self.newMoons.append(datetime.datetime.strptime(date_string, d))
   def addFullMoon(self, d):
-    self.fullMoons.append(date.fromisoformat(d))
+    date_string = '%Y/%m/%dT%H:%M:%S'
+    self.fullMoons.append(datetime.datetime.strptime(date_string, d))
 
 document["current-calendar"] <= html.I("Please be patient as the page loads")
 
 years = []
-
-x = int(datetime.now().strftime("%Y"))
     
 {% for yr in site.data.calendar %}
-temp = Year({{ yr.year }}, date.fromisoformat("{{ yr.midsummer }}"), date.fromisoformat("{{ yr.yule }}"), {{ yr.leap }})
-{% for nm in yr.new_moons %}addNewMoon(date.fromisoformat("{{ nm }}")){% endfor %}
-{% for fm in yr.full_moons %}addFullMoon(date.fromisoformat("{{ fm }}")){% endfor %}
+temp = Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.leap }}
+{% for nm in yr.new_moons %}addNewMoon({{ nm }}){% endfor %}
+{% for fm in yr.full_moons %}addFullMoon({{ fm }}){% endfor %}
 years.append(temp)
 del temp
 
 {% endfor %}
 
-x = int(datetime.now().strftime("%Y"))-1700
+date = datetime.datetime.now()
+x = int(date.strftime("%Y")) - 1700
 year = years[x]
 </script>
