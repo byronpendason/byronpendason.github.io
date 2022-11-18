@@ -48,25 +48,22 @@ from browser import document, html
 import datetime
 
 class Year:
-  self.yr
-  self.midsummer
-  self.yule
-  self.newMoons = []
-  self.fullMoons = []
-  self.leap
   def __init__(self, year, midsummer, yule, leap):
-    date_string = '%Y/%-m/%d %H:%M:%S'
-    self.yr = int(year)
-    self.midsummer = datetime.datetime.strptime(date_string, midsummer)
-    self.yule = datetime.datetime.strptime(date_string, yule)
+    date_string = '%Y/%m/%d %H:%M:%S'
+    self.yr = year
+    self.midsummer = datetime.datetime.strptime(midsummer, date_string)
+    self.yule = datetime.datetime.strptime(yule, date_string)
+    self.newMoons = []
+    self.fullMoons = []
     self.leap = leap
   def addNewMoon(self, d):
-    date_string = '%Y/%m/%dT%H:%M:%S'
-    self.newMoons.append(datetime.datetime.strptime(date_string, d))
+    date_string = '%Y-%m-%dT%H:%M:%S'
+    self.newMoons.append(datetime.datetime.strptime(d, date_string))
   def addFullMoon(self, d):
-    date_string = '%Y/%m/%dT%H:%M:%S'
-    self.fullMoons.append(datetime.datetime.strptime(date_string, d))
+    date_string = '%Y-%m-%dT%H:%M:%S'
+    self.fullMoons.append(datetime.datetime.strptime(d, date_string))
 
+years = []
 document["current-calendar"] <= html.I("Please be patient as the page loads")
 
 years = []
@@ -85,4 +82,6 @@ del temp
 date = datetime.datetime.now()
 x = int(date.strftime("%Y")) - 1700
 year = years[x]
+
+document["current-calendar"] <= f"Anglo-Saxon Calendar for {year.yr}"
 </script>
