@@ -72,7 +72,7 @@ document["current-calendar"] <= html.I("Please be patient as the page loads")
 years = []
     
 {% for yr in site.data.calendar %}
-temp = Year({{ yr.year }}, "{{ yr.midsummer }}", "{{ yr.yule }}", {{ yr.leap }})
+temp = Year({{ yr.year }}, "{{ yr.midsummer }}", "{{ yr.yule }}", {{ yr.leap | capitalize }})
 {% for nm in yr.new_moons %}temp.addNewMoon("{{ nm }}")
 {% endfor %}
 {% for fm in yr.full_moons %}temp.addFullMoon("{{ fm }}")
