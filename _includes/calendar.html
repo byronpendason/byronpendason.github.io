@@ -45,7 +45,7 @@
 
 <script type="text/python">
   from browser import document, window
-  import datetime
+  from datetime import datetime
   
   def makeCalendar(yr):
     temp = years[yr-1700].split("_")
@@ -62,24 +62,26 @@
     def __init__(self, year, midsummer, yule, leap):
       date_string = '%Y/%m/%d %H:%M:%S'
       self.yr = year
-      self.midsummer = datetime.datetime.strptime(midsummer, date_string)
-      self.yule = datetime.datetime.strptime(yule, date_string)
+      #self.midsummer = datetime.strptime(midsummer, date_string)
+      #self.yule = datetime.strptime(yule, date_string)
       self.newMoons = []
       self.fullMoons = []
       self.leap = leap
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      self.newMoons.append(datetime.datetime.strptime(d, date_string))
+      document <= "<br />" + d
+      #self.newMoons.append(datetime.strptime(d, date_string))
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      self.fullMoons.append(datetime.datetime.strptime(d, date_string)
+      document <= "<br />" + d
+      #self.fullMoons.append(datetime.strptime(d, date_string)
       
   document["current-calendar"] <= "Please be patient while the page loads."
   years = []
   {% for yr in site.data.calendar %}
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
-  date = datetime.datetime.now()
+  date = datetime.now()
   x = int(date.strftime("%Y"))
   
   document["current-calendar"] <= str(x)
