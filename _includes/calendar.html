@@ -1,5 +1,5 @@
 <div id="calendar">
-  <h2 id="current-calendar"><i>Please be patient as the page loads...</i></h2>
+  <h2 id="current-calendar"></h2>
   <h5 id="leap"></h5>
    <form style="width:100%">
     <label>Enter year:</label>
@@ -58,5 +58,5 @@
   date = datetime.datetime.now()
   x = int(date.strftime("%Y")) - 1700
   
-  document["current-calendar"].text = "Anglo-Saxon Calendar for "+str(window.years[x].year)
+  document["current-calendar"] <= "Anglo-Saxon Calendar for "+str(window.years[x].year)
 </script>
