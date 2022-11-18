@@ -20,8 +20,8 @@
   <table id="holidays-table" style="width:100%">
     <tr>
       <th>Holiday</th>
-      <th>datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
-      <th>Anglo-Saxon datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
+      <th>Date</th>
+      <th>Anglo-Saxon Date</th>
     </tr>
   </table>
   <h3>Other Holidays</h3>
@@ -29,19 +29,20 @@
   <table id="other-holidays-table" style="width:100%">
     <tr>
       <th>Holiday</th>
-      <th>datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
-      <th>Anglo-Saxon datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')</th>
+      <th>Date</th>
+      <th>Anglo-Saxon Date</th>
     </tr>
   </table>
   <p id="today"></p>
-  <h3>datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S') Converter</h3>
-  <p>Enter a datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S') below, and it will be converted to the Anglo-Saxon datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S'). If the datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S') is outside the currently selected year, this page will refresh with the calendar for that year.</p>
+  <h3>Date Converter</h3>
+  <p>Enter a Date below, and it will be converted to the Anglo-Saxon Date. If the Date is outside the currently selected year, this page will refresh with the calendar for that year.</p>
   <form>
-      <label for="chosendatetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')">Choose a datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S'):</label>
-      <input type="datetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')" id="chosendatetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')" name="chosendatetime.datetime.strptime(date_string, '%Y/%m/%d %H:%M:%S')">
+      <label for="chosenDate">Choose a Date:</label>
+      <input type="Date" id="chosenDate" name="chosenDate">
   </form>
   <p id="conv"></p>
 </div>
+
 
 <script type="text/python">
 from browser import document, html
