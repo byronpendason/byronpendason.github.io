@@ -1,5 +1,5 @@
 <div id="calendar">
-  <h2 id="current-calendar"></h2>
+  <h2 id="current-calendar"><i>Please be patient as the page loads...</i></h2>
   <h5 id="leap"></h5>
    <form style="width:100%">
     <label>Enter year:</label>
@@ -63,8 +63,6 @@
       date_string = '%Y-%m-%dT%H:%M:%S'
       self.fullMoons.append(datetime.datetime.strptime(d, date_string))
   
-  document["current-calendar"].attach(html.I("Please be patient as the page loads"))
-  
   years = []
   
   {% for yr in site.data.calendar %}
@@ -82,5 +80,5 @@
   x = int(date.strftime("%Y")) - 1700
   year = years[x]
   
-  document["current-calendar"].attach("Anglo-Saxon Calendar for "+str(year.yr))
+  document["current-calendar"].text = "Anglo-Saxon Calendar for "+str(year.yr))
 </script>
