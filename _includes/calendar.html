@@ -52,13 +52,14 @@
 {% endfor %}
 </script>
 <script type="text/python">
-  from browser import document, window
+  from browser import document, window, javascript
   import datetime
 
   print("Hello world")
   date = datetime.datetime.now()
   x = int(date.strftime("%Y")) - 1700
-  #year = window.years[x].to_dict()
-  h = $a
-  document["current-calendar"] <= "Anglo-Saxon Calendar for "+str(x)
+  year = window.years[x]
+  
+  document["current-calendar"] <= "Anglo-Saxon Calendar for "+str(year)
+ 
 </script>
