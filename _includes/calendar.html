@@ -55,7 +55,7 @@ class Year:
   self.fullMoons = []
   self.leap
   def __init__(self, year, midsummer, yule, leap):
-    date_string = '%Y/%m/%d %H:%M:%S'
+    date_string = '%Y/%-m/%d %H:%M:%S'
     self.yr = int(year)
     self.midsummer = datetime.datetime.strptime(date_string, midsummer)
     self.yule = datetime.datetime.strptime(date_string, yule)
