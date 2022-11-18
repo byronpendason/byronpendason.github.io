@@ -46,12 +46,13 @@
 <script type="text/python">
   from browser import document, window
   import datetime
+  
+  years = []
   {% for yr in site.data.calendar %}
-  years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}");
-{% endfor %}
+  years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
+  {% endfor %}
   date = datetime.datetime.now()
   x = int(date.strftime("%Y")) - 1700
-  years = window.years
   
   document["current-calendar"] <= years[0]
  
