@@ -47,8 +47,6 @@
 from browser import document, html
 from datetime import date, timedelta
 
-years = []
-
 class Year:
   self.yr
   self.midsummer
@@ -66,10 +64,11 @@ class Year:
   def addFullMoon(self, d):
     self.fullMoons.append(date.fromisoformat(d))
 
-document["current-calendar"] <= html.I("Please be patient as the page loads"
-x = int(datetime.now().strftime("%Y"))
+document["current-calendar"] <= html.I("Please be patient as the page loads")
 
-document["current-calendar"] <= "Anglo-Saxon Calendar for " + str(x)
+years = []
+
+x = int(datetime.now().strftime("%Y"))
     
 {% for yr in site.data.calendar %}
 temp = Year({{ yr.year }}, date.fromisoformat("{{ yr.midsummer }}"), date.fromisoformat("{{ yr.yule }}"), {{ yr.leap }})
@@ -79,8 +78,7 @@ years.append(temp)
 del temp
 
 {% endfor %}
+
 x = int(datetime.now().strftime("%Y"))-1700
 year = years[x]
-
-document["current-calendar"] <= "Anglo-Saxon Calendar for " + year.yr
 </script>
