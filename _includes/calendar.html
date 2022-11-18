@@ -73,8 +73,8 @@ years = []
     
 {% for yr in site.data.calendar %}
 temp = Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.leap }}
-{% for nm in yr.new_moons %}addNewMoon({{ nm }}){% endfor %}
-{% for fm in yr.full_moons %}addFullMoon({{ fm }}){% endfor %}
+{% for nm in yr.new_moons %}temp.addNewMoon({{ nm }}){% endfor %}
+{% for fm in yr.full_moons %}temp.addFullMoon({{ fm }}){% endfor %}
 years.append(temp)
 del temp
 
