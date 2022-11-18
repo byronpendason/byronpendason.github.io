@@ -42,19 +42,27 @@
   </form>
   <p id="conv"></p>
 </div>
-
+<script type="type/javascript">
+  var years = new Array();
+  {% for yr in site.data.calendar %}
+    var temp = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", yule: "{{ yr.yule }}", new_moons: ["{% for nm in yr.new_moons %}{{ nm }}", "{% endfor %}"], full_moons: ["{% for fm in yr.full_moons %}{{ fm }}", "{% endfor %}"], leap: {{ yr.leap }}};
+    temp.new_moons.pop();
+    temp.full_moons.pop();
+    years.push(temp);
+{% endfor %}
+</script>
 <script type="text/python">
   from browser import document, html
   import datetime
   
   class Year:
-    def __init__(self, year, midsummer, yule, leap):
+    def __init__(self, year, midsummer, yule, newMoons, fullMoons, leap):
       date_string = '%Y/%m/%d %H:%M:%S'
       self.yr = year
       self.midsummer = datetime.datetime.strptime(midsummer, date_string)
       self.yule = datetime.datetime.strptime(yule, date_string)
-      self.newMoons = []
-      self.fullMoons = []
+      self.newMoons = newMoons
+      self.fullMoons = fullMoons
       self.leap = leap
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
@@ -62,23 +70,9 @@
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
       self.fullMoons.append(datetime.datetime.strptime(d, date_string))
-  
-  years = []
-  
-  {% for yr in site.data.calendar %}
-  temp = Year({{ yr.year }}, "{{ yr.midsummer }}", "{{ yr.yule }}", {{ yr.leap | capitalize }})
-  {% for nm in yr.new_moons %}temp.addNewMoon("{{ nm }}")
-  {% endfor %}
-  {% for fm in yr.full_moons %}temp.addFullMoon("{{ fm }}")
-  {% endfor %}
-  years.append(temp)
-  del temp
-  
-  {% endfor %}
-  
+
   date = datetime.datetime.now()
   x = int(date.strftime("%Y")) - 1700
-  year = years[x]
   
-  document["current-calendar"].text = "Anglo-Saxon Calendar for "+str(year.yr))
+  document["current-calendar"].text = "Anglo-Saxon Calendar for "+str(window.years[x].year)
 </script>
