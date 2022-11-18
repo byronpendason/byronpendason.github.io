@@ -71,8 +71,9 @@
       self.newMoons.append(datetime.datetime.strptime(d, date_string))
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      self.fullMoons.append(datetime.datetime.strptime(d, date_string))
+      self.fullMoons.append(datetime.datetime.strptime(d, date_string)
       
+  document["current-calendar"] <= "Please be patient while the page loads."
   years = []
   {% for yr in site.data.calendar %}
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
@@ -80,6 +81,6 @@
   date = datetime.datetime.now()
   x = int(date.strftime("%Y"))
   
-  document["current-calendar"] <= makeCalendar(x).yr
+  document["current-calendar"] <= str(x)
  
 </script>
