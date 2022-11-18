@@ -45,10 +45,7 @@
 <script type="type/javascript">
   var years = new Array();
   {% for yr in site.data.calendar %}
-    var temp = {year: {{ yr.year }}, midsummer: "{{ yr.midsummer }}", yule: "{{ yr.yule }}", new_moons: ["{% for nm in yr.new_moons %}{{ nm }}", "{% endfor %}"], full_moons: ["{% for fm in yr.full_moons %}{{ fm }}", "{% endfor %}"], leap: {{ yr.leap }}};
-    temp.new_moons.pop();
-    temp.full_moons.pop();
-    years.push(temp);
+    years.push("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}");
 {% endfor %}
 </script>
 <script type="text/python">
@@ -60,6 +57,6 @@
   x = int(date.strftime("%Y")) - 1700
   year = window.years[x]
   
-  document["current-calendar"] <= "Anglo-Saxon Calendar for "+str(x)
+  document["current-calendar"] <= "Anglo-Saxon Calendar for "+year
  
 </script>
