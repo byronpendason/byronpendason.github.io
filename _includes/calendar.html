@@ -52,7 +52,7 @@
     y = Year(temp[0], temp[1], temp[2], temp[5]=="true")
     nm = temp[3].split["="]
     fm = temp[4].split["="]
-    for i in range(len(mm)):
+    for i in range(len(nm)):
       y.addNewMoon(nm[i])
       y.addFullMoon(fm[i])
     return y
