@@ -58,13 +58,13 @@
     return y
   
   class Year:
-    def __init__(self, year, midsummer, yule, newMoons, fullMoons, leap):
+    def __init__(self, year, midsummer, yule, leap):
       date_string = '%Y/%m/%d %H:%M:%S'
       self.yr = year
       self.midsummer = datetime.datetime.strptime(midsummer, date_string)
       self.yule = datetime.datetime.strptime(yule, date_string)
-      self.newMoons = newMoons
-      self.fullMoons = fullMoons
+      self.newMoons = []
+      self.fullMoons = []
       self.leap = leap
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
