@@ -48,7 +48,7 @@
   import datetime
   
   def makeCalendar(yr):
-    temp = years[yr].split("_")
+    temp = years[yr-1700].split("_")
     return temp[0]
     
   years = []
@@ -56,7 +56,7 @@
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
   date = datetime.datetime.now()
-  x = int(date.strftime("%Y")) - 1700
+  x = int(date.strftime("%Y"))
   
   document["current-calendar"] <= makeCalendar(x)
  
