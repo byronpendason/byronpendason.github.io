@@ -81,10 +81,10 @@
     x = int(date.strftime("%Y"))
     yr = makeCalendar(x)
     debug("Calendar made!")
-    for m in range(len(yr.newMoons)):
-      if yr.newMoons[m] > d:
-        m -= 1
-        break
+    m = 0
+    while d > yr.newMoons[m]:
+      m += 1
+    m -= 1
     debug(str(m))
     delta = d - yr.newMoons[m]
     day = int(delta.days) + 1
