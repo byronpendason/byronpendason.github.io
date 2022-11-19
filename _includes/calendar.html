@@ -60,14 +60,12 @@
         y.addFullMoon(fm[i])
     return y
   
-  def showCalendar(yr):
-    year = makeCalendar(yr)
+  def showCalendar(year):
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
     if year.leap == False:
       monthNames.pop(6)
     row = html.TR()
-    document["months-table"] <= hhhtml.TR(html.TH("Month")+html.TH("Starts")+html.TH("Full Moon"))
-    
+    document["months-table"] <= html.TR(html.TH("Month")+html.TH("Starts")+html.TH("Full Moon"))
     for i in range(len(monthNames)):
       name = monthNames[i]
       nm = year.newMoons[i].strftime("%a, %b %d, %Y CE")
