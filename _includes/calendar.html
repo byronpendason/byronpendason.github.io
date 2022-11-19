@@ -78,7 +78,6 @@
   
   def getASDate(d):
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
-    if year.leap == False:monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
     if year.leap == False:
       monthNames.pop(6)
     x = int(d.strftime("%Y"))
