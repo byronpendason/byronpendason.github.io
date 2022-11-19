@@ -50,7 +50,9 @@
       leap = True
     else:
       leap = False
+    debug("set leap")
     y = Year(temp[0], temp[1], temp[2], leap)
+    debug("Created year")
     nm = temp[3].split("=")
     fm = temp[4].split("=")
     for i in range(len(nm)):
@@ -59,10 +61,12 @@
       if fm[i] != "":
         y.addFullMoon(fm[i])
     y.eostur = y.fullMoons[3]
+    debug("Eostur set!")
     if y.leap:
       y.winterfylleth = y.fullMoons[10]
     else:
       y.winterfylleth = y.fullMoons[9]
+    debug("Winterfylleth set!")
     return y
   
   def showCalendar(year):
