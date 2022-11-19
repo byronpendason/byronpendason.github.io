@@ -69,7 +69,7 @@
     document["months-table"] <= row
     for i in range(len(monthNames)):
       name = monthNames[i]
-      nm = year newMoons[i].strftime("%a %b %-d %Y CE")
+      nm = year.newMoons[i].strftime("%a %b %-d %Y CE")
       fm = year.fullMoons[i].strftime("%a %b %-d %Y CE")
       document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
 
