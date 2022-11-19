@@ -60,7 +60,7 @@
       y.addNewMoon(nm[i])
       y.addFullMoon(fm[i])
       row = html.TR()
-      row => html.TD(monthNames[i])+html.TD(nm[i].strftime("%a %b %-d %Y"+" CE"))+html.TD(fm[i].strftime("%a %b %-d %Y"+" CE"))
+      row <= html.TD(monthNames[i])+html.TD(nm[i].strftime("%a %b %-d %Y"+" CE"))+html.TD(fm[i].strftime("%a %b %-d %Y"+" CE"))
       document["months-table"] <= row
     return y
   
