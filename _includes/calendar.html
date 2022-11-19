@@ -56,7 +56,6 @@
     y = Year(temp[0], temp[1], temp[2], leap)
     nm = temp[3].split("=")
     fm = temp[4].split("=")
-    debug("Point #4")
     for i in range(len(nm) - 1):
       y.addNewMoon(nm[i])
       y.addFullMoon(fm[i])
@@ -69,14 +68,11 @@
     def __init__(self, year, midsummer, yule, leap):
       date_string = '%Y/%m/%d %H:%M:%S'
       self.yr = year
-      debug("self.yr = year")
       #self.midsummer = datetime.strptime(midsummer, date_string)
       #self.yule = datetime.strptime(yule, date_string)
       self.newMoons = []
       self.fullMoons = []
-      debug("self.fullMoons = []")
       self.leap = leap
-      debug("self.leap = leap")
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
       document <= "<br />" + d
@@ -95,6 +91,6 @@
   x = int(date.strftime("%Y"))
   
   year = makeCalendar(x)
-  document["current-calendar"] <= year.yr
+  document["current-calendar"].text = year.yr
  
 </script>
