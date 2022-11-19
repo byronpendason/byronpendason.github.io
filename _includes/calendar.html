@@ -88,24 +88,21 @@
         break
       m += 1
     m -= 1
-    date = datetime(d.year, d.month, d.day)
-    nm = datetime(yr.newMoons[m].year, yr.newMoons[m].month, yr.newMoons[m].day)
-    delta = date - nm
-    day = int(delta.days) + 1
-    ord = getOrdinal(day)
-    return ord
+    day = d.toordinal() - yr.newMoons[m].toordinal()
+    return getOrdinal(day)
     
-  def getOrdinal(x):
-    if x%100 == 11 or x%100 == 12 or x%100 == 13:
-      return str(x)+"th"
-    elif x%10 == 1:
-      return str(x)+"st"
-    elif x%10 == 2:
-      return str(x)+"nd"
-    elif x%10 == 3:
-      return str(x)+"rd"
-    else:
-      return str(x)+"th"
+  #def getOrdinal(x):
+    return str(x)
+    #if x%100 == 11 or x%100 == 12 or x%100 == 13:
+      #return str(x)+"th"
+    #elif x%10 == 1:
+      #return str(x)+"st"
+    #elif x%10 == 2:
+      #return str(x)+"nd"
+    #elif x%10 == 3:
+      #return str(x)+"rd"
+    #else:
+      #return str(x)+"th"
       
   class Year:
     def __init__(self, year, midsummer, yule, leap):
