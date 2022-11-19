@@ -63,7 +63,7 @@
   def showCalendar(year):
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
     if year.leap = False:
-      #monthNames.pop(6)
+      monthNames.pop(6)
     row = html.TR()
     row <= html.TH("Month")+html.TH("Starts")+html.TH("Full Moon")
     document["months-table"] <= row
