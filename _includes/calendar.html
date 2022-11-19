@@ -67,7 +67,13 @@
     row = html.TR()
     row <= html.TH("Month")+html.TH("Starts")+html.TH("Full Moon")
     document["months-table"] <= row
-    
+    for i in range(len(monthNames)):
+      name = monthNames[i]
+      n = nm[i].strftime("%a %b %-d %Y CE")
+      f = fm[i].strftime("%a %b %-d %Y CE")
+      row = html.TR()
+      row <= html.TD(name)+html.TD(n)+html.TD(f)
+      document["months-table"] <= row
 
   def debug(msg):
    document["debug"] <= html.P(msg)
