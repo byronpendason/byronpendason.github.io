@@ -58,24 +58,7 @@
       if fm[i] != "":
         y.addFullMoon(fm[i])
     return y
-
-"""
-  def showCalendar(year):
-    monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
-    if year.leap = False:
-      #monthNames.pop(6)
-    row = html.TR()
-    row <= html.TH("Month")+html.TH("Starts")+html.TH("Full Moon")
-    document["months-table"] <= row
-    for i in range(len(monthNames)):
-      name = monthNames[i]
-      n = nm[i].strftime("%a %b %-d %Y CE")
-      f = fm[i].strftime("%a %b %-d %Y CE")
-      row = html.TR()
-      row <= html.TD(name)+html.TD(n)+html.TD(f)
-      document["months-table"] <= row
- """
- 
+    
   def debug(msg):
    document["current-calendar"] <= msg
   
@@ -90,12 +73,12 @@
       self.leap = leap
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      #temp = datetime.strptime(d, date_string)
-      #self.newMoons.append(temp)
+      temp = datetime.strptime(d, date_string)
+      self.newMoons.append(temp)
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      #temp = datetime.strptime(d, date_string)
-      #self.fullMoons.append(temp)
+      temp = datetime.strptime(d, date_string)
+      self.fullMoons.append(temp)
       
   debug("Please be patient while the page loads.")
   years = []
