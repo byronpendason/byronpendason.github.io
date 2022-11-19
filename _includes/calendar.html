@@ -92,15 +92,15 @@
     
   def getOrdinal(x):
     if x%100 == 11 or x%100 == 12 or x%100 == 13:
-      #return str(x)+"th"
+      return str(x)+"th"
     elif x%10 == 1:
-      #return str(x)+"st"
+      return str(x)+"st"
     elif x%10 == 2:
-      #return str(x)+"nd"
+      return str(x)+"nd"
     elif x%10 == 3:
-      #return str(x)+"rd"
+      return str(x)+"rd"
     else:
-      #return str(x)+"th"
+      return str(x)+"th"
       
   class Year:
     def __init__(self, year, midsummer, yule, leap):
@@ -127,7 +127,7 @@
   {% endfor %}
   date = datetime.now()
   debug(getASDate(date))
-  x = int(date.strftime("%Y"))
+  x = date.year
   
   year = makeCalendar(x)
   showCalendar(year)
