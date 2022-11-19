@@ -80,7 +80,6 @@
     yr = makeCalendar(d.year)
     if yr.leap == False:
       monthNames.pop(6)
-    debug("Calendar made!")
     m = 0
     while d.toordinal() > yr.newMoons[m].toordinal():
       if m-1 == len(yr.newMoons):
@@ -126,11 +125,11 @@
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
   date = datetime.now()
-  debug(getASDate(date))
   x = date.year
   
   year = makeCalendar(x)
   showCalendar(year)
   document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
+  document["today"] <= getASDate(date)
  
 </script>
