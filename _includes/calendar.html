@@ -68,19 +68,20 @@
     def __init__(self, year, midsummer, yule, leap):
       date_string = '%Y/%m/%d %H:%M:%S'
       self.yr = year
+      debug("self.yr")
       self.midsummer = datetime.strptime(midsummer, date_string)
+      debug("midsummer?")
       self.yule = datetime.strptime(yule, date_string)
+      debug("yule")
       self.newMoons = []
       self.fullMoons = []
       self.leap = leap
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      document <= "<br />" + d
-      self.newMoons.append(datetime.strptime(d, date_string))
+      #self.newMoons.append(datetime.strptime(d, date_string))
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      document <= "<br />" + d
-      self.fullMoons.append(datetime.strptime(d, date_string)
+      #self.fullMoons.append(datetime.strptime(d, date_string)
       
   debug("Please be patient while the page loads.")
   years = []
