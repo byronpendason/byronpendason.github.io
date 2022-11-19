@@ -48,7 +48,6 @@
   from datetime import datetime
   
   def makeCalendar(yr):
-    document["current-calendar"].text = years[yr-1700]
     temp = years[yr-1700].split("_")
     if temp[5] == "true":
       leap = True
@@ -62,6 +61,9 @@
       y.addFullMoon(fm[i])
     return y
   
+ def debug(msg):
+   documents["current-calendar"] <= "<br />" + msg
+
   class Year:
     def __init__(self, year, midsummer, yule, leap):
       date_string = '%Y/%m/%d %H:%M:%S'
@@ -80,7 +82,7 @@
       document <= "<br />" + d
       #self.fullMoons.append(datetime.strptime(d, date_string)
       
-  document["current-calendar"].text = "Please be patient while the page loads."
+  debug("Please be patient while the page loads.")
   years = []
   {% for yr in site.data.calendar %}
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
@@ -88,6 +90,7 @@
   date = datetime.now()
   x = int(date.strftime("%Y"))
   
-  year = makeCalendar(2022)
+  year = makeCalendar(x)
   document["current-calendar"] <= year.year
+ 
 </script>
