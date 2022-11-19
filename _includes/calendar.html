@@ -125,8 +125,7 @@
       date_string = '%Y-%m-%dT%H:%M:%S'
       temp = datetime.strptime(d, date_string)
       self.fullMoons.append(temp)
-  
-  debug("The beginning")
+      
   years = []
   {% for yr in site.data.calendar %}
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
@@ -135,9 +134,7 @@
   x = date.year
   
   year = makeCalendar(x)
-  debug("Calendar made!")
   showCalendar(year)
-  debug("Calendar shown!")
   document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
   document["today"] <= "Today is the "+getASDate(date)
  
