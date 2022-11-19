@@ -83,7 +83,7 @@
     yr = makeCalendar(d.year)
     debug("Calendar made!")
     m = 0
-    while d > yr.newMoons[m]:
+    while d.toordinal() > yr.newMoons[m].toordinal():
       if m-1 == len(yr.newMoons):
         break
       m += 1
