@@ -74,12 +74,13 @@
       document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
 
   def debug(msg):
-   document["debug"] <= html.P(msg)
+   document["debug"] <= html.P("DEBUG: "+msg)
   
   def getASDate(d):
     #date = datetime(d.year, d.month, d.day)
     x = int(d.strftime("%Y"))
     yr = makeCalendar(x)
+    debug("Calendar made!")
     m = 0
     while d > yr.newMoons[m]:
       if i-1 == len(yr.newMoons):
