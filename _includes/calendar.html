@@ -77,7 +77,7 @@
    document["debug"] <= html.P(msg)
   
   def getASDate(d):
-    date = datetime(d.year, d.month, d.day)
+    #date = datetime(d.year, d.month, d.day)
     x = int(d.strftime("%Y"))
     yr = makeCalendar(x)
     m = 0
@@ -86,7 +86,6 @@
         break
       m += 1
     m -= 1
-    debug(str(m))
     delta = d - yr.newMoons[m]
     day = int(delta.days) + 1
     debug(str(day))
