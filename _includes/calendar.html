@@ -115,11 +115,11 @@
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
   date = datetime.now()
+  getASDate(date)
   x = int(date.strftime("%Y"))
   
   year = makeCalendar(x)
   showCalendar(year)
   document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
-  getASDate(date)
  
 </script>
