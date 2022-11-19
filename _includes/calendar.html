@@ -81,7 +81,7 @@
     x = int(date.strftime("%Y"))
     yr = makeCalendar(x)
     for m in yr.newMoons:
-      if d > m:
+      if m > d:
         break
     delta = d - m
     day = int(delta.days)
