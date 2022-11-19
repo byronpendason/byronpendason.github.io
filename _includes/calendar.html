@@ -48,6 +48,7 @@
   from datetime import datetime
   
   def makeCalendar(yr):
+    document["current-calendar"].text = years[yr-1700]
     temp = years[yr-1700].split("_")
     if temp[5] == "true":
       leap = True
