@@ -93,7 +93,7 @@
     nm = datetime(yr.newMoons[m].year, yr.newMoons[m].month, yr.newMoons[m].day)
     delta = date - nm
     day = int(delta.days) + 1
-    ord = getOrdinal(day)+" of "+monthNames[m]
+    ord = getOrdinal(day)
     return ord
     
   def getOrdinal(x):
