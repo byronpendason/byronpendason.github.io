@@ -80,7 +80,7 @@
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
     if year.leap == False:
       monthNames.pop(6)
-    yr = makeCalendar(d.day)
+    yr = makeCalendar(d.year)
     debug("Calendar made!")
     m = 0
     while d > yr.newMoons[m]:
