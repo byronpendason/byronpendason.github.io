@@ -61,7 +61,7 @@
     return y
   
   def showCalendar(year):
-    monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
+    monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
     if year.leap == False:
       monthNames.pop(6)
     row = html.TR()
@@ -99,6 +99,7 @@
   x = int(date.strftime("%Y"))
   
   year = makeCalendar(x)
+  showCalendar(year)
   document["current-calendar"].text = year.yr
  
 </script>
