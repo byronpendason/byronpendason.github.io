@@ -9,12 +9,8 @@
   <h3>Months</h3>
 
   <table id="months-table" style="width:100%">
-    <tr>
-      <th>Month</th>
-      <th>Starts</th>
-      <th>Full Moon</th>
-    </tr>
   </table>
+  
   <h3>High Holidays</h3>
   <p>These are the holidays that almost every Heathen observes (though usually by a different name and possibly at other times).</p>
   <table id="holidays-table" style="width:100%">
@@ -56,9 +52,16 @@
     y = Year(temp[0], temp[1], temp[2], leap)
     nm = temp[3].split("=")
     fm = temp[4].split("=")
+    monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
+    row = html.TR()
+    row <= html.TH("Month")+html.TH("Starts")+html.TH("Full Moon")
+    document["months-table"] <= row
     for i in range(len(nm) - 1):
       y.addNewMoon(nm[i])
       y.addFullMoon(fm[i])
+      row = html.TR()
+      row => html.TD(monthNames[i])+html.TD(nm[i].strftime("%a %b %-d %Y"+" CE"))+html.TD(fm[i].strftime("%a %b %-d %Y"+" CE"))
+      document["months-table"] <= row
     return y
   
   def debug(msg):
