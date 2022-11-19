@@ -54,7 +54,9 @@
     else:
       leap = False
     y = Year(temp[0], temp[1], temp[2], leap)
+    debug(temp[3])
     nm = temp[3].split["="]
+    debug(temp[4])
     fm = temp[4].split["="]
     debug("Point #4")
     for i in range(len(nm) - 1):
