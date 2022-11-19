@@ -15,11 +15,6 @@
   <h3>High Holidays</h3>
   <p>These are the holidays that almost every Heathen observes (though usually by a different name and possibly at other times).</p>
   <table id="holidays-table" style="width:100%">
-    <tr>
-      <th>Holiday</th>
-      <th>Date</th>
-      <th>Anglo-Saxon Date</th>
-    </tr>
   </table>
   <h3>Other Holidays</h3>
   <p>These holidays are far from universal, but are observed by at least some Heathens who use the pre-Christian Anglo-Saxons as a primary source for their spirituality. Most of these are taken from the Ingvaeonic Society's <a href="https://ingwine.org/knowledge-base-2/the-holy-calendar/">The Holy Calendar</a>, unless another source is listed in parenthesis.</p>
@@ -76,6 +71,7 @@
       nm = year.newMoons[i].strftime("%a, %b %d, %Y CE")
       fm = year.fullMoons[i].strftime("%a, %b %d, %Y CE")
       document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
+      document["holidays-table"] <= html.TR(html.TH("Holiday")+html.TH("Date")+html.TH("AS Date"))
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
