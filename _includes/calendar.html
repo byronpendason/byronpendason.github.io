@@ -77,6 +77,10 @@
    document["debug"] <= html.P("DEBUG: "+msg)
   
   def getASDate(d):
+    monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
+    if year.leap == False:monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
+    if year.leap == False:
+      monthNames.pop(6)
     x = int(d.strftime("%Y"))
     yr = makeCalendar(x)
     debug("Calendar made!")
@@ -90,7 +94,7 @@
     nm = datetime(yr.newMoons[m].year, yr.newMoons[m].month, yr.newMoons[m].day)
     delta = date - nm
     day = int(delta.days) + 1
-    debug(getOrdinal(day))
+    return getOrdinal(day)+" of "+monthNames[m]
     
   def getOrdinal(x):
     if x%100 == 11 or x%100 == 12 or x%100 == 13:
@@ -127,7 +131,7 @@
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
   date = datetime.now()
-  getASDate(date)
+  debug(getASDate(date))
   x = int(date.strftime("%Y"))
   
   year = makeCalendar(x)
