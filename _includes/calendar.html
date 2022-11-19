@@ -74,12 +74,13 @@
       self.fullMoons = []
       self.leap = leap
     def addNewMoon(self, d):
-      document["calendar"] <= html.P(d)
       date_string = '%Y-%m-%dT%H:%M:%S'
-      #self.newMoons.append(datetime.strptime(d, date_string))
+      temp = datetime.strptime(d, date_string)
+      self.newMoons.append(temp)
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      #self.fullMoons.append(datetime.strptime(d, date_string)
+      temp = datetime.strptime(d, date_string)
+      #self.fullMoons.append(temp)
       
   debug("Please be patient while the page loads.")
   years = []
