@@ -71,7 +71,7 @@
       nm = year.newMoons[i].strftime("%a, %b %d, %Y CE")
       fm = year.fullMoons[i].strftime("%a, %b %d, %Y CE")
       document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
-      document["holidays-table"] <= html.TR(html.TH("Holiday")+html.TH("Date")+html.TH("AS Date"))
+    document["holidays-table"] <= html.TR(html.TH("Holiday")+html.TH("Date")+html.TH("AS Date"))
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
