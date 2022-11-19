@@ -119,8 +119,8 @@
       self.newMoons = []
       self.fullMoons = []
       self.leap = leap
-      #self.eostur = 0
-      #self.winterfylleth = 0
+      self.eostur = 0
+      self.winterfylleth = 0
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
       temp = datetime.strptime(d, date_string)
