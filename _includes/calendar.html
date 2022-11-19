@@ -60,9 +60,9 @@
         y.addFullMoon(fm[i])
     y.eostur = y.fullMoons[3]
     if y.leap:
-      y.winterfylleth = fullMoons[10]
+      y.winterfylleth = y.fullMoons[10]
     else:
-      y.winterfylleth = fullMoons[9]
+      y.winterfylleth = y.fullMoons[9]
     return y
   
   def showCalendar(year):
@@ -115,8 +115,8 @@
       self.newMoons = []
       self.fullMoons = []
       self.leap = leap
-      self.eostur = ""
-      self.winterfylleth = ""
+      self.eostur = datetime(self.yr, 3, 15)
+      self.winterfylleth = datetime(self.yr, 9, 15)
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
       temp = datetime.strptime(d, date_string)
