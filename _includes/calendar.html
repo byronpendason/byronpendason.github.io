@@ -79,7 +79,7 @@
       document <= "<br />" + d
       #self.fullMoons.append(datetime.strptime(d, date_string)
       
-  document["current-calendar"] <= "Please be patient while the page loads."
+  document["current-calendar"].text = "Please be patient while the page loads."
   years = []
   {% for yr in site.data.calendar %}
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
