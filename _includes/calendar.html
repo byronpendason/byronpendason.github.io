@@ -52,13 +52,13 @@
     y = Year(temp[0], temp[1], temp[2], leap)
     nm = temp[3].split("=")
     fm = temp[4].split("=")
-    debug ("Point #1")
     for i in range(len(nm)):
       if nm[i] != "":
         y.addNewMoon(nm[i])
       if fm[i] != "":
         y.addFullMoon(fm[i])
     return y
+
 """
   def showCalendar(year):
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
@@ -90,12 +90,12 @@
       self.leap = leap
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      temp = datetime.strptime(d, date_string)
-      self.newMoons.append(temp)
+      #temp = datetime.strptime(d, date_string)
+      #self.newMoons.append(temp)
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      temp = datetime.strptime(d, date_string)
-      self.fullMoons.append(temp)
+      #temp = datetime.strptime(d, date_string)
+      #self.fullMoons.append(temp)
       
   debug("Please be patient while the page loads.")
   years = []
