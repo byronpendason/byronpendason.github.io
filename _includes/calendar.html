@@ -60,7 +60,8 @@
         y.addFullMoon(fm[i])
     return y
   
-  def showCalendar(year):
+  def showCalendar(yr):
+    year = makeCalendar(yr)
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
     if year.leap == False:
       monthNames.pop(6)
