@@ -75,8 +75,7 @@
       self.leap = leap
     def addNewMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
-      debug(d)
-      #self.newMoons.append(datetime.strptime(d, date_string))
+      self.newMoons.append(datetime.strptime(d, date_string))
     def addFullMoon(self, d):
       date_string = '%Y-%m-%dT%H:%M:%S'
       #self.fullMoons.append(datetime.strptime(d, date_string)
