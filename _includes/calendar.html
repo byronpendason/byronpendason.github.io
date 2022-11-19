@@ -49,17 +49,15 @@
   
   def makeCalendar(yr):
     temp = years[yr-1700].split("_")
-    debug("Point #1")
     if temp[5] == "true":
       leap = True
     else:
       leap = False
-    debug("Point #2")
+    debug(temp[0]+" "+temp[1]+" "+temp[2]+" "+leap)
     y = Year(temp[0], temp[1], temp[2], leap)
-    
     nm = temp[3].split["="]
     fm = temp[4].split["="]
-    debug("Point #3")
+    debug("Point #4")
     for i in range(len(nm) - 1):
       y.addNewMoon(nm[i])
       y.addFullMoon(fm[i])
