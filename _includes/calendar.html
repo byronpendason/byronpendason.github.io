@@ -69,9 +69,9 @@
     document["months-table"] <= row
     for i in range(len(monthNames)):
       name = monthNames[i]
-      n = nm[i].strftime("%a %b %-d %Y CE")
-      f = fm[i].strftime("%a %b %-d %Y CE")
-      document["months-table"] <= html.TR(html.TD(name)+html.TD(n)+html.TD(f))
+      nm = year newMoons[i].strftime("%a %b %-d %Y CE")
+      fm = year.fullMoons[i].strftime("%a %b %-d %Y CE")
+      document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
 
   def debug(msg):
    document["debug"] <= html.P(msg)
