@@ -52,9 +52,10 @@
     y = Year(temp[0], temp[1], temp[2], leap)
     nm = temp[3].split("=")
     fm = temp[4].split("=")
+    debug ("Point #1")
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
-    if self.leap = False:
-      monthNames.pop(6)
+    #if self.leap = False:
+      #monthNames.pop(6)
     row = html.TR()
     row <= html.TH("Month")+html.TH("Starts")+html.TH("Full Moon")
     document["months-table"] <= row
