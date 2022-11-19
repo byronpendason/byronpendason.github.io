@@ -53,11 +53,13 @@
     nm = temp[3].split("=")
     fm = temp[4].split("=")
     debug ("Point #1")
-    for i in range(len(nm) - 1):
-      y.addNewMoon(nm[i])
-      y.addFullMoon(fm[i])
+    for i in range(len(nm)):
+      if nm[i] != "":
+        y.addNewMoon(nm[i])
+      if fm[i] != "":
+        y.addFullMoon(fm[i])
     return y
-
+"""
   def showCalendar(year):
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
     if year.leap = False:
@@ -72,7 +74,8 @@
       row = html.TR()
       row <= html.TD(name)+html.TD(n)+html.TD(f)
       document["months-table"] <= row
-  
+ """
+ 
   def debug(msg):
    document["current-calendar"] <= msg
   
