@@ -71,9 +71,7 @@
       name = monthNames[i]
       n = nm[i].strftime("%a %b %-d %Y CE")
       f = fm[i].strftime("%a %b %-d %Y CE")
-      row = html.TR()
-      row <= html.TD(name)+html.TD(n)+html.TD(f)
-      document["months-table"] <= row
+      document["months-table"] <= html.TR(html.TD(name)+html.TD(n)+html.TD(f))
 
   def debug(msg):
    document["debug"] <= html.P(msg)
