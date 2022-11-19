@@ -53,7 +53,7 @@
     nm = temp[3].split("=")
     fm = temp[4].split("=")
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"];
-    if not self.leap:
+    if self.leap = False:
       monthNames.pop(6)
     row = html.TR()
     row <= html.TH("Month")+html.TH("Starts")+html.TH("Full Moon")
@@ -61,8 +61,11 @@
     for i in range(len(nm) - 1):
       y.addNewMoon(nm[i])
       y.addFullMoon(fm[i])
+      name = monthNames[i]
+      n = nm[i].strftime("%a %b %-d %Y CE")
+      f = fm[i].strftime("%a %b %-d %Y CE")
       row = html.TR()
-      row <= html.TD(monthNames[i])+html.TD(nm[i].strftime("%a %b %-d %Y CE"))+html.TD(fm[i].strftime("%a %b %-d %Y CE"))
+      row <= html.TD(name)+html.TD(n)+html.TD(f)
       document["months-table"] <= row
     return y
   
