@@ -80,10 +80,11 @@
     date = datetime.now()
     x = int(date.strftime("%Y"))
     yr = makeCalendar(x)
-    for m in yr.newMoons:
-      if m > d:
+    for m in len(yr.newMoons):
+      if yr.newMoons[m] > d:
+        m -= 1
         break
-    delta = d - m
+    delta = d - yr.newMoons[m]
     day = int(delta.days)
     debug(str(day))
     
