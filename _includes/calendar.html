@@ -37,8 +37,6 @@
   from datetime import datetime, timedelta
   import json
 
-  calendarData = json.loads({{ site.data.calendar | jsonify }})
-
-  document["debug"] <= json.dumps(calendarData, indent=4)
+  document["debug"] <= json.loads({{ site.data.calendar | jsonify }})
  
 </script>
