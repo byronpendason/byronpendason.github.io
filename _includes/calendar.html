@@ -1,6 +1,7 @@
-<div id="calendar">
+<p div="loading"><i>Please be patient as the page loads...</i></p>
+<div id="calendar" hidden>
   <div id="debug"></div>
-  <h2 id="current-calendar"><i>Please be patient as the page loads...</i></h2>
+  <h2 id="current-calendar"></h2>
   <h5 id="leap"></h5>
   <form style="width:100%">
     <label>Enter year:</label>
@@ -70,7 +71,7 @@
     document["holidays-table"] <= html.TR(html.TD("Ēosturdæġ")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
     document["holidays-table"] <= html.TR(html.TD("Midsumor")+html.TD(year.midsummer.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.midsummer)))
     document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.winterfylleth.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.winterfylleth)))
-    #document["holidays-table"] <= 
+    document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.yule.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.yule)))
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
