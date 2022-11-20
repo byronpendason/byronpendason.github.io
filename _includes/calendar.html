@@ -127,6 +127,7 @@
       
   
   def storeData():
+    debug("Storing calendar data...")
     {% for yr in site.data.calendar %}
     year = "{{ yr.year }}"
     storage[year] = "{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}"
