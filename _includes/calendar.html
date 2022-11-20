@@ -72,7 +72,7 @@
       fm = year.fullMoons[i].strftime("%a, %b %d, %Y CE")
       document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
     document["holidays-table"] <= html.TR(html.TH("Holiday")+html.TH("Date")+html.TH("AS Date"))
-    document["holidays-table"] <= html.TR(html.TD("Eosturdæg")+html.TD(y.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(y.eostur)))
+    document["holidays-table"] <= html.TR(html.TD("Eosturdæg")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
