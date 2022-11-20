@@ -1,5 +1,5 @@
 <p div="loading"><i>Please be patient as the page loads...</i></p>
-<div id="calendar" hidden>
+<div id="calendar">
   <div id="debug"></div>
   <h2 id="current-calendar"></h2>
   <h5 id="leap"></h5>
@@ -135,6 +135,6 @@
   document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
   document["today"] <= "Today is the "+getASDate(date)
   document["loading"].text = ""
-  del document["calendar"].attrs["hidden"]
+  #del document["calendar"].attrs["hidden"]
  
 </script>
