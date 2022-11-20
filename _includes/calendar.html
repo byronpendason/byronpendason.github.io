@@ -134,6 +134,7 @@
   x = date.year
   if !storage[str(x)]:
     storeData()
+  debug(storage[str(x)])
   year = makeCalendar(x)
   showCalendar(year)
   document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
