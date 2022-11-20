@@ -40,13 +40,13 @@
   
   
   calendarData = json.loads({{ site.data.calendar | jsonify }})
-  ("Hello world!")
+  print("Hello world!", file=document["debug"])
   date = datetime.now()
   x = date.year
   
   #year = makeCalendar(x)
   #showCalendar(year)
-  document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
+    document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
   document["today"] <= "Today is the "+getASDate(date)
   document["loading"].text = ""
   #del document["calendar"].attrs["hidden"]
