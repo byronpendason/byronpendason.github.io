@@ -40,7 +40,7 @@
   
   
   calendarData = json.loads({{ site.data.calendar | jsonify }})
-  print("Hello world!", file=document["debug"])
+  print("Hello world!", file=document["debug"].text)
   date = datetime.now()
   x = date.year
   
