@@ -33,7 +33,10 @@
 </div>
 <script type="text/javascript">
   var data = {{site.data.calendar | jsonify}};
-  $("#debug").html = data;
+  $(document)ready(function() {
+    ($("#debug").html = data;
+  });
+  
 </script>
 <script type="text/python">
   from browser import document, html
