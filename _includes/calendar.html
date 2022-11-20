@@ -34,14 +34,11 @@
 
 <script type="text/python">
   from browser import document, html
+  from browser.local_storage import storage
   from datetime import datetime, timedelta
   
   def makeCalendar(year):
-    years = []
-    {% for yr in site.data.calendar %}
-    years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
-  {% endfor %}
-    temp = years[year-1700].split("_")
+    temp = storage[str(year)].split("_")
     if temp[5] == "true":
       leap = True
     else:
@@ -128,9 +125,15 @@
       self.fullMoons.append(temp)
       
   
+  def storeData():
+    {% for yr in site.data.calendar %}
+    storage["{{ yr.year }}"] = "{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}"
+    {% endfor %}
+  
   date = datetime.now()
   x = date.year
-  
+  if !storage[str(x)]:
+    storeData()
   year = makeCalendar(x)
   showCalendar(year)
   document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
