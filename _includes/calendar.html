@@ -60,7 +60,6 @@
     monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
     if year.leap == False:
       monthNames.pop(6)
-    row = html.TR()
     document["months-table"] <= html.TR(html.TH("Month")+html.TH("Starts")+html.TH("Full Moon"))
     for i in range(len(monthNames)):
       name = monthNames[i]
@@ -71,7 +70,7 @@
     document["holidays-table"] <= html.TR(html.TD("Ēosturdæġ")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
     document["holidays-table"] <= html.TR(html.TD("Midsumor")+html.TD(year.midsummer.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.midsummer)))
     document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.winterfylleth.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.winterfylleth)))
-    document["holidays-table"] <= 
+    #document["holidays-table"] <= 
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
