@@ -36,6 +36,10 @@
   from datetime import datetime, timedelta
   
   def makeCalendar(yr):
+    years = []
+    {% for yr in site.data.calendar %}
+    years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
+    {% endfor %}
     temp = years[yr-1700].split("_")
     if temp[5] == "true":
       leap = True
@@ -54,6 +58,7 @@
       y.winterfylleth = y.fullMoons[10]
     else:
       y.winterfylleth = y.fullMoons[9]
+    del years
     return y
   
   def showCalendar(year):
@@ -71,6 +76,7 @@
     document["holidays-table"] <= html.TR(html.TD("Ēosturdæġ")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
     document["holidays-table"] <= html.TR(html.TD("Midsumor")+html.TD(year.midsummer.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.midsummer)))
     document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.winterfylleth.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.winterfylleth)))
+    document["holidays-table"] <= 
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
@@ -122,10 +128,6 @@
       self.fullMoons.append(temp)
       
   
-  years = []
-  {% for yr in site.data.calendar %}
-  years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
-  {% endfor %}
   date = datetime.now()
   x = date.year
   
