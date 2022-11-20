@@ -36,8 +36,12 @@
   from browser import document, html
   from datetime import datetime, timedelta
   
-  def makeCalendar(yr):
-    temp = years[yr-1700].split("_")
+  def makeCalendar(y):
+    {% for yr in site.data.calendar %}
+    if y-1700 == {{yr.year}}:
+      temp = "{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}".split("_")
+  {% endfor %}
+    #temp = years[yr-1700].split("_")
     if temp[5] == "true":
       leap = True
     else:
@@ -124,9 +128,7 @@
       
   
   years = []
-  {% for yr in site.data.calendar %}
-  years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
-  {% endfor %}
+  
   date = datetime.now()
   x = date.year
   
