@@ -39,6 +39,6 @@
 
   calendarData = json.loads({{ site.data.calendar | jsonify }})
 
-  document["debug"] <= calendarData.dumps(indent=4)
+  document["debug"] <= json.dumps(calendarData, indent=4)
  
 </script>
