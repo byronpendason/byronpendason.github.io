@@ -32,7 +32,7 @@
   <p id="conv"></p>
 </div>
 <script type="text/javascript">
-  var data = {{site.data.jsonify}};
+  var data = {{site.data.calendar | jsonify}};
   $("#debug").html = data;
 </script>
 <script type="text/python">
