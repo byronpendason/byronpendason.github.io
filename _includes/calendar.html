@@ -37,97 +37,10 @@
   from datetime import datetime, timedelta
   import json
   
-  def makeCalendar(year):
-    x = str(year)
-    t = storage[x]
-    temp = t.split("_")
-    if temp[4] == "true":
-      leap = True
-    else:
-      leap = False
-    y = Year(year, temp[0], temp[1], leap)
-    nm = temp[3].split("=")
-    fm = temp[4].split("=")
-    for i in range(len(nm)):
-      if nm[i] != "":
-        y.addNewMoon(nm[i])
-      if fm[i] != "":
-        y.addFullMoon(fm[i])
-    y.eostur = y.fullMoons[3]
-    if y.leap:
-      y.winterfylleth = y.fullMoons[10]
-    else:
-      y.winterfylleth = y.fullMoons[9]
-    del years
-    return y
   
-  def showCalendar(year):
-    monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
-    if year.leap == False:
-      monthNames.pop(6)
-    document["months-table"] <= html.TR(html.TH("Month")+html.TH("Starts")+html.TH("Full Moon"))
-    for i in range(len(monthNames)):
-      name = monthNames[i]
-      nm = year.newMoons[i].strftime("%a, %b %d, %Y CE")
-      fm = year.fullMoons[i].strftime("%a, %b %d, %Y CE")
-      document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
-    document["holidays-table"] <= html.TR(html.TH("Holiday")+html.TH("Date")+html.TH("AS Date"))
-    document["holidays-table"] <= html.TR(html.TD("Ēosturdæġ")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
-    document["holidays-table"] <= html.TR(html.TD("Midsumor")+html.TD(year.midsummer.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.midsummer)))
-    document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.winterfylleth.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.winterfylleth)))
-    document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.yule.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.yule)))
-
-  def debug(msg):
-   document["debug"] <= html.P("DEBUG: "+msg)
-  
-  def getASDate(d):
-    monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
-    yr = makeCalendar(d.year)
-    if yr.leap == False:
-      monthNames.pop(6)
-    m = 0
-    while d.toordinal() > yr.newMoons[m].toordinal():
-      if m-1 == len(yr.newMoons):
-        break
-      m += 1
-    m -= 1
-    day = d.toordinal() - yr.newMoons[m].toordinal() + 1
-    return getOrdinal(day)+" of "+monthNames[m]
-    
-  def getOrdinal(x):
-    if x%100 == 11 or x%100 == 12 or x%100 == 13:
-      return str(x)+"th"
-    elif x%10 == 1:
-      return str(x)+"st"
-    elif x%10 == 2:
-      return str(x)+"nd"
-    elif x%10 == 3:
-      return str(x)+"rd"
-    else:
-      return str(x)+"th"
-      
-  class Year:
-    def __init__(self, year, midsummer, yule, leap):
-      date_string = '%Y/%m/%d %H:%M:%S'
-      self.yr = year
-      self.midsummer = datetime.strptime(midsummer, date_string)
-      self.yule = datetime.strptime(yule, date_string)
-      self.newMoons = []
-      self.fullMoons = []
-      self.leap = leap
-      self.eostur = 0
-      self.winterfylleth = 0
-    def addNewMoon(self, d):
-      date_string = '%Y-%m-%dT%H:%M:%S'
-      temp = datetime.strptime(d, date_string)
-      self.newMoons.append(temp)
-    def addFullMoon(self, d):
-      date_string = '%Y-%m-%dT%H:%M:%S'
-      temp = datetime.strptime(d, date_string)
-      self.fullMoons.append(temp)
   
   calendarData = json.loads({{ site.data.calendar | jsonify }})
-  debug("Hello world!")
+  ("Hello world!")
   date = datetime.now()
   x = date.year
   
