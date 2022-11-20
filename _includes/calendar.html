@@ -127,7 +127,7 @@
       self.fullMoons.append(temp)
   
   calendarData = json.loads({{ site.data.calendar | jsonify }})
-  print("Hello world!", file=document["debug"])
+  debug("Hello world!")
   date = datetime.now()
   x = date.year
   
