@@ -8,8 +8,7 @@
     <button type="button" id="submit" value="Get Calendar">Get Calendar</button>
   </form>
   <h3>Months</h3>
-
-  <table id="months-table" style="width:100%">
+.  <table id="months-table" style="width:100%">
   </table>
   
   <h3>High Holidays</h3>
@@ -18,12 +17,7 @@
   </table>
   <h3>Other Holidays</h3>
   <p>These holidays are far from universal, but are observed by at least some Heathens who use the pre-Christian Anglo-Saxons as a primary source for their spirituality. Most of these are taken from the Ingvaeonic Society's <a href="https://ingwine.org/knowledge-base-2/the-holy-calendar/">The Holy Calendar</a>, unless another source is listed in parenthesis.</p>
-  <table id="other-holidays-table" style="width:100%">
-    <tr>
-      <th>Holiday</th>
-      <th>Date</th>
-      <th>Anglo-Saxon Date</th>
-    </tr>
+  <table id="other-holidays" style="width:100%">
   </table>
   <p id="today"></p>
   <h3>Date Converter</h3>
@@ -72,7 +66,10 @@
       fm = year.fullMoons[i].strftime("%a, %b %d, %Y CE")
       document["months-table"] <= html.TR(html.TD(name)+html.TD(nm)+html.TD(fm))
     document["holidays-table"] <= html.TR(html.TH("Holiday")+html.TH("Date")+html.TH("AS Date"))
-    document["holidays-table"] <= html.TR(html.TD("Eosturdæg")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
+    document["holidays-table"] <= html.TR(html.TD("Ēosturdæġ")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
+    document["holidays-table"] <= html.TR(html.TD("Midsumor")+html.TD(year.midsummer.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.midsummer)))
+    document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.winterfylleth.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.winterfylleth)))
+    document["holidays-table"] <= html.TR(html.TD("Ġeola")+html.TD(year.yule.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.yule)))
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
