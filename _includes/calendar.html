@@ -132,7 +132,9 @@
   
   date = datetime.now()
   x = date.year
-  if !storage[str(x)]:
+  try:
+    storage[str(x)]:
+  catch:
     storeData()
   debug(storage[str(x)])
   year = makeCalendar(x)
