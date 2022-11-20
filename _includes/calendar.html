@@ -36,19 +36,7 @@
   from browser import document, html
   from datetime import datetime, timedelta
   import json
-  
-  
-  
-  calendarData = json.loads({{ site.data.calendar | jsonify }})
-  print("Hello world!", file=document["debug"].text)
-  date = datetime.now()
-  x = date.year
-  
-  #year = makeCalendar(x)
-  #showCalendar(year)
-    document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
-  document["today"] <= "Today is the "+getASDate(date)
-  document["loading"].text = ""
-  #del document["calendar"].attrs["hidden"]
+
+  print("Hello world!", file=document["debug"])
  
 </script>
