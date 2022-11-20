@@ -1,6 +1,6 @@
 <div id="calendar">
   <div id="debug"></div>
-  <h2 id="current-calendar"></h2>
+  <h2 id="current-calendar"><i>Please be patient as the page loads...</i></h2>
   <h5 id="leap"></h5>
    <form style="width:100%">
     <label>Enter year:</label>
@@ -123,7 +123,7 @@
       temp = datetime.strptime(d, date_string)
       self.fullMoons.append(temp)
       
-  document["current-calendar"] <= html.I("Please be patient as the page loads...")
+  
   years = []
   {% for yr in site.data.calendar %}
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
