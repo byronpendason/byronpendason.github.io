@@ -31,7 +31,10 @@
   </form>
   <p id="conv"></p>
 </div>
-
+<script type="text/javascript">
+  var data = {{site.data.jsonify}}
+  $("#debug").html = data;
+</script>
 <script type="text/python">
   from browser import document, html
   from datetime import datetime, timedelta
