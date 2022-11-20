@@ -39,7 +39,7 @@
   def makeCalendar(year):
     years = []
     {% for yr in site.data.calendar %}
-  years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
+    years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
     temp = years[year-1700].split("_")
     if temp[5] == "true":
@@ -127,8 +127,6 @@
       temp = datetime.strptime(d, date_string)
       self.fullMoons.append(temp)
       
-  
-  years = []
   
   date = datetime.now()
   x = date.year
