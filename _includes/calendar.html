@@ -44,7 +44,7 @@ def makeCalendar(year):
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
   
-  temp = t.split("_")
+  temp = years[year-1700].split("_")
   if temp[5] == "true":
     leap = True
   else:
