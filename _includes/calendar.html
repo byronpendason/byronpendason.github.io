@@ -39,11 +39,11 @@
   
   def makeCalendar(year):
     temp = storage[str(year)].split("_")
-    if temp[5] == "true":
+    if temp[4] == "true":
       leap = True
     else:
       leap = False
-    y = Year(temp[0], temp[1], temp[2], leap)
+    y = Year(year, temp[0], temp[1], leap)
     nm = temp[3].split("=")
     fm = temp[4].split("=")
     for i in range(len(nm)):
