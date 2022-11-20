@@ -31,17 +31,17 @@
   </form>
   <p id="conv"></p>
 </div>
-<script type="text/javascript">
-  var calendarData = [];
-  calendarData.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}");
-</script>
+
 <script type="text/python">
-  from browser import document, html, window
+  from browser import document, html
   from datetime import datetime, timedelta
   
   def makeCalendar(year):
-    x = year - 1700
-    temp = window.calendarData[x].split("_")
+    years = []
+    {% for yr in site.data.calendar %}
+    years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
+  {% endfor %}
+    temp = years[year-1700].split("_")
     if temp[5] == "true":
       leap = True
     else:
