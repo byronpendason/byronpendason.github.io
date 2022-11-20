@@ -32,22 +32,15 @@
   <p id="conv"></p>
 </div>
 <script type="text/javascript">
-  $(document)ready(function() {
-    var data = {{site.data.calendar | jsonify}};
-    $("#debug").html = data;
-  });
-  
+  var calendarData = [];
+  calendarData.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}");
 </script>
 <script type="text/python">
-  from browser import document, html
+  from browser import document, html, window
   from datetime import datetime, timedelta
   
   def makeCalendar(year):
-    years = []
-    {% for yr in site.data.calendar %}
-    years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
-  {% endfor %}
-    temp = years[year-1700].split("_")
+    temp = window.calendarData[year-1700].split("_")
     if temp[5] == "true":
       leap = True
     else:
