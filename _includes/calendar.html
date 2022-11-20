@@ -38,7 +38,8 @@
   from datetime import datetime, timedelta
   
   def makeCalendar(year):
-    t = storage[str(year)]
+    x = str(year)
+    t = storage[x]
     temp = t.split("_")
     if temp[4] == "true":
       leap = True
