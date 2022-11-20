@@ -71,7 +71,6 @@
     document["holidays-table"] <= html.TR(html.TD("Ēosturdæġ")+html.TD(year.eostur.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.eostur)))
     document["holidays-table"] <= html.TR(html.TD("Midsumor")+html.TD(year.midsummer.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.midsummer)))
     document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.winterfylleth.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.winterfylleth)))
-    document["holidays-table"] <= html.TR(html.TD("Ġeola")+html.TD(year.yule.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.yule)))
 
   def debug(msg):
    document["debug"] <= html.P("DEBUG: "+msg)
