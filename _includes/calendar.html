@@ -34,8 +34,8 @@
 
 <script type="text/python">
   from browser import document, html
-  from browser.local_storage import storage
   from datetime import datetime, timedelta
+  import json
   
   def makeCalendar(year):
     x = str(year)
@@ -125,21 +125,11 @@
       date_string = '%Y-%m-%dT%H:%M:%S'
       temp = datetime.strptime(d, date_string)
       self.fullMoons.append(temp)
-      
   
-  def storeData():
-    debug("Storing calendar data...")
-    {% for yr in site.data.calendar %}
-    year = "{{ yr.year }}"
-    storage[year] = "{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}"
-    {% endfor %}
-  
+  calendarData = json.loads({{ site.data.calendar | jsonify }})
   date = datetime.now()
   x = date.year
-  try:
-    storage[str(x)]:
-  catch:
-    storeData()
+  
   debug(storage[str(x)])
   year = makeCalendar(x)
   showCalendar(year)
