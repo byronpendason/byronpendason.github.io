@@ -40,7 +40,8 @@
   from datetime import datetime, timedelta
   
   def makeCalendar(year):
-    temp = window.calendarData[year-1700].split("_")
+    x = year - 1700
+    temp = window.calendarData[x].split("_")
     if temp[5] == "true":
       leap = True
     else:
