@@ -127,12 +127,12 @@
       self.fullMoons.append(temp)
   
   calendarData = json.loads({{ site.data.calendar | jsonify }})
+  print(calendarData, file=document["debug"])
   date = datetime.now()
   x = date.year
   
-  debug(storage[str(x)])
-  year = makeCalendar(x)
-  showCalendar(year)
+  #year = makeCalendar(x)
+  #showCalendar(year)
   document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
   document["today"] <= "Today is the "+getASDate(date)
   document["loading"].text = ""
