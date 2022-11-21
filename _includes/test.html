@@ -2,8 +2,11 @@
 from browser import document, html
 from browser.local_storage import storage
 
-document["content"] <= "Hello!"
-storage.clear()
+document["content"] <= "Hello!"+html.BR()
+
+if not storage:
+  document["content"] <= "Storage is empty"
+  
 for key in storage:
   document["content"] <= html.P(key+": "+storage[key])
   
