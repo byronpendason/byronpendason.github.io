@@ -51,6 +51,8 @@ def showCalendar(year):
   document["holidays-table"] <= html.TR(html.TD("Midsumor")+html.TD(year.midsummer.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.midsummer)))
   document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.winterfylleth.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.winterfylleth)))
   document["holidays-table"] <= html.TR(html.TD("Winterfylleþ")+html.TD(year.yule.strftime("%a, %b %d, %Y CE"))+html.TD(getASDate(year.yule)))
+  document["current-calendar"].text = "Anglo-Saxon Calendar for " + years[x].yr
+  document["today"] <= "Today is the "+getASDate(date)
 
 def debug(msg):
  document["debug"] <= html.P("DEBUG: "+msg)
@@ -117,10 +119,5 @@ date = datetime.now()
 x = date.year - 1700
 showCalendar(years[x])
 document["loading"].text = ""
-document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
-document["today"] <= "Today is the "+getASDate(date)
 #del document["calendar"].attrs["hidden"]
-
-document["debug"] <= calendarData
-
 </script>
