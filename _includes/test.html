@@ -1,11 +1,11 @@
 <script type="text/python">
-from browser import document
+from browser import document, html
 from browser.local_storage import storage
 
 document["content"] <= "Hello!"
 
 for key in storage:
-  document["content"] <= storage[key]
+  document["content"] <= html.P("key: "+storage[key])
   
 document["content"] <= "Goodbye!"
 
