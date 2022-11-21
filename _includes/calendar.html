@@ -38,16 +38,13 @@ from datetime import datetime, timedelta
 import json
 
 def makeCalendar(year):
-  #years = []
-  temp = []
-  if False:
-    pass
+  years = []
+  
   {% for yr in site.data.calendar %}
-  elif year == {{yr.year}}:
-    temp = "{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}".split("_")
+  years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
   {% endfor %}
   
-  #temp = years[year-1700].split("_")
+  temp = years[year-1700].split("_")
   if temp[5] == "true":
     leap = True
   else:
