@@ -1,1 +1,7 @@
+<script type="text/python">
+from browser import document
+from browser.local_storage import storage
+storage['foo'] = 'bar'
 
+document["content"] <= "Hello world!"
+</script>
