@@ -7,4 +7,4 @@ sitemap:
   exclude: true
 ---
 
-{% include calendar.html %}
+{% include test.html %}
