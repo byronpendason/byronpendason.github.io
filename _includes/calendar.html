@@ -134,7 +134,7 @@ date = datetime.now()
 x = date.year
 year = makeCalendar(x)
 showCalendar(year)
-  document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
+document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
 document["today"] <= "Today is the "+getASDate(date)
 document["loading"].text = ""
 #del document["calendar"].attrs["hidden"]
