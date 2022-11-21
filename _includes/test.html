@@ -2,14 +2,13 @@
 from browser import document
 from browser.local_storage import storage
 
-try:
-  document["content"] <= storage['2022']
-catch:
+if not document["content"] <= storage['2022']:
   document["content"].text = "Please wait while data is retrieved..."
   {% for y in site.data.calendar %}
   storage[str(y.year)] = "{{ y.midsummer}}#{{ y.yule }}"
   document["content"] <= "{{ y.year }} stored!"
   {% endfor %}
   document["content"] <= "Finished!"
-  document["content"] <= storage['2022']
+  
+document["content"] <= storage['2022']
 </script>
