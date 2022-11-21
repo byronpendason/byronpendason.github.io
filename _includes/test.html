@@ -4,8 +4,10 @@ from browser.local_storage import storage
 
 document["content"] <= "Hello!"+html.BR()
 
-if not storage:
-  document["content"] <= "Storage is empty"
+storage["foo"] = "bar"
+
+if not storage["1334"]:
+  document["content"] <= "Storage key `1334` not found."
   
 for key in storage:
   document["content"] <= html.P(key+": "+storage[key])
