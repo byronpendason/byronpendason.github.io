@@ -38,7 +38,8 @@ from datetime import datetime, timedelta
 import json
 
 def makeCalendar(year):
-  years = []
+  if not years:
+    years = []
   
   {% for yr in site.data.calendar %}
   years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
