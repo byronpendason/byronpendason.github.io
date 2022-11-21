@@ -3,14 +3,10 @@ from browser import document
 from browser.local_storage import storage
 
 document["content"] <= "Hello!"
-#try:
-#  for key in storage:
-#    document["content"] <= storage[key]
-#    document["content"] <= "Finished!"
-#catch:
-#  document["content"] <= "There is no storage."
 
-document["content"] <= storage["foo"]
+for key in storage:
+  document["content"] <= storage[key]
+  
 document["content"] <= "Goodbye!"
 
 </script>
