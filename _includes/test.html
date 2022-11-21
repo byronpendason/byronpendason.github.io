@@ -4,8 +4,8 @@ from browser.local_storage import storage
 
 document["content"] <= "Hello!"
 try:
-  for d in storage:
-    document["content"] <= d
+  for key in storage:
+    document["content"] <= storage[key]
     document["content"] <= "Finished!"
 catch:
   document["content"] <= "There is no storage."
