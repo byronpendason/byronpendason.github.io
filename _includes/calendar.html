@@ -1,4 +1,3 @@
-<p div="loading"><i>Please be patient as the page loads...</i></p>
 <div id="calendar">
   <div id="debug"></div>
   <h2 id="current-calendar"></h2>
@@ -111,6 +110,7 @@ class Year:
     temp = datetime.strptime(d, date_string)
     self.fullMoons.append(temp)
     
+debug("The start of the script")
 years = []
 {% for yr in site.data.calendar %}
 years.append(Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.yule }}, {{yr.new_moons}}, {{yr.full_moons}}, {{ yr.leap }}))
@@ -118,6 +118,4 @@ years.append(Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.yule }}, {{yr.new_moo
 date = datetime.now()
 x = date.year - 1700
 showCalendar(years[x])
-document["loading"].text = ""
-#del document["calendar"].attrs["hidden"]
 </script>
