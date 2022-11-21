@@ -5,7 +5,7 @@ from browser.local_storage import storage
 document["content"] <= "Hello!"
 
 for key in storage:
-  document["content"] <= html.P("key: "+storage[key])
+  document["content"] <= html.P(key+": "+storage[key])
   
 document["content"] <= "Goodbye!"
 
