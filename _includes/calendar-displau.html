@@ -326,8 +326,8 @@
       catch(err) {
         console.log(err);
       }
-      newMoon = new Date(newMoons[i].toString());
-      newMoon.setDate(newMoon.getDate()-1);
+      newMoon = new Date(newMoons[i].toDateString());
+      newMoon = new Date(newMoons[i].toDateString());
       var month = monthNames[i];
       var day = ((d.getTime()-newMoon.getTime())/(24*60*60*1000))+1;
       var newYear = new Date(years[year+1-1700].new_moons[0]);
