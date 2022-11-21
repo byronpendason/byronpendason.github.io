@@ -113,7 +113,7 @@ class Year:
 debug("The start of the script")
 years = []
 {% for yr in site.data.calendar %}
-years.append(Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.yule }}, {{ yr.new_moons }}, {{ yr.full_moons }}, {{ yr.leap }}))
+years.append(Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.yule }}, [{{ yr.new_moons }}], [{{ yr.full_moons }}], {{ yr.leap }}))
 {% endfor %}
 date = datetime.now()
 x = date.year - 1700
