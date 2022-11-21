@@ -37,27 +37,6 @@ from browser import document, html
 from datetime import datetime, timedelta
 import json
 
-def makeCalendar(year):
-  temp = years[year-1700].split("_")
-  if temp[5] == "true":
-    leap = True
-  else:
-    leap = False
-  y = Year(temp[0], temp[1], temp[2], leap)
-  nm = temp[3].split("=")
-  fm = temp[4].split("=")
-  for i in range(len(nm)):
-    if nm[i] != "":
-      y.addNewMoon(nm[i])
-    if fm[i] != "":
-      y.addFullMoon(fm[i])
-  y.eostur = y.fullMoons[3]
-  if y.leap:
-    y.winterfylleth = y.fullMoons[10]
-  else:
-    y.winterfylleth = y.fullMoons[9]
-  return y
-
 def showCalendar(year):
   monthNames = ["Æfterra Ġēola", "Solmōnaþ", "Hreðmōnaþ", "Ēosturmōnaþ", "Þrimilcemōnaþ", "Ærra Liða", "Þriliða", "Æfterra Liða", "Weodmōnaþ", "Hāliġmōnaþ", "Wintermōnaþ", "Blōtmōnaþ", "Ærra Ġēola"]
   if year.leap == False:
@@ -104,7 +83,7 @@ def getOrdinal(x):
     return str(x)+"th"
     
 class Year:
-  def __init__(self, year, midsummer, yule, leap):
+  def __init__(self, year, midsummer, yule, nm, fm, leap):
     date_string = '%Y/%m/%d %H:%M:%S'
     self.yr = year
     self.midsummer = datetime.strptime(midsummer, date_string)
@@ -112,8 +91,16 @@ class Year:
     self.newMoons = []
     self.fullMoons = []
     self.leap = leap
-    self.eostur = 0
-    self.winterfylleth = 0
+    for i in range(len(nm)):
+      if nm[i] != "":
+        self.addNewMoon(nm[i])
+      if full_moons[i] != "":
+        self.addFullMoon(fm[i])
+    self.eostur = self.fullMoons[3]
+    if self.leap:
+      self.winterfylleth = self.fullMoons[10]
+    else:
+      self.winterfylleth = self.fullMoons[9]
   def addNewMoon(self, d):
     date_string = '%Y-%m-%dT%H:%M:%S'
     temp = datetime.strptime(d, date_string)
@@ -123,16 +110,13 @@ class Year:
     temp = datetime.strptime(d, date_string)
     self.fullMoons.append(temp)
     
-
 years = []
-  
 {% for yr in site.data.calendar %}
-years.append("{{ yr.year }}_{{ yr.midsummer }}_{{ yr.yule }}_{% for nm in yr.new_moons %}{{ nm }}={% endfor %}_{% for fm in yr.full_moons %}{{ fm }}={% endfor %}_{{ yr.leap }}")
+years.append(Year({{ yr.year }}, {{ yr.midsummer }}, {{ yr.yule }}, {{yr.new_moons}}, {{yr.full_moons}}, {{ yr.leap }}))
 {% endfor %}
 date = datetime.now()
-x = date.year
-year = makeCalendar(x)
-showCalendar(year)
+x = date.year - 1700
+showCalendar(years[x])
 document["loading"].text = ""
 document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
 document["today"] <= "Today is the "+getASDate(date)
