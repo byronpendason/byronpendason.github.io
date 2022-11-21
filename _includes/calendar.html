@@ -130,13 +130,13 @@ class Year:
     temp = datetime.strptime(d, date_string)
     self.fullMoons.append(temp)
     
-date = datetime.now()
-x = date.year
-year = makeCalendar(x)
+#date = datetime.now()
+#x = date.year
+year = makeCalendar(datetime.now().year)
 showCalendar(year)
+document["loading"].text = ""
 document["current-calendar"].text = "Anglo-Saxon Calendar for " + year.yr
 document["today"] <= "Today is the "+getASDate(date)
-document["loading"].text = ""
 #del document["calendar"].attrs["hidden"]
 
 document["debug"] <= calendarData
