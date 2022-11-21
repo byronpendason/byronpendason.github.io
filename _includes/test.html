@@ -7,7 +7,7 @@ def getYear(year):
   if index == 17:
     if year == 0: pass
     {% for y in site.data.data-17 %}
-    elif year == {{ y.year }}: return "{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join:\",\" }};{{ y.full_moons | join:\",\" }};{{ y.leap }}
+    elif year == {{ y.year }}: return "{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join:\",\" }};{{ y.full_moons | join:\",\" }};{{ y.leap }}"
     {% endfor %}
 
 document["content"] <= "Hello!"+html.BR()
