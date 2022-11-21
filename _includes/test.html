@@ -2,15 +2,15 @@
 from browser import document, html
 from browser.local_storage import storage
 
+def getYear(year):
+  index = int(year/100)
+  if index == 17:
+    if year == 0:
+      pass
+    {% for y in site.data.data-17 %}elif year == {{ y.year }}: return "{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join:\",\" }};{{ y.full_moons | join:\",\" }};{{ y.leap }}
+    {% endfor %}
+
 document["content"] <= "Hello!"+html.BR()
-
-storage["foo"] = "bar"
-
-if "1334" not in storage:
-  document["content"] <= "Storage key `1334` not found."
   
-for key in storage:
-  document["content"] <= html.P(key+": "+storage[key])
-  
-document["content"] <= "Goodbye!"
+document["content"] <= getYear(1776)
 </script>
