@@ -5,7 +5,8 @@ from browser.local_storage import storage
 if not document["content"]:
   document["content"].text = "Please wait while data is retrieved..."
   {% for y in site.data.calendar %}
-  storage[str(y.year)] = "{{ y.midsummer}}#{{ y.yule }}"
+  year = "{{ y. year }}"
+  storage[] = "{{ y.midsummer}}#{{ y.yule }}"
   document["content"] <= "{{ y.year }} stored!"
   {% endfor %}
   document["content"] <= "Finished!"
