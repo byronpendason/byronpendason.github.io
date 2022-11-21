@@ -6,7 +6,7 @@ document["content"] <= "Hello!"+html.BR()
 
 storage["foo"] = "bar"
 
-if not storage["1334"]:
+if "1334" not in storage:
   document["content"] <= "Storage key `1334` not found."
   
 for key in storage:
