@@ -5,7 +5,6 @@ from javascript import Date
 
 class ASCal:
   def ASCal(self, year):
-    document["content"].clear()
     self.year = year
     temp = getYear(year).split(";")
     self.midsummer = Date.new(temp[0])
