@@ -4,8 +4,8 @@
   function getDayLength(d) {
     var date = new Date(d);
     var times = SunCalc.getTimes(new Date(), 52.63399, -1.69587);
-    var dayLength = times.sunset - times.sunrise
-    return dayLength
+    var dayLength = (times.sunset - times.sunrise) / 3600000;
+    return dayLength;
   }
   
   $("#content").text(getDayLength(new Date());
