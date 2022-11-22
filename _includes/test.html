@@ -4,6 +4,10 @@ from javascript import Date
 #date = Date.new(2012, 6, 10)
 
 class ASCal:
+  def ASCal(self, year):
+    self.year = year
+    temp = getYear(year)
+
   def getYear(year):
     index = int(year/100)
     if index == 20:
@@ -23,5 +27,5 @@ class ASCal:
       elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
 
 if __name__ == "__main__":
-  document["content"] <= ASCal.getYear(2022)
+  document["content"] <= str(cal.year)
 </script>
