@@ -6,6 +6,10 @@
     var times = SunCalc.getTimes(new Date(), 52.63399, -1.69587);
     return (times.sunset - times.sunrise) / 3600000;
   }
+  function getSummerSolstice(year) {
+    var date = new Date(String(year)+"-06-10")
+    return date;
+  }
   
-  $("#content").text(getDayLength(new Date()));
+  $("#content").text(getSummerSolstice(new Date()));
 </script>
