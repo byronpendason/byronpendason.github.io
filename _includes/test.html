@@ -22,7 +22,7 @@ class ASCal:
         d = Date.new(f)
         self.fullMoons.append(d)
 
-  def getYear(year):
+  def getYear(self, year):
     index = int(year/100)
     if index == 20:
       if year == 0: pass{% for y in site.data.data-20%}
