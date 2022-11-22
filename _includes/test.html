@@ -10,12 +10,12 @@
     return (times.sunset - times.sunrise) / 3600000;
   }
   function getSummerSolstice(year) {
-    var date = new Date(Date.UTC(String(year)+"-06-10"))
+    var date = new Date(String(year)+"-06-10"))
     var dayLength = getDayLength(date);
     
     return date;
   }
   
   $("#content").text(getSummerSolstice(new Date().getFullYear()));
-  $("#content").html( $("#content").html() + "<br />" + addDays(new Date(), 3) );
+  $("#content").html( $("#content").html() + "<br />" + addDays(new Date(), 3).toString() );
 </script>
