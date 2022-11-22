@@ -8,8 +8,8 @@ def debug(msg):
 class ASCal:
   def __init__(self, year):
     self.year = year
-    temp = getYear(year).split(";")
     debug(getYear(year))
+    temp = getYear(year).split(";")
     self.midsummer = Date.new(temp[0])
     self.yule = Date.new(temp[1])
     nm = temp[2].split(",")
