@@ -1,52 +1,5 @@
-<script type="text/python">
-from browser import document, html
-from javascript import Date
-
-def debug(msg):
-  document["content"] <= msg + html.BR()
-
-class ASCal:
-  def __init__(self, year):
-    self.year = year
-    temp = self.getYear(year).split(";")
-    self.midsummer = Date.new(temp[0])
-    self.yule = Date.new(temp[1])
-    nm = temp[2].split(",")
-    self.newMoons = []
-    for n in nm:
-      if n != "":
-        d = Date.new(n)
-        self.newMoons.append(d)
-    fm = temp[3].split(",")
-    self.fullMoons = []
-    for f in fm:
-      if f != "":
-        d = Date.new(f)
-        self.fullMoons.append(d)
-
-  def getYear(self, year):
-    index = int(year/100)
-    if index == 20:
-      if year == 0: pass{% for y in site.data.data-20%}
-      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
-    elif index == 19:
-      if year == 0: pass{% for y in site.data.data-19%}
-      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
-    elif index == 21:
-      if year == 0: pass{% for y in site.data.data-21 %}
-      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
-    elif index == 18:
-      if year == 0: pass{% for y in site.data.data-18 %}
-      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
-    elif index == 17:
-      if year == 0: pass{% for y in site.data.data-17 %}
-      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
-
-if __name__ == "__main__":
-  cal = ASCal(2022)
-  document["content"] <= html.H1("Anglo-Saxon Calendar for "+str(cal.year))
-  months-table = html.TABLE()
-  months-table <= html.TR(html.TH("Month")+html.TH("Begins")+html.TH("Full Moon"))
-  
-  document["content"] <= months-table
+<script src="https://cdnjs.cloudflare.com/ajax/libs/suncalc/1.9.0/suncalc.min.js"></script>
+<script>
+  var times = SunCalc.getTimes(new Date(), 52.63399, -1.69587);
+  $("#content").text(times);
 </script>
