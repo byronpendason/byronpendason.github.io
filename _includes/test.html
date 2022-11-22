@@ -9,7 +9,7 @@ class ASCal:
   def __init__(self, year):
     self.year = year
     temp = getYear(year).split(";")
-    debug(getYear(2022)
+    debug(getYear(year))
     self.midsummer = Date.new(temp[0])
     self.yule = Date.new(temp[1])
     nm = temp[2].split(",")
