@@ -28,5 +28,5 @@ class ASCal:
       elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
 
 if __name__ == __main__:
-document["content"] <= ASCal.getYear(2022)
+  document["content"] <= ASCal.getYear(2022)
 </script>
