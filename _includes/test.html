@@ -5,8 +5,21 @@ from javascript import Date
 
 class ASCal:
   def ASCal(self, year):
+    document["content"].clear()
     self.year = year
-    temp = getYear(year)
+    temp = getYear(year).split(";")
+    self.midsummer = Date.new(temp[0])
+    self.yule = Date.new(temp[1])
+    nm = temp[2].split(",")
+    self.newMoons = []
+    for n in nm:
+      if n != "":
+        self.newMoons.append(Date.new(n))
+    fm = temp[3].split(",")
+    self.fullMoons = []
+    for f in fm:
+      if f != "":
+        self.fullMoons.append(Date.new(f))
 
   def getYear(year):
     index = int(year/100)
@@ -27,5 +40,7 @@ class ASCal:
       elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
 
 if __name__ == "__main__":
-  document["content"] <= str(cal.year)
+  cal = ASCal(2022)
+  document["content"] <= html.H1("Anglo-Saxon Calendar for"+str(cal.year))
+  document["content"] <= html.TR(html.TH("Month")+html.TH("Begins")+html.TH("Full Moon"))
 </script>
