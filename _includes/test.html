@@ -14,12 +14,14 @@ class ASCal:
     self.newMoons = []
     for n in nm:
       if n != "":
-        self.newMoons.append(Date.new(n))
+        d = Date.new(n)
+        self.newMoons.append(d)
     fm = temp[3].split(",")
     self.fullMoons = []
     for f in fm:
       if f != "":
-        self.fullMoons.append(Date.new(f))
+        d = Date.new(f)
+        self.fullMoons.append(d)
 
   def getYear(year):
     index = int(year/100)
