@@ -1,6 +1,47 @@
-    <code id="debug"></code>
-    
-    <script type="text/javascript">
-      let url = 'https://aa.usno.navy.mil/api/seasons?year=2022';
-      $("#debug").load("https://aa.usno.navy.mil/api/seasons?year=2022")
-    </script>
+<script type="text/python">
+from browser import document, html
+from javascript import Date 
+#date = Date.new(2012, 6, 10)
+
+class ASCal:
+  def ASCal(self, year):
+    self.year = year
+    temp = getYear(year).split(";")
+    self.midsummer = Date.new(temp[0])
+    self.yule = Date.new(temp[1])
+    nm = temp[2].split(",")
+    self.newMoons = []
+    for n in nm:
+      if n != "":
+        d = Date.new(n)
+        self.newMoons.append(d)
+    fm = temp[3].split(",")
+    self.fullMoons = []
+    for f in fm:
+      if f != "":
+        d = Date.new(f)
+        self.fullMoons.append(d)
+
+  def getYear(year):
+    index = int(year/100)
+    if index == 20:
+      if year == 0: pass{% for y in site.data.data-20%}
+      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
+    elif index == 19:
+      if year == 0: pass{% for y in site.data.data-19%}
+      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
+    elif index == 21:
+      if year == 0: pass{% for y in site.data.data-21 %}
+      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
+    elif index == 18:
+      if year == 0: pass{% for y in site.data.data-18 %}
+      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
+    elif index == 17:
+      if year == 0: pass{% for y in site.data.data-17 %}
+      elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
+
+if __name__ == "__main__":
+  cal = ASCal(2022)
+  document["content"] <= str(cal.year))
+  #document["content"] <= html.TR(html.TH("Month")+html.TH("Begins")+html.TH("Full Moon"))
+</script>
