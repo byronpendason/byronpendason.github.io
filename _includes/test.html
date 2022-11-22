@@ -22,6 +22,6 @@ class ASCal:
       if year == 0: pass{% for y in site.data.data-17 %}
       elif year == {{ y.year }}: return '{{ y.midsummer }};{{ y.yule }};{{ y.new_moons | join: "," }};{{ y.full_moons | join: "," }};{{ y.leap }}'{% endfor %}
 
-if __name__ == __main__:
+if __name__ == "__main__":
   document["content"] <= ASCal.getYear(2022)
 </script>
