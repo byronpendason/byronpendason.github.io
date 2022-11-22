@@ -5,22 +5,7 @@ from javascript import Date
 class ASCal:
   def ASCal(self, year):
     self.year = year
-    document["content"] <= str(self.year)
-    temp = getYear(year).split(";")
-    self.midsummer = Date.new(temp[0])
-    self.yule = Date.new(temp[1])
-    nm = temp[2].split(",")
-    self.newMoons = []
-    for n in nm:
-      if n != "":
-        d = Date.new(n)
-        self.newMoons.append(d)
-    fm = temp[3].split(",")
-    self.fullMoons = []
-    for f in fm:
-      if f != "":
-        d = Date.new(f)
-        self.fullMoons.append(d)
+    
 
   def getYear(self, year):
     index = int(year/100)
