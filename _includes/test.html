@@ -16,6 +16,5 @@
     return date;
   }
   
-  $("#content").text(getSummerSolstice(new Date().getFullYear()));
-  $("#content").html( $("#content").html() + "<br />" + addDays(new Date(), 3).toString() );
+  $("#content").html(addDays(new Date(), 3));
 </script>
