@@ -46,5 +46,8 @@ class ASCal:
 if __name__ == "__main__":
   cal = ASCal(2022)
   document["content"] <= html.H1("Anglo-Saxon Calendar for "+str(cal.year))
-  document["content"] <= html.TR(html.TH("Month")+html.TH("Begins")+html.TH("Full Moon"))
+  months-table = html.TABLE()
+  months-table <= html.TR(html.TH("Month")+html.TH("Begins")+html.TH("Full Moon"))
+  
+  document["content"] <= months-table
 </script>
