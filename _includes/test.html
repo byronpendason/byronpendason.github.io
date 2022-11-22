@@ -2,11 +2,14 @@
 from browser import document, html
 from javascript import Date
 
+def debug(msg):
+  document["content"] <= msg + html.BR()
+
 class ASCal:
   def __init__(self, year):
     self.year = year
-    document["content"] <= str(self.year)
     temp = getYear(year).split(";")
+    debug(getYear(2022)
     self.midsummer = Date.new(temp[0])
     self.yule = Date.new(temp[1])
     nm = temp[2].split(",")
