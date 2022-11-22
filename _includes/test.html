@@ -6,7 +6,7 @@
   }
   function getDayLength(d) {
     var date = new Date(d);
-    var times = SunCalc.getTimes(new Date(), 52.63399, -1.69587);
+    var times = SunCalc.getTimes(date, 52.63399, -1.69587);
     return (times.sunset - times.sunrise) / 3600000;
   }
   function getSummerSolstice(year) {
