@@ -1,6 +1,9 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/suncalc/1.9.0/suncalc.min.js"></script>
 <script>
+  function addDays(date, num) {
+    return date.setDate(date.getDate()+num);
+  }
   function getDayLength(d) {
     var date = new Date(d);
     var times = SunCalc.getTimes(new Date(), 52.63399, -1.69587);
@@ -8,8 +11,11 @@
   }
   function getSummerSolstice(year) {
     var date = new Date(Date.UTC(String(year)+"-06-10"))
+    var dayLength = getDayLength(date);
+    
     return date;
   }
   
   $("#content").text(getSummerSolstice(new Date().getFullYear()));
+  $("#content").html( $("#content").html() + "<br />" + addDays(new Date(), 3) );
 </script>
