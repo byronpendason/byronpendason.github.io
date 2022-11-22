@@ -1,11 +1,11 @@
 <script type="text/python">
 from browser import document, html
-from javascript import Date 
-#date = Date.new(2012, 6, 10)
+from javascript import Date
 
 class ASCal:
   def ASCal(self, year):
     self.year = year
+    document["content"] <= str(self.year)
     temp = getYear(year).split(";")
     self.midsummer = Date.new(temp[0])
     self.yule = Date.new(temp[1])
