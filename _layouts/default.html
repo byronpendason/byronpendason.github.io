@@ -44,14 +44,12 @@
     <div id="header">
       <h1><a href="/" style="color:white;text-decoration:none;">{{ site.title }}</a></h1>
       <p>{{ site.byline }}</p>
-      <div id="search-container">
-        <input type="text" id="search-input" placeholder="&#x2315;" style="width:100%;text-align:left;" autofocus>
-        <ul id="results-container" style="background: rgba(255, 255, 255, 0.5);"></ul>
       </div>
     </div>
     <nav>
       <div class="dropdown">
-        <span class="dropbtn">Menu</span>
+        <span class="dropbtn" style="float:left">Menu</span><div id="search-container">
+        <input type="text" id="search-input" placeholder="&#x2315;" style="float:right;text-align:left;" autofocus>
         <div class="dropdownContent">
           {% for item in site.header_pages %}
           <a href="{{ item.url }}">{{ item.title }}</a><br>
@@ -60,6 +58,7 @@
       </div>
     </nav>
     <div id="content">
+      <ul id="results-container" style="background: rgba(255, 255, 255, 0.5);"></ul>
       {% if page.layout == "post" %}
       <h1>{{ page.title }}</h1>
       <h6>Posted {% if page.author %}by {{ page.author }}{% endif %}{% if page.date %} on <span id="date"></span>,{% endif %}{% if page.categories %} in {% for category in page.categories %}<a href="/search#{{ category | slugify}}">{{ category | capitalize }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}</h6>
