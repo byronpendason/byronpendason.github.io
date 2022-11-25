@@ -48,12 +48,12 @@
     <nav>
       <div class="dropdown">
         <span class="dropbtn" style="float:left">Menu</span>
-        <input type="text" id="search-input" placeholder="&#x2315;" style="float:right;text-align:left;" autofocus>
         <div class="dropdownContent">
           {% for item in site.header_pages %}
           <a href="{{ item.url }}">{{ item.title }}</a><br>
           {% endfor %}
         </div>
+        <input type="text" id="search-input" placeholder="&#x2315;" style="float:right;text-align:left;" autofocus>
       </div>
     </nav>
     <div id="content">
