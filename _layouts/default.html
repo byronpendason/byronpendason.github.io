@@ -46,8 +46,8 @@
       <p>{{ site.byline }}</p>
     </div>
     <nav>
-      <div class="dropdown">
-        <span class="dropbtn" style="float:left">Menu</span>
+      <div class="dropdown" style="float:left">
+        <span class="dropbtn">Menu</span>
         <div class="dropdownContent">
           {% for item in site.header_pages %}
           <a href="{{ item.url }}">{{ item.title }}</a><br>
