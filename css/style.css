@@ -48,6 +48,7 @@ nav a {
   display: block;
   font-size: 1.25em;
   text-decoration: underline overline double 1px;
+  float: left;
 }
 .dropdownContent {
   display: none;
@@ -57,9 +58,6 @@ nav a {
 }
 .dropdown:hover .dropdownContent {
   display: block;
-}
-.dropbtn {
-  float: left;
 }
 #search-input {
   float: right;
