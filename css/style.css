@@ -42,7 +42,6 @@ nav a {
   position: relative;
   display: block;
   background: rgb(25, 25, 112);
-  width: 100%;
 }
 .dropbtn {
   display: block;
@@ -53,21 +52,18 @@ nav a {
   display: none;
   position: absolute;
   background: rgb(25, 25, 112);
-  box-sizing: border-box;
-}
-.dropdown:hover .dropdownContent {
-  display: block;
-}
-#search-input {
-  float: right;
-}
-# results-container {
-  position: absolute;
-  background: rgb(25, 25, 112);
   width: 100%;
   box-sizing: border-box;
   clear:both;
 }
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+.dropbtn {
+  float: left;
+}
+#search-input {
+  float: right;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
