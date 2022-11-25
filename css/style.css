@@ -27,7 +27,7 @@ body {
 nav {
   background: rgb(25, 25, 112);
   color: white;
-  
+  padding: 25px;
 }
 nav * {
   text-align: left;
@@ -42,6 +42,7 @@ nav a {
   position: relative;
   display: block;
   float: left;
+  width: 75%;
 }
 .dropbtn {
   display: block;
@@ -60,6 +61,8 @@ nav a {
 }
 #search-input {
   float: right;
+  width: 25%;
+  text-align: left;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
