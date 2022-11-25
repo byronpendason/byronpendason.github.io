@@ -54,6 +54,7 @@ nav a {
   background: rgb(25, 25, 112);
   width: 100%;
   box-sizing: border-box;
+  clear:both;
 }
 .dropdown:hover .dropdownContent {
   display: block;
@@ -63,7 +64,6 @@ nav a {
 }
 #search-input {
   float: right;
-  width: 25%;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
