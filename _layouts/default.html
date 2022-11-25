@@ -46,16 +46,14 @@
       <p>{{ site.byline }}</p>
     </div>
     <nav>
-      <div id="nav-menu" class="dropdown">
+      <div class="dropdown">
         <span class="dropbtn">Menu</span>
-        <div id="nav-contents" class="dropdownContent">
-            {% for item in site.header_pages %}
-            <a href="{{ item.url }}">{{ item.title }}</a><br>
-            {% endfor %}
+        <div class="dropdownContent">
+          {% for item in site.header_pages %}
+          <a href="{{ item.url }}">{{ item.title }}</a><br>
+          {% endfor %}
         </div>
       </div>
-      <input type="text" id="search-input" placeholder="&#x2315;" autofocus>
-      <ul id="results-container"></ul>
     </nav>
     <div id="content">
       {% if page.layout == "post" %}
@@ -126,7 +124,6 @@
     {% unless page.title == "Search" %}
     <!-- Grab search-script.js -->
     <script src="/js/search-script.js" type="text/javascript"></script>
-    
     <!-- Configuration -->
     <script>
     SimpleJekyllSearch({
