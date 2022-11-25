@@ -30,7 +30,7 @@ nav {
   padding: 25px;
 }
 nav * {
-  text-align: left;
+  text-align: center;
 }
 nav a {
   color: white;
@@ -47,7 +47,6 @@ nav a {
   display: block;
   font-size: 1.25em;
   text-decoration: underline overline double 1px;
-  text-align; center;
 }
 .dropdownContent {
   display: none;
