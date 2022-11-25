@@ -48,15 +48,14 @@
     <nav>
       <div id="nav-menu" class="dropdown">
         <span class="dropbtn">Menu</span>
+        <div id="nav-contents" class="dropdownContent">
+            {% for item in site.header_pages %}
+            <a href="{{ item.url }}">{{ item.title }}</a><br>
+            {% endfor %}
+        </div>
       </div>
-      <div id="nav-contents" class="dropdownContent">
-          {% for item in site.header_pages %}
-          <a href="{{ item.url }}">{{ item.title }}</a><br>
-          {% endfor %}
-      </div>
-      <div id="nav-search">
       <input type="text" id="search-input" placeholder="&#x2315;" autofocus>
-      <ul id="results-container" class="dropdownContent" style="background: rgba(255, 255, 255, 0.5);"></ul>
+      <ul id="results-container" class="dropdownContent"></ul>
     </nav>
     <div id="content">
       {% if page.layout == "post" %}
