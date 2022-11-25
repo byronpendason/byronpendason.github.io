@@ -41,8 +41,7 @@ nav a {
 .dropdown {
   position: relative;
   display: block;
-  float: left;
-  width: 75%;
+  background: rgb(25, 25, 112);
 }
 .dropbtn {
   display: block;
@@ -59,9 +58,11 @@ nav a {
 .dropdown:hover .dropdownContent {
   display: block;
 }
-#search-input {
+#nav-menu {
+  float: left;
+}
+#nav-search {
   float: right;
-  width: 25%;
   text-align: left;
 }
 #content {
