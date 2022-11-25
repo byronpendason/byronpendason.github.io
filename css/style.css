@@ -48,7 +48,6 @@ nav a {
   display: block;
   font-size: 1.25em;
   text-decoration: underline overline double 1px;
-  float: left;
 }
 .dropdownContent {
   display: none;
