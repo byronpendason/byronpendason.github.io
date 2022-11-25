@@ -65,6 +65,14 @@ nav a {
 #search-input {
   float: right;
 }
+# results-container {
+  position: absolute;
+  background: rgb(25, 25, 112);
+  width: 100%;
+  box-sizing: border-box;
+  clear:both;
+}
+}
 #content {
   background: rgba(255, 255, 255, 0.5);
   color: black;
