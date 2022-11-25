@@ -53,9 +53,7 @@ nav a {
   display: none;
   position: absolute;
   background: rgb(25, 25, 112);
-  width: 100%;
   box-sizing: border-box;
-  clear:both;
 }
 .dropdown:hover .dropdownContent {
   display: block;
