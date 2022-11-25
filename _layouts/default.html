@@ -44,11 +44,10 @@
     <div id="header">
       <h1><a href="/" style="color:white;text-decoration:none;">{{ site.title }}</a></h1>
       <p>{{ site.byline }}</p>
-      </div>
     </div>
     <nav>
       <div class="dropdown">
-        <span class="dropbtn" style="float:left">Menu</span><div id="search-container">
+        <span class="dropbtn" style="float:left">Menu</span>
         <input type="text" id="search-input" placeholder="&#x2315;" style="float:right;text-align:left;" autofocus>
         <div class="dropdownContent">
           {% for item in site.header_pages %}
