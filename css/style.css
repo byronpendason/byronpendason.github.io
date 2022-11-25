@@ -61,7 +61,7 @@ nav a {
 }
 #search-input {
   float: right;
-  max-width: 10em;
+  max-width: 5em;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
