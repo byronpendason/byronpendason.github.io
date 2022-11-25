@@ -59,9 +59,6 @@ nav a {
 .dropdown:hover .dropdownContent {
   display: block;
 }
-.dropbtn {
-  float: left;
-}
 #search-input {
   float: right;
 }
