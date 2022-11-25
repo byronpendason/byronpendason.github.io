@@ -60,10 +60,11 @@ nav a {
 }
 #nav-menu {
   float: left;
+  width:70%;
 }
-#nav-search {
+#search-input {
   float: right;
-  text-align: left;
+  width: 25%;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
