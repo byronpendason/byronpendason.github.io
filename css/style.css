@@ -63,6 +63,7 @@ nav a {
   float: right;
   max-width: 33%;
   text-align: right;
+  margin: 1px;
 }
 #content {
   background: rgba(255, 255, 255, 0.5);
