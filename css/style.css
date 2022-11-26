@@ -60,9 +60,9 @@ nav a {
   display: block;
 }
 #search-input {
-  float: left;
+  float: right;
   max-width: 33%;
-  text-align: right;
+  text-align: left;
   margin: 1px;
 }
 #content {
