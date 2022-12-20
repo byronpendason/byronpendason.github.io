@@ -8,7 +8,7 @@ categories: [Heathenry, heathen worldview, updates]
 
 *Wes hal!*[^3]
 
-An ally recently posted[^4] a video to her YouTube channel entitled *[Why Are Were Afraid to be Pagan?](https://youtu.be/KwrRdS5lzKo)* She poses some interesting questions, in an attempt to start a conversation on the matters in the video. Before getting into the video itself, though, let's talk about the author a little bit.
+An ally recently posted[^4] a video to her YouTube channel entitled *[Why Are We Afraid to be Pagan?](https://youtu.be/KwrRdS5lzKo)* She poses some interesting questions, in an attempt to start a conversation on the matters in the video. Before getting into the video itself, though, let's talk about the author a little bit.
 
 As a Hellenist, Aliakai bases her spirituality mainly upon the practices and gods of ancient Greece. She runs a [discord server](https://discord.gg/xeniabridge) called the Xenia Bridge that focuses on pagan allyship. Her server is allied with our Fyrnsidu server, and she's one of the few pagan YouTubers that hasn't, in my opinion, become a sellout. Her videos are a great resource. Even as a practitioner of Fyrnsidu, I've found her videos helpful. Since Hellenism is also Proto-Indo-European derived, most of the big idea concepts would apply to my praxis (for example, ritual cleanliness), whereas the details (which are generally historically derived) give me ideas on how to implement those concepts.
 
