@@ -1,10 +1,8 @@
-
 ---
 title: Farewell, Twitter! How to Follow Mine Wyrtruman
 author: Byron Pendason
 date: Tuesday, December 20, 2022
 layout: post
-published: false
 categories: [Heathenry, afterlife, anglo-saxon calendar, cosmology, heathen basics, heathen worldview, heathen worship, lgbt, myths, politics, rants, reconstruction, runes, tech, updates]
 ---
 
