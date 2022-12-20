@@ -1,4 +1,4 @@
-#Date:  2022-12-19 09:36:04  
+Date:  2022-12-19 09:36:04  
 Status: #fleeting  
 Tags: #philosophy #Stoicism #wisdom #justice #courage #moderation #Fyrnsidu 
 
