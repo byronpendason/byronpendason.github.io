@@ -6,9 +6,7 @@ published: false
 categories: [Heathenry, heathen worldview, updates]
 ---
 
-*Wes hal!*[^3]
-
-An ally recently posted[^4] a video to her YouTube channel entitled *[Why Are We Afraid to be Pagan?](https://youtu.be/KwrRdS5lzKo)* She poses some interesting questions, in an attempt to start a conversation on the matters in the video. Before getting into the video itself, though, let's talk about the author a little bit.
+*Wes hal!*[^3] An ally recently posted^4 a video to her YouTube channel entitled [Why Are We Afraid to be Pagan?](https://youtu.be/KwrRdS5lzKo) She poses some interesting questions, in an attempt to start a conversation on the matters in the video. Before getting into the video itself, though, let's talk about the author a little bit.
 
 As a Hellenist, Aliakai bases her spirituality mainly upon the practices and gods of ancient Greece. She runs a [discord server](https://discord.gg/xeniabridge) called the Xenia Bridge that focuses on pagan allyship. Her server is allied with our Fyrnsidu server, and she's one of the few pagan YouTubers that hasn't, in my opinion, become a sellout. Her videos are a great resource. Even as a practitioner of Fyrnsidu, I've found her videos helpful. Since Hellenism is also Proto-Indo-European derived, most of the big idea concepts would apply to my praxis (for example, ritual cleanliness), whereas the details (which are generally historically derived) give me ideas on how to implement those concepts.
 
@@ -24,11 +22,11 @@ As Aliakai points here, these terms are pretty vague in spite of their *very* co
 
 This paradigm was originally useful when it was introduced. It was a way to distinguish between what was historically attested and what was more modern. But it started doing more harm than good when self identified reconstructions started using the terms to judge the validity of ideas. "That UPG is nowhere to be found in the lore, so it's just a bunch of made up crap. This VPG *can* be found in the lore, so it's true. This SPG can't be found in the lore, but it seems to be pretty common so *maybe* there's *some* validity to it."
 
-Maybe it's because I'm in a tradition that has very little lore to begin with, but I don't think the lore should ever be considered on the level of holy scriptures. They were written by fallible humans who were expounding upon their ideas of the divine. It's only useful to tell us what *their* beliefs were. Paganism is meant to be a living spirituality, so it's going to evolve and change over time. This is perfectly historical, as we see this happening in all living religions. The lore should be the starting point, not the supreme authority. Even if everything in the lore was 100% truth when it was created, that 1000+ years ago. The gods may be immortal, but they're also real beings. Just like everything else, they can change with time. (Or at least, our perceptions of them can change, since we often interpret them through our cultural lenses. Whether the gods themselves can change is a matter of theology.)
+Maybe it's because I'm in a tradition that has very little lore to begin with, but I don't think the lore should ever be considered on the level that the world religions hold their holy scriptures to.  Paganism is meant to be a living spirituality, so it's going to evolve and change over time. This is perfectly historical, as we see this happening in all living religions. The lore should be the starting point, not the supreme authority. Even in traditions that teach that their lore is divinely inspired and contains essential truths, it must be kept in mind that they were recorded 1000-2500 years ago. Things change over time, and we humans have definitely changed over that time. Our relationships with the gods are bound to change due to that.
 
 ## Recon vs Eclecticism 
 
-For the first couple years of my Heathenry, I considered myself a Reconstructionist. But I began to notice the same problems that Aliakai points out in these videos. I'm going to be looking at this problem from the angle of one this main methodology is reconstructionism, since that's where I come from. I know people who use eclecticism, but I don't have a whole lot of experience in that department so I can't really speak on it from that angle.
+For the first couple years of my Heathenry, I considered myself a Reconstructionist. But I began to notice the same problems that Aliakai points out in these videos. I'm going to be looking at this problem from the angle of one whose main methodology is reconstructionism, since that's where I come from. I know people who use eclecticism, but I don't have a whole lot of experience in that department so I can't really speak on it from that angle.
 
 Let's define terms first. Reconstructionism is a methodology of starting with what we know about how a specific people in ancient times worshipped their gods, and building upon that to build one's spirituality. Eclecticism, on the other hand, freely borrows from many different cultures to build their spirituality. 
 
@@ -40,18 +38,18 @@ In essence, it's okay to rely mostly on one methodology or the other. What's not
 
 There are those who are greatly opposed to people mixing gods of different pantheons together. This viewpoint ignores the fact that this was a common practice in the ancient world. The Romans adopted gods from several different pantheons, including the Greeks, Mesopotamians, and Egyptians.
 
-Even the Heathens of ancient times did so. Ignoring the fact that some scholars speculate that the vanir were originally the gods of the pre-Indo-European peoples that the Germanics displaced[^1], we have more concrete examples. A really good example is Hercules. We have evidence of Germanic tribes alone the Rhine adopting Hercules under the name Hercules-Magusanus[^2]. It could be argued that the Old English 
+Even the Heathens of ancient times did so. Ignoring the fact that some scholars speculate that the vanir were originally the gods of the pre-Indo-European peoples that the Germanics displaced[^1], we have more concrete examples. A really good example is Hercules. We have evidence of Germanic tribes along the Rhine adopting Hercules under the name Hercules-Magusanus[^2]. It could be argued that the Old English 
 name for Hercules (*Ercol*) shows enough corruption from the Latin to show frequent enough usage to suggest that Hercules may have been worshipped by the Anglo-Saxon Heathens of ancient times. 
 
 The fact that Saturday in Old English maintains Saturn's name rather than taking the name of an Anglo-Saxon deity such as Ingui might indicate that the Anglo-Saxons worshipped Saturn. The Old English work(s) *Solomon and Saturn* might have been trying to pit the new god (championed by Solomon) against one of the old Anglo-Saxon gods.
 
-So it's not historical, but how can pantheon puritanism be a problem? The biggest problem is that people who practice it often use it as a litmus test against other pagans. They usually not only discourage it but often also denounce it. "He's not a *true* Heathen because he worships Hercules!" is something I've heard about a friend of mine who had syncretized Hercules into his practice.
+So pantheon puritanism was not historical, but how can it be a problem? The biggest problem is that people who practice it often use it as a litmus test against other pagans. They usually not only discourage it but often also denounce it. "He's not a *true* Heathen because he worships Hercules!" is something I've heard about a friend of mine who has syncretized Hercules into his practice.
 
 Another danger can be the same as with the other two subjects this video talks about: it can hold the worshipper back. What if a deity approached them that could be extremely helpful to them, but they reject that god on no other grounds but that he is from the wrong people's pantheon? Granted, consent is fundamental in any relationship. But if a deity is compatible with you in every other aspect except he's the wrong nationality, that can cause you to miss out on so much.
 
-## Conclusion
+## My Thoughts
 
-This video really caused me to think. Mainly because the kind of pagan that Aliakai is discussing in this video used to be me. By the grace of the gods and the guidance of my ancestors, I seem to have fallen into a group of friends that caused me to grow beyond these paradigms because they really were holding me back.
+This video really caused me to think. Mainly because the kind of pagan that Aliakai is discussing in this video used to be me. By the grace of the gods and the guidance of my ancestors, I seem to have fallen into a group of friends and allies that caused me to grow beyond these paradigms because they really were holding me back.
 
 What were your thoughts on the video? Feel free to leave your thoughts in the comments below, but more importantly you should share those thoughts with others in your pagan communities. Whether your agree or not on every point, I think this is a conversation worth having.
 
