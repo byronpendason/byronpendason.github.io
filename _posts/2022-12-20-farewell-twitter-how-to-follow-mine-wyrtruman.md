@@ -3,7 +3,7 @@ title: Farewell, Twitter! How to Follow Mine Wyrtruman
 author: Byron Pendason
 date: Tuesday, December 20, 2022
 layout: post
-categories: [Heathenry, afterlife, anglo-saxon calendar, cosmology, heathen basics, heathen worldview, heathen worship, lgbt, myths, politics, rants, reconstruction, runes, tech, updates]
+categories: [tech, updates]
 ---
 
 *Wes hāl!*[^1] Some of you who follow me on Twitter may have noticed my conspicuous absence. Twitter has become so toxic. Part of it, I'm sure, has been Elon Musk's acquisition of the platform. But to be honest, it's been this way for a long time. I've just failed to see it. Being betrayed by a couple of people I considered allies really opened my eyes to the way Twitter operates, and I don't want to have any part of it any longer. I've been a lot happier since deleting the app, and my mental health has gotten a lot better!
