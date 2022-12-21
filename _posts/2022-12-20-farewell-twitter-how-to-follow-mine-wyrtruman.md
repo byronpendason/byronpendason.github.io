@@ -12,7 +12,7 @@ So I'm deleting my Twitter account. I'll give it a couple days, so people who fo
 
 I usually post links to my blog posts to a couple of Discord servers I'm on. I even run my own with a couple friends. It's called *Polytheist Scholars & Nerds*. It's a server for polytheists (people who believe in many literal gods) who's hobbies and/or careers give them an interest in intellectual pursuits to get together and hang out. (The label *Scholar* is more aspirational and/or tongue in cheek for most of us! I'm definitely not a scholar, though many people have called me a nerd!) If this describes you, feel free to check it out at <https://discord.gg/ZuWv7fMHzj>!
 
-If you use an RSS reader, you can get notifications of any updates to my blog. Just add <https://www.minewyrtruman.com/feed.xml> to your RSS subscriptions! Bonus tip, you can add any WordPress site to your RSS feed by adding [blog-url]/feed.xml. For example, to add Beofeld's excellent blog [Wind in the Worldtree](https://windintheworldtree.wordpress.com), just add <https://windintheworldtree.wordpress.com/feed.xml> to your RSS subscriptions.
+If you use an RSS reader, you can get notifications of any updates to my blog. Just add <https://www.minewyrtruman.com/feed.xml> to your RSS subscriptions! Bonus tip, you can add any WordPress site to your RSS feed by adding `<blog-url>/feed.xml`. For example, to add Beofeld's excellent blog [Wind in the Worldtree](https://windintheworldtree.wordpress.com), just add <https://windintheworldtree.wordpress.com/feed.xml> to your RSS subscriptions.
 
 There's also the old fashioned way of checking the blog every so often for updates, but it's so easy to forget and miss new content. The next thing you know, you're so far behind. It's your choice though.
 
