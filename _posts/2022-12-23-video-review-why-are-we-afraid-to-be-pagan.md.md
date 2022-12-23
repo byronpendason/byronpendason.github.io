@@ -1,8 +1,7 @@
 ---
 title: "Video Review: Why Are We Afraid to be Pagan?"  
 author: Byron Pendason  
-date: 2022-12-22
-published: false
+date: 2022-12-23
 categories: [Heathenry, heathen worldview, updates]
 ---
 
