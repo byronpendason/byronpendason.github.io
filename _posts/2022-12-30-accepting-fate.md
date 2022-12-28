@@ -25,7 +25,7 @@ There's a reason he began his handbook on Stoicism with these words. It's becaus
 
 Which brings us back to accepting one's fate. If you accept that you do not, and that you cannot, control your Wyrd in it's entirety, then you have taken your first step to a life of peace, serenity, and happiness.
 
-It was a *aha!* moment for me when I realized this. So much of my unhappiness comes from my anger and resentment at the way others have treated me. These feelings are only natural, of course, but what do they do for me? Make me unhappy. It's better to treat each "negative" incident[^3] as a learning experience rather than to dwell on it and let unwanted emotions to take over.
+It was a *aha!* moment for me when I realized this. So much of my unhappiness comes from my anger and resentment at the way others have treated me. These feelings are only natural, of course, but what do they do for me? Make me unhappy. It's better to treat each "negative" incident[^3] as a learning experience rather than to dwell on it and let unwanted emotions to take over. I think every event has the potential to be a learning experience. Sometimes it's just *Sometimes bad things happen for no reason*. But more often than not, it's an opportunity to examine what actions ever done that played a part in the events so we know not to do that again in the future. For example, *I should have better insulated my house so that it's not freezing cold when a blizzard hits*. Or *That person betrayed me. I should be more careful in who I put my trust in*.
 
 So, what's your thoughts on Stoicism and/or accepting fate? Are there other areas of philosophy that you'd like me to give my views on? Sound off in the comments below 👇
 
@@ -37,4 +37,4 @@ So, what's your thoughts on Stoicism and/or accepting fate? Are there other area
 
 [^2]: In including here not just the actual founder of Stoicism (Zeno of Citium) but also the first couple generations after him since Chrysippus (one of his successors) seems to have had just as much influence on the shaping of the school as Zeno did.
 
-[^3] Stoicism also teaches us to not things as "good" or "bad", as everything has it's positive and negative effects. But that is, perhaps, a subject for another blog post.
+[^3]: Stoicism also teaches us to not things as "good" or "bad", as everything has it's positive and negative effects. But that is, perhaps, a subject for another blog post.
