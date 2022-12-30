@@ -6,8 +6,6 @@ layout: post
 categories: [Heathenry, heathen worldview, philosophical musings, stoicism]
 ---
 
-# Accepting Fate
-
 *Wes hāl!*[^1] As I mentioned in a previous post, I've been studying philosophy lately. Stoicism, to be precise. An important concept of Stoicism is the idea of accepting one's fate and not fighting against it. People familiar with Heathenry may know that in Heathenry, it is generally thought that our *Wyrd* (the Heathen concept of fate) is not predetermined nor is it pre-ordained by some god. So, how can we translate this idea of *accepting fate* to Heathenry?
 
 Stoicism is a product of the Hellenic and Roman eras. As these are separate branches of the Proto-Indo-European tree from the Anglo-Saxons, a lot of the concepts will apply but some will not. As Stoicism has translated to modern culture in such a remarkable fashion though, I think it's fair to say that it's concepts are more easily translatable to other cultures than some other visual philosophies. The reason for this, I think, is that Stoicism is mostly based around practicality and ethics. It had cosmology, of course, and the founders of Stoicism[^2] thought it was just as important as ethics. Later generations seemed to have disagreed to some extent though, as they almost never mention metaphysics/cosmology and provided support for their philosophy more on grounds that we today would identify as empirical. Modern Stoicism is more about being a philosophy of life than it is about telling us how the universe works.
