@@ -3,8 +3,7 @@ title: Accepting Fate
 author: Byron Pendason
 date: Wednesday, December 30, 2022
 layout: post
-published: false
-categories: [Heathenry, heathen worldview, philosophy]
+categories: [Heathenry, heathen worldview, philosophical musings, stoicism]
 ---
 
 # Accepting Fate
@@ -21,11 +20,13 @@ The famous Stoic Epictetus began his *Enchilridion* (meaning "Handbook") with th
 
 > There are things which are within our power, and there are things which are beyond our power. Within our power are opinion, aim, desire, aversion, and, in one word, whatever affairs are our own. Beyond our power are body, property, reputation, office, and, in one word, whatever are not properly our own affairs.
 
-There's a reason he began his handbook on Stoicism with these words. It's because it's the foundation upon which an understanding of Stoicism is built. The serenity and happiness (the *apatheia*) that Stoicism offers cannot be achieved without learning to distinguish between that which is not in our control and that which is, and accepting that fact.
+There's a reason he began his handbook on Stoicism with these words. It's because it's the foundation upon which an understanding of Stoicism is built. Like our Wyrd, the examples Epictetus gives as *beyond our power* are things in which we can control aspects of, but which ultimately are beyond our control. We can choose what to do with our bodies, but they still fail us at times regardless of how well we take care of them. We can only control our own property to the degree that it's within our power to with our limited resources. Our actions contribute to our reputation, but bad actors can still spread lies about us that nonetheless affects our reputation. Basically, we should do what we can to take care of these things but not worry about them beyond that.
+
+The serenity and happiness (the *apatheia*) that Stoicism offers cannot be achieved without learning to distinguish between that which is not in our control and that which is, and accepting that fact.
 
 Which brings us back to accepting one's fate. If you accept that you do not, and that you cannot, control your Wyrd in it's entirety, then you have taken your first step to a life of peace, serenity, and happiness.
 
-It was a *aha!* moment for me when I realized this. So much of my unhappiness comes from my anger and resentment at the way others have treated me. These feelings are only natural, of course, but what do they do for me? Make me unhappy. It's better to treat each "negative" incident[^3] as a learning experience rather than to dwell on it and let unwanted emotions to take over. I think every event has the potential to be a learning experience. Sometimes it's just *Sometimes bad things happen for no reason*. But more often than not, it's an opportunity to examine what actions ever done that played a part in the events so we know not to do that again in the future. For example, *I should have better insulated my house so that it's not freezing cold when a blizzard hits*. Or *That person betrayed me. I should be more careful in who I put my trust in*.
+It was an *aha!* moment for me when I realized this. So much of my unhappiness comes from my anger and resentment at the way others have treated me. These feelings are only natural, of course, but what do they do for me? Make me unhappy. It's better to treat each "negative" incident[^3] as a learning experience rather than to dwell on it and let unwanted emotions to take over. I think every event has the potential to be a learning experience. Sometimes the lesson is just *Sometimes bad things happen for no reason*. But more often than not, it's an opportunity to examine what actions we've done that played a part in the events so we know not to do that again in the future. For example, *I should have better insulated my house so that it's not freezing cold when a blizzard hits*. Or *That person betrayed me. I should be more careful who I put my trust in*.
 
 So, what's your thoughts on Stoicism and/or accepting fate? Are there other areas of philosophy that you'd like me to give my views on? Sound off in the comments below 👇
 
