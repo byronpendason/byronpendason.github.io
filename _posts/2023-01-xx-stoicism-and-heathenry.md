@@ -1,5 +1,5 @@
 ---
-title:
+title: Stoicism and Heathenry
 author: Byron Pendason
 date: Tuesday, January 03, 2023
 layout: post
