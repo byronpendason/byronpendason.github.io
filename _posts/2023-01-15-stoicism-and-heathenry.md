@@ -1,9 +1,8 @@
 ---
 title: Stoicism and Heathenry
 author: Byron Pendason
-date: Tuesday, January 03, 2023
+date: Tuesday, January 15, 2023
 layout: post
-published: false
 categories: [Heathenry, philosophical musings, reconstruction, runes, stoicism]
 ---
 
