@@ -3,7 +3,7 @@ title: Stoicism and Heathenry
 author: Byron Pendason
 date: Tuesday, January 15, 2023
 layout: post
-categories: [Heathenry, philosophical musings, reconstruction, runes, stoicism]
+categories: [Heathenry, philosophical musings, reconstruction, stoicism]
 ---
 
 *Wes hāl!*[^1] I have recently become a student of Stoicism, but as I said in [my last blog post](https://www.minewyrtruman.com/2022/12/30/accepting-fate/) Stoicism is not a Germanic philosophy. It was born in the Hellenic world, and was later adopted by the Romans. In this blog post, I want to discuss the relationship between Stoicism and Heathenry. What are the similarities, the differences, and are they even compatible? So let's dive in!
