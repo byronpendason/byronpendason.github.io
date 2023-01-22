@@ -66,8 +66,9 @@ Upon hearing about my Stoicism, several people have asked me how the Cardinal Vi
 
 My day to day life is a different story. There's several areas of my life that I've realized have been contrary to the virtues. Particularly those related to the virtue of prudence. As an example, I've been overly argumentative online since the early days of my Heathenry (I chalk it up mainly to over zealousness), but pointless arguments are something that many philosophers have taught against. It's not prudent to waste precious time on arguments that aren't going to accomplish anything. It's also not fair to my loved ones who deserve my time more than strangers on the Internet. I still fall prey to it sometimes, but less often than I used to.
 
-I try to spend the time from when I lay my head down on my pillow to when I actually fall asleep thinking about my day, about the ways I did not live up to my virtues, and the ways that I can do better next time a similar situation arises. Self reflection is an important virtue ethics. I'm not perfect, and I'm not likely to ever be perfect. But life is about improvement, not perfection, and living with the consequences of the times that we do fail.
+I try to spend the time from when I lay my head down on my pillow to when I actually fall asleep thinking about my day, about the ways I did not live up to my virtues, and the ways that I can do better next time a similar situation arises. Self reflection is an important aspect of virtue ethics. I'm not perfect, and I'm not likely to ever be perfect. But life is about improvement, not perfection, and living with the consequences of the times that we do fail.
 
-So, dear readers, what's your thoughts? What's your system of ethics based upon? Feel free to let me know in the comments below! AaUntil next time, *beo gesund!*[^1]
+So, dear readers, what's your thoughts? What's your system of ethics based upon? Feel free to let me know in the comments below! Until next time, *beo gesund!*[^1]
 
 [^1]: *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
+
