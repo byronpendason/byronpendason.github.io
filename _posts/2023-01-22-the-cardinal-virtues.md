@@ -3,8 +3,7 @@ title: The Cardinal Virtues
 author: Byron Pendason
 date: Sunday, January 22, 2023
 layout: post
-published: false
-categories: [Heathenry, philosophical musings reconstruction, stoicism]
+categories: [Heathenry, philosophical musings, reconstruction, stoicism]
 ---
 
 *Wes hāl!*[^1] One of the things that Heathenry lacks is a definitive cohesive theory on ethics. The reason for this is due to its tendency to be based upon reconstructionist methodology, and the fact is that no records from the pre-Christian Heathens survive. The closest we have is parts of the Poetic Edda, but even that comes to us from the Christians that wrote it down and probably modified it to better fit their worldview.
