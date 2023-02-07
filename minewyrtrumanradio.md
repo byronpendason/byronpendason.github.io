@@ -16,5 +16,9 @@ You can leave feedback at <https://anchor.fm/byron-pendason/message> and you can
 
 - [Anchor](https://anchor.fm/byron-pendason)
 - [Spotify](https://open.spotify.com/show/2uk8uf9oDEijwyIG8psZEz?si=33rj1B8YTOSGJuGI923hzw)
-- [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9kYTEzYTQ5MC9wb2RjYXN0L3Jzcw?ep=14)
+- [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9kYTEzYTQ5MC9wb2RjYXN0L3Jzcw)[^1]
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/mine-wyrtruman-radio/id1670200535)
+
+- - -
+
+[^1]: I hesitated to put Google Podcasts on this list because it's frequently outdated, sometimes being several days behind. I ***highly*** recommend using one of the other three platforms to listen to this podcast.
