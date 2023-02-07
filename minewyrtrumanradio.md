@@ -10,7 +10,7 @@ permalink: /minewyrtrumanradio
 
 *Mine Wyrtruman Radio* is the accompanying podcast to [Mine Wyrtruman](https://www.minewyrtruman.com) website. It is dedicated to the exploration, discussion, and promotion of Fyrnsidu (Anglo-Saxon Heathenry/Paganism). Each day, I will have a short episode that gives the date on the Anglo-Saxon calendar and a quote to ponder from the Old English Corpus. Occasionally, there will be news that may be of interest to Fyrnsideras. Additionally, I will be providing longer content once or twice a month. 
 
-You can leave feedback at https://anchor.fm/byron-pendason/message and support this podcast by going to https://anchor.fm/byron-pendason/support.
+You can leave feedback at <https://anchor.fm/byron-pendason/message> and you can support this podcast by going to <https://anchor.fm/byron-pendason/support>.
 
 ## Where to Listen
 
