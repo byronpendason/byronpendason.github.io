@@ -23,6 +23,6 @@ I will not be providing any justifications of these beliefs, as I'm trying to sh
 - The rhythms and cycles of nature are an integral part of the cosmic order, and this was reflected in the Anglo-Saxon calendar. I honour my ancestors and this fundamental belief of theirs in the cosmic order by following the calendar they did to the best that can be done so. This calendar is balanced between two seasons: winter and summer, and consists of twelve lunar months with an extra lunar months added every 2-3 years to keep the solar and lunar cycles aligned.
 - A big part of living in accordance with prudence is recognising that which is in our control and that which is not, and focusing our energy upon those things that are within our control. Focusing on that which is not within our controls leads to anxiety and frustration, but focusing on the things we do control leads to self-improvement and can lead to serenity.
 
-Well, I think that about covers what I would consider the fundamentals of my personal faith. So until next time, *beo gesund!^1
+Well, I think that about covers what I would consider the fundamentals of my personal faith. So until next time, *beo gesund!*[^1]
 
 [^1]: *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
