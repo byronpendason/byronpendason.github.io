@@ -8,7 +8,7 @@ categories: [Heathenry, anglo-saxon calendar, heathen basics, heathen worldview]
 
 *Wes hāl!*[^1] It occurred to me today they I never created a blog post about my podcast. It's been going for a little over a month, so I'm overdue for an official announcement, I suppose.
 
-The Podcast is called *Mine Wyrtruman Radio*. I have a page on it on this blog, so for more information and to find out where to listen go to <https://www.MineWyryruman.com/MineWyrtrumanRadio>!
+The Podcast is called *Mine Wyrtruman Radio*. I have a page on it on this blog, so for more information and to find out where to listen go to <https://www.MineWyrtruman.com/MineWyrtrumanRadio>!
 
 *Beo gesund!*[^1]
 
