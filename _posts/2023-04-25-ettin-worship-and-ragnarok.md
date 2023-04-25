@@ -3,7 +3,7 @@ title: Ettin Worship and Ragnarok
 author: Byron Pendason
 date: Tuesday, April 25, 2023
 layout: post
-categories: [Heathenry, cosmology, heathen worldview, heathen worship, lgbt, myths, rants, reconstruction, updates]
+categories: [Heathenry, cosmology, heathen worldview, heathen worship, myths, rants, reconstruction, updates]
 ---
 
 *Wes hāl!*[^1] It's been a whirlwind of a week. A lot of accusations have emerged about the Fyrnsidu server. Most of these accusations have been dealt with (the tldr of it is that they were all false accusations, based upon a mix of straight up lies and half-truths lacking context), but there's one accusation that I haven't seen addressed. We were accused of believing that ettin worship will cause Ragnarok.
