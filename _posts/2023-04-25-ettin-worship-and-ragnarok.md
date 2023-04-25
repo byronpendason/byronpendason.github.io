@@ -3,7 +3,6 @@ title: Ettin Worship and Ragnarok
 author: Byron Pendason
 date: Tuesday, April 25, 2023
 layout: post
-published: false
 categories: [Heathenry, cosmology, heathen worldview, heathen worship, lgbt, myths, rants, reconstruction, updates]
 ---
 
