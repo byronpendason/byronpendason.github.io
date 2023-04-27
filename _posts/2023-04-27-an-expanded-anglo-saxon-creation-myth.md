@@ -3,7 +3,6 @@ title: An Expanded Anglo-Saxon Creation Myth
 author: Byron Pendason
 date: Wednesday, April 27, 2023
 layout: post
-published: false
 categories: [Heathenry, myths, reconstruction]
 ---
 
