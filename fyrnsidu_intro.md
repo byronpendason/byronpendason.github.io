@@ -10,116 +10,87 @@ permalink: /fyrnsidu_intro/
 by Byron Pendason
 
 ---
-
-## Fyrnsidu
+# Introduction to Fyrnsidu
+by Byron Pendason
+---
+# Fyrnsidu
 
 **Fyrnsidu** is a *modern* religion based upon the pre-Christian spirituality of the Anglo-Saxons.
 
 I will be describing my interpretation of Fyrnsidu in this presentation. It is not the only interpretation of Fyrnsidu.
-
 ---
-
-## Etymology
+# Etymology
 
 *Fyrnsidu* is a combination of two Old English words.
 
 - **fyrn** *Ancient, old*
-
 - **sidu** *A custom, use, manner, habit, practice*
 
 Source: Bosworth, Joseph. *An Anglo-Saxon Dictionary Online*, edited by Thomas Northcote Toller, Christ Sean, and Ondřej Tichy. Prague: Faculty of Arts, Charles University, 2014. <https://bosworthtoller.com>.
-
 ---
-
-## Fyrnsidu literally means *ancient custom* in Old English
+# Fyrnsidu literally means *ancient custom* in Old English
 
 It is the Old English cognate of *Forn Sidr*.
 
 Fyrnsidu is reconstructed from what we know about the spirituality of the pre-Christian Anglo-Saxons. A practioner is called a *Fyrnsidere* (plural: *Fyrnsideras*) or an *Anglo-Saxon Heathen/Pagan*.
-
 ---
-
-## Who were the Anglo-Saxons?
+# Who were the Anglo-Saxons?
 
 The Anglo-Saxons were Germanic tribes who migrated to Britain after the Roman Empire abandoned Britain in the early to mid-fifth century CE. They established several kingdoms in Britain. The first of these kingdoms (Kent) was established by **Hengist** in 455 CE.
 
 The Anglo-Saxons brought a Germanic religion to Britain that was similar to that of the ancient Norse. This religion continued to be followed for about two centuries.
-
 ---
-
-## Conversion to Christianity
+# Conversion to Christianity
 
 The Gregorian Mission was established in 596 CE by Pope Gregory the Great. It was led by **Augustine of Canterbury** with the aim to convert the Anglo-Saxons to Christianity.
 
 **Æthelberht** was the first Anglo-Saxon king to convert in about 600 CE (the exact date is unknown). The rest of the Anglo-Saxon kingdoms converted in quick succession. This process was briefly stalled by **Penda of Mercia**, but his death in 655 CE is often seen as the death of Anglo-Saxon Heathenry in Britain. The last Heathen king of the Anglo-Saxons was **Arwald**, the last king of the Isle of Wight. He died in 686 CE.
-
 ---
-
-## Polytheism
+# Polytheism
 
 Fyrnsidu is a polytheistic religion. This means they believed in many gods.
 
 Many of the Anglo-Saxon gods are held in common with the Norse. These include:
 
 - Sunne (Sunna)
-
 - Mona (Mani)
-
 - Tiw (Tyr)
-
 - Woden (Odin)
-
 - Thunor/Thur (Thor)
-
 - Frig (Frigg)
-
 - Ing/Ingui (Yngvi-Freyr)
-
 - Baldæg (Baldur)
-
 - Hell (Hel)
 
 The following gods do not have definite Norse counterparts:
 
 - Hrethe (victory goddess)
-
 - Eostre (dawn goddess)
-
 - Beowa (grain/barley god)
-
 - Seaxneat ("knife friend", possibly another name of Tiw)
-
 - Eorthe/Folde (Earth goddess)
 
 Notably absent from most Fyrnsideras practice are Norse gods for whom there is no attestation in Old English sources, such as Loki and Freyja.
-
 ---
-
-## Cosmology
+# Cosmology
 
 A *god* is a cosmic being that maintains the *cosmic order*. The universe was created when the gods brought order to the *cosmic chaos* that preceded everything else. *Ettins* (from the Old English word *eotenas*, generally translated as *giants* or *monsters*) are the cosmic beings that the gods descended from who oppose the cosmic order.
 
 Cosmic order and cosmic chaos is different from mundane order and chaos. Cosmic order is the balance of opposing forces that allows life to exist, thrive, and grow. Cosmic chaos is the state of the universe that preceded the cosmic order. It is generally interpreted as either a vast nothingness or as a formless mass of matter that had no shape or structure.
-
 ---
-
-## Ancestors
+# Ancestors
 
 In addition to the gods, Fyrnsideras also revere their ancestors and the wights who inhabit the world around us.
 
 *The ancestors* are the deceased who are responsible for a person being who they are. This includes one's biological ancestors as well as spiritual forbearers (the Heathen Anglo-Saxons of the pre-Christian era, for example). This could also include deceased mentors and historical figures that the practioner reveres. For people who were adopted, this also includes the ancestors of their adopted family.
-
 ---
-
-## Wights
+# Wights
 
 A *wiht* was a generic term in Old English for spirits or beings with a spirit (including humans). In the context of Fyrnsidu, though, it almost always refers to spirits who don't fit under the categories of *god*, *ettin*, or *ancestor*. There are both good wights and bad wights. As wight is a generic catch all term for spirits who aren't gods, ettins, or ancestors, most of these wights also have other terms that describe them.
 
 In the context of worship, a wight will usually be an elf. Elves are nature spirits who can be thought of as local deities of geographic regions and/or geologic features. Their scopes are much more limited than that of gods or ancestors. As nature spirits, they are generally neutral towards humans unless befriended or provoked.
-
 ---
-
-## The Gifting Cycle
+# The Gifting Cycle
 
 The most common ritual in Fyrnsidu is *an offering* to one or more of the divine beings. This is how Fyrnsideras build relationships with the divine beings. A gift will usually be given in gratitude for blessings received or to ask for blessings.
 
@@ -128,23 +99,17 @@ The practice of offerings is based upon the gifting cycle. Like most (if not all
 The divine beings always have the option of refusing an offering, but if they accept a gift they will repay it with a gift of their own. Likewise, blessings from the divine beings should be repaid with an offering.
 
 "A gift for a gift" is a common liturgical phrase in rituals in Fyrnsidu for this reason.
-
 ---
-
-## For More Information
+# For More Information
 
 The best beginner's resource for Fyrnsidu is [Fyrnsidu.faith](https://fyrnsidu.faith/) website. 
 
 In addition, there are several blogs that explore Fyrnsidu. These include:
 
 - **Wind in the Worldtree** https://windintheworldtree.wordpress.com/
-
 - **Seolfor Cwylla Heorþ** https://seolforcwyllaheorth.wordpress.com/
-
 - **Mine Wyrtruman** https://minewyrtruman.com/
-
 - **Larhus Fyrnsida** https://larhusfyrnsida.com/
-
 - **Of Axe and Plough** https://axeandplough.com/
 
 There is also a Discord server dedicated to Fyrnsidu, which can be found at https://discord.gg/FcWzbeB, and a Facebook group which can be found at https://www.facebook.com/groups/Fyrnsidu/
