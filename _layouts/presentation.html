@@ -25,11 +25,19 @@
         font-family: 'Yanone Kaffeesatz';
         font-weight: normal;
         color: darkred;
-        text-decoration: underline;
+        font-variant-caps: small-caps;
       }
       
       ul {
-        list-style-position: inside;
+        list-style-type: none;
+      }
+      
+      li::after { 
+        content: " \2022";
+      }
+      
+      li::before {
+        content: "\2022 ";
       }
       
       .remark-code, .remark-inline-code {
