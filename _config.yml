@@ -52,10 +52,10 @@ defaults:
 header_pages:
   - title: Home
     url: /
+  - title: Introduction to Fyrnsidu
+    url: /fyrnsidu_intro/
   - title: Blog
     url: /blog
-  - title: Mine Wyrtruman Radio
-    url: /minewyrtrumanradio
   - title: Glossary and Resources for Beginners
     url: /glossary
   - title: The Reconstructed Anglo-Saxon Calendar
