@@ -39,7 +39,7 @@ sitemap:
 <form>
 	<button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels and Notes</button>
 	<input type="checkbox" id="fontcb" name="fontcb" value="Use normal font" onchange=changeFont()>
-	<label for="fontcb">Use normal font</label>
+	<label for="fontcb">Use modern font</label>
 </form>
 <div id="levels" style="display: none;text-align: justify;text-justify: inter-word;">
 	<h2>Levels</h2>
@@ -58,6 +58,7 @@ sitemap:
 		<li>This webapp teaches my system for writing in Anglo-Saxon runes, which relies upon using modern spelling rather than being phonetic.</li>
 		<li>When starting a new level, I recommend using the above chart for the first few rounds. Do not move on to the next level though until you can get 100% on the current level without guessing or checking the above chart.</li>
 		<li>If you want to learn to write in the runes phonetically, learn first how to write modern English using <a href="https://en.m.wikipedia.org/wiki/Old_English_phonology">Old English phonology</a>. Then use the above system for writing the runes using Old English spelling.</li>
+		<li>By default, this webapp uses the Junicode font. This font makes runes look more historically accurate, and easier to copy by hand. If you prefer, you can use a font that makes the runes look more like what you're likely to find on electronic devices (many of the runes will be more rounded) by checking the ckeckbox above.</li>
 	</ul>
 </div>
 
@@ -82,7 +83,7 @@ sitemap:
 		if (document.getElementById("fontcb").checked) {
 			document. getElementById("content").style.fontFamily = "Arial,serif";
 		} else {
-			document. getElementById("content").style.fontFamily = "Junicode,sans-serif";
+			document. getElementById("content").style.fontFamily = "Junicode,serif";
 		}
 	}
 	
