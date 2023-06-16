@@ -8,8 +8,14 @@ sitemap:
 ---
 
 <h1>Learn the Futhorc Runes!</h1>
-<select name="level" id="level" style="text-align: center; width: 100%;">
-	<option value="lvl1">Level 1</option>
+<select name="level" id="level" style="text-align: center; width: 100%;" onchange=changeLevel()>
+	<option value=1>Level 1</option>
+	<option value=2>Level 2</option>
+	<option value=3>Level 3</option>
+	<option value=4>Level 4</option>
+	<option value=5>Level 5</option>
+	<option value=6>Level 6</option>
+	<option value=7>Common Words</option>
 </select>
 
 <h2 id="rune" style="text-align: center"></h3>
@@ -18,10 +24,16 @@ sitemap:
 </form>
 
 <button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels</button>
-<div id="levels" style="display: none;">
+<div id="levels" style="display: none;text-align: justify;text-justify: inter-word;">
 	<h2>Levels</h2>
 	<ol id="lvlList">
-		<li>ᚦ=th ᛝ=ng ᛥ=st ᚫ=ae ᛠ=ea ᛟ=ee ᛇ=eo ᛡ=io</li>
+		<li>ᚦ=th &nbsp; ᛝ=ng &nbsp; ᛥ=st &nbsp; ᚫ=ae &nbsp; ᛠ=ea &nbsp; ᛟ=ee &nbsp; ᛇ=eo &nbsp; ᛡ=io</li>
+		<li>ᛖ=e &nbsp; ᛏ=t &nbsp; ᚪ=a &nbsp; ᛁ=i &nbsp; ᚩ=o </li>
+		<li>ᚾ=n &nbsp; ᛋ=s &nbsp; ᚻ=h &nbsp; ᚱ=r &nbsp; ᛞ=d </li>
+		<li>ᛚ=l &nbsp; ᚳ=c &nbsp; ᚢ=u,v &nbsp; ᛗ=m &nbsp; ᚹ=w </li>
+		<li>ᚠ=f &nbsp; ᚷ=g &nbsp; ᚣ=y &nbsp; ᛈ=p &nbsp; ᛒ=b </li>
+		<li>ᛣ=k &nbsp; ᛄ=j &nbsp; ᛉ=x &nbsp; ᛢ=q &nbsp; ᚴ=z </li>
+		<li>Twenty common words (will be different each time)</li>
 	</ol>
 </div>
 
@@ -45,20 +57,24 @@ sitemap:
 	function checkAnswer(btnId) {
 		let btn = document.getElementById(btnId);
 		
-		if (btn.textContent == english[index]) {
+		if (btn.textContent == letters[index]) {
 			correct++;
+			runes.splice(index, 1);
+			letters.splice(index, 1);
 			btn.style.backgroundColor = "#00ff00";
 		} else {
 			incorrect++;
 			btn.style.backgroundColor = "#ff0000";
-			let wrong = runes[index] + " = " + english[index];
+			let wrong = runes[index] + " = " + letters[index];
 			if (wrongRunes.includes(wrong) == false) {
 				wrongRunes.push(wrong);
-				console.log(wrongRunes);
+			} else {
+				runes.splice(index, 1);
+				letters.splice(index, 1);
 			}
 		}
 		
-		if (correct + incorrect == 10) {
+		if (runes.length == 0) {
 			let score = Math.floor(correct / (correct + incorrect) * 100);
 			correct = 0;
 			incorrect = 0;
@@ -68,7 +84,7 @@ sitemap:
 			}
 			
 			if (wrongRunes.length > 0) {
-				console.log("Yep!");
+				
 				let header = document.createElement("h3");
 				header.textContent = "Incorrect answers:";
 				document.getElementById("choices").appendChild(header);
@@ -85,6 +101,8 @@ sitemap:
 				createForm();
 			}
 			wrongRunes = [];
+			runes = all_runes.slice(0, length);
+			letters = all_letters.slice(0, length);
 			document.getElementById("choices").appendChild(btn);
 			document.getElementById("rune").textContent = "Score: " + score.toString() + "%";
 		} else {
@@ -97,14 +115,17 @@ sitemap:
 		while (form.firstChild) {
 			form.removeChild(form.lastChild);
 		}
-		runes = level1_runes;
-		english = level1_english;
 		rune = runes.random();
-		var answers = getRandomSubarray(english, 4);
+		if (letters.length > 3) {
+			answers = getRandomSubarray(letters, 4);
+		} else if (level < 7) {
+			answers = getRandomSubarray(all_letters, 4);
+		}
+		
 		index = runes.indexOf(rune);
-		if (answers.includes(english[index]) == false) {
+		if (answers.includes(letters[index]) == false) {
 			var x = Math.floor(Math.random() * 4);
-			answers[x] = english[index];
+			answers[x] = letters[index];
 		}
 		
 		for (let i = 0; i < 4; i++) {
@@ -134,17 +155,45 @@ sitemap:
     	}
     	return shuffled.slice(0, size);
 }
+
+	function changeLevel() {
+		level = document.getElementById("level").value;
+		if (level < 7) {
+			length = 8 + (level - 1);
+			runes = [];
+			runes = all_runes.slice(0, length);
+			letters = [];
+			letters = all_letters.slice(0, length);
+		} else {
+			runes = [];
+			letters = []
+			length = 20;
+			runes = getRandomSubarray(rune_words, length);
+			for (let i = 0; i < runes.length; i++) {
+				index = rune_words.indexOf(runes[i]);
+				letters.push(english_words[index]);
+			}
+		}
+		correct = 0;
+		incorrect = 0;
+		createForm();
+	}
 	
 	var correct = 0;
 	var incorrect = 0;
+	var length = 8;
 	var wrongRunes = [];
-	const level1_english = "th ng st ae ea ee eo io".split(" ");
-	const level1_runes = "ᚦ ᛝ ᛥ ᚫ ᛠ ᛟ ᛇ ᛡ".split(" ");
-	var runes = [];
-	var english = [];
+	const all_letters = "th ng st ae ea ee eo io e t a i o n s h r d l c u,v m w f g y p b k j x q z".split(" ");
+	const all_runes = "ᚦ ᛝ ᛥ ᚫ ᛠ ᛟ ᛇ ᛡ ᛖ ᛏ ᚪ ᛁ ᚩ ᚾ ᛋ ᚻ ᚱ ᛞ ᛚ ᚳ ᚢ ᛗ ᚹ ᚠ ᚷ ᚣ ᛈ ᛒ ᛣ ᛄ ᛉ ᛢ ᚴ".split(" ");
+	const english_words = "the be to of and in that have it for not on with he as you do at this but his by from they we say her she or an will my one all would there their what so up out if about who".split(" ");
+	const rune_words = "ᚦᛖ ᛒᛖ ᛏᚩ ᚩᚠ ᚪᚾᛞ ᛁᚾ ᚦᚪᛏ ᚻᚪᚢᛖ ᛁᛏ ᚠᚩᚱ ᚾᚩᛏ ᚩᚾ ᚹᛁᚦ ᚻᛖ ᚪᛋ ᚣᚩᚢ ᛞᚩ ᚪᛏ ᚦᛁᛋ ᛒᚢᛏ ᚻᛁᛋ ᛒᚣ ᚠᚱᚩᛗ ᚦᛖᚣ ᚹᛖ ᛋᚪᚣ ᚻᛖᚱ ᛋᚻᛖ ᚩᚱ ᚪᚾ ᚹᛁᛚᛚ ᛗᚣ ᚩᚾᛖ ᚪᛚᛚ ᚹᚩᚢᛚᛞ ᚦᛖᚱᛖ ᚦᛖᛁᚱ ᚹᚻᚪᛏ ᛋᚩ ᚢᛈ ᚩᚢᛏ ᛁᚠ ᚪᛒᚩᚢᛏ ᚹᚻᚩ".split(" ");
+	
+	var runes = all_runes.slice(0, length);
+	var letters = all_letters.slice(0, length);
 	var index;
 	
 	var rune;
+	var answers = [];
 	createForm();
 	
 </script>
