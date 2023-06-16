@@ -88,6 +88,7 @@ sitemap:
 		
 		if (runes.length == 0) {
 			let score = Math.floor(correct / (correct + incorrect) * 100);
+			updateTable();
 			correct = 0;
 			incorrect = 0;
 			let form = document.getElementById("choices");
@@ -125,7 +126,6 @@ sitemap:
 			}
 			document.getElementById("choices").appendChild(btn);
 			document.getElementById("rune").textContent = "Score: " + score.toString() + "%";
-			updateTable();
 		} else {
 			setTimeout(createForm, 750);
 		}
