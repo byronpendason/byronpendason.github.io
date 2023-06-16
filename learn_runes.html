@@ -37,7 +37,7 @@ sitemap:
 <form id="choices">
 </form>
 
-<button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels</button>
+<button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels and Notes</button>
 <div id="levels" style="display: none;text-align: justify;text-justify: inter-word;">
 	<h2>Levels</h2>
 	<ol id="lvlList">
@@ -66,11 +66,11 @@ sitemap:
 	function toggleLevels() {
 		let btn = document.getElementById("toggleBtn");
 		let div = document.getElementById("levels");
-		if (btn.textContent == "Show Levels") {
-			btn.textContent = "Hide Levels";
+		if (btn.textContent == "Show Levels and Notes") {
+			btn.textContent = "Hide Levels and Notes";
 			div.style.display = "block";
 		} else {
-			btn.textContent = "Show Levels";
+			btn.textContent = "Show Levels and Notes";
 			div.style.display = "none";
 		}
 	}
