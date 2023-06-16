@@ -21,7 +21,7 @@ sitemap:
 		<td id="questionsLeft" style="text-align: center;">0</td>
 	</tr>
 </table>
-<select name="level" id="level" style="text-align: center; width: 100%;" onchange=changeLevel()>
+<select name="level" id="level" style="text-align: center; width: 100%; font_size: 1.5em; height: 2em;" onchange=changeLevel()>
 	<option value=1>Level 1</option>
 	<option value=2>Level 2</option>
 	<option value=3>Level 3</option>
@@ -32,7 +32,7 @@ sitemap:
 	<option value=8>Common Words</option>
 </select>
 
-<h2 id="rune" style="text-align: center;font-weight: normal;"></h3>
+<h2 id="rune" style="text-align: center;font-weight: normal;font-size: 3em;"></h3>
 
 <form id="choices">
 </form>
@@ -184,7 +184,8 @@ sitemap:
 			btn.type = "button";
 			btn.style.width = "100%";
 			btn.style.height = "2em";
-			btn.style.margin = "2px 0px";
+			btn.style.margin = "5px 0px";
+			btn.style.fontSize = "1.5em"
 			btn.onclick = function(event) {
 				checkAnswer(event.target.id);
 			};
