@@ -101,8 +101,16 @@ sitemap:
 				createForm();
 			}
 			wrongRunes = [];
-			runes = all_runes.slice(0, length);
-			letters = all_letters.slice(0, length);
+			if (level < 7) {
+				runes = all_runes.slice(0, length);
+				letters = all_letters.slice(0, length);
+			} else {
+				runes = getRandomSubarray(rune_words, length);
+				for (let i = 0; i < runes.length; i++) {
+					index = rune_words.indexOf(runes[i]);
+					letters.push(english_words[index]);
+				}
+			}
 			document.getElementById("choices").appendChild(btn);
 			document.getElementById("rune").textContent = "Score: " + score.toString() + "%";
 		} else {
@@ -185,9 +193,9 @@ sitemap:
 	var wrongRunes = [];
 	const all_letters = "th ng st ae ea ee eo io e t a i o n s h r d l c u,v m w f g y p b k j x q z".split(" ");
 	const all_runes = "ᚦ ᛝ ᛥ ᚫ ᛠ ᛟ ᛇ ᛡ ᛖ ᛏ ᚪ ᛁ ᚩ ᚾ ᛋ ᚻ ᚱ ᛞ ᛚ ᚳ ᚢ ᛗ ᚹ ᚠ ᚷ ᚣ ᛈ ᛒ ᛣ ᛄ ᛉ ᛢ ᚴ".split(" ");
-	const english_words = "the be to of and in that have it for not on with he as you do at this but his by from they we say her she or an will my one all would there their what so up out if about who".split(" ");
-	const rune_words = "ᚦᛖ ᛒᛖ ᛏᚩ ᚩᚠ ᚪᚾᛞ ᛁᚾ ᚦᚪᛏ ᚻᚪᚢᛖ ᛁᛏ ᚠᚩᚱ ᚾᚩᛏ ᚩᚾ ᚹᛁᚦ ᚻᛖ ᚪᛋ ᚣᚩᚢ ᛞᚩ ᚪᛏ ᚦᛁᛋ ᛒᚢᛏ ᚻᛁᛋ ᛒᚣ ᚠᚱᚩᛗ ᚦᛖᚣ ᚹᛖ ᛋᚪᚣ ᚻᛖᚱ ᛋᚻᛖ ᚩᚱ ᚪᚾ ᚹᛁᛚᛚ ᛗᚣ ᚩᚾᛖ ᚪᛚᛚ ᚹᚩᚢᛚᛞ ᚦᛖᚱᛖ ᚦᛖᛁᚱ ᚹᚻᚪᛏ ᛋᚩ ᚢᛈ ᚩᚢᛏ ᛁᚠ ᚪᛒᚩᚢᛏ ᚹᚻᚩ".split(" ");
-	
+	const english_words = "the be to of and in that have it for not on with he as you do at this but his by from they we say her she or an will my one all would there their what so up out if about who get which go me when make can like time no just him know take people into year your good some could them see other then than now look only come".split(" ");
+	const rune_words = "ᚦᛖ ᛒᛖ ᛏᚩ ᚩᚠ ᚪᚾᛞ ᛁᚾ ᚦᚪᛏ ᚻᚪᚢᛖ ᛁᛏ ᚠᚩᚱ ᚾᚩᛏ ᚩᚾ ᚹᛁᚦ ᚻᛖ ᚪᛋ ᚣᚩᚢ ᛞᚩ ᚪᛏ ᚦᛁᛋ ᛒᚢᛏ ᚻᛁᛋ ᛒᚣ ᚠᚱᚩᛗ ᚦᛖᚣ ᚹᛖ ᛋᚪᚣ ᚻᛖᚱ ᛋᚻᛖ ᚩᚱ ᚪᚾ ᚹᛁᛚᛚ ᛗᚣ ᚩᚾᛖ ᚪᛚᛚ ᚹᚩᚢᛚᛞ ᚦᛖᚱᛖ ᚦᛖᛁᚱ ᚹᚻᚪᛏ ᛋᚩ ᚢᛈ ᚩᚢᛏ ᛁᚠ ᚪᛒᚩᚢᛏ ᚹᚻᚩ ᚷᛖᛏ ᚹᚻᛁᚳᚻ ᚷᚩ ᛗᛖ ᚹᚻᛖᚾ ᛗᚪᛣᛖ ᚳᚪᚾ ᛚᛁᛣᛖ ᛏᛁᛗᛖ ᚾᚩ ᛄᚢᛥ ᚻᛁᛗ ᛣᚾᚩᚹ ᛏᚪᛣᛖ ᛈᛇᛈᛚᛖ ᛁᚾᛏᚩ ᚣᛠᚱ ᚣᚩᚢᚱ ᚷᚩᚩᛞ ᛋᚩᛗᛖ ᚳᚩᚢᛚᛞ ᚦᛖᛗ ᛋᛟ ᚩᚦᛖᚱ ᚦᛖᚾ ᚦᚪᚾ ᚾᚩᚹ ᛚᚩᚩᛣ ᚩᚾᛚᚣ ᚳᚩᛗᛖ".split(" ");
+	console.log(english_words.length + ", " +rune_words.length);
 	var runes = all_runes.slice(0, length);
 	var letters = all_letters.slice(0, length);
 	var index;
