@@ -18,7 +18,7 @@ sitemap:
 </form>
 
 <button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels</button>
-<div id="levels" style="visibility: hidden">
+<div id="levels" style="display: none;">
 	<h2>Levels</h2>
 	<ol id="lvlList">
 		<li>ᚦ=th ᛝ=ng ᛥ=st ᚫ=ae ᛠ=ea ᛟ=ee ᛇ=eo ᛡ=io</li>
@@ -32,13 +32,13 @@ sitemap:
 	
 	function toggleLevels() {
 		let btn = document.getElementById("toggleBtn");
-		var div = document.getElementById("levels");
+		let div = document.getElementById("levels");
 		if (btn.textContent == "Show Levels") {
 			btn.textContent = "Hide Levels";
-			div.style.visibility = "visible";
+			div.style.display = "block";
 		} else {
 			btn.textContent = "Show Levels";
-			div.style.visibility = "hidden";
+			div.style.display = "none";
 		}
 	}
 	
