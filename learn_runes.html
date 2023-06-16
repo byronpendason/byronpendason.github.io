@@ -27,7 +27,8 @@ sitemap:
 	<option value=4>Level 4</option>
 	<option value=5>Level 5</option>
 	<option value=6>Level 6</option>
-	<option value=7>Common Words</option>
+	<option value=7>All Runes Plus Punctuation</option>
+	<option value=8>Common Words</option>
 </select>
 
 <h2 id="rune" style="text-align: center"></h3>
@@ -45,6 +46,7 @@ sitemap:
 		<li>ᛚ=l &nbsp; ᚳ=c &nbsp; ᚢ=u,v &nbsp; ᛗ=m &nbsp; ᚹ=w </li>
 		<li>ᚠ=f &nbsp; ᚷ=g &nbsp; ᚣ=y &nbsp; ᛈ=p &nbsp; ᛒ=b </li>
 		<li>ᛣ=k &nbsp; ᛄ=j &nbsp; ᛉ=x &nbsp; ᛢ=q &nbsp; ᚴ=z </li>
+		<li>᛫=space &nbsp; ᛭=comma &nbsp; ᛬=end sentence (period, question mark, exclamation mark, etc)</li>
 		<li>Twenty common words (will be different each time)</li>
 	</ol>
 </div>
@@ -105,6 +107,21 @@ sitemap:
 				text.innerHTML = wrongRunes.join("<br>");
 				document.getElementById("choices").appendChild(text);
 			}
+			wrongRunes = [];
+			level = document.getElementById("level").value;
+			if (level < 7) {
+				runes = all_runes.slice(0, length);
+				letters = all_letters.slice(0, length);
+			} else if (level == 7) {
+				runes = all_runes;
+				letters = all_letters; 00
+			} else {
+				runes = getRandomSubarray(rune_words, length);
+				for (let i = 0; i < runes.length; i++) {
+					index = rune_words.indexOf(runes[i]);
+					letters.push(english_words[index]);
+				}
+			}
 			let btn = document.createElement('button');
 			btn.textContent = "Play again!";
 			btn.style.width = "100%";
@@ -113,17 +130,7 @@ sitemap:
 			btn.onclick = function() {
 				createForm();
 			}
-			wrongRunes = [];
-			if (level < 7) {
-				runes = all_runes.slice(0, length);
-				letters = all_letters.slice(0, length);
-			} else {
-				runes = getRandomSubarray(rune_words, length);
-				for (let i = 0; i < runes.length; i++) {
-					index = rune_words.indexOf(runes[i]);
-					letters.push(english_words[index]);
-				}
-			}
+			
 			document.getElementById("choices").appendChild(btn);
 			document.getElementById("rune").textContent = "Score: " + score.toString() + "%";
 		} else {
@@ -139,7 +146,9 @@ sitemap:
 		rune = runes.random();
 		if (letters.length > 3) {
 			answers = getRandomSubarray(letters, 4);
-		} else if (level < 7) {
+		} else if (level == 8) {
+			answers = getRandomSubarray(english_words, 4);
+		} wise {
 			answers = getRandomSubarray(all_letters, 4);
 		}
 		
@@ -185,9 +194,14 @@ sitemap:
 			runes = all_runes.slice(0, length);
 			letters = [];
 			letters = all_letters.slice(0, length);
+		} else if (level == 7) {
+			runes = [];
+			letters = [];
+			runes = all_runes;
+			letters = all_letters;
 		} else {
 			runes = [];
-			letters = []
+			letters = [];
 			length = 20;
 			runes = getRandomSubarray(rune_words, length);
 			for (let i = 0; i < runes.length; i++) {
@@ -210,8 +224,8 @@ sitemap:
 	var incorrect = 0;
 	var length = 8;
 	var wrongRunes = [];
-	const all_letters = "th ng st ae ea ee eo io e t a i o n s h r d l c u,v m w f g y p b k j x q z".split(" ");
-	const all_runes = "ᚦ ᛝ ᛥ ᚫ ᛠ ᛟ ᛇ ᛡ ᛖ ᛏ ᚪ ᛁ ᚩ ᚾ ᛋ ᚻ ᚱ ᛞ ᛚ ᚳ ᚢ ᛗ ᚹ ᚠ ᚷ ᚣ ᛈ ᛒ ᛣ ᛄ ᛉ ᛢ ᚴ".split(" ");
+	const all_letters = "th ng st ae ea ee eo io e t a i o n s h r d l c u,v m w f g y p b k j x q z SPACE END_SENTENCE COMMA".split(" ");
+	const all_runes = "ᚦ ᛝ ᛥ ᚫ ᛠ ᛟ ᛇ ᛡ ᛖ ᛏ ᚪ ᛁ ᚩ ᚾ ᛋ ᚻ ᚱ ᛞ ᛚ ᚳ ᚢ ᛗ ᚹ ᚠ ᚷ ᚣ ᛈ ᛒ ᛣ ᛄ ᛉ ᛢ ᚴ ᛫ ᛬ ᛭".split(" ");
 	const english_words = "the be to of and in that have it for not on with he as you do at this but his by from they we say her she or an will my one all would there their what so up out if about who get which go me when make can like time no just him know take people into year your good some could them see other then than now look only come its overthink also back after use two how our work first well way even new want because any these give day most us".split(" ");
 	const rune_words = "ᚦᛖ ᛒᛖ ᛏᚩ ᚩᚠ ᚪᚾᛞ ᛁᚾ ᚦᚪᛏ ᚻᚪᚢᛖ ᛁᛏ ᚠᚩᚱ ᚾᚩᛏ ᚩᚾ ᚹᛁᚦ ᚻᛖ ᚪᛋ ᚣᚩᚢ ᛞᚩ ᚪᛏ ᚦᛁᛋ ᛒᚢᛏ ᚻᛁᛋ ᛒᚣ ᚠᚱᚩᛗ ᚦᛖᚣ ᚹᛖ ᛋᚪᚣ ᚻᛖᚱ ᛋᚻᛖ ᚩᚱ ᚪᚾ ᚹᛁᛚᛚ ᛗᚣ ᚩᚾᛖ ᚪᛚᛚ ᚹᚩᚢᛚᛞ ᚦᛖᚱᛖ ᚦᛖᛁᚱ ᚹᚻᚪᛏ ᛋᚩ ᚢᛈ ᚩᚢᛏ ᛁᚠ ᚪᛒᚩᚢᛏ ᚹᚻᚩ ᚷᛖᛏ ᚹᚻᛁᚳᚻ ᚷᚩ ᛗᛖ ᚹᚻᛖᚾ ᛗᚪᛣᛖ ᚳᚪᚾ ᛚᛁᛣᛖ ᛏᛁᛗᛖ ᚾᚩ ᛄᚢᛥ ᚻᛁᛗ ᛣᚾᚩᚹ ᛏᚪᛣᛖ ᛈᛇᛈᛚᛖ ᛁᚾᛏᚩ ᚣᛠᚱ ᚣᚩᚢᚱ ᚷᚩᚩᛞ ᛋᚩᛗᛖ ᚳᚩᚢᛚᛞ ᚦᛖᛗ ᛋᛟ ᚩᚦᛖᚱ ᚦᛖᚾ ᚦᚪᚾ ᚾᚩᚹ ᛚᚩᚩᛣ ᚩᚾᛚᚣ ᚳᚩᛗᛖ ᛁᛏᛋ ᚩᚢᛖᚱᚦᛁᚾᛣ ᚪᛚᛋᚩ ᛒᚪᚳᛣ ᚪᚠᛏᛖᚱ ᚢᛋᛖ ᛏᚹᚩ ᚻᚩᚹ ᚩᚢᚱ ᚹᚩᚱᛣ ᚠᛁᚱᛥ ᚹᛖᛚᛚ ᚹᚪᚣ ᛖᚢᛖᚾ ᚾᛖᚹ ᚹᚪᚾᛏ ᛒᛖᚳᚪᚢᛋᛖ ᚪᚾᚣ ᚦᛖᛋᛖ ᚷᛁᚢᛖ ᛞᚪᚣ ᛗᚩᛥ ᚢᛋ".split(" ");
 	console.log(english_words.length + ", " +rune_words.length);
