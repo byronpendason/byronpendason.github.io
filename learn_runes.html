@@ -36,8 +36,11 @@ sitemap:
 
 <form id="choices">
 </form>
-
-<button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels and Notes</button>
+<form>
+	<button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels and Notes</button>
+	<input type="checkbox" id="fontcb" name="fontcb" value="Use normal font" onchange=changeFont()>
+	<label for="fontcb">Use normal font</label>
+</form>
 <div id="levels" style="display: none;text-align: justify;text-justify: inter-word;">
 	<h2>Levels</h2>
 	<ol id="lvlList">
@@ -72,6 +75,14 @@ sitemap:
 		} else {
 			btn.textContent = "Show Levels and Notes";
 			div.style.display = "none";
+		}
+	}
+	
+	function changeFont() {
+		if (document.getElementById("fontcb").checked) {
+			document. getElementById("content").style.fontFamily = "Arial,serif";
+		} else {
+			document. getElementById("content").style.fontFamily = "Junicode,sans-serif";
 		}
 	}
 	
