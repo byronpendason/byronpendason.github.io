@@ -2,7 +2,7 @@
 title: Beowulf (Gummere) in Runes
 permalink: /beowulf_runes/
 excerpt: "ᛚᚩ᛭ᛈᚱᚪᛁᛋᛖ᛫ᚩᚠ᛫ᚦᛖ᛫ᛈᚱᚩᚹᛖᛋᛋ᛫ᚩᚠ᛫ᛈᛇᛈᛚᛖ-ᛣᛁᛝᛋ ᚩᚠ᛫ᛋᛈᛠᚱ-ᚪᚱᛗᛖᛞ᛫ᛞᚪᚾᛖᛋ᛭ᛁᚾ᛫ᛞᚪᚣᛋ᛫ᛚᚩᛝ᛫ᛋᛈᛖᛞ᛭"
-runes: yes
+runes: true
 sitemap:
   exclude: yes
 ---
