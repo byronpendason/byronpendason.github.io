@@ -1,0 +1,149 @@
+---
+title: Learn the Futhorc Runes!
+author: Byron Pendason
+permalink: /learn_futhorc/
+sitemap:
+  exclude: true
+---
+
+<h1>Learn the Futhorc Runes!</h1>
+<select name="level" id="level" style="text-align: center; width: 100%;">
+	<option value="lvl1">Level 1</option>
+</select>
+
+<h2 id="rune" style="text-align: center"></h3>
+
+<form id="choices">
+</form>
+
+<button type="button" id="toggleBtn" onclick=toggleLevels()>Show Levels</button>
+<div id="levels" style="visibility: hidden">
+	<h2>Levels</h2>
+	<ol id="lvlList">
+		<li>ᚦ=th ᛝ=ng ᛥ=st ᚫ=ae ᛠ=ea ᛟ=ee ᛇ=eo ᛡ=io</li>
+	</ol>
+</div>
+
+<script>
+	Array.prototype.random = function () {
+		return this[Math.floor((Math.random()*this.length))];
+	}
+	
+	function toggleLevels() {
+		let btn = document.getElementById("toggleBtn");
+		var div = document.getElementById("levels");
+		if (btn.textContent == "Show Levels") {
+			btn.textContent = "Hide Levels";
+			div.style.visibility = "visible";
+		} else {
+			btn.textContent = "Show Levels";
+			div.style.visibility = "hidden";
+		}
+	}
+	
+	function checkAnswer(btnId) {
+		let btn = document.getElementById(btnId);
+		
+		if (btn.textContent == english[index]) {
+			correct++;
+			btn.style.backgroundColor = "#00ff00";
+		} else {
+			incorrect++;
+			btn.style.backgroundColor = "#ff0000";
+			let wrong = runes[index] + " = " + english[index];
+			if (wrongRunes.includes(wrong) == false) {
+				wrongRunes.push(wrong);
+				console.log(wrongRunes);
+			}
+		}
+		
+		if (correct + incorrect == 10) {
+			let score = Math.floor(correct / (correct + incorrect) * 100);
+			correct = 0;
+			incorrect = 0;
+			let form = document.getElementById("choices");
+			while (form.firstChild) {
+				form.removeChild(form.lastChild);
+			}
+			
+			if (wrongRunes.length > 0) {
+				console.log("Yep!");
+				let header = document.createElement("h3");
+				header.textContent = "Incorrect answers:";
+				document.getElementById("choices").appendChild(header);
+				let text = document. createElement("p");
+				text.innerHTML = wrongRunes.join("<br>");
+				document.getElementById("choices").appendChild(text);
+			}
+			let btn = document.createElement('button');
+			btn.textContent = "Play again!";
+			btn.style.width = "100%";
+			btn.style.height = "2em";
+			btn.type = "button";
+			btn.onclick = function() {
+				createForm();
+			}
+			wrongRunes = [];
+			document.getElementById("choices").appendChild(btn);
+			document.getElementById("rune").textContent = "Score: " + score.toString() + "%";
+		} else {
+			setTimeout(createForm, 750);
+		}
+	}
+	
+	function createForm() {
+		let form = document.getElementById("choices");
+		while (form.firstChild) {
+			form.removeChild(form.lastChild);
+		}
+		runes = level1_runes;
+		english = level1_english;
+		rune = runes.random();
+		var answers = getRandomSubarray(english, 4);
+		index = runes.indexOf(rune);
+		if (answers.includes(english[index]) == false) {
+			var x = Math.floor(Math.random() * 4);
+			answers[x] = english[index];
+		}
+		
+		for (let i = 0; i < 4; i++) {
+			let btn = document.createElement('button');
+			btn.id = "btn" + i.toString();
+			btn.textContent = answers[i];
+			btn.type = "button";
+			btn.style.width = "100%";
+			btn.style.height = "2em";
+			btn.style.margin = "2px 0px";
+			btn.onclick = function(event) {
+				checkAnswer(event.target.id);
+			};
+			document.getElementById("choices").appendChild(btn);
+		}
+		document.getElementById("rune").textContent = rune;
+		
+	}
+	
+	function getRandomSubarray(arr, size) {
+    	var shuffled = arr.slice(0), i = arr.length, temp, index;
+    	while (i--) {
+     	   index = Math.floor((i + 1) * Math.random());
+     	   temp = shuffled[index];
+     	   shuffled[index] = shuffled[i];
+     	   shuffled[i] = temp;
+    	}
+    	return shuffled.slice(0, size);
+}
+	
+	var correct = 0;
+	var incorrect = 0;
+	var wrongRunes = [];
+	const level1_english = "th ng st ae ea ee eo io".split(" ");
+	const level1_runes = "ᚦ ᛝ ᛥ ᚫ ᛠ ᛟ ᛇ ᛡ".split(" ");
+	var runes = [];
+	var english = [];
+	var index;
+	
+	var rune;
+	createForm();
+	
+</script>
