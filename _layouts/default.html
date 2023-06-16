@@ -4,8 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    {% if page.runes == "yes" %}
+    <link href="https://cdn.jsdelivr.net/gh/PatrickElmer/Junicode@main/junicode.css" rel="stylesheet">
     <link rel="icon" type="image/jpg" href="/media/penda.jpg">
-
+    <style>
+    body {
+      font: 1.25em "Junicode",sans-serif;
+    }
+    {% endif %}
     <!-- HTML Meta Tags -->
     <title>{% unless page.title == "Home" %} {{ page.title }} | {% endunless %} Mine Wyrtruman{% if page.layout == "wiki" %} Wiki{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 25}}{% else %}{{ site.description }}{% endif %}">
