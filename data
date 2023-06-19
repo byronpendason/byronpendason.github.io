@@ -3,6 +3,6 @@ layout: none
 permalink: /data/posts
 ---
 {% for item in site.posts %}
-{{ posts.content }}
+{{ item.content | strip_html }}
 
 {% endfor %}
