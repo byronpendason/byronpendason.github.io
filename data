@@ -2,7 +2,7 @@
 layout: none
 permalink: /data/posts
 ---
-{% for item in _posts %}
+{% for item in site.posts %}
 {{ posts.content }}
 
 {% endfor %}
