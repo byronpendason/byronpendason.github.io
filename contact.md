@@ -10,7 +10,8 @@ comments: true
 
 The easiest and quickest way to get a response from me is to leave a message in the Guestbook below. Other ways to get a hold of me is social media:
 - Email: [byronpendason@minewyrtruman.com](mailto:byronpendason@minewyrtruman.com)[^email]
-- Twitter: [Byron Pendason](https://twitter.com/ByronFyrnsidere?t=oetK4pB4QZdJh87UOflKJA&s=09)
+- Discord: byronthewildcat
+- Mastodon: @ByronPendason@universeodon.com
 
 ## Guestbook
 
