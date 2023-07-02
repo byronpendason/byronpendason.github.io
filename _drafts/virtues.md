@@ -7,12 +7,12 @@ We at Fyrnsidu.faith have also felt the need for ethics within religion and have
 ## Calmness - *Smyltness*
 > One should not be too soon fearful nor too soon joyful. (Durham Proverbs 23)
 
-Calmness is the resisting of strong emotion in order to have one's mind at peace.
+Calmness is the ability to resist strong emotion in order to have one's mind at peace.
 
 ## Courage - *Ellen*
 > Train yourself for the better way, ever with courage as long as you live. (Precepts 7-8)
 
-Courage is the willingness to confront dangers (physical and/or mental) to do what's right.
+Courage is the ability and willingness to confront dangers or pain or fears, obstacles both physical and mental, to do what needs to be done.
 
 ## Generosity - *Gifolness*
 > Wealth is a comfort to all men;
@@ -65,3 +65,43 @@ Truthfulness is the quality of being honest.
 > So this earth declines and falls, every single day; And so a man cannot become wise before he has his share of winters in the world. A wise person should be patient, should not be too hot-hearted, nor too hasty with words, neither too weak a warrior, nor too reckless, neither too fearful, nor too quick to rejoice, nor too greedy, nor ever too eager to boast before he knows for sure. (The Wanderer 62-9)
 
 Wisdom is knowing the right thing to do based upon past experiences.
+
+
+<!---
+
+Calmness - Smyltness
+
+
+Courage - Ellen
+
+
+Generosity - Gifolness
+Generosity is freely sharing what is yours with others.
+
+Justice - Rihtwisnes
+Justice is the concept of treating others with fairness.
+
+Moderation - Metgung
+Moderation is the ability and willingness to avoid excesses in life and to regulate oneself away from extremes in behavior.
+
+Patience - Geþyld
+Patience is the ability to not be hasty or rash and to be able to withstand trials and difficulties while maintaining composure.
+
+Piety - Ærfæstnys
+Piety is the observation of one’s duty to that which they hold to be sacred and devotion to one's divine beings – be they gods, ancestors, or wights.
+
+Prudence - Wærscipe
+Prudence is the ability to use caution and reason to avoid troubles when possible.
+
+Reciprocity - Wrixl
+Reciprocity is the ideal in which one does not seek to maintain one-sided relationships but instead maintains relationships in which both sides give to one another. 
+
+Steadfastness - Stedefæstness
+Steadfastness is being unwavering in your loyalty to your ways, your beliefs, your morals, and to the people you love.
+
+Truthfulness - Soðfæstnes
+Truthfulness is the quality of being honest and true.
+
+Wisdom - Wisdom
+Wisdom is a quality that is cultivated in a person over the course of a lifetime; it is using your accumulated knowledge and being informed by the qualities of calmness, courage, generosity, justice moderation, patience, piety, prudence, reciprocity, steadfastness, and truthfulness to the right thing.
+-->
