@@ -44,62 +44,24 @@ Piety is the observation of one’s duty to that which they hold to be sacred an
 ## Prudence - *Wærscipe*
 > A man should be firm in wisdom and moderate, prudent in mind. (Precepts 86-7)
 
-Prudence is the ability to govern oneself by the use of reason.
+Prudence is the ability to use caution and reason to avoid troubles when possible.
 
 ## Reciprocity - *Wrixl*
 > One treasure deserves another; gold should be given away. (Maxims I 155-4)
 
-Reciprocity is the repayment of another's actions towards oneself (for example, giving another a gift in response to something they did for you).
+Reciprocity is the ideal in which one does not seek to maintain one-sided relationships but instead maintains relationships in which both sides give to one another. 
 
 ## Steadfastness - *Stedefæstness*
 > Do not betray a dear friend, but always hold to the right way. (Precepts 29-30)
 
-Steadfastness is being unwavering in your loyalty to your ways and the people you love.
+Steadfastness is being unwavering in your loyalty to your ways, your beliefs, your morals, and to the people you love.
 
 ## Truthfulness - *Soðfæstnes*
 > Always have truth as your goal, whatever you say. (Precepts 64)
 
-Truthfulness is the quality of being honest.
+Truthfulness is the quality of being honest and true.
 
 ## Wisdom - *Wisdom*
 > So this earth declines and falls, every single day; And so a man cannot become wise before he has his share of winters in the world. A wise person should be patient, should not be too hot-hearted, nor too hasty with words, neither too weak a warrior, nor too reckless, neither too fearful, nor too quick to rejoice, nor too greedy, nor ever too eager to boast before he knows for sure. (The Wanderer 62-9)
 
-Wisdom is knowing the right thing to do based upon past experiences.
-
-
-<!---
-
-Calmness - Smyltness
-
-
-Courage - Ellen
-
-
-Generosity - Gifolness
-
-
-Justice - Rihtwisnes
-
-Moderation - Metgung
-
-
-Patience - Geþyld
-
-
-Piety - Ærfæstnys
-
-Prudence - Wærscipe
-Prudence is the ability to use caution and reason to avoid troubles when possible.
-
-Reciprocity - Wrixl
-Reciprocity is the ideal in which one does not seek to maintain one-sided relationships but instead maintains relationships in which both sides give to one another. 
-
-Steadfastness - Stedefæstness
-Steadfastness is being unwavering in your loyalty to your ways, your beliefs, your morals, and to the people you love.
-
-Truthfulness - Soðfæstnes
-Truthfulness is the quality of being honest and true.
-
-Wisdom - Wisdom
-Wisdom is a quality that is cultivated in a person over the course of a lifetime; it is using your accumulated knowledge and being informed by the qualities of calmness, courage, generosity, justice moderation, patience, piety, prudence, reciprocity, steadfastness, and truthfulness to the right thing.
--->
+Wisdom is a quality that is cultivated in a person over the course of a lifetime; it is using your accumulated knowledge and being informed by the qualities of calmness, courage, generosity, justice moderation, patience, piety, prudence, reciprocity, steadfastness, and truthfulness to do the right thing.
