@@ -25,7 +25,7 @@ Justice is the concept of treating others with fairness.
 ## Moderation - *Metgung*
 > Every man should act with moderation both to friends and foes. (Seafarer 111-12)
 
-Moderation is the elimination of extremes.
+Moderation is the elimination of extremes in behaviour.
 
 ## Patience - *Geþyld*
 > Patience is half of happiness. (Durham Proverbs 1)
