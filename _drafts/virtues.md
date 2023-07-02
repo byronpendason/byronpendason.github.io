@@ -3,7 +3,7 @@ Heathenry doesn't have a codified system of ethics, but most systems tend to be 
 ## Calmness - *Smyltness*
 > One should not be too soon fearful nor too soon joyful. (Durham Proverbs 23)
 
-Calmness is the resisting of strong emotion in order to have peace of mind.
+Calmness is the resisting of strong emotion in order to have one's mind at peace.
 
 ## Courage - *Ellen*
 > Train yourself for the better way, ever with courage as long as you live. (Precepts 7-8)
