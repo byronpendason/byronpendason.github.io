@@ -19,7 +19,7 @@ Courage is the ability and willingness to confront dangers or pain or fears, obs
 > yet must every man bestow it freely,
 > if he wish to gain honour in the sight of his lord. (Old English Rune Poem, "Feoh")
 
-Generosity is sharing what's your's with others.
+Generosity is freely sharing what is yours with others.
 
 ## Justice - *Rihtwisnes*
 > Wise men guard their souls, uphold their integrity with justice. (Maxims I 36)
@@ -29,17 +29,17 @@ Justice is the concept of treating others with fairness.
 ## Moderation - *Metgung*
 > Every man should act with moderation both to friends and foes. (Seafarer 111-12)
 
-Moderation is the elimination of extremes in behaviour.
+Moderation is the ability and willingness to avoid excesses in life and to regulate oneself away from extremes in behavior.
 
 ## Patience - *Geþyld*
 > Patience is half of happiness. (Durham Proverbs 1)
 
-Patience is the endurance of difficult situations.
+Patience is the ability to not be hasty or rash and to be able to withstand trials and difficulties while maintaining composure.
 
 ## Piety - *Ærfæstnys*
 > Blotmonath is ‘‘month of immolations’’, for then the cattle which were to be slaughtered were consecrated to their gods. (The Reckoning of Time, chapter 15)
 
-Piety is devotion to one's divine beings (for example, to the gods, one's ancestors, and the land wights).
+Piety is the observation of one’s duty to that which they hold to be sacred and devotion to one's divine beings – be they gods, ancestors, or wights.
 
 ## Prudence - *Wærscipe*
 > A man should be firm in wisdom and moderate, prudent in mind. (Precepts 86-7)
@@ -76,19 +76,17 @@ Courage - Ellen
 
 
 Generosity - Gifolness
-Generosity is freely sharing what is yours with others.
+
 
 Justice - Rihtwisnes
-Justice is the concept of treating others with fairness.
 
 Moderation - Metgung
-Moderation is the ability and willingness to avoid excesses in life and to regulate oneself away from extremes in behavior.
+
 
 Patience - Geþyld
-Patience is the ability to not be hasty or rash and to be able to withstand trials and difficulties while maintaining composure.
+
 
 Piety - Ærfæstnys
-Piety is the observation of one’s duty to that which they hold to be sacred and devotion to one's divine beings – be they gods, ancestors, or wights.
 
 Prudence - Wærscipe
 Prudence is the ability to use caution and reason to avoid troubles when possible.
