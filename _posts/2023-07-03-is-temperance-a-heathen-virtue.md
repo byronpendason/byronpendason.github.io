@@ -3,8 +3,7 @@ title: Is Temperance a Heathen Virtue?
 author: Byron Pendason
 date: Monday, July 03, 2023
 layout: post
-published: false
-categories: [Heathenry, afterlife, anglo-saxon calendar, cosmology, heathen basics, heathen worldview, heathen worship, lgbt, myths, philosophical musings, politics, rants, reconstruction, runes, stoicism, tech, updates]
+categories: [Heathenry, heathen worldview, philosophical musings, reconstruction]
 ---
 
 *Wes hāl!*[^1] 
