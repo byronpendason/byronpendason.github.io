@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hretha, the Victorious Spring Goddess
+title: Hrethe, the Victorious Spring Goddess
 date: 2020-02-25 14:55
 author: Byron Pendason
 comments: true
