@@ -40,8 +40,12 @@ categories: [Heathenry, heathen worldview, myths, reconstruction]
 > Beowulf stood up. "That is not true. I would blame myself for acting so cowardly while my father's friend was facing such a horrible fate. Such a life is anything *but good*."
 >    
 > Beowulf raised his voice, and ordered, "Ready my men, and a ship! We leave for Heorot in the morning!"
+>     
+> This plunged the hall into turmoil. Beowulf was well loved by the people of Geat, and all were convinced that taking on Grendel was foolhardy. They tried pressing into him the importance of prudence.
+>     
+> "Prudence is indeed a virtue," Beowulf declared. "But so is Justice, Courage, and Steadfastness in loyalty to those with whom we have Frith bonds. *To Heorot!*"
 
-*Beo gesund!*[^1]
+We, of course, know how this story ends. Beowulf had a monumental choice to make, but staying home while his father's ally suffered was really no choice at all for the great Beowulf. *Beo gesund!*[^1]
 
 [^1]: *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
 
