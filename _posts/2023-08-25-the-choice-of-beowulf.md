@@ -3,7 +3,7 @@ title: The Choice of Beowulf
 author: Byron Pendason
 date: Thursday, August 25, 2023
 layout: post
-published: false
+published: true
 categories: [Heathenry, heathen worldview, myths, reconstruction]
 ---
 
