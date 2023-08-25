@@ -15,7 +15,7 @@ categories: [Heathenry, heathen worldview, myths, reconstruction]
 >    
 > "I'm thinking about Hrothgar, and the monster that is plaguing his people." Beowulf answered him.
 >    
-> Their friend Godlif spoke up, "The scop probably made the story up. Don't let it bother you!"
+> Their friend Godlif spoke up, "The *scop*[^2] probably made the story up. Don't let it bother you!"
 >    
 > "He's not the only one who's told us about Grendel," Beowulf replied slowly, "Those poor people, they've lived under that reign of terror for twelve long years."
 >    
