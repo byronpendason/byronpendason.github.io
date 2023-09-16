@@ -4,7 +4,7 @@ author: Byron Pendason
 date: Friday, September 15, 2023
 layout: post
 published: false
-categories: [Heathenry, afterlife, anglo-saxon calendar, cosmology, heathen basics, heathen worldview, heathen worship, lgbt, myths, philosophical musings, politics, rants, reconstruction, runes, stoicism, tech, updates]
+categories: [Heathenry, tech, updates]
 ---
 
 *Wes hāl!*[^1] Today begins the month of Haligmonað, and with the new month I'm happy to announce the new look for Mine Wyrtruman!
