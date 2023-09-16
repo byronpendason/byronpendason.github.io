@@ -1,16 +1,14 @@
 body {
   margin: 0px;
   padding: 0px;
-  margin-top: 0px;
-  padding-top: 0px;
+  background-image: url("/media/hd-parchment.jpg");
+  background-attachment: fixed;
+  background-size: cover;
   font-family: 'Georgia', serif;
   font-size: 13pt;
 }
 #header {
   color: #4D0707;
-  background-image: url("/media/hd-parchment.jpg");
-  background-attachment: fixed;
-  background-size: cover;
   margin-top: 0px;
   padding-top: 0px;
 }
