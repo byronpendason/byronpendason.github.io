@@ -3,7 +3,6 @@ title: New Month, New Look!
 author: Byron Pendason
 date: Friday, September 15, 2023
 layout: post
-published: false
 categories: [Heathenry, tech, updates]
 ---
 
