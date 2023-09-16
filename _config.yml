@@ -22,7 +22,7 @@ title: Mine Wyrtruman
 byline: Where ancient spirituality meets modern praxis
 email: byronpendason@minewyrtruman.com
 description: Mine Wyrtruman explores the roots of Fyrnsidu in order to discover how to apply them to modern spirituality.
-baseurl: "/mwtest" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.minewyrtruman.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: byronfyrnsidere
 github_username:  byronpendason
