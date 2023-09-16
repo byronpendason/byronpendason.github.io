@@ -12,6 +12,8 @@ body {
   background-image: url("/media/hd-parchment.jpg");
   background-attachment: fixed;
   background-size: cover;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 .title a {
   color:#4D0707;
