@@ -6,12 +6,20 @@ excerpt: "Everything we know about the Anglo-Saxon Calendar comes from the Vener
 permalink: /anglosaxoncalendar
 categories: [anglo-saxon calendar, heathen worship, reconstruction]
 ---
+{% include calendar-display-v2.html %}
 
-# The Reconstructed Anglo-Saxon Calendar
+## Instructions
 
-{% include calendar-displau.html %}
+Enter a Common Era year to see the reconstructed calendar dates -OR- enter a specific date, and it will be converted to the Anglo-Saxon date. 
+
+If you select a date outside the displayed year, the calendar will reload for the appropriate year.
 
 ## About the Anglo-Saxon Calendar
+
+<div class="front-image left" style="width: 300px">
+    <img src="{{ site.baseurl }}/media/170px-Nuremberg_Chronicle_Venerable_Bede.jpg" alt="An illustration of the Venerable Bede." style="width: 100%">
+    <p>The Venerable Bede as depecited in the Nuremberg Chronicle.</p>
+</div>
 
 Everything we know about the Anglo-Saxon Calendar comes from the Venerable Bede's <em>On the Reckoning of Time</em>, in which he relates the calendars of many ancient cultures. He gives us quite a bit of information. Unfortunately, as we shall soon see, he doesn't give us quite enough information to reconstruct the calendar in its entirety. A couple of assumptions have to be made.
 

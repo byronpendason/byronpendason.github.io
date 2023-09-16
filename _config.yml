@@ -20,10 +20,9 @@
 
 title: Mine Wyrtruman
 byline: Where ancient spirituality meets modern praxis
-footer: © 2022 by Byron Pendason. All information is provided as is, so please <a href="/about">double check</a> all information you find on this site. This page may contain affiliate links. If you find the information on this site helpful, please consider <a href="https://ko-fi.com/ByronTheFyrnsidere">buying me a coffee.</a>
 email: byronpendason@minewyrtruman.com
 description: Mine Wyrtruman explores the roots of Fyrnsidu in order to discover how to apply them to modern spirituality.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/mwtest" # the subpath of your site, e.g. /blog
 url: "https://www.minewyrtruman.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: byronfyrnsidere
 github_username:  byronpendason
@@ -52,34 +51,38 @@ defaults:
 header_pages:
   - title: Home
     url: /
-  - title: Introduction to Fyrnsidu
-    url: /fyrnsidu_intro/
   - title: Blog
     url: /blog
-  - title: Glossary and Resources for Beginners
-    url: /glossary
-  - title: The Reconstructed Anglo-Saxon Calendar
+  - title: Fyrnsidu Newcomer Resources
+    subpages:
+      - title: Glossary & Beginner Resources
+        url: /glossary
+      - title: Introduction to Fyrnsidu
+        url: /fyrnsidu_intro/
+      - title: A Ritual of Thanksgiving
+        url: /ritual_of_thanksgiving
+  - title: Calendar Reconstruction
     url: /anglosaxoncalendar
-  - title: Games
-    url: /games
-  - title: About
-    url: /about
-  - title: Contact Me
-    url: /contact
-  - title: Search Site
-    url: /search
-  - title: Blog Post Requests
-    url: /requests
-  - title: A Ritual of Thanksgiving
-    url: /ritual_of_thanksgiving
   - title: Declaration of Deeds 
     url: /declaration-of-deeds
-  - title: RuneTyper
-    url: /runetyper
+  - title: Contact
+    subpages:
+      - title: Contact Byron
+        url: /contact
+      - title: Blog Post Requests
+        url: /requests
+  - title: Fun Stuff
+    subpages:
+      - title: RuneTyper
+        url: /runetyper
+      - title: Games
+        url: /games
 plugins:
   - jekyll-feed
 # Analytics
 google_analytics: 'G-SE3GMKHNJ4'
+paginate: 5
+paginate_path: ./blog/page:num/
   
 
 # Exclude from processing.
