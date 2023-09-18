@@ -5,6 +5,7 @@ date: 2020-02-25 14:55
 author: Byron Pendason
 comments: true
 categories: [heathen worship, Heathenry, reconstruction]
+synonym-tags: [Hrethe, Hretha, Hreðe]
 ---
 On my <a href="/the-anglo-saxon-calendar/">reconstructed Anglo-Saxon Calendar</a>, today is the beginning of <em>Hreþmonaþ</em> (the þ letter is called thorn, and pronounced as 'th' in <em>thin</em>). Bede tells us that it roughly corresponds to March, and the month is named after the goddess Hrethe (Hrēðe in Old English, where the ð letter is called eth and is pronounced as the 'th' in that), because the Anglo-Saxons made offerings to her in this month. (Hrethe is Latinised as Rheda, and you'll sometimes seen her referred to as such.)
 
