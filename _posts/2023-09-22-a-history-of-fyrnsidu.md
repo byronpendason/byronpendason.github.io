@@ -21,9 +21,9 @@ In modern times, the first religion to take inspiration from the ancient Anglo-S
 
 Seax-Wica took this a step farther when founded in America by Raymond Buckland in 1973[^2], and relabeled everything with Anglo-Saxon terminology. The Lord and Lady were called Wōden and Freyja (though some modern groups have replaced Freyja with Woden's wife Frīge), and the holidays were given Old English names. A lot of the terminology was also changed to be Anglo-Saxon, for example the athame became the seax (the short sword that Saxon warriors were known for).
 
-It remained Wiccan in practice and theology, however. It was still duotheistic (all the male gods were seen as manifestations the Lord, and all goddesses were seen as manifestations of the Lady), still followed the wheel of the year, and practices remained distinctly Wiccan. 
+It remained Wiccan in practice and theology, however. It was still duotheistic (all the male gods were seen as manifestations of the Lord, and all goddesses were seen as manifestations of the Lady), still followed the wheel of the year, and practices remained distinctly Wiccan. 
 
-Buckland admitted that Seax-Wica wan6t meant to be a reconstruction of the ancient Anglo-Saxons's religion,  but it would later lead to the creation of Theodism, our next step in the journey to modern Fyrnsidu.
+Buckland admitted that Seax-Wica wasn't meant to be a reconstruction of the ancient Anglo-Saxons's religion,  but it would later lead to the creation of Theodism, our next step in the journey to modern Fyrnsidu.
 
 ## Theodism
 
