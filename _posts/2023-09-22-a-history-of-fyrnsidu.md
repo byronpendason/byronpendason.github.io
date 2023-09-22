@@ -7,13 +7,13 @@ published: false
 categories: [Heathenry, heathen basics, heathen worldview, politics, updates]
 ---
 
-*Wes hāl!*[^1] Last month, I celebrated five years in Fyrnsidu, and I thought a good way to commemorate that would be to write up a brief history of Fyrnsidu and it's predecessors. On my home page, I define Fyrnsidu as "a modern religion based upon the religion of the pre-Christian Germanic tribes that settled in Britain in the fifth century of the common era." Today, we usually define it as Anglo-Saxon Heathenry, but it was originally meant as an alternative to Theodism. More on them in a bit though, first I want to explore the influences leading up to it. So let's dive right in!
+*Wes hāl!*[^1] Last month, I celebrated five years in Fyrnsidu, and I thought a good way to commemorate that would be to write up a brief history of Fyrnsidu and it's predecessors. On my home page, I define Fyrnsidu as "a modern religion based upon the religion of the pre-Christian Germanic tribes that settled in Britain in the fifth century of the common era." Today, we usually define it as Anglo-Saxon Heathenry, but it was originally meant as an alternative to Theodism. More on them in a bit though, first I want to explore the influences leading up to it. Before we begin though, I want to point out that Beofeld from *Wind in the Worldtree* has done a blog post on [the history of Heathenry]() which would make a great companion to this blog post!
 
 ## Ancient Roots
 
 The Anglo-Saxons were a group of Germanic tribes that settled in Britain in the fifth century. They brought with them a polytheistic religion that was most likely similar to, yet distinct from, their Norse cousins. While we don't know every detail of what their faith consisted of, we do have some details from historical, literary, and archeological sources. We can combine this with what we know of their culture, and the cultures of those they were related to and came into contact with to create an approximate reconstruction of their religion.
 
-Christianisation of the Anglo-Saxons began in the final years of the sixth century, and was complete by the close of the seventh century. A lot of information was lost at that point, but as I said, I feel confident we can recreate an approximate reconstruction of their religion.
+Christianisation of the Anglo-Saxons began in the final years of the sixth century, and was complete by the close of the seventh century. A lot of information was lost at that point, but as I said, I feel confident we can recreate an approximate reconstruction.
 
 ## Seax-Wica
 
