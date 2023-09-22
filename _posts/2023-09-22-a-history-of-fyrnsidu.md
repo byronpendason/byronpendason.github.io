@@ -23,11 +23,11 @@ Seax-Wica took this a step farther when founded in America by Raymond Buckland i
 
 It remained Wiccan in practice and theology, however. It was still duotheistic (all the male gods were seen as manifestations the Lord, and all goddesses were seen as manifestations of the Lady), still followed the wheel of the year, and practices remained distinctly Wiccan. 
 
-Buckland admitted that Seax-Wica wan6t meant to be a reconstruction of the ancient Anglo-Saxons's religion,  but it would later lead to the creation of Theodism, our next step in the journey to modern Fyrnsidu.
+Buckland admitted that Seax-Wica wasn't meant to be a reconstruction of the ancient Anglo-Saxons's religion,  but it would later lead to the creation of Theodism, our next step in the journey to modern Fyrnsidu.
 
 ## Theodism
 
-Theodism was founded by Garman Lord in 1976.[^3] Garman Lord had been a practitioner of Seax-Wica, but had become dissatisfied with it's Wiccan influences. After supposedly receiving a vision of Wōden, he founded the first Theod (Theodish kindred). Theodism was the first real path that attempted to reconstruct the old ways. Unfortunately reconstruction can be taken to the extreme and we can see this in that Theodism tried to reconstruct not only the religion but also the societal structures of the Anglo-Saxons which led to some highly problematic practices.
+Theodism was founded by Garman Lord in 1976.[^3] Garman Lord had been a practitioner of Seax-Wica, but had become dissatisfied with it's Wiccan influences. After supposedly receiving a vision of Wōden, he founded the first Theod (Theodish kindred). Theodism was the first real path that attempted to reconstruct the old ways. Unfortunately, reconstruction can be taken to the extreme and we can see this in that Theodism tried to reconstruct not only the religion but also the societal structures of the Anglo-Saxons which led to some highly problematic practices.
 
 The most obvious of these was thralldom, or ritual slavery. Converts have to go through a probationary period where they would swear an oath of fealty to someone who was higher up, who would swear an oath of fealty to someone else, and this continued on up to the eorl (or another similar title), who was the head of the Theod. As one can imagine, this kind of system was rife for abuse. It was on the one hand based on initiatory traditions in Wicca and on the other upon early medieval feudalism. Theodism's thralldom ultimately matched neither as Wicca was generally not trying on the guise of slavery and for feudalism it lacked the circumstances that made thralldom and serfdom occur in the first place.
 
