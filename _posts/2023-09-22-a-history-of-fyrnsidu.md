@@ -7,7 +7,7 @@ published: false
 categories: [Heathenry, heathen basics, heathen worldview, politics, updates]
 ---
 
-*Wes hāl!*[^1] Last month, I celebrated five years in Fyrnsidu, and I thought a good way to commemorate that was to write up a brief history of Fyrnsidu and it's predecessors. On my home page, I define Fyrnsidu as "a modern religion based upon the religion of the pre-Christian Germanic tribes that settled in Britain in the fifth century of the common era." Today, we usually define it as Anglo-Saxon Heathenry, but it was originally meant as an alternative to Theodism. More on them in a bit though, first I want to explore the influences leading up to it. So let's dive right in!
+*Wes hāl!*[^1] Last month, I celebrated five years in Fyrnsidu, and I thought a good way to commemorate that would be to write up a brief history of Fyrnsidu and it's predecessors. On my home page, I define Fyrnsidu as "a modern religion based upon the religion of the pre-Christian Germanic tribes that settled in Britain in the fifth century of the common era." Today, we usually define it as Anglo-Saxon Heathenry, but it was originally meant as an alternative to Theodism. More on them in a bit though, first I want to explore the influences leading up to it. So let's dive right in!
 
 ## Ancient Roots
 
@@ -17,21 +17,27 @@ Christianisation of the Anglo-Saxons began in the final years of the sixth centu
 
 ## Seax-Wica
 
-In modern times, the first religion to take inspiration from the ancient Anglo-Saxons was Wicca. Half the holidays of the wheel of the year are taken from Anglo-Saxon sources while the rest came from Celtic sources. Seax-Wica took this a step farther when founded by Raymond Buckland in 1973[^2], and relabeled everything with Anglo-Saxon terminology. The Lord and Lady were called Wōden and Freyja (though some modern groups have replaced Freyja with Woden's wife Frīge), and the holidays were given Old English names. A lot of the terminology was also changed to be Anglo-Saxon, for example the athame became the seax (the short sword that Saxon warriors were known for).
+In modern times, the first religion to take inspiration from the ancient Anglo-Saxons was Wicca. Half the holidays of the wheel of the year are taken from Anglo-Saxon sources while the rest came from Celtic sources across the British Isles. The name itself is the Old English word for witch. It's founder Gerald Gardner claimed it was the native faith of English witches, which is undoubtedly false. However, he was a student of English history, and he heavily relied upon his knowledge of the Anglo-Saxons for his reconstruction of native British witchcraft.
 
-It remained Wiccan in practice and theology, however. It was still duotheistic (all the male gods were seen as manifestations the Lord, and all goddesses were seen as manifestations of the Lady), still followed the wheel of the year, and practices remained distinctly Wiccan. But it led to the creation of Theodism, our next step in the journey to modern Fyrnsidu.
+Seax-Wica took this a step farther when founded in America by Raymond Buckland in 1973[^2], and relabeled everything with Anglo-Saxon terminology. The Lord and Lady were called Wōden and Freyja (though some modern groups have replaced Freyja with Woden's wife Frīge), and the holidays were given Old English names. A lot of the terminology was also changed to be Anglo-Saxon, for example the athame became the seax (the short sword that Saxon warriors were known for).
+
+It remained Wiccan in practice and theology, however. It was still duotheistic (all the male gods were seen as manifestations the Lord, and all goddesses were seen as manifestations of the Lady), still followed the wheel of the year, and practices remained distinctly Wiccan. 
+
+Buckland admitted that Seax-Wica wan6t meant to be a reconstruction of the ancient Anglo-Saxons's religion,  but it would later lead to the creation of Theodism, our next step in the journey to modern Fyrnsidu.
 
 ## Theodism
 
-Theodism was founded by Garman Lord in 1976.[^3] Garman Lord had been a practitioner of Seax-Wica, but had become dissatisfied with it's Wiccan influences. After supposedly receiving a vision of Wōden, he founded the first Theod (Theodish kindred). Theodism was the first real path that attempted to reconstruct the old ways. They tried to reconstruct the Anglo-Saxons medieval social structures alongside the religion, however, and this led to some problematic practices.
+Theodism was founded by Garman Lord in 1976.[^3] Garman Lord had been a practitioner of Seax-Wica, but had become dissatisfied with it's Wiccan influences. After supposedly receiving a vision of Wōden, he founded the first Theod (Theodish kindred). Theodism was the first real path that attempted to reconstruct the old ways. Unfortunately reconstruction can be taken to the extreme and we can see this in that Theodism tried to reconstruct not only the religion but also the societal structures of the Anglo-Saxons which led to some highly problematic practices.
 
-The most obvious of these was thralldom, or ritual slavery. Converts have to go through a probationary period where they would swear an oath of fealty to someone who was higher up, who would swear an oath of fealty to someone else, and this continued on up to the eorl (or another similar title), who was the head of the Theod. As one can imagine, this kind of system was rife for abuse, as it was based upon early medieval feudalism without the circumstances that made feudalism necessary.
+The most obvious of these was thralldom, or ritual slavery. Converts have to go through a probationary period where they would swear an oath of fealty to someone who was higher up, who would swear an oath of fealty to someone else, and this continued on up to the eorl (or another similar title), who was the head of the Theod. As one can imagine, this kind of system was rife for abuse. It was on the one hand based on initiatory traditions in Wicca and on the other upon early medieval feudalism. Theodism's thralldom ultimately matched neither as Wicca was generally not trying on the guise of slavery and for feudalism it lacked the circumstances that made thralldom and serfdom occur in the first place.
 
 Not everyone who wanted to worship the Anglo-Saxon gods wanted to subject themselves to this archaic and outdated social order, however, which brings us to the creation of Fyrnsidu.
 
 # Ge-ferraeden Fyrn Sida
 
-The term *Fyrnsidu* was coined by Rob Holman (aka Osric) in 1999 as an Old English translation of the phrase Forn Sed, and used for his local inhired (kindred). Sometime between 2001 and 2004[^4], Holman founded the Ge-ferraeden Fyrn Sida (translates to *Fellowship of Fyrnsidu*, abbreviated as GFS), and a website went up which now redirects to Osric's new organisation's website [Ingwine.org](https://ingwine.org). The GFS was a national nonprofit organisation consisting of several inhireds/kindreds, and was governed by a Witan (roughly equivalent to most organisations's board of directors) led by a Thyle (which was filled by Holman).  Around 2009, internal strife led to several of the kindreds leaving the GFS and caused the national organisation to essentially go defunct. Alaric Albertsson, the head of the Earendel Inhired that was one of the founding members of the GFS, went on to publish *Travels Through Middle Earth*, the best book on Anglo-Saxon Heathenry that I've come across and is on its [second edition](https://www.crossedcrowbooks.com/shop-crossed-crow-books/p/travels-through-middle-earth-the-path-of-a-saxon-pagan). He's become a prominent leader in what he terms Saxon paganism.
+The term *Fyrnsidu* was coined by Rob Holman (aka Osric) in 1999 as an Old English translation of the phrase Forn Sed, and used for his local inhired (kindred). Sometime between 2001 and 2004[^4], Holman founded the Ge-ferraeden Fyrn Sida (translates to *Fellowship of Fyrnsidu*, abbreviated as GFS), and a website went up which now redirects to Osric's new organisation's website [Ingwine.org](https://ingwine.org). The GFS was a national nonprofit organisation consisting of several inhireds/kindreds, and was governed by a Witan (roughly equivalent to most organisations's board of directors) led by a Thyle (which was filled by Holman).  Around 2009, internal strife led to several of the kindreds leaving the GFS, causing the national organisation to essentially go defunct.
+
+Alaric Albertsson, the head of the Earendel Inhired that was one of the founding members of the GFS, went on to publish *Travels Through Middle Earth*, the best book on Anglo-Saxon Heathenry that I've come across and is on its [second edition](https://www.crossedcrowbooks.com/shop-crossed-crow-books/p/travels-through-middle-earth-the-path-of-a-saxon-pagan). He's become a prominent leader in Anglo-Saxon paganism.
 
 Holman left online Heathenry after the GFS went defunct in order to focus on his local group. In his absence, de facto leadership of what remained of the GFS fell to Anna Bucci who had been the groups publicist under Holman.
 
@@ -43,9 +49,15 @@ While the GFS focused on the national organisation and local kindreds, Larhus Fy
 
 ## The Present
 
-A man who goes by Beofeld took over the Fyrnsidu Facebook group at the beginning of 2018 after Marc and Wodgar left Facebook. He had joined the Facebook group because he too had been interested in the GFS but found that going to Bucci would be impractical. Beofeld also created a Discord server for Fyrnsidu. This Facebook group and Discord server acts as hubs around which most modern Fyrnsidu activity that I'm aware of happens.
+In 2018 Marc and Wodgar both left Facebook entirely. Leaving their Facebook site Fyrnsidu in the hands of Beofeld and Hreodbeorht Batweard, the two current moderators of the facebook site. 
 
-The mod team of that Discord server (of which I am a member) put together [a website for Fyrnsidu](https://fyrnsidu.faith) in August of 2021, in order to be able to help introduce new people to Fyrnsidu and to act as a directory of the Fyrnsidu websites of which we are aware.
+Beofeld operates the blog [Wind in the Worldtree](windintheworldtree.wordpress.com/) and Batweard operates the blog [Seolfor Cwylla Heorþ](https://seolforcwyllaheorth.wordpress.com/).
+
+Beofeld, like Wodgar and Marc, had joined the Facebook group because he too had been interested in the GFS but found that going to Bucci would be impractical. 
+
+Later on Beofeld created a Discord server for Fyrnsidu. The Facebook group and Discord server act as hubs around which most modern Fyrnsidu activity that I'm aware of happens.
+
+The mod team of the Fyrnsidu Discord server is Beofeld, Batweard, Beorn Se Stranga, Barbatus, and myself. We've been working to advance and promote Fyrnsidu. In August of 2021, we put together a [website for Fyrnsidu](https://furnsidu.faith), in order to be able to help introduce new people to Fyrnsidu and to act as a directory of the Fyrnsidu websites of which we are aware.
 
 So, that brings us to present, but it's not the end of the story. Fyrnsidu is still alive and well. How do you want to contribute to its story?*Beo gesund!*[^1]
 
