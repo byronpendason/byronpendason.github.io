@@ -35,7 +35,7 @@ Not everyone who wanted to worship the Anglo-Saxon gods wanted to subject themse
 
 # Ge-ferraeden Fyrn Sida
 
-The term *Fyrnsidu* was coined by Rob Holman (aka Osric) in 1999 as an Old English translation of the phrase Forn Sed, and used for his local inhired (kindred). Sometime between 2001 and 2004[^4], Holman founded the Ge-ferraeden Fyrn Sida (translates to *Fellowship of Fyrnsidu*, abbreviated as GFS), and a website went up which now redirects to Osric's new organisation's website [Ingwine.org](https://ingwine.org). The GFS was a national nonprofit organisation consisting of several inhireds/kindreds, and was governed by a Witan (roughly equivalent to most organisations's board of directors) led by a Thyle (which was filled by Holman).  Around 2009, internal strife led to several of the kindreds leaving the GFS, causing the national organisation to essentially go defunct.
+The term *Fyrnsidu* was coined by Rob Holman (aka Osric) in 1999 as an Old English translation of the phrase Forn Sed, and used for his local inhired (kindred). Sometime between 2001 and 2004[^4], Holman founded the Ge-ferraeden Fyrn Sida (translates to *Fellowship of Fyrnsidu*, abbreviated as GFS), and a website went up which now redirects to Osric's new organisation's website [Ingwine.org](https://ingwine.org). The GFS was a national nonprofit organisation consisting of several inhireds/kindreds, and was governed by a Witan (roughly equivalent to most organisations's board of directors) led by a Thyle (which was filled by Holman).  In 2008, internal strife led to several of the kindreds leaving the GFS, causing the national organisation to essentially go defunct.
 
 Alaric Albertsson, the head of the Earendel Inhired that was one of the founding members of the GFS, went on to publish *Travels Through Middle Earth*, the best book on Anglo-Saxon Heathenry that I've come across and is on its [second edition](https://www.crossedcrowbooks.com/shop-crossed-crow-books/p/travels-through-middle-earth-the-path-of-a-saxon-pagan). He's become a prominent leader in Anglo-Saxon paganism.
 
@@ -43,23 +43,25 @@ Holman left online Heathenry after the GFS went defunct in order to focus on his
 
 ## Larhus Fyrnsida
 
-Around 2014, two individuals who went by Wodgar and Marc were interested in Fyrnsidu. Bucci, however, was at that time requiring people to travel to where she was to join the GFS. Marc and Wodgar found this impractical, so they formed a Facebook group in February of 2015 to promote Fyrnsidu. In 2015, Wodgar and Marc also created the [Larhus Fyrnsida](https://larhusfyrnsida.com/) WordPress website, and created individual blogs to promote their vision of Fyrnsidu.
+Around 2014, two individuals who went by Wodgar and Marc were interested in Fyrnsidu. Bucci, however, was at that time requiring people to travel to where she was to join the GFS. Marc and Wodgar found this impractical, so they formed a Facebook group in February of 2015 to promote Fyrnsidu. In 2015, Wodgar and Marc also created the [Larhus Fyrnsida](https://larhusfyrnsida.com/) WordPress website, and created individual blogs to promote their vision of Fyrnsidu. Marc's blog is [Of Axe and Plough](https://axeandplough.com/), while Wodgar's blog (only [available on the Wayback Machine](https://web.archive.org/web/20210416072226/https://sundorwic.wordpress.com/) now) was called Sundorwick.
 
 While the GFS focused on the national organisation and local kindreds, Larhus Fyrnsida focused more on individual praxis because they recognized that most practitioners were spread out across the globe without local communities. This was not, to my understanding, to downplay the importance of local communities but rather to provide resources for those without local communities as well as those who already had local communities.
 
+Wodgar has since shut down his blog and left the community to explore and work on his private praxis, whereas Marc continues to post to his blog but has otherwise mostly withdrawn from the public scene to focus on his spiritual journey.
+
 ## The Present
 
-In 2018 Marc and Wodgar both left Facebook entirely. Leaving their Facebook site Fyrnsidu in the hands of Beofeld and Hreodbeorht Batweard, the two current moderators of the facebook site. 
+In 2018 Marc and Wodgar both left Facebook entirely, leaving their Fyrnsidu Facebook group in the hands of Beofeld and Hreodbeorht Batweard, the two current moderators of the group.
 
 Beofeld operates the blog [Wind in the Worldtree](windintheworldtree.wordpress.com/) and Batweard operates the blog [Seolfor Cwylla Heorþ](https://seolforcwyllaheorth.wordpress.com/).
 
 Beofeld, like Wodgar and Marc, had joined the Facebook group because he too had been interested in the GFS but found that going to Bucci would be impractical. 
 
-Later on Beofeld created a Discord server for Fyrnsidu. The Facebook group and Discord server act as hubs around which most modern Fyrnsidu activity that I'm aware of happens.
+Later on Beofeld created a Discord server for Fyrnsidu. The Facebook group and Discord server act as hubs around which most of the modern Fyrnsidu activity that we're aware of happens.
 
-The mod team of the Fyrnsidu Discord server is Beofeld, Batweard, Beorn Se Stranga, Barbatus, and myself. We've been working to advance and promote Fyrnsidu. In August of 2021, we put together a [website for Fyrnsidu](https://furnsidu.faith), in order to be able to help introduce new people to Fyrnsidu and to act as a directory of the Fyrnsidu websites of which we are aware.
+The mod team of the Fyrnsidu Discord server is Beofeld, Batweard, Beorn Se Stranga, Barbatus, and myself. We've been working to advance and promote Fyrnsidu. In August of 2021, we put together a [website for Fyrnsidu](https://furnsidu.faith) in order to help introduce new people to Fyrnsidu and to act as a directory of the Fyrnsidu websites of which we are aware.
 
-So, that brings us to present, but it's not the end of the story. Fyrnsidu is still alive and well. How do you want to contribute to its story?*Beo gesund!*[^1]
+So, that brings us to the present, but it's not the end of the story. Fyrnsidu is still alive and well. How do you want to contribute to its story? *Beo gesund!*[^1]
 
 [^1]: *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
 
@@ -67,4 +69,4 @@ So, that brings us to present, but it's not the end of the story. Fyrnsidu is st
 
 [^3]: https://ealdrice.org/theodspell/
 
-[^4]: In my research for this blog post, I've spoken to both Holman and Alaric Albertsson (another founding member of the Ge-ferraeden Fyrn Sida). The former gave me the year of 2001 as the beginning of the GFS, whereas the latter gave me the year 2004.
+[^4]: In my research for this blog post, I've spoken to both Rob Holman and Alaric Albertsson (another founding member of the Ge-ferraeden Fyrn Sida). The former gave me the year of 2001 as the beginning of the GFS, whereas the latter gave me the year 2004.
