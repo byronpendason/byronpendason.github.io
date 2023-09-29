@@ -3,7 +3,6 @@ title: A History of Fyrnsidu
 author: Byron Pendason
 date: Thursday, September 22, 2023
 layout: post
-published: false
 categories: [Heathenry, heathen basics, heathen worldview, politics, updates]
 ---
 
