@@ -64,8 +64,8 @@ So, that brings us to the present, but it's not the end of the story. Fyrnsidu i
 
 [^1]: *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
 
-[^2]: https://en.m.wikipedia.org/wiki/Seax-Wica
+[^2]: <https://en.m.wikipedia.org/wiki/Seax-Wica>
 
-[^3]: https://ealdrice.org/theodspell/
+[^3]: <https://ealdrice.org/theodspell/>
 
 [^4]: In my research for this blog post, I've spoken to both Rob Holman and Alaric Albertsson (one of the early members of the Ge-ferraeden Fyrn Sida). The former gave me the year of 2001 as the beginning of the GFS, whereas the latter gave me the year 2004.
