@@ -32,7 +32,7 @@ The most obvious of these was thralldom, or ritual slavery. Converts have to go 
 
 Not everyone who wanted to worship the Anglo-Saxon gods wanted to subject themselves to this archaic and outdated social order, however, which brings us to the creation of Fyrnsidu.
 
-# Ge-ferraeden Fyrn Sida
+## Ge-ferraeden Fyrn Sida
 
 The term *Fyrnsidu* was coined by Rob Holman (aka Osric) in 1999 as an Old English translation of the phrase Forn Sed, and used for his local inhired (kindred). Sometime between 2001 and 2004[^4], Holman founded the Ge-ferraeden Fyrn Sida (translates to *Fellowship of Fyrnsidu*, abbreviated as GFS), and a website went up which now redirects to Osric's new organisation's website [Ingwine.org](https://ingwine.org). The GFS was a national nonprofit organisation consisting of several inhireds/kindreds, and was governed by a Witan (roughly equivalent to most organisations's board of directors) led by a Thyle (which was filled by Holman).  Around 2009, internal strife led to several of the kindreds leaving the GFS, causing the national organisation to essentially go defunct.
 
