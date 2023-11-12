@@ -17,7 +17,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	<option value="short-twig">Younger Futhark (Short Twig)</option>
 </select>
 <div id="control" style="width: 100%;  margin-top: 8px;"></div>
-<div id="keyboard" style="width: 100%; height:50%;  margin-top: 8px; display: grid; gap: 8px;grid-template-columns: repeat(10, 8%); grid-template-rows: repeat(5, 4em);"></div>
+<div id="keyboard" style="width: 100%; height:50%;  margin-top: 8px; display: grid; gap: 8px;grid-template-columns: repeat(10, 8%); grid-template-rows: repeat(5, 3em);"></div>
 
 <script>
 const input = document.getElementById("input");
