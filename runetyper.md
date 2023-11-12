@@ -31,7 +31,6 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	input.addEventListener("keyup", function(event) {
 		input.value = convert();
 	});
-	input.placeholder = "Press the buttons below or start typing (see \"keyboard support\" below)";
 	
 	//set fonts
 	input.style.fontFamily = "Junicode, serif";
