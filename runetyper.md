@@ -34,7 +34,8 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	
 	//set fonts
 	input.style.fontFamily = "Junicode, serif";
-	
+		input.placeholder = "ᚹᛖᛋ᛫ᚻᚪᛚ᛬";
+  
 	// define rune sets
 	const futhorc = "ᚠ ᚢ ᚦ ᚩ ᚱ ᚳ ᚷ ᚹ ᚻ ᚾ ᛁ ᛄ ᛇ ᛈ ᛉ ᛋ ᛏ ᛒ ᛖ ᛗ ᛚ ᛝ ᛟ ᛞ ᚪ ᚫ ᚣ ᛠ ᛡ ᛣ ᛤ ᚸ ᛢ ᛥ ᚴ ᛫ ᛬ ᛭".split(" ");
 	const elder = "ᚠ ᚢ ᚦ ᚫ ᚱ ᚲ ᚷ ᚹ ᚺ ᚾ ᛁ ᛃ ᛇ ᛈ ᛉ ᛊ ᛏ ᛒ ᛖ ᛗ ᛚ ᛜ ᛞ ᛟ ᛫ ᛬ ᛭".split(" ");
