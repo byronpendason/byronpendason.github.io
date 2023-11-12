@@ -8,7 +8,7 @@ runes: true
 excerpt: "RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!"
 ---
 
-<div id="runetyper" style="margin: 0px; padding: 0px">
+<div id="runetyper" style="margin: 0px; padding: 0px; font-family:Junicode,serif">
 <h1 style="font-size: 64px; font-variant: small-caps; text-align: center; margin: 2px 0px;">RuneTyper</h1>
 
 <textarea id="input" type="text" style="width: 100%; height: 250px; font-size: 32px; margin: 2px 0px;"></textarea>
@@ -43,6 +43,8 @@ const runeSelect = document.getElementById("runeSelect");
 const control = document.getElementById("control");
 
 
+input.style.fontFamily = "Junicode, serif";
+
 
 const futhorc = "ᚠ ᚢ ᚦ ᚩ ᚱ ᚳ ᚷ ᚹ ᚻ ᚾ ᛁ ᛄ ᛇ ᛈ ᛉ ᛋ ᛏ ᛒ ᛖ ᛗ ᛚ ᛝ ᛟ ᛞ ᚪ ᚫ ᚣ ᛠ ᛡ ᛣ ᛤ ᚸ ᛢ ᛥ ᚴ ᛫ ᛬ ᛭".split(" ");
 
@@ -58,6 +60,7 @@ runeSelect.style.fontSize = "20px";
 
 runeSelect.style.textAlign = "center";
 
+runeSelect.style.fontFamily = "Junicode, serif";
 runeSelect.addEventListener('change', updateKeyboard);
 
 if (localStorage.getItem("runeSet")) {
@@ -76,6 +79,7 @@ clearBtn.style.width = "auto";
 
 clearBtn.style.fontSize = "20px";
 
+clearBtn.style.fontFamily = "Junicode, serif";
 clearBtn.addEventListener('click', () => {
 
 	input.value = "";
@@ -94,8 +98,7 @@ copyBtn.style.width = "auto";
 
 copyBtn.style.fontSize = "20px";
 
-copyBtn.style.margin= " 0px 0px 0px 8px";
-
+copyBtn.style.fontFamily = "Junicode, serif";
 copyBtn.addEventListener('click', copyToClipboard);
 
 control.appendChild(copyBtn);
@@ -110,8 +113,7 @@ backspace.style.width = "auto";
 
 backspace.style.fontSize = "18px";
 
-backspace.style.margin= " 0px 0px 0px 8px";
-
+backspace.style.fontFamily = "Junicode, serif";
 backspace.addEventListener('click', () => {
 
 	input.value = input.value.slice(0, -1);
@@ -204,6 +206,7 @@ function updateKeyboard() {
 
 		button.style.height = "3em";
 
+		button.style.fontFamily = "Junicode, serif";
 		button.addEventListener('click', () => {
 
 			input.value += button.innerText;
@@ -224,6 +227,7 @@ function updateKeyboard() {
 
 	button.style.fontSize = "28px";
 
+	button.style.fontFamily = "Junicode, serif";
 	button.addEventListener('click', () => {
 
 		input.value += " ";
@@ -239,7 +243,6 @@ document.onload = function(){
 	document.getElementById("runetyper").scrollIntoView(true);
 };
 </script>
-
 
 <p>RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!</p>
 
