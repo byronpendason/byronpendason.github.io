@@ -9,15 +9,15 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 ---
 
 <h1 style="font-size: 64px; font-variant: small-caps; text-align: center; margin: 0px;">RuneTyper</h1>
-<textarea id="input" type="text" style="width: 100%; height: 250px; font-size: 32px;"></textarea>
-<select id="runeSelect" style="width: 100%; margin-top: 8px;">
-	<option value="futhorc">Futhorc</option>
+<textarea id="input" type="text" style="width: 100%; height: 250px; font-size: 32px; margin: 0px auto;"></textarea>
+<select id="runeSelect" style="width: 100%; margin: 0px auto;">
+	<option value="futhorc">Futhorc (Anglo-Saxon Runes)</option>
 	<option value="elder">Elder Futhark</option>
 	<option value="long-branch">Younger Futhark (Long Branch)</option>
 	<option value="short-twig">Younger Futhark (Short Twig)</option>
 </select>
-<div id="control" style="width: 100%;  margin-top: 8px;"></div>
-<div id="keyboard" style="width: 100%; height:50%;  margin-top: 8px; display: grid; gap: 8px;grid-template-columns: repeat(10, 8%); grid-template-rows: repeat(5, 3em);"></div>
+<div id="control" style="width: 100%; margin: 0px auto; display: grid; gap: 4px; grid-template-columns: repeat(3, auto);"></div>
+<div id="keyboard" style="width: 100%; margin: 0px auto; display: grid; gap: 4px; grid-template-columns: repeat(10, auto);"></div>
 
 <script>
 const input = document.getElementById("input");
@@ -39,7 +39,7 @@ if (localStorage.getItem("runeSet")) {
 
 const clearBtn = document.createElement('button');
 clearBtn.innerText = "Clear Text";
-clearBtn.style.width = "31%";
+clearBtn.style.width = "auto";
 clearBtn.style.fontSize = "20px";
 clearBtn.addEventListener('click', () => {
 	input.value = "";
@@ -48,7 +48,7 @@ control.appendChild(clearBtn);
 
 const copyBtn = document.createElement('button');
 copyBtn.innerText = "Copy Text";
-copyBtn.style.width = "31%";
+copyBtn.style.width = "auto";
 copyBtn.style.fontSize = "20px";
 copyBtn.style.margin= " 0px 0px 0px 8px";
 copyBtn.addEventListener('click', copyToClipboard);
@@ -56,8 +56,8 @@ control.appendChild(copyBtn);
 
 const backspace = document.createElement('button');
 backspace.innerText = "⌫";
-backspace.style.width = "31%";
-backspace.style.fontSize = "20px";
+backspace.style.width = "auto";
+backspace.style.fontSize = "18px";
 backspace.style.margin= " 0px 0px 0px 8px";
 backspace.addEventListener('click', () => {
 	input.value = input.value.slice(0, -1);
@@ -104,6 +104,7 @@ function updateKeyboard() {
 		const button = document.createElement('button');
 		button.innerText = runes[i];
 		button.style.fontSize = "24px";
+		button.style.height = "3em";
 		button.addEventListener('click', () => {
 			input.value += button.innerText;
 		});
@@ -112,8 +113,8 @@ function updateKeyboard() {
 	
 	// add space key to keyboard
 	const button = document.createElement('button');
-	button.innerText = " ";
-	button.style.fontSize = "32px";
+	button.innerText = "␣";
+	button.style.fontSize = "28px";
 	button.addEventListener('click', () => {
 		input.value += " ";
 	});
