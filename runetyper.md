@@ -8,9 +8,10 @@ runes: true
 excerpt: "RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!"
 ---
 
+<div id="runetyper" style="margin: 0px; padding: 0px">
 <h1 style="font-size: 64px; font-variant: small-caps; text-align: center; margin: 2px 0px;">RuneTyper</h1>
 <textarea id="input" type="text" style="width: 100%; height: 250px; font-size: 32px; margin: 2px 0px;"></textarea>
-<select id="runeSelect" style="width: 100%; margin: 2px 0px;">
+<select id="runeSelect" style="width: 100%; font-size: 24px; margin: 2px 0px;">
 	<option value="futhorc">Futhorc (Anglo-Saxon Runes)</option>
 	<option value="elder">Elder Futhark</option>
 	<option value="long-branch">Younger Futhark (Long Branch)</option>
@@ -18,6 +19,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 </select>
 <div id="control" style="width: 100%; margin: 2px 0px; display: grid; gap: 4px; grid-template-columns: repeat(3, minmax(0, 1fr));"></div>
 <div id="keyboard" style="width: 100%; margin: 2px 0px; display: grid; gap: 4px; grid-template-columns: repeat(10, auto);"></div>
+</div>
 
 <script>
 const input = document.getElementById("input");
@@ -122,7 +124,7 @@ function updateKeyboard() {
 }
 </script>
 
-RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!
+<p>RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!</p>
 
 <!--
 ## Type Runes on your Android Phone or Windows PC!
