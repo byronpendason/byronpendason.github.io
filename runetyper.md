@@ -4,7 +4,7 @@ title: RuneTyper
 date: 2021-03-06 23:38
 author: byronarn
 permalink: /runetyper
-comments: false
+runes: true
 excerpt: "RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!"
 ---
 
@@ -33,6 +33,9 @@ const short_twig = "ᚠ ᚢ ᚦ ᚭ ᚱ ᚴ ᚽ ᚿ ᛁ ᛆ ᛌ ᛐ ᛓ ᛙ ᛚ 
 runeSelect.style.fontSize = "20px";
 runeSelect.style.textAlign = "center";
 runeSelect.addEventListener('change', updateKeyboard);
+if (localStorage.getItem("runeSet")) {
+	runeSelect.value = localStorage.getItem("runeSet");
+}
 
 const clearBtn = document.createElement('button');
 clearBtn.innerText = "Clear Text";
@@ -94,6 +97,7 @@ function updateKeyboard() {
 			keyboard.innerText = "There has been an error. Please let Byron know about this.";
 			break;
 	}
+	localStorage.setItem("runeSet", runeSet);
 	
 	// add runes to keyboard
 	for (let i=0; i<runes.length; i++) {
