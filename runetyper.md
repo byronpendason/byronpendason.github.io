@@ -7,7 +7,6 @@ permalink: /runetyper
 runes: true
 excerpt: "RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!"
 ---
-
 <div id="runetyper" style="margin: 0px; padding: 0px; font-family:Junicode,serif">
 	<h1 style="font-size: 64px; font-variant: small-caps; text-align: center; margin: 2px 0px;">RuneTyper</h1>
 	<textarea id="input" type="text" style="width: 100%; height: 250px; font-size: 32px; margin: 2px 0px;"></textarea>
@@ -321,21 +320,18 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 </div>
 
 <script>
+document.body.onload = function() {
+	// hide the header and footer
+	document.getElementById("header").style.display = "none";
+	document.getElementById("footer").style.display = "none";
+}
+
 	// define page elements
 	const input = document.getElementById("input");
 	const keyboard = document.getElementById("keyboard");
 	const runeSelect = document.getElementById("runeSelect");
 	const control = document.getElementById("control");
 	const help = document.getElementById("help");
-	
-	const parent = document.body.getElementsByTagName("*");
-	const runetyper = document.getElementById("runetyper");
-	
-/*	for(const child of parent) {
-		 if (!runetyper.contains(child) && child.tagName !== "SCRIPT") {
-			child.style.display = "none";
-		}
-	}*/
 	
 	input.addEventListener("keyup", function(event) {
 		input.value = convert();
