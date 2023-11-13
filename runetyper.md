@@ -322,11 +322,11 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 </div>
 
 <script>
+// hide the header and footer, and make content's background colour transparent so that the background image is the background
 document.body.onload = function() {
-	// hide the header and footer
 	document.getElementById("header").style.display = "none";
 	document.getElementById("footer").style.display = "none";
-	document.getElementById("runetyper").style.minHeight = window.innerHeight;
+	document.getElementById("runetyper").style.backgroundColor = "transparent";
 }
 
 	// define page elements
@@ -351,7 +351,6 @@ document.body.onload = function() {
 	const short_twig = "ᚠ ᚢ ᚦ ᚭ ᚱ ᚴ ᚽ ᚿ ᛁ ᛆ ᛌ ᛐ ᛓ ᛙ ᛚ ᛧ ᛫ ᛬ ᛭".split(" ");
 	const medieval = "ᛆ ᛒ ᛍ ᛑ ᛂ ᚠ ᚵ ᚼ ᛁ ᚴ ᛚ ᛘ ᚿ ᚮ ᛔ ᛩ ᚱ ᛌ ᛐ ᚢ ᚡ ᛪ ᛦ ᛎ ᚦ ᚧ ᛅ ᚯ ᛫ ᛬ ᛭".split(" ");
 	let allRunes = [...new Set([...futhorc, ...elder, ...long_branch, ...short_twig, ...medieval, ..."\" ' \\ ! ? ( ) & @ % ¿ ‽ ¡ : ;".split(" ")])];
-	//allRunes = [...new Set(allRunes)];
 	let runes = [];
 	
 	runeSelect.style.fontSize = "20px";
