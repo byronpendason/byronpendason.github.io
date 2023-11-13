@@ -324,7 +324,7 @@ document.body.onload = function() {
 	// hide the header and footer
 	document.getElementById("header").style.display = "none";
 	document.getElementById("footer").style.display = "none";
-	document.getElementById("runetyper").style.minHeight = window.innerHeight;
+	document.getElementById("content").style.backgroundColor = 'transparent';
 }
 
 	// define page elements
