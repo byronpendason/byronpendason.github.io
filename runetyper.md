@@ -21,7 +21,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	<div id="control" style="width: 100%; margin: 2px 0px; display: grid; gap: 4px; grid-template-columns: repeat(4, minmax(0, 1fr));"></div>
 	<div id="keyboard" style="width: 100%; margin: 2px 0px; display: grid; gap: 4px; grid-template-columns: repeat(10, minmax(0, 1fr));"></div>
 
-<div id="help" style="display: none; position: absolute; top: 0; left: 0; background-color: #F6EDDC; padding: 16px; border-style: solid; margin: 8px;">
+<div id="help" style="display: none; position: absolute; top: 0; left: 0; background-color: #F6EDDC; padding: 8px; border-style: solid; margin: 8px;">
 	<button onclick='javascript: help.style.display = "none";' style="float: right">X</button>
 <h2>Keyboard Support</h2>
 <p>Currently, only the Futhorc (Anglo-Saxon runes) and Elder Futhark supports keyboard support. Keyboard Support is <em>not</em> a rune converter. Each rune is represented by a key. The following table shows what key represents what rune. The two Younger Futhark rune sets are not supported by keyboard support, but when they are added, it'll be according to the table below.</p>
@@ -329,14 +329,13 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	const help = document.getElementById("help");
 	
 	const parent = document.body.getElementsByTagName("*");
-	const runetyper= document.getElementById("runetyper");
+	const runetyper = document.getElementById("runetyper");
 	
-/*	for(let child of parent) {
-		 if (!runetyper.contains(child) && child.tagName != "SCRIPT") {
+	for(const child of parent) {
+		 if (!runetyper.contains(child) && child.tagName !== "SCRIPT") {
 			child.style.display = "none";
 		}
 	}
- */
 	
 	input.addEventListener("keyup", function(event) {
 		input.value = convert();
