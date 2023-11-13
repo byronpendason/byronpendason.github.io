@@ -7,6 +7,7 @@ permalink: /runetyper
 runes: true
 excerpt: "RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!"
 ---
+
 <div id="runetyper" style="margin: 0px; padding: 0px; font-family:Junicode,serif">
 	<h1 style="font-size: 64px; font-variant: small-caps; text-align: center; margin: 2px 0px;">RuneTyper</h1>
 	<textarea id="input" type="text" style="width: 100%; height: 250px; font-size: 32px; margin: 2px 0px;"></textarea>
@@ -22,9 +23,10 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 
 <div id="help" style="display: none; position: absolute; top: 0; left: 0; background-color: #F6EDDC; padding: 8px; border-style: solid; margin: 8px;">
 	<button onclick='javascript: help.style.display = "none";' style="float: right">X</button>
+<p>RuneTyper is my gift to people who love or have an interest in runes! Whether you are interested in runes for religious reasons (for example, if you're a heathen or other variety of pagan), historical reasons (perhaps you are into historical reconstruction), or any other reason, I hope RuneTyper will be useful to you!</p>
 <h2>Keyboard Support</h2>
-<p>Currently, only the Futhorc (Anglo-Saxon runes) and Elder Futhark supports keyboard support. Keyboard Support is <em>not</em> a rune converter. Each rune is represented by a key. The following table shows what key represents what rune. The two Younger Futhark rune sets are not supported by keyboard support, but when they are added, it'll be according to the table below.</p>
 <p>To use keyboard support, just click in the textarea, and start typing. If you type a key that doesn't have a rune associated with it, a � will be outputted.</p>
+<p>Some runes are keyed to an uppercase letter. If you type a uppercase letter that doesn't have a rune keyed to it, but it's lowercase form does have a rune keyed to it, it will output the rune keyed to the lowercase letter.</p>
 <table style="width: 100%">
 	<tbody>
 		<tr>
@@ -324,7 +326,7 @@ document.body.onload = function() {
 	// hide the header and footer
 	document.getElementById("header").style.display = "none";
 	document.getElementById("footer").style.display = "none";
-	document.getElementById("content").style.backgroundColor = 'transparent';
+	document.getElementById("runetyper").style.minHeight = window.innerHeight;
 }
 
 	// define page elements
@@ -348,7 +350,7 @@ document.body.onload = function() {
 	const long_branch = "ᚠ ᚢ ᚦ ᚬ ᚱ ᚴ ᚼ ᚾ ᛁ ᛅ ᛋ ᛏ ᛒ ᛘ ᛚ ᛦ ᛫ ᛬ ᛭".split(" ");
 	const short_twig = "ᚠ ᚢ ᚦ ᚭ ᚱ ᚴ ᚽ ᚿ ᛁ ᛆ ᛌ ᛐ ᛓ ᛙ ᛚ ᛧ ᛫ ᛬ ᛭".split(" ");
 	const medieval = "ᛆ ᛒ ᛍ ᛑ ᛂ ᚠ ᚵ ᚼ ᛁ ᚴ ᛚ ᛘ ᚿ ᚮ ᛔ ᛩ ᚱ ᛌ ᛐ ᚢ ᚡ ᛪ ᛦ ᛎ ᚦ ᚧ ᛅ ᚯ ᛫ ᛬ ᛭".split(" ");
-	let allRunes = [...new Set([...futhorc, ...elder, ...long_branch, ...short_twig, ...medieval])];
+	let allRunes = [...new Set([...futhorc, ...elder, ...long_branch, ...short_twig, ...medieval, ..."\" ' \\ ! ? ( ) & @ % ¿ ‽ ¡ : ;".split(" ")])];
 	//allRunes = [...new Set(allRunes)];
 	let runes = [];
 	
@@ -472,9 +474,9 @@ document.body.onload = function() {
 		if (text == -1) {
 			text = input.value;
 		}
-		sets = "futhorc elder".split(" ");
+		sets = "futhorc elder long-branch short-twig medieval".split(" ");
 		if (!sets.includes(runeSelect.value)) {
-			return;
+			return text;
 		}
 		
 		let chars = [];
@@ -487,8 +489,20 @@ document.body.onload = function() {
 				chars = "f u T a r k g w h n i j I p z s t b e m l N d o".split(" ");
 				runes = elder;
 				break;
-			default:
+			case 'long-branch':
+				chars = "f u T o r k h n i a s t b m l R".split(" ");
+				runes = long_branch;
 				break;
+			case 'short-twig':
+				chars = "f u T o r k h n i a s t b m l R".split(" ");
+				runes = short_twig;
+				break;
+			case 'medieval':
+				chars = "a b c d e f g h i k l m n o p q r s t u v x y z T D A O".split(" ");
+				runes = medieval;
+				break;
+			default:
+				return text;
 		}
 		chars.push(" ");
 		chars.push(".");
@@ -498,6 +512,9 @@ document.body.onload = function() {
 		for (let char of text) {
 			if (chars.includes(char)) {
 				let index = chars.indexOf(char);
+				result += runes[index];
+			} else if (chars.includes(char.toLowerCase())) {
+				let index = chars.indexOf(char.toLowerCase());
 				result += runes[index];
 			} else if (allRunes.includes(char) || char == "\n") {
 				result += char;
