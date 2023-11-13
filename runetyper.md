@@ -331,11 +331,12 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	const parent = document.body.getElementsByTagName("*");
 	const runetyper= document.getElementById("runetyper");
 	
-	for(let child of parent) {
+/*	for(let child of parent) {
 		 if (!runetyper.contains(child) && child.tagName != "SCRIPT") {
 			child.style.display = "none";
 		}
 	}
+ */
 	
 	input.addEventListener("keyup", function(event) {
 		input.value = convert();
