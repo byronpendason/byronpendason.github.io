@@ -18,10 +18,11 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		<option value="short-twig">Younger Futhark (Short Twig)</option>
 		<option value="medieval">Medieval Runes</option>
 	</select>
-	<div id="control" style="width: 100%; margin: 2px 0px; display: grid; gap: 4px; grid-template-columns: repeat(3, minmax(0, 1fr));"></div>
+	<div id="control" style="width: 100%; margin: 2px 0px; display: grid; gap: 4px; grid-template-columns: repeat(4, minmax(0, 1fr));"></div>
 	<div id="keyboard" style="width: 100%; margin: 2px 0px; display: grid; gap: 4px; grid-template-columns: repeat(10, minmax(0, 1fr));"></div>
-</div>
 
+<div id="help" style="display: none; position: absolute; top: 0; left: 0; background-color: #F6EDDC; padding: 16px; border-style: solid; margin: 8px;">
+	<button onclick='javascript: help.style.display = "none";' style="float: right">X</button>
 <h2>Keyboard Support</h2>
 <p>Currently, only the Futhorc (Anglo-Saxon runes) and Elder Futhark supports keyboard support. Keyboard Support is <em>not</em> a rune converter. Each rune is represented by a key. The following table shows what key represents what rune. The two Younger Futhark rune sets are not supported by keyboard support, but when they are added, it'll be according to the table below.</p>
 <p>To use keyboard support, just click in the textarea, and start typing. If you type a key that doesn't have a rune associated with it, a � will be outputted.</p>
@@ -316,6 +317,8 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		</tr>
 	</tbody>
 </table>
+</div>
+</div>
 
 <script>
 	// define page elements
@@ -323,6 +326,16 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	const keyboard = document.getElementById("keyboard");
 	const runeSelect = document.getElementById("runeSelect");
 	const control = document.getElementById("control");
+	const help = document.getElementById("help");
+	
+	const parent = document.body.getElementsByTagName("*");
+	const runetyper= document.getElementById("runetyper");
+	
+	for(let child of parent) {
+		 if (!runetyper.contains(child) && child.tagName != "SCRIPT") {
+			child.style.display = "none";
+		}
+	}
 	
 	input.addEventListener("keyup", function(event) {
 		input.value = convert();
@@ -338,9 +351,8 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	const long_branch = "ᚠ ᚢ ᚦ ᚬ ᚱ ᚴ ᚼ ᚾ ᛁ ᛅ ᛋ ᛏ ᛒ ᛘ ᛚ ᛦ ᛫ ᛬ ᛭".split(" ");
 	const short_twig = "ᚠ ᚢ ᚦ ᚭ ᚱ ᚴ ᚽ ᚿ ᛁ ᛆ ᛌ ᛐ ᛓ ᛙ ᛚ ᛧ ᛫ ᛬ ᛭".split(" ");
 	const medieval = "ᛆ ᛒ ᛍ ᛑ ᛂ ᚠ ᚵ ᚼ ᛁ ᚴ ᛚ ᛘ ᚿ ᚮ ᛔ ᛩ ᚱ ᛌ ᛐ ᚢ ᚡ ᛪ ᛦ ᛎ ᚦ ᚧ ᛅ ᚯ ᛫ ᛬ ᛭".split(" ");
-	let allRunes = [...futhorc, ...elder, ...long_branch, ...short_twig, ...medieval];
-	allRunes = [...new Set(allRunes)];
-	console.log(...allRunes);
+	let allRunes = [...new Set([...futhorc, ...elder, ...long_branch, ...short_twig, ...medieval])];
+	//allRunes = [...new Set(allRunes)];
 	let runes = [];
 	
 	runeSelect.style.fontSize = "20px";
@@ -354,7 +366,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	
 	// define buttons
 	const clearBtn = document.createElement('button');
-	clearBtn.innerText = "Clear Text";
+	clearBtn.innerText = "Clear";
 	clearBtn.style.width = "auto";
 	clearBtn.style.height = "2em";
 	clearBtn.style.fontSize = "20px";
@@ -365,13 +377,24 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	control.appendChild(clearBtn);
 	
 	const copyBtn = document.createElement('button');
-	copyBtn.innerText = "Copy Text";
+	copyBtn.innerText = "Copy";
 	copyBtn.style.width = "auto";
 	copyBtn.style.height = "2em";
 	copyBtn.style.fontSize = "20px";
 	copyBtn.style.fontFamily = "Junicode, serif";
 	copyBtn.addEventListener('click', copyToClipboard);
 	control.appendChild(copyBtn);
+	
+	const helpBtn = document.createElement('button');
+	helpBtn.innerText = "Help";
+	helpBtn.style.width = "auto";
+	helpBtn.style.height = "2em";
+	helpBtn.style.fontSize = "20px";
+	helpBtn.style.fontFamily = "Junicode, serif";
+	helpBtn.addEventListener('click', function () {
+		help.style.display = "block";
+});
+	control.appendChild(helpBtn);
 	
 	const backspace = document.createElement('button');
 	backspace.innerText = "⌫";
