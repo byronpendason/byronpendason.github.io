@@ -326,7 +326,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 document.body.onload = function() {
 	document.getElementById("header").style.display = "none";
 	document.getElementById("footer").style.display = "none";
-	document.getElementById("runetyper").style.backgroundColor = "transparent";
+	document.getElementById("content").style.backgroundColor = "transparent";
 }
 
 	// define page elements
