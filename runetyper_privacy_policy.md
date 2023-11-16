@@ -1,6 +1,7 @@
 ---
 title: RuneTyper Privacy Policy
 permalink: /runetyper/privacy_policy
+layout: page
 ---
 
 **Privacy Policy for RuneTyper**
