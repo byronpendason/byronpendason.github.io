@@ -469,7 +469,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	
 		localStorage.setItem("runeSet", runeSet);		
 		// set font
-		var font = useNativeFont(true);
+		let font = useNativeFont(true);
 	
 		// add runes to keyboard
 		for (let i=0; i<runes.length; i++) {
@@ -553,7 +553,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	
 	function useNativeFont(returnFont = false) {
 		const checkBox = document.getElementById("nativeFont");
-		var font;
+		let font;
 		if (checkBox.checked == true){
     		font = "Arial, sans-serif"
 		} else {
