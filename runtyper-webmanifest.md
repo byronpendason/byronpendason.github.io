@@ -1,5 +1,6 @@
 ---
 permalink: /manifest.webmanifest
+layout: none
 ---
 {
   // Name of the app and short name in case there isn't enough space
