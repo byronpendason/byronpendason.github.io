@@ -559,16 +559,17 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		} else {
 			font = "Junicode, serif"
 		}
-		if (!returnFont) {
-		input.style.fontFamily = font;
-		clearBtn.style.fontFamily = font;
-		copyBtn.style.fontFamily = font;
-		helpBtn.style.fontFamily = font;
-		backspace.style.fontFamily = font;
-		updateKeyboard();
-		}
 		
-		return font;
+		if (!returnFont) {
+			input.style.fontFamily = font;
+			clearBtn.style.fontFamily = font;
+			copyBtn.style.fontFamily = font;
+			helpBtn.style.fontFamily = font;
+			backspace.style.fontFamily = font;
+			updateKeyboard();
+		} else {
+			return font;
+		}
 	}
 </script>
 <script>
