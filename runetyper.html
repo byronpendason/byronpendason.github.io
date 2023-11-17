@@ -548,6 +548,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		}
 		return result;
 	}
+	
 	function useNativeFont() {
 		const checkBox = document.getElementById("myCheck");
 		var font;
@@ -556,6 +557,9 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		} else {
 			font = "Arial, sans-serif"
 		}
+		
+		input.style.fontFamily = font;
+		
 	}
 </script>
 <script>
