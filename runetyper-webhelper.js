@@ -1,5 +1,6 @@
 ---
 permalink: /js/sw.js
+layout: none
 ---
 // Change this to your repository name
 var GHPATH = '/runetyper';
