@@ -467,7 +467,9 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 				break;
 		}
 	
-		localStorage.setItem("runeSet", runeSet);	
+		localStorage.setItem("runeSet", runeSet);		
+		// set font
+		var font = useNativeFont();
 	
 		// add runes to keyboard
 		for (let i=0; i<runes.length; i++) {
