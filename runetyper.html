@@ -469,7 +469,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	
 		localStorage.setItem("runeSet", runeSet);		
 		// set font
-		var font = useNativeFont();
+		var font = useNativeFont(true);
 	
 		// add runes to keyboard
 		for (let i=0; i<runes.length; i++) {
@@ -551,7 +551,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		return result;
 	}
 	
-	function useNativeFont() {
+	function useNativeFont(returnFont = false) {
 		const checkBox = document.getElementById("nativeFont");
 		var font;
 		if (checkBox.checked == true){
@@ -559,13 +559,14 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		} else {
 			font = "Junicode, serif"
 		}
-		
+		if (!returnFont) {
 		input.style.fontFamily = font;
 		clearBtn.style.fontFamily = font;
 		copyBtn.style.fontFamily = font;
 		helpBtn.style.fontFamily = font;
 		backspace.style.fontFamily = font;
 		updateKeyboard();
+		}
 		
 		return font;
 	}
