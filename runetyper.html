@@ -389,11 +389,13 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	}
 	
 	// define buttons
+	var height = "1.75em";
+	var size = "18px";
 	const clearBtn = document.createElement('button');
 	clearBtn.innerText = "Clear";
 	clearBtn.style.width = "auto";
-	clearBtn.style.height = "2em";
-	clearBtn.style.fontSize = "20px";
+	clearBtn.style.height = height;
+	clearBtn.style.fontSize = size;
 	clearBtn.style.fontFamily = "Junicode, serif";
 	clearBtn.addEventListener('click', () => {
 		input.value = "";
@@ -403,8 +405,8 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	const copyBtn = document.createElement('button');
 	copyBtn.innerText = "Copy";
 	copyBtn.style.width = "auto";
-	copyBtn.style.height = "2em";
-	copyBtn.style.fontSize = "20px";
+	copyBtn.style.height = height;
+	copyBtn.style.fontSize = size;
 	copyBtn.style.fontFamily = "Junicode, serif";
 	copyBtn.addEventListener('click', copyToClipboard);
 	control.appendChild(copyBtn);
@@ -412,8 +414,8 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	const helpBtn = document.createElement('button');
 	helpBtn.innerText = "Help";
 	helpBtn.style.width = "auto";
-	helpBtn.style.height = "2em";
-	helpBtn.style.fontSize = "20px";
+	helpBtn.style.height = height;
+	helpBtn.style.fontSize = size;
 	helpBtn.style.fontFamily = "Junicode, serif";
 	helpBtn.addEventListener('click', function () {
 		help.style.display = "block";
@@ -423,8 +425,8 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	const backspace = document.createElement('button');
 	backspace.innerText = "⌫";
 	backspace.style.width = "auto";
-	backspace.style.height = "2em";
-	backspace.style.fontSize = "20px";
+	backspace.style.height = height;
+	backspace.style.fontSize = size;
 	backspace.style.fontFamily = "Junicode, serif";
 	backspace.addEventListener('click', () => {
 		input.value = input.value.slice(0, -1);
@@ -435,10 +437,13 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 	
 	function copyToClipboard() {
 		let text = input.value;
+		if (!text)
+			return;
 		input.select();
 		input.setSelectionRange(0, 99999);
 		document.execCommand('copy');
 		input.blur();
+		popup("Copied: " + text, 500);
 	}
 	
 	function updateKeyboard() {
@@ -477,7 +482,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 			const button = document.createElement('button');
 			button.innerText = runes[i];
 			button.style.fontSize = "24px";
-			button.style.height = "3em";
+			button.style.height = "2.75em";
 			button.style.fontFamily = font;
 			button.addEventListener('click', () => {
 				input.value += button.innerText;
@@ -489,6 +494,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		const button = document.createElement('button');
 		button.innerText = "␣";
 		button.style.fontSize = "24px";
+		button.style.height = "2.75em";
 		button.style.fontFamily = font;
 		button.addEventListener('click', () => {
 			input.value += " ";
@@ -572,6 +578,28 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		} else {
 			return font;
 		}
+	}
+	function popup(message, delay) {
+		const popupBox = document.createElement("div");
+		popupBox.innerText = message;
+		runetyper.appendChild(popupBox);
+		popupBox.style.backgroundColor = "black";
+		popupBox.style.color = "white";
+		popupBox.style.borderStyle = "solid";
+		popupBox.style.position = "fixed";
+		popupBox.style.padding = "8px";
+		popupBox.style.borderRadius = "10px";
+		popupBox.style.bottom = "16px";
+		popupBox.style.maxWidth = "75%";
+		popupBox.style.maxHeight = "1.25em";
+		var left = Math.floor(window.innerWidth / 2 - popupBox.offsetWidth / 2);
+		console.log(left);
+		popupBox.style.left = left;
+		popupBox.style.overflow = "hidden";
+		setTimeout(() => {
+			runetyper.removeChild(popupBox);
+		}, delay);
+		
 	}
 </script>
 <script>
