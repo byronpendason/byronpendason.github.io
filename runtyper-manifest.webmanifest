@@ -3,8 +3,8 @@ permalink: /manifest.webmanifest
 layout: none
 ---
 {
-  "name": "RuneTyper",
-  "short_name": "RuneTyper",
+  "name": "RuneTyper 2",
+  "short_name": "RuneTyper2",
   "description": "Type Runes on your phone or desktop!",
  
   "scope": "/runetyper",
