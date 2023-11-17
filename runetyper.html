@@ -477,7 +477,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 			button.innerText = runes[i];
 			button.style.fontSize = "24px";
 			button.style.height = "3em";
-			button.style.fontFamily = "Junicode, serif";
+			button.style.fontFamily = font;
 			button.addEventListener('click', () => {
 				input.value += button.innerText;
 			});
@@ -488,7 +488,7 @@ excerpt: "RuneTyper is my gift to people who love or have an interest in runes! 
 		const button = document.createElement('button');
 		button.innerText = "␣";
 		button.style.fontSize = "24px";
-		button.style.fontFamily = "Junicode, serif";
+		button.style.fontFamily = font;
 		button.addEventListener('click', () => {
 			input.value += " ";
 		});
