@@ -9,7 +9,7 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 
 <h1>Fyrnsidu Search</h1>
 <div id="searchBar" style="margin: 12px auto;">
-<input type="text" id="search" style="width:75%;font-size: 2em;border-radius:25px;padding-left:25px;"><button id="searchSubmit" style="font-size: 2em;border-radius:25px;padding-left:15px;padding-right:15px;margin-left: 8px;">&#128269;</button>
+<input type="text" id="search" style="width:66%;font-size: 2em;border-radius:25px;padding-left:25px;"><button id="searchSubmit" style="font-size: 2em;border-radius:25px;padding-left:15px;padding-right:15px;margin-left: 8px;">&#128269;</button>
 </div>
 <div id="sites">
 <h2>Sites to Search</h2>
