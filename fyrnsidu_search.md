@@ -8,7 +8,7 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 ---
 
 <h1>Fyrnsidu Search</h1>
-<div id="searchBar" style="width: 95%;margin: 12px auto;">
+<div id="searchBar" style="margin: 12px auto;">
 <input type="text" id="search" style="width:75%;font-size: 2em;border-radius:25px;padding-left:25px;"><button id="searchSubmit" style="font-size: 2em;border-radius:25px;padding-left:15px;padding-right:15px;margin-left: 8px;">&#128269;</button>
 </div>
 <div id="sites">
@@ -22,7 +22,7 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 <input type="checkbox" id="mineWyrtruman" value="minewyrtruman.com" checked><label for="mineWyrtruman">Mine Wyrtruman</label><br>
 <input type="checkbox" id="seolforCwyllaHeorth" value="seolforcwyllaheorth.wordpress.com" checked><label for="seolforCwyllaHeorth">Seolfor Cwylla Heorþ</label>
 <h3>Heathen Sites of Other Traditions</h3>
-<input type="checkbox" id="ostriuwi" value="ostriuwi.wordpress.com/">Ostriuwi (Old Saxon Heathenry)</label><br>
+<input type="checkbox" id="ostriuwi" value="ostriuwi.wordpress.com/"><label for="ostriuwi">Ostriuwi (Old Saxon Heathenry)</label><br>
 <input type="checkbox" id="theLongship" value="thelongship.net"><label for="theLongship">The Longship (Pan-Germanic)</label><br>
 <input type="checkbox" id="ingwine" value="ingwine.org"><label for="ingwine">Ingwina Ferræden (Ingwine Heathenship)</label><br>
 <h3>Other Resources</h3>
