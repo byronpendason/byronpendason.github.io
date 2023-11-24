@@ -13,7 +13,7 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 </div>
 <div id="sites">
 <h2>Sites to Search</h2>
-<div id="sitesList">
+<div id="sitesList" style="border-style: double">
 <h3>Fyrnsidu Sites</h3>
 <input type="checkbox" id="fyrnsiduFaith" value="fyrnsidu.faith" checked><label style="display: inline-block; line-break: loose" for="fyrnsiduFaith">Fyrnsidu.faith</label><br>
 <input type="checkbox" id="larhusFyrnsida" value="larhusfyrnsida.com" checked><label style="display: inline-block; line-break: loose" for="larhusFyrnsida">Larhus Fyrnsida</label><br>
