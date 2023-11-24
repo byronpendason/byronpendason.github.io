@@ -11,9 +11,9 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 <div id="searchBar" style="margin: 12px auto;">
 <input type="text" id="search" style="width:66%;font-size: 2em;border-radius:25px;padding-left:25px;"><button id="searchSubmit" style="font-size: 2em;border-radius:25px;padding-left:15px;padding-right:15px;margin-left: 8px;">&#128269;</button>
 </div>
-<div id="sites">
+
 <h2>Sites to Search</h2>
-<div id="sitesList" style="border-style: double">
+<div id="sitesList" style="border-style: daahed; padding: 0px;">
 <h3>Fyrnsidu Sites</h3>
 <input type="checkbox" id="fyrnsiduFaith" value="fyrnsidu.faith" checked><label style="display: inline-block; line-break: loose" for="fyrnsiduFaith">Fyrnsidu.faith</label><br>
 <input type="checkbox" id="larhusFyrnsida" value="larhusfyrnsida.com" checked><label style="display: inline-block; line-break: loose" for="larhusFyrnsida">Larhus Fyrnsida</label><br>
