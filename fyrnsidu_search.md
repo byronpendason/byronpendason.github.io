@@ -13,20 +13,20 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 </div>
 
 <h2>Sites to Search</h2>
-<div id="sitesList" style="border-style: dashed; padding: 0px;">
+<div id="sitesList">
 <h3>Fyrnsidu Sites</h3>
-<input type="checkbox" style="padding: 0px; margin: 0px; border-style: dashed;" id="fyrnsiduFaith" value="fyrnsidu.faith" checked><label style="border-style: dashed; padding: 0px; margin: 0px" for="fyrnsiduFaith">Fyrnsidu.faith</label><br>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="larhusFyrnsida" value="larhusfyrnsida.com" checked><label style="padding: 0px; margin: 0px" for="larhusFyrnsida">Larhus Fyrnsida</label><br>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="axeAndPlough" value="axeandplough.com" checked><label style="padding: 0px; margin: 0px" for="axeAndPlough">Of Axe and Plough</label><br>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="windInTheWorldtree" value="windintheworldtree.wordpress.com" checked><label style="padding: 0px; margin: 0px" for="windInTheWorldtree">Wind in the Worldtree</label><br>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="mineWyrtruman" value="minewyrtruman.com" checked><label style="padding: 0px; margin: 0px" for="mineWyrtruman">Mine Wyrtruman</label><br>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="seolforCwyllaHeorth" value="seolforcwyllaheorth.wordpress.com" checked><label style="padding: 0px; margin: 0px" for="seolforCwyllaHeorth">Seolfor Cwylla Heorþ</label>
+<label for="fyrnsiduFaith"> <input type="checkbox" id="fyrnsiduFaith" value="fyrnsidu.faith" checked> Fyrnsidu.faith </label><br>
+<label for="larhusFyrnsida"> <input type="checkbox" id="larhusFyrnsida" value="larhusfyrnsida.com" checked> Larhus Fyrnsida </label><br>
+<label for="axeAndPlough"> <input type="checkbox" id="axeAndPlough" value="axeandplough.com" checked> Of Axe and Plough </label><br>
+<label for="windInTheWorldtree"> <input type="checkbox" id="windInTheWorldtree" value="windintheworldtree.wordpress.com" checked> Wind in the Worldtree </label><br>
+<label for="mineWyrtruman"> <input type="checkbox" id="mineWyrtruman" value="minewyrtruman.com" checked> Mine Wyrtruman </label><br>
+<input type="checkbox" id="seolforCwyllaHeorth" value="seolforcwyllaheorth.wordpress.com" checked><label for="seolforCwyllaHeorth"> Seolfor Cwylla Heorþ</label>
 <h3>Heathen Sites of Other Traditions</h3>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="ostriuwi" value="ostriuwi.wordpress.com/"><label style="padding: 0px; margin: 0px" for="ostriuwi">Ostriuwi (Old Saxon Heathenry)</label><br>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="theLongship" value="thelongship.net"><label style="padding: 0px; margin: 0px" for="theLongship">The Longship (Pan-Germanic)</label><br>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="ingwine" value="ingwine.org"><label style="padding: 0px; margin: 0px" for="ingwine">Ingwina Ferræden (Ingwine Heathenship)</label><br>
+<label for="ostriuwi"><input type="checkbox" id="ostriuwi" value="ostriuwi.wordpress.com/"> Ostriuwi (Old Saxon Heathenry)</label><br>
+<label for="theLongship"><input type="checkbox" id="theLongship" value="thelongship.net"> The Longship (Pan-Germanic)</label><br>
+<label for="ingwine"><input type="checkbox" id="ingwine" value="ingwine.org"> Ingwina Ferræden (Ingwine Heathenship)</label><br>
 <h3>Other Resources</h3>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="bosworthToller" value="bosworthtoller.com"><label style="padding: 0px; margin: 0px" for="bosworthToller">Bosworth-Toller Online (Old English dictionary)</label>
+<label for="bosworthToller"><input type="checkbox" id="bosworthToller" value="bosworthtoller.com"> Bosworth-Toller Online (Old English dictionary)</label>
 </div>
 
 <script>
