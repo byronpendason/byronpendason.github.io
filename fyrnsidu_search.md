@@ -28,6 +28,10 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 <h3>Other Resources</h3>
 <label for="bosworthToller"><input type="checkbox" id="bosworthToller" value="bosworthtoller.com"> Bosworth-Toller Online (Old English dictionary)</label>
 </div>
+<br>
+<div>
+<a href="javascript:selectAll()">Select all</a> | <a href="javascript:unselectAll()">Unselect all</a>
+</div>
 
 <script>
 const search = document.getElementById("search");
@@ -48,4 +52,20 @@ btn.addEventListener('click', function(e) {
 	//console.log(url);
 	window.location.href = url;
 });
+
+function selectAll() {
+	let checkboxes = sites.getElementsByTagName("input");
+	
+	for (check of checkboxes) {
+		check.checked = true;
+	}
+}
+
+function unselectAll() {
+	let checkboxes = sites.getElementsByTagName("input");
+	
+	for (check of checkboxes) {
+		check.checked = false;
+	}
+}
 </script>
