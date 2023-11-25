@@ -15,7 +15,7 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 <h2>Sites to Search</h2>
 <div id="sitesList" style="border-style: dashed; padding: 0px;">
 <h3>Fyrnsidu Sites</h3>
-<input type="checkbox" style="padding: 0px; margin: 0px" id="fyrnsiduFaith" value="fyrnsidu.faith" checked><label style="padding: 0px; margin: 0px" for="fyrnsiduFaith">Fyrnsidu.faith</label><br>
+<input type="checkbox" style="padding: 0px; margin: 0px; border-style: dashed;" id="fyrnsiduFaith" value="fyrnsidu.faith" checked><label style="border-style: dashed; padding: 0px; margin: 0px" for="fyrnsiduFaith">Fyrnsidu.faith</label><br>
 <input type="checkbox" style="padding: 0px; margin: 0px" id="larhusFyrnsida" value="larhusfyrnsida.com" checked><label style="padding: 0px; margin: 0px" for="larhusFyrnsida">Larhus Fyrnsida</label><br>
 <input type="checkbox" style="padding: 0px; margin: 0px" id="axeAndPlough" value="axeandplough.com" checked><label style="padding: 0px; margin: 0px" for="axeAndPlough">Of Axe and Plough</label><br>
 <input type="checkbox" style="padding: 0px; margin: 0px" id="windInTheWorldtree" value="windintheworldtree.wordpress.com" checked><label style="padding: 0px; margin: 0px" for="windInTheWorldtree">Wind in the Worldtree</label><br>
