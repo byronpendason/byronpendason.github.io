@@ -3,7 +3,6 @@ title: The Winter Holidays
 author: Byron Pendason
 date: Saturday, December 10, 2023
 layout: post
-published: false
 categories: [Heathenry, anglo-saxon calendar, heathen basics, heathen worship, reconstruction]
 ---
 
