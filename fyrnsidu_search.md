@@ -20,7 +20,7 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 <label for="axeAndPlough"> <input type="checkbox" id="axeAndPlough" value="axeandplough.com" checked> Of Axe and Plough </label><br>
 <label for="windInTheWorldtree"> <input type="checkbox" id="windInTheWorldtree" value="windintheworldtree.wordpress.com" checked> Wind in the Worldtree </label><br>
 <label for="mineWyrtruman"> <input type="checkbox" id="mineWyrtruman" value="minewyrtruman.com" checked> Mine Wyrtruman </label><br>
-<input type="checkbox" id="seolforCwyllaHeorth" value="seolforcwyllaheorth.wordpress.com" checked><label for="seolforCwyllaHeorth"> Seolfor Cwylla Heorþ</label>
+<input type="checkbox" id="seolforCwyllaHeorth" value="seolforcwyllaheorth.wordpress.com" checked><label for="seolforCwyllaHeorth"> Seolfor Cwylla Heorþ</label><br>
 <input type="checkbox" id="forthweard" value="forthweard.blog" checked><label for="forthweard">Forthweard</label>
 
 <h3>Heathen Sites of Other Traditions</h3>
