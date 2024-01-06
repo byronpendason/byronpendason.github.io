@@ -205,6 +205,7 @@ function Calendar(years) {
 
     // This was a royal pain in the tookus to get working correctly with the month array
     // It probably isn't perfect since I didn't *really* know what some of the math was for.
+
     function getASDate(d) {
 
         var d = new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -224,7 +225,8 @@ function Calendar(years) {
         }
 
         var newYear = _years.find(yr => yr.Year == this.Year+1).NewMoons[0];
-        if (d > new Date(newYear.getFullYear(), 0, 0) && d < newYear) {
+        var newYearsDay = new Date(newYear.getFullYear(), 0, 0);
+        if (d > newYearsDay && d < newYear) {
             newYear = _years.find(yr => yr.Year == this.Year).NewMoons[0];
         }
         var dateStr;
