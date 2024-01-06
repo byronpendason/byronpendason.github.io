@@ -224,6 +224,9 @@ function Calendar(years) {
         }
 
         var newYear = _years.find(yr => yr.Year == this.Year+1).NewMoons[0];
+        if (d > new Date(newYear.getFullYear(), 0, 0) && d < newYear) {
+            newYear = _years.find(yr => yr.Year == this.Year).NewMoons[0];
+        }
         var dateStr;
 
         if(d >= newYear) {
