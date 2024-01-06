@@ -21,6 +21,8 @@ excerpt: Search the websites of Fyrnsideras and sister branches of Heathenry!
 <label for="windInTheWorldtree"> <input type="checkbox" id="windInTheWorldtree" value="windintheworldtree.wordpress.com" checked> Wind in the Worldtree </label><br>
 <label for="mineWyrtruman"> <input type="checkbox" id="mineWyrtruman" value="minewyrtruman.com" checked> Mine Wyrtruman </label><br>
 <input type="checkbox" id="seolforCwyllaHeorth" value="seolforcwyllaheorth.wordpress.com" checked><label for="seolforCwyllaHeorth"> Seolfor Cwylla Heorþ</label>
+<input type="checkbox" id="forthweard" value="forthweard.blog" checked><label for="forthweard">Forthweard</label>
+
 <h3>Heathen Sites of Other Traditions</h3>
 <label for="ostriuwi"><input type="checkbox" id="ostriuwi" value="ostriuwi.wordpress.com/"> Ostriuwi (Old Saxon Heathenry)</label><br>
 <label for="theLongship"><input type="checkbox" id="theLongship" value="thelongship.net"> The Longship (Pan-Germanic)</label><br>
