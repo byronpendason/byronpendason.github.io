@@ -207,9 +207,12 @@ function Calendar(years) {
     // It probably isn't perfect since I didn't *really* know what some of the math was for.
 
     function getASDate(d) {
-
         var d = new Date(d.getFullYear(), d.getMonth(), d.getDate());
         var month;
+        var newYearsDay = new Date(d.getFullYear(), 0, 1);
+        if (d >= newYearsDay && d < this.Months[0].NewMoon) {
+
+        }
 
         for(let i = 0; i < this.Months.length; i++) {
             var isBetween = false;
