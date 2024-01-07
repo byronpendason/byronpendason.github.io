@@ -244,9 +244,9 @@ function Calendar(years) {
 			var day = ((d.getTime() - newMoon.getTime()) / (24 * 60 * 60 * 1000)) + 1;
 			dateStr = getOrdinal(Math.round(day)) + " of " + month.Name;
 		}
-		if (this.Year != d.getFullYear()) {
+		/*if (this.Year != d.getFullYear()) {
 			this.Load(d.getFullYear());
-		}
+		}*/
 		return dateStr;
 
 	}
