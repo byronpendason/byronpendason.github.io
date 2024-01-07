@@ -52,7 +52,6 @@
 
             getCalendar(new Date().getFullYear()); // Initialize the calendar. 
             $('#lbl-today').html(calendar.ConvertDate(new Date()));
-            getCalendar(new Date().getFullYear()); // Reinitialise calendar, just in case it got changed while calculating the AS date for the current date
 
             $('#btn-get-calendar').click(btnGetCalendar_click);
             $('#btn-convert-date').click(btnConvertDate_click);
