@@ -211,7 +211,7 @@ function Calendar(years) {
         var month;
         var newYearsDay = new Date(d.getFullYear(), 0, 1);
         if (d >= newYearsDay && d < this.Months[0].NewMoon) {
-            getCalendar(d.getFullYear()-1);
+            this.getCalendar(d.getFullYear()-1);
         }
 
         for(let i = 0; i < this.Months.length; i++) {
