@@ -211,7 +211,7 @@ function Calendar(years) {
         var month;
         var newYearsDay = new Date(d.getFullYear(), 0, 1);
         if (d >= newYearsDay && d < this.Months[0].NewMoon) {
-            this.getCalendar(d.getFullYear()-1);
+            this.Load(d.getFullYear()-1);
         }
 
         for(let i = 0; i < this.Months.length; i++) {
@@ -246,7 +246,7 @@ function Calendar(years) {
             dateStr = getOrdinal(Math.round(day)) + " of " + month.Name;                 
         }
         if (this.Year != d.getFullYear()) {
-            this.getCalendar(d.getFullYear());
+            this.Load(d.getFullYear());
         }
         return dateStr;
 
