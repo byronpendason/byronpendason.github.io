@@ -23,7 +23,7 @@ So, instead of thinking of the so-called dichotomy of control as dividing things
 
 > Of things, some are up to us and others are not. Things up to us are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Not up to us are body, property, reputation, command, and, in a word, whatever are not our own actions.
 
-The distinction may be subtle, but I think it's an important distinction. When thinking in terms of what we control, we naturally want to let go of things that aren't in our control. But if we think of things in terms of being up to us and not up to us, we are more likely to think "If this thing isn't up to me, what is up to me?" The answer is, our thoughts about said subject. Once we change our thoughts on said subject, or actions will naturally follow. And we can spread those thoughts to others by discussing those thoughts with them.
+The distinction may be subtle, but I think it's an important distinction. When thinking in terms of what we control, we naturally want to let go of things that aren't in our control. But if we think of things in terms of being up to us and not up to us, we are more likely to think "If this thing isn't up to me, what is up to me?" The answer is, our thoughts about said subject. Once we change our thoughts on said subject, or feelings about it (and ultimately, our actions) will naturally follow. And we can spread those thoughts to others by discussing those thoughts with them.
 
 I am going to end this blog post by listing the above resources so that you can easier access them, if you do choose. I'd encourage you to read through them, and feel free to give me your thoughts in the comments below!
 
