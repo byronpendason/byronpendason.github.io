@@ -3,7 +3,6 @@ title: What is Up to Us?
 author: Byron Pendason
 date: 2024-02-04
 layout: post
-published: false
 categories: [Heathenry, stoicism, philosophical musings]
 ---
 
