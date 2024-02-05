@@ -58,7 +58,7 @@ Beofeld, like Wodgar and Marc, had joined the Facebook group because he too had 
 
 Later on Beofeld created a Discord server for Fyrnsidu. The Facebook group and Discord server act as hubs around which most of the modern Fyrnsidu activity that we're aware of happens.
 
-The mod team of the Fyrnsidu Discord server is Beofeld, Batweard, Beorn Se Stranga, Barbatus, and myself. We've been working to advance and promote Fyrnsidu. In August of 2021, we put together a [website for Fyrnsidu](https://furnsidu.faith) in order to help introduce new people to Fyrnsidu and to act as a directory of the Fyrnsidu websites of which we are aware.
+The mod team of the Fyrnsidu Discord server is Beofeld, Batweard, Beorn Se Stranga, Barbatus, and myself. We've been working to advance and promote Fyrnsidu. In August of 2021, we put together a [website for Fyrnsidu](https://fyrnsidu.faith) in order to help introduce new people to Fyrnsidu and to act as a directory of the Fyrnsidu websites of which we are aware.
 
 So, that brings us to the present, but it's not the end of the story. Fyrnsidu is still alive and well. How do you want to contribute to its story? *Beo gesund!*[^1]
 
