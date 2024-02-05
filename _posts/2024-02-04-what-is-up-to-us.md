@@ -6,9 +6,7 @@ layout: post
 categories: [Heathenry, stoicism, philosophical musings]
 ---
 
-*Wes hāl!*[^1]
-
-In [Stoicism](https://www.minewyrtruman.com/blog/category?stoicism), the dichotomy of control is a fundamental concept. At least that's what I had been led to believe. A [recent discussion](https://www.reddit.com/r/Stoicism/comments/1ahxkwd/interesting_article_on_the_dichotomy_of_control/) on [r/Stoicism](https://www.reddit.com/r/Stoicism/) challenged this concept though, and I found the discussion enlightening.
+*Wes hāl!*[^1] In [Stoicism](https://www.minewyrtruman.com/blog/category?stoicism), the dichotomy of control is a fundamental concept. At least that's what I had been led to believe. A [recent discussion](https://www.reddit.com/r/Stoicism/comments/1ahxkwd/interesting_article_on_the_dichotomy_of_control/) on [r/Stoicism](https://www.reddit.com/r/Stoicism/) challenged this concept though, and I found the discussion enlightening.
 
 Basically, the dichotomy of control is based upon a mistranslation of the Enchiridion. William Abbot Oldfather  in 1928 translated the first sentence of the Enchiridion as "Some things are under our control, while others are not under our control." Before Oldfather, it had generally been translated as "in our power" or "depends upon us", or something similar.[^2]
 
