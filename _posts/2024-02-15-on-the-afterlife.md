@@ -53,11 +53,11 @@ I believe one factor for the ease of this journey is one's virtue (moral charact
 
 Many people view the afterlife as a place to reward the righteous and to punish the wicked. There are pagans who assume that this originated with the Christians, but we see this also with three Greek and the Norse. The Norse had Náströnd, which was the afterlife for those guilty of murder, adultery, and oath-breaking. Here, the serpent Niðhöggr chewed upon the corpses of such people. We can't be sure that this wasn't influenced by Christianity, but it at least predates the conversion, being found in the *Völuspá*. In Hellenism, we have Tartarus where not only the enemies of the gods were imprisoned, but particularly wicked humans ended up after death.
 
-In Old English, we find Wyrmsele (Serpent hall) and Wyrmgeard (Serpent enclosure) used as a name for the Christian hell. It sounds awfully reminiscent of Nástrond though, which leads me to believe it served a similar function for the pre-Christian Anglo-Saxons. I think those who were particularly wicked would end up in Wyrmgeard. We have no idea who would have judged them to send them here, but I think the most likely cases would be either one's ancestors, the Queen of Hell, or maybe Hell is set up in such a way that those who's *mægen* wasn't strong enough to reach their ancestral hall would naturally end up here. I have a feeling though that isn't an eternal punishment, and that perhaps the souls of the wicked could end up with their ancestors after they've paid for their crimes. It doesn't seem very just to me for a person to receive infinite punishment for a finite life of wickedness.
+In Old English, we find Wyrmsele[^12] (Serpent hall) and Wyrmgeard[^13] (Serpent enclosure) used as a name for the Christian hell. It sounds awfully reminiscent of Nástrond though, which leads me to believe it served a similar function for the pre-Christian Anglo-Saxons. I think those who were particularly wicked would end up in Wyrmgeard. We have no idea who would have judged them to send them here, but I think the most likely cases would be either one's ancestors, the Queen of Hell, or maybe Hell is set up in such a way that those who's *mægen* wasn't strong enough to reach their ancestral hall would naturally end up here. I have a feeling though that isn't an eternal punishment, and that perhaps the souls of the wicked could end up with their ancestors after they've paid for their crimes. It doesn't seem very just to me for a person to receive infinite punishment for a finite life of wickedness.
 
 ## Neorxnawang
 
-Neorxnawang is found in Old English literature, referring to paradise. The *wang* suffix indicates a field, but we're not sure what the rest of the word means. The best theory seems to be that it is related *ne wyrcan*, meaning "no working". To me, this sounds similar to the Greek Elysian Fields (also known as the *Isle(s) of the Blessed*), the place where the particularly heroic and  virtous ended up. In Norse lore, we have Gimle which is described in Völupsá 64 as "There shall the righteous rulers dwell, And happiness there shall they ever have."
+Neorxnawang[^14] is found in Old English literature, referring to paradise. The *wang* suffix indicates a field, but we're not sure what the rest of the word means. The best theory seems to be that it is related *ne wyrcan*, meaning "no working". To me, this sounds similar to the Greek Elysian Fields (also known as the *Isle(s) of the Blessed*), the place where the particularly heroic and  virtous ended up. In Norse lore, we have Gimle which is described in Völupsá 64 as "There shall the righteous rulers dwell, And happiness there shall they ever have."
 
 I view Neorxnawang as being a location in Hell, and it's the opposite of Wyrmgeard. The particularly virtuous would end up in this paradise. I do think though that in order to reach this afterlife you have to have been virtuous to such a degree that the number who reach this afterlife is very very small. The vast majority of humans, in my opinion, will end up in their ancestral halls instead of in Wyrmgeard or in Neorxnawang.
 
@@ -98,3 +98,9 @@ I hope you found this post helpful, or at least thought provoking. Please let me
 [^10]: https://bosworthtoller.com/22054
 
 [^11]: Gehenna was the afterlife place of torment for the wicked, according to Jesus (for example, in Matthew 10:28: "Fear him who is able to destroy both soul and body in Gehenna."). It was supposedly named after a trash dump outside of Jerusalem where they burned trash. Many English Bible translations simply translate it as Hell.
+
+[^12]: https://bosworthtoller.com/36997
+
+[^13]: https://bosworthtoller.com/36988
+
+[^14]: https://bosworthtoller.com/23570
