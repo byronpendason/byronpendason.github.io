@@ -3,8 +3,7 @@ title: On the Afterlife
 author: Byron Pendason
 date: 2024-02-17
 layout: post
-published: false
-categories: [Heathenry, afterlife, cosmology, heathen worldview, reconstruction]
+categories: [Heathenry, afterlife, heathen worldview, reconstruction]
 ---
 
 *Wes hāl!*[^1] Heathenry, like much of paganism, is a religion which focuses on this life. Heathens worry more about cultivating relationships with their divine beings to gain their aid in making this life better, rather than trying to please a god to gain entrance into the hereafter. But to say Heathenry has no afterlife would also be inaccurate.[^2]
