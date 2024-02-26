@@ -9,10 +9,12 @@ sitemap:
 
 <!-- <textarea id="english" style="width: 99%; font-size:20px;height:40%;" accept="text/*" oninput="toRunes()"></textarea> -->
 <input type="file" id="english" style="width:99%; font-size:24px;" onchange="toRunes(this)">
-<div id="runesDiv" style="width:99%; font-size:24px;white-space:pre-wrap;">
+
+<div id="runesDiv" style="width:99%; font-size:24px;">
 <p>Choose a file by pressing the above button; This page will convert the text to Futhorc runes so that you can practice reading in runes!</p>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
 //let text = "Don't seek to have events happen as you wish, but wish them to happen as they do happen, and all will be well with you."
 const english = document.getElementById("english");
@@ -31,14 +33,14 @@ function toRunes(input) {
 	reader.onload = function () {
 		let text = reader.result;
 		text = text.toLowerCase().replaceAll(", ", ",").replaceAll(". ", ".");
-		text = text.replace(/(\r\n|\r|\n){2,}/g, '$1\n');
+		//if text = text.replace(/(\r\n|\r|\n){2,}/g, '$1\n');
 		text = text.replace(/\n\ +/g, "\n\t");
 		text = text.replace(/\ +\n/g, "\n");
 		console.log(text);
 		for (let i=0; i<runes.length; i++) {
 			text = text.replaceAll(letters[i], runes[i]);
 		}
-		runesDiv.textContent = text;
+		runesDiv.innerHTML = marked.parse(text);
 		text = "";
 	}
 }
