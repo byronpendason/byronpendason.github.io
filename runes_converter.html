@@ -1,0 +1,41 @@
+---
+title: Rune Converter
+author: Byron Pendason
+permalink: /rune_converter
+layout: page
+---
+
+<!-- <textarea id="english" style="width: 99%; font-size:20px;height:40%;" oninput="toRunes()"></textarea> -->
+<input type="file" id="english" style="width:99%; font-size:24px;" onchange="toRunes(this)">
+<div id="runesDiv" style="width:99%; font-size:24px;white-space:pre-wrap;"></div>
+
+<script>
+//let text = "Don't seek to have events happen as you wish, but wish them to happen as they do happen, and all will be well with you."
+const english = document.getElementById("english");
+const runesDiv = document.getElementById("runesDiv");
+let runes = "ᚦ᛫ᛝ᛫ᛥ᛫ᚫ᛫ᛇ᛫ᛠ᛫ᛟ᛫ᚪ᛫ᛒ᛫ᚳ᛫ᛞ᛫ᛖ᛫ᚠ᛫ᚷ᛫ᚻ᛫ᛁ᛫ᛄ᛫ᛣ᛫ᛚ᛫ᛗ᛫ᚾ᛫ᚩ᛫ᛈ᛫ᛢ᛫ᚱ᛫ᛋ᛫ᛏ᛫ᚢ᛫ᚢ᛫ᚹ᛫ᛉ᛫ᚣ᛫ᚴ᛫᛭᛫᛬".split("᛫");
+runes.push("᛫");
+let letters = "th ng st ae eo ea ee a b c d e f g h i j k l m n o p q r s t u v w x y z , .".split(" ");
+letters.push(" ");
+
+function toRunes(input) {
+	//let text = english.value.toLowerCase().replaceAll(", ", ",").replaceAll(". ", ".").replace("'", "");
+	let file = input.files[0];
+	let reader = new FileReader();
+	reader.readAsText(file);
+	
+	reader.onload = function () {
+		let text = reader.result;
+		text = text.toLowerCase().replaceAll(", ", ",").replaceAll(". ", ".");
+		text = text.replace(/(\r\n|\r|\n){2,}/g, '$1\n');
+		text = text.replace(/\n\ +/g, "\n\t");
+		text = text.replace(/\ +\n/g, "\n");
+		console.log(text);
+		for (let i=0; i<runes.length; i++) {
+			text = text.replaceAll(letters[i], runes[i]);
+		}
+		runesDiv.textContent = text;
+		text = "";
+	}
+}
+</script>
