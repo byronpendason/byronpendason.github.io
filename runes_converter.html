@@ -7,9 +7,8 @@ sitemap:
   exclude: yes
 ---
 
-<!-- <textarea id="english" style="width: 99%; font-size:20px;height:40%;" accept="text/*" oninput="toRunes()"></textarea> -->
 <input type="file" id="english" style="width:99%; font-size:24px;" onchange="toRunes(this)">
-
+	
 <div id="runesDiv" style="width:99%; font-size:24px;">
 <p>Choose a file by pressing the above button; This page will convert the text to Futhorc runes so that you can practice reading in runes!</p>
 </div>
@@ -26,22 +25,66 @@ letters.push(" ");
 
 function toRunes(input) {
 	//let text = english.value.toLowerCase().replaceAll(", ", ",").replaceAll(". ", ".").replace("'", "");
+	let text = "";
+	if (typeof(input) === "string") {
+		text = input;
+		text = text.replace(/\n\ +/g, "\n\t");
+		text = text.replace(/\ +\n/g, "\n");
+		for (let i=0; i<runes.length; i++) {
+			text = text.replaceAll(letters[i], runes[i]);
+		}
+		return text;
+	}
+	
 	let file = input.files[0];
 	let reader = new FileReader();
 	reader.readAsText(file);
 	
 	reader.onload = function () {
-		let text = reader.result;
+		text = reader.result;
+		text = sanitizeHTML(text);
 		text = text.toLowerCase().replaceAll(", ", ",").replaceAll(". ", ".");
+		let matches = text.match(/<\/*[A-Za-z0-9\ \=\"\'\(\)\:\;\-\%]+>/g);
+		console.log(matches);
+		
 		//if text = text.replace(/(\r\n|\r|\n){2,}/g, '$1\n');
 		text = text.replace(/\n\ +/g, "\n\t");
 		text = text.replace(/\ +\n/g, "\n");
-		console.log(text);
 		for (let i=0; i<runes.length; i++) {
 			text = text.replaceAll(letters[i], runes[i]);
+		}
+		if (matches) {
+			console.log("hello!");
+			for (let i=0; i<matches.length; i++) {
+				text = text.replaceAll(toRunes(matches[i]), matches[i]);
+			}
 		}
 		runesDiv.innerHTML = marked.parse(text);
 		text = "";
 	}
+}
+
+function sanitizeHTML(text) {
+	text = text.replace(/<head[^]+\/head>/gm, "");
+	text = text.replace(/<script.+script>/g, "");
+	text = text.replace(/<html.*>/g, "");
+	text = text.replace(/<\/html>/g, "");
+	text = text.replace(/<body.*>/g, "");
+	text = text.replace(/<\/body>/g, "");
+	text = text.replace(/<\!doctype.*>/g, "");
+	
+	return text;
+}
+
+function fromRunes(text) {
+	for (let i=0; i<runes.length; i++) {
+			text = text.replaceAll(runes[i], letters[i]);
+		}
+		
+		return text;
+}
+
+function removeDuplicates(arr) {
+    return [...new Set(arr)];
 }
 </script>
