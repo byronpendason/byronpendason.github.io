@@ -9,7 +9,7 @@ sitemap:
 
 <input type="file" id="english" style="width:99%; font-size:24px;" onchange="toRunes(this)">
 	
-<div id="runesDiv" style="width:99%; font-size:24px;">
+<div id="runesDiv">
 <p>Choose a file by pressing the above button; This page will convert the text to Futhorc runes so that you can practice reading in runes!</p>
 </div>
 
@@ -54,11 +54,11 @@ function toRunes(input) {
 			text = text.replaceAll(letters[i], runes[i]);
 		}
 		if (matches) {
-			console.log("hello!");
 			for (let i=0; i<matches.length; i++) {
 				text = text.replaceAll(toRunes(matches[i]), matches[i]);
 			}
 		}
+		text = text.replace(/\n([\#\>\*\-])᛫+([A-Za-z0-9ᚠᚢᚦᚩᚱᚳᚷᚹᚻᚾᛁᛄᛇᛈᛉᛋᛏᛒᛖᛗᛚᛝᛟᛞᚪᚫᚣᛠᛡᛣᛤᚸᛢᛥᚴ])/gi, "$1 $2");
 		runesDiv.innerHTML = marked.parse(text);
 		text = "";
 	}
