@@ -8,7 +8,7 @@ categories: [anglo-saxon calendar, heathen worship, reconstruction]
 ---
 {% include calendar-display-v2.html %}
 
-<div id="calendar-info">
+<div id="calendar-info" markdown="1">
 ## Instructions
 
 Enter a Common Era year to see the reconstructed calendar dates -OR- enter a specific date, and it will be converted to the Anglo-Saxon date. 
