@@ -1,16 +1,27 @@
+
 <h1 class="page-title">The Anglo-Saxon Calendar</h1>
 <h2 class="page-subtitle">&#8212;A Reconstruction&#8212;</h2>
+<div id="tabs" style="width: 100%; background-color:lightgray; padding: 0.5em; padding-bottom:0px;">
+	<button id="monthBtn" onclick="showMonth()" style="background-color: maroon; border: none;padding:0.5em; border-radius: 25px 25px 0px 0px;">Month View</button>
+	<button id="yearBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;" onclick="showYear()">Year View</button>
+	<button id="infoBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;" onclick="showInfo()">About the Calendar</button>
+</div>
+<div id="monthDiv">
+	<h1 id="monthName" style="text-align: center; margin-bottom:0px;">Month Year</h1>
+	<div id="monthTable" style="display: grid;grid-template-columns: repeat(7, minmax(0, 1fr));column-gap:1px;row-gap:1px;">
 
-<div id="year-info">
-    <span>For the Year  <span id="lbl-selected-year-he"></span>
-    <a href="https://www.minewyrtruman.com/2022/08/30/the-human-era/">HE</a>/<span id="lbl-selected-year"></span> CE</span>
+	</div>
+</div>
+<div id="year-info" hidden>
+    <h2>Year  <span id="lbl-selected-year-he"></span>
+    <a href="https://www.minewyrtruman.com/2022/08/30/the-human-era/">HE</a>/<span id="lbl-selected-year"></span> CE</h2>
     <br />
 
     <a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic Year</a>
     <span id="lbl-metonic-year"></span>:
     <span id="lbl-intercalary-year"></span>
-    <br />            
-</div>
+    <br />
+    
 <span class="bold">Today is <span id="lbl-today"></span></span>
 
 <label for="txt-input-year">Enter Year</label>
@@ -31,13 +42,16 @@
 
 <h2 class="table-heading">Other Holidays</h2>
 <table id="holiday-minor"></table>
+</div>
 
 <script type="text/javascript" src="./js/calendar.js"></script>
 <script type="text/javascript" src="./js/calendar-display.js"></script>
+<script type="text/javascript" src="./js/ascalbuilder.js"></script>
 
 <script type="text/javascript">
 
     var calendar; // Declare out here for the other page disploy methods.
+    var builder;
 
     $(document).ready(function(){
         // Fetch years' data from yaml *cries*
@@ -51,10 +65,78 @@
             calendar = Calendar(yearsData); // Create Calendar object
 
             getCalendar(new Date().getFullYear()); // Initialize the calendar. 
+            builder = new ASCalBuilder(calendar);
             $('#lbl-today').html(calendar.ConvertDate(new Date()));
 
             $('#btn-get-calendar').click(btnGetCalendar_click);
             $('#btn-convert-date').click(btnConvertDate_click);
+            showMonth();
         });
     });
+    
+    function showMonth() {
+    	const monthBtn = document.getElementById("monthBtn");
+    	const yearBtn = document.getElementById("yearBtn");
+    	const infoBtn = document.getElementById("infoBtn");
+    	const monthDiv = document.getElementById("monthDiv");
+    	const yearInfo = document.getElementById("year-info");
+   	 const calendarInfo = document.getElementById("calendar-info");
+    
+    	monthDiv.style.display = 'block';
+    	yearInfo.style.display = 'none';
+    	monthBtn.style.color = "white";
+    	monthBtn.style.backgroundColor = "maroon";
+    	monthBtn.style.border = "solid 1px black";
+    	yearBtn.style.color = "black";
+    	yearBtn.style.backgroundColor = "transparent";
+    	yearBtn.style.border = "solid 1px black";
+    	calendarInfo.style.display = "none";
+    	infoBtn.style.backgroundColor = "transparent";
+    	infoBtn.style.border = "solid 1px black";
+    	infoBtn.style.color = "black";
+    }
+    
+    function showYear() {
+    	const monthBtn = document.getElementById("monthBtn");
+    	const yearBtn = document.getElementById("yearBtn");
+  	  const infoBtn = document.getElementById("infoBtn");
+    		const monthDiv = document.getElementById("monthDiv");
+ 	   const yearInfo = document.getElementById("year-info");
+ 	   const calendarInfo = document.getElementById("calendar-info");
+    
+    	monthDiv.style.display = 'none';
+    	yearInfo.style.display = 'block';
+    	monthBtn.style.color = "black";
+    	monthBtn.style.backgroundColor = "transparent";
+    	monthBtn.style.border = "solid 1px black";
+    	yearBtn.style.color = "white";
+    	yearBtn.style.backgroundColor = "maroon";
+    	yearBtn.style.border = "solid 1px black";
+    	calendarInfo.style.display = "none";
+    	infoBtn.style.backgroundColor = "transparent";
+    	infoBtn.style.color = "black";
+    	infoBtn.style.border = "solid 1px black";
+    }
+    
+    function showInfo() {
+    	const monthBtn = document.getElementById("monthBtn");
+    	const yearBtn = document.getElementById("yearBtn");
+  	  const infoBtn = document.getElementById("infoBtn");
+    		const monthDiv = document.getElementById("monthDiv");
+ 	   const yearInfo = document.getElementById("year-info");
+ 	   const calendarInfo = document.getElementById("calendar-info");
+    
+    	monthDiv.style.display = 'none';
+    	yearInfo.style.display = 'none';
+    	monthBtn.style.color = "black";
+    	monthBtn.style.backgroundColor = "transparent";
+    	monthBtn.style.border = "solid 1px black";
+    	yearBtn.style.color = "black";
+    	yearBtn.style.backgroundColor = "transparent";
+    	yearBtn.style.border = "solid 1px black";
+    	calendarInfo.style.display = "block";
+    	infoBtn.style.backgroundColor = "maroon";
+    	infoBtn.style.color = "white";
+    	infoBtn.style.border = "solid 1px black";
+    }
 </script>
