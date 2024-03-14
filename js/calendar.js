@@ -10,6 +10,7 @@ function Calendar(years) {
 	this.Holidays = new Array();
 	this.IsLeapYear = true;
 	this.ConvertDate = getASDate;
+	this.IsBetween = dateIsBetween;
 
 	///// "Private Variables" (still with the airquotes) \\\\\
 	var _years = years;
@@ -29,6 +30,7 @@ function Calendar(years) {
 		this.WinterSolstice = new Date(selectedYear.WinterSolstice);
 		this.SummerSolstice = new Date(selectedYear.SummerSolstice);
 		this.IsLeapYear = selectedYear.IsLeapYear;
+		this.LastDay = calculateLastDay();
 
 		var tempMonths = new Array();
 
@@ -79,7 +81,7 @@ function Calendar(years) {
 			new Holiday("Mōdraniht (Traditional)", calculateMothersNight(0), "minor", null),
 			new Holiday("Mōdraniht (Mine Wyrtruman)", calculateMothersNight(2), "minor", null),
 			new Holiday("Mōdraniht (Ingwine)", calculateMothersNight(8), "minor", null),
-			new Holiday("Twelftadæg", calculateMothersNight(11), "minor", null)
+			new Holiday("Twelftadæg", calculateMothersNight(11), "minor", null),
 		]
 
 		return this;
@@ -268,5 +270,13 @@ function Calendar(years) {
 			str = String(n) + "th";
 		}
 		return str;
+	}
+	
+	function calculateLastDay() {
+		let nextYear = _years.find((yr) => yr.Year == this.Year + 1);
+		
+		let newYears = new Date(nextYear.NewMoons[0]);
+		let lastDay = addDays(newYears, -1);
+		return lastDay;
 	}
 }
