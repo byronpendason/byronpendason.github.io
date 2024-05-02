@@ -1,5 +1,5 @@
 ---
-title: The Quack Like a Duck Fallacy
+title: Don't Throw Out the Baby
 author: Byron Pendason
 date: 2024-05-03
 layout: post
