@@ -19,6 +19,8 @@ Another example is the ideas of *good* and *evil*. The number of times I've seen
 
 What's the point I'm trying to make here? Just because something bears resemblance to Christianity doesn't mean that it comes from Christianity. We shouldn't be so quick to throw out the baby with the bathwater, as the old saying goes. We need to be more diligent than that when reconstructing our religion. Anyways, just food for thought. *Beo gesund!*[^1]
 
+[^1]: *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
+
 [^runestones]: I'm not trying to imply that these depictions make for Anglo-Saxon attestations of Ragnarok. Being in Danelaw England almost certainly makes these depictions Norse rather than Anglo-Saxon, since the Anglo-Saxons had been Christian at this point for over 300 years. I am only pointing out that these depictions not only predate Snorri, but also predate the Norse conversion to Chrisitianity in the early eleventh century.
 
 [^ragnarok]: My personal theory is that the idea of Ragnarok originated with the [volcanic winter of 536](https://en.wikipedia.org/wiki/Volcanic_winter_of_536)
