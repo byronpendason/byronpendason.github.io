@@ -16,6 +16,8 @@ similar to, yet distinct from, the religion of the pre-Christian Nordic peoples.
 religion based upon the worship of the Anglo-Saxon gods, one's ancestors, and the wights (spirits)
 of the land around us and in our homes. If you're curious about Fyrnsidu, check out my slideshow [Introduction to Fyrnsidu](/fyrnsidu_intro/). The best resource to learn more about Fyrnsidu is <a href="https://Fyrnsidu.faith" target="_blank">Fyrnsidu.faith</a>.
 
+The word Fyrnsidu was coined by Robert "Osric" Holman in 2001. He has since abandoned Fyrnsidu and now leads a cult known as the Ingwine Society. Neither this website nor it's author is in anyway affiliated with Osric, his original Fyrnsidu organisation, or his current cult.
+
 ## About the Website
 
 *Mīne Wyrtruman* means *My Roots* in Old English. As a Fyrnsidere (Anglo-Saxon Heathen), the culture and religion of the ancient pre-Christian Anglo-Saxon peoples are the roots of my faith. I use the little that we know about them as a foundation upon which I build my religion.
