@@ -16,7 +16,7 @@ similar to, yet distinct from, the religion of the pre-Christian Nordic peoples.
 religion based upon the worship of the Anglo-Saxon gods, one's ancestors, and the wights (spirits)
 of the land around us and in our homes. If you're curious about Fyrnsidu, check out my slideshow [Introduction to Fyrnsidu](/fyrnsidu_intro/). The best resource to learn more about Fyrnsidu is <a href="https://Fyrnsidu.faith" target="_blank">Fyrnsidu.faith</a>.
 
-The word Fyrnsidu was coined by Robert "Osric" Holman in 2001. He has since abandoned Fyrnsidu and now leads a religious society known as the Ingwine Society. Neither this website nor it's author is in anyway affiliated with Osric or any legal organisation that he leads or has led.
+The word *Fyrnsidu* was "coined" by Robert "Osric" Holman in 2001 by translating into Old English the oldest attested name for Nordic religion (*Forn sidr*, used in medieval manuscripts for Heathen practices). He has since abandoned using the term Fyrnsidu and now leads a religious society known as the Ingwine Society. Neither this website nor it's author is in anyway affiliated with Osric or any legal organisation that he leads or has led.
 
 ## About the Website
 
