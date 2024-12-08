@@ -1,5 +1,7 @@
 class ASCalBuilder {
+
 	constructor(calendar) {
+
 		let today = new Date();
 		this.calendar = calendar;
 		this.month = this.getMonth(today);
@@ -15,8 +17,7 @@ class ASCalBuilder {
 			try {
 				nextMoon = months[i + 1].NewMoon;
 			} catch {
-				let lastDay = new Date(this.calendar.LastDay.toString());
-				nextMoon = new Date(lastDay.getDate() + 1);
+				nextMoon = this.calendar.calculateLastDay();
 			}
 			if (this.calendar.IsBetween(date, months[i].NewMoon, nextMoon)) {
 				return months[i];
@@ -30,9 +31,10 @@ class ASCalBuilder {
 		let months = [...this.calendar.Months];
 		let index = months.indexOf(this.month);
 
-		let lastDay = months[index + 1].NewMoon;
+		let lastDay = months[index].NextNewMoon;
 		lastDay.setDate(lastDay.getDate() - 1);
 		return lastDay;
+		
 	}
 
 	show() {
@@ -47,7 +49,6 @@ class ASCalBuilder {
 				holidays.push(holiday);
 			}
 		}
-		console.log(holidays);
 
 		for (let i = 0; i < day.getDay(); i++) {
 			monthTable.innerHTML += "<span></span>"
