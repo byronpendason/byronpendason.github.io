@@ -6,7 +6,7 @@ excerpt: "Everything we know about the Anglo-Saxon Calendar comes from the Vener
 permalink: /anglosaxoncalendar
 categories: [anglo-saxon calendar, heathen worship, reconstruction]
 ---
-{% include calendar-display-v2.html %}
+{% include calendar-display.html %}
 
 <div id="calendar-info" markdown="1">
 ## Instructions
