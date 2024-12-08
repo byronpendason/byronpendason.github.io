@@ -90,6 +90,7 @@ class AstroCalc {
 // by Byron Pendason
 class Calendar {
 	constructor(year) {
+		console.log("Start");
 		if (year <= 100) {
 			alert("A year must be after the year 100 CE.")
 			return;
@@ -97,6 +98,7 @@ class Calendar {
 		this.Load(year);
 	}
 	Load(year) {
+		console.log("Checkpoint A");
 		this.Year = year;
 		this.Months = new Array();
 		this.YearHE = this.calculateHumanEraYear(this.Year);
@@ -105,7 +107,7 @@ class Calendar {
 		this.SummerSolstice = AstroCalc.getSummerSolstice(this.Year);
 		this.Holidays = new Array();
 		this.IsLeapYear = ([0, 3, 6, 8, 11, 14, 17, 19].includes(this.MetonicYear)) ? true : false; //Year 19 is same as 0, but including both for compatibility
-
+console.log("checkpoint B");
 		let lastYule = AstroCalc.getWinterSolstice(this.Year - 1);
 		//let newMoon = AstroCalc.nextNewMoon(lastYule); //get firsr astronomical new moon after previous Yule
 		//let fullMoon = AstroCalc.nextFullMoon(newMoon); // ... find the next full moon
@@ -116,7 +118,7 @@ class Calendar {
 
 		let newMoon = this.getNewMoon(lastYule);
 		let fullMoon;
-
+console.log("checkpoint c");
 		if (this.MetonicYear == "?") {
 			let lastMonth = this.getNewMoon(this.WinterSolstice);
 			let lunarYear = Math.round((lastMonth.getTime() - newMoon.getTime()) / 86400000);
