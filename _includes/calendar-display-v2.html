@@ -5,13 +5,13 @@
 	<button id="yearBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;" onclick="showYear()">Year View</button>
 	<button id="infoBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;" onclick="showInfo()">About the Calendar</button>
 </div>
-<div id="monthDiv">
+<div id="monthDiv" hidden>
 	<h1 id="monthName" style="text-align: center; margin-bottom:0px;">Month Year</h1>
 	<div id="monthTable" style="display: grid;grid-template-columns: repeat(7, minmax(0, 1fr));column-gap:1px;row-gap:1px;">
 
 	</div>
 </div>
-<div id="year-info" hidden>
+<div id="year-info">
     <h2>Year  <span id="lbl-selected-year-he"></span>
     <a href="https://www.minewyrtruman.com/2022/08/30/the-human-era/">HE</a>/<span id="lbl-selected-year"></span> CE</h2>
     <br />
