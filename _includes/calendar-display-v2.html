@@ -1,79 +1,79 @@
+
 <h1 class="page-title">The Anglo-Saxon Calendar</h1>
 <h2 class="page-subtitle">&#8212;A Reconstruction&#8212;</h2>
-<!--
 <div id="tabs" style="width: 100%; border-bottom: solid;padding: 0.5em; padding-bottom:0px;">
-	<button id="yearBtn" onclick="showYear()" style="background-color: maroon; border: none;padding:0.5em; border-radius: 25px 25px 0px 0px;">Year View</button>
-	<button id="monthBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;" onclick="showYear()">Year View</button>
-	<button id="infoBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;" onclick="showInfo()">About the Calendar</button>
+	<button id="yearBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;"
+																																																													onclick="showYear()">Year
+		View</button>
+	<button id="monthBtn" onclick="showMonth()"
+																																																													style="background-color: maroon; border: none;padding:0.5em; border-radius: 25px 25px 0px 0px;">Month
+		View</button>
+	<button id="infoBtn" style="background-color: transparent;color:black;padding:0.5em; border-radius: 25px 25px 0px 0px;"
+																																																													onclick="showInfo()">About
+		the Calendar</button>
 </div>
--->
 <div id="monthDiv" hidden>
 	<h1 id="monthName" style="text-align: center; margin-bottom:0px;">Month Year</h1>
-	<div id="monthTable" style="display: grid;grid-template-columns: repeat(7, minmax(0, 1fr));column-gap:1px;row-gap:1px;">
-
+	<div id="monthTable"
+																																																													style="display: grid;grid-template-columns: repeat(7, minmax(0, 1fr));column-gap:1px;row-gap:1px;">
+		
 	</div>
 </div>
 <div id="year-info">
-    <h2>Year  <span id="lbl-selected-year-he"></span>
-    <a href="https://www.minewyrtruman.com/2022/08/30/the-human-era/">HE</a>/<span id="lbl-selected-year"></span> CE</h2>
-    <br />
-
-    <a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic Year</a>
-    <span id="lbl-metonic-year"></span>:
-    <span id="lbl-intercalary-year"></span>
-    <br />
-    
-<span class="bold">Today is <span id="lbl-today"></span></span>
-
-<label for="txt-input-year">Enter Year</label>
-<input type="text" name="txt-input-year" id="txt-input-year" />
-<button id="btn-get-calendar">Get Calendar</button>
-<br />
-
-<label for="txt-date-to-convert">Select a date</label>
-<input type="date" name="txt-date-to-convert" id="txt-date-to-convert" />
-<button id="btn-convert-date">Convert Date</button>
-<span id="converted-date" class="bold"></span>       
-
-<h2 class="table-heading">Months</h2>
-<table id="months"></table>
-
-<h2 class="table-heading">High Holidays</h2>
-<table id="holiday-high"></table>
-
-<h2 class="table-heading">Other Holidays</h2>
-<table id="holiday-minor"></table>
+	<h2>Year <span id="lbl-selected-year-he"></span>
+		<a href="https://www.minewyrtruman.com/2022/08/30/the-human-era/">HE</a>/<span id="lbl-selected-year"></span>
+	</h2>
+	<br />
+	
+	<span id="metonic-info"><a href="https://www.minewyrtruman.com/2021/10/21/the-metonic-cycle/">Metonic Year</a><span
+																																																														id="lbl-metonic-year"></span>:</span><span
+																																																													id="lbl-intercalary-year"></span>
+	<br />
+	
+	<span class="bold">Today is <span id="lbl-today"></span></span>
+	<br /><br />
+	
+	<label for="txt-input-year">Enter Year</label>
+	<input type="text" name="txt-input-year" id="txt-input-year" />
+	<button id="btn-get-calendar">Get Calendar</button>
+	<br />
+	
+	<label for="txt-date-to-convert">Select a date</label>
+	<input type="date" name="txt-date-to-convert" id="txt-date-to-convert" />
+	<button id="btn-convert-date">Convert Date</button>
+	<span id="converted-date" class="bold"></span>
+	
+	<h2 class="table-heading">Months</h2>
+	<table id="months"></table>
+	
+	<h2 class="table-heading">High Holidays</h2>
+	<table id="holiday-high"></table>
+	
+	<h2 class="table-heading">Other Holidays</h2>
+	<table id="holiday-minor"></table>
 </div>
 
-<script type="text/javascript" src="./js/calendar.js"></script>
-<script type="text/javascript" src="./js/calendar-display.js"></script>
-<script type="text/javascript" src="./js/ascalbuilder.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+<script type="text/javascript" src="js/calendar-display.js"></script>
+<script type="text/javascript" src="js/ascalbuilder.js"></script>
 
 <script type="text/javascript">
-
-    var calendar; // Declare out here for the other page disploy methods.
+	var calendar; // Declare out here for the other page disploy methods.
     var builder;
 
-    $(document).ready(function(){
-        // Fetch years' data from yaml *cries*
-        fetch("./js/calendar.json", {
-            mode: "same-origin", // no-cors, *cors, same-origin
-            cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-            credentials: "same-origin"
-        }).then(results => {
-            return results.json();
-        }).then(function(yearsData) {
-            calendar = Calendar(yearsData); // Create Calendar object
-
-            getCalendar(new Date().getFullYear()); // Initialize the calendar. 
-            builder = new ASCalBuilder(calendar);
-            $('#lbl-today').html(calendar.ConvertDate(new Date()));
-
-            $('#btn-get-calendar').click(btnGetCalendar_click);
-            $('#btn-convert-date').click(btnConvertDate_click);
-            showYear();
-        });
-    });
+    document.body.onload = function() {
+    	let year = new Date().getFullYear();
+      calendar = new Calendar(year); // Create Calendar object
+      builder = new ASCalBuilder(calendar);
+      $('#lbl-today').html(calendar.ConvertDate(new Date()));
+			
+      $('#btn-get-calendar').click(btnGetCalendar_click);
+      $('#btn-convert-date').click(btnConvertDate_click);
+      buildTables();
+    	getCalendar(year);
+    	showYear();
+    };
     
     function showMonth() {
     	const monthBtn = document.getElementById("monthBtn");
@@ -100,15 +100,14 @@
     }
     
     function showYear() {
-    	const monthBtn = document.getElementById("monthBtn");
-    	const yearBtn = document.getElementById("yearBtn");
-  	  const infoBtn = document.getElementById("infoBtn");
-    		const monthDiv = document.getElementById("monthDiv");
- 	   const yearInfo = document.getElementById("year-info");
- 	   const calendarInfo = document.getElementById("calendar-info");
- 		const footnotes = document.getElementsByClassName("footnotes")[0];
-    
-    
+			const monthBtn = document.getElementById("monthBtn");
+			const yearBtn = document.getElementById("yearBtn");
+			const infoBtn = document.getElementById("infoBtn");
+			const monthDiv = document.getElementById("monthDiv");
+			const yearInfo = document.getElementById("year-info");
+			const calendarInfo = document.getElementById("calendar-info");
+			const footnotes = document.getElementsByClassName("footnotes")[0];
+
     	monthDiv.style.display = 'none';
     	yearInfo.style.display = 'block';
     	monthBtn.style.color = "black";
@@ -125,13 +124,13 @@
     }
     
     function showInfo() {
-    	const monthBtn = document.getElementById("monthBtn");
-    	const yearBtn = document.getElementById("yearBtn");
-  	  const infoBtn = document.getElementById("infoBtn");
-    		const monthDiv = document.getElementById("monthDiv");
- 	   const yearInfo = document.getElementById("year-info");
- 	   const calendarInfo = document.getElementById("calendar-info");
- 		const footnotes = document.getElementsByClassName("footnotes")[0];
+			const monthBtn = document.getElementById("monthBtn");
+			const yearBtn = document.getElementById("yearBtn");
+			const infoBtn = document.getElementById("infoBtn");
+			const monthDiv = document.getElementById("monthDiv");
+			const yearInfo = document.getElementById("year-info");
+			const calendarInfo = document.getElementById("calendar-info");
+			const footnotes = document.getElementsByClassName("footnotes")[0];
     
     
     	monthDiv.style.display = 'none';

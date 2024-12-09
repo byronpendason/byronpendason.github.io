@@ -9,7 +9,8 @@ function getCalendar(year) {
     calendar.Load(year);
     buildTables();
     $('#lbl-intercalary-year').html(calendar.IsLeapYear ? "Intercalary Year" : "Regular Year");
-    $('#lbl-metonic-year').html(calendar.MetonicYear);
+    $('#lbl-metonic-year').html(` ${calendar.MetonicYear}`);
+ 
 }
 
 function btnConvertDate_click() {
@@ -36,7 +37,8 @@ function btnConvertDate_click() {
 }
 
 function buildTables() {
-    $('#lbl-selected-year').html(calendar.Year);
+    if (calendar.Year <= 0) $('#lbl-selected-year').html(`${Math.abs(calendar.Year - 1)} BCE`);
+    else $('#lbl-selected-year').html(`${calendar.Year} CE`);
     $('#lbl-selected-year-he').html(calendar.YearHE);
     buildMonthTable("months", calendar.Months);
     buildHolidayTable("holiday-high", calendar.Holidays, "high");     
@@ -57,7 +59,7 @@ function buildHolidayTable(id, holidays, filter){
         if(holiday.Type == filter) {
             var col = $('<td>').html(holiday.Name);
             if(holiday.Link != undefined && holiday.Link != null) {
-                col.append('<a href="' + holiday.Link.Url + '" target="_blank">' + holiday.Link.Text + "</a>");
+                col.append(' <a href="' + holiday.Link.Url + '" target="_blank">' + holiday.Link.Text + "</a>");
             } 
             row.append(col);
             row.append($('<td>').html(prettyDate(holiday.ModernDate)));
@@ -98,9 +100,10 @@ function buildMonthTable(id, months) {
 
 // Just for my sanity. 
 function prettyDate(date) {
+		date = new Date(date);
     if (date === null || date === "")
         return "";
     var weekdays = ['Sun','Mon','Tues','Wed','Thurs','Fri','Sat'];
     var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    return weekdays[date.getDay()] + " " + months[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear() + " CE";
+    return weekdays[date.getUTCDay()] + " " + months[date.getUTCMonth()] + " " + date.getUTCDate() + `, ${date.getUTCFullYear() > 0 ? date.getFullYear() : Math.abs(date.getFullYear() - 1)} ${date.getFullYear() > 0 ? "CE" : "BCE"}`;
 }
