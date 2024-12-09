@@ -75,11 +75,11 @@ I know that there was a lot of information to absorb, and I apologise for it. Fo
 
 So how do I take all this information and use it to form a reconstructed Anglo-Saxon Calendar? I first get the dates of the December Solstices of the previous year and the current year. I then find all the new moon dates in between, and add 36 hours to each to estimate the young moon. If there's twelve of them in between the December Solstices, it's a normal year. If there's thirteen of them, it'll be a leap year and we will add the leap month as the seventh month. Then I find the dates for the four holy tides. Midsummer and Yule will be on the date of the winter and summer solstices, and Ēastre and Winterfylleþ will be on the full moons of Ēosturmōnaþ and Wintermōnaþ, respectively.
 
-</div>
-
 * * *
 
 [^bede]: To quote Bede, Chapter 11 of *The Reckoning of Time*:
     > Note well that those who say that the month ought to be defined, or was defined by the ancients, as the length of time in which the Moon traverses the zodiacal circle, make a serious mistake. As more painstaking inspection of nature has taught, the Moon plainly completes the zodiac in 27 days and 8 hours, but its proper course is 29 days and 12 hours,setting aside the calculation of the ‘‘leap of the Moon’’. Therefore it is more accurate to define a lunar month as the circuit and reintegration of the lunar light from new Moon to new Moon.
     
     "Lunar light" from a new moon makes no sense if he meant the dark moon like we do today. The new moon for the ancients was when you could see the first sliver of the moon after the dark moon.
+
+</div>
