@@ -8,7 +8,7 @@ categories: [anglo-saxon calendar, heathen worship, reconstruction]
 ---
 {% include calendar-display-v2.html %}
 
-<div id="calendar-info" hidden markdown="1">
+<div id="calendar-info" markdown="1">
 ## Instructions
 
 Enter a Common Era year to see the reconstructed calendar dates -OR- enter a specific date, and it will be converted to the Anglo-Saxon date. 
@@ -74,6 +74,8 @@ Which brings us back to the first month, Æfterra Gēola.
 I know that there was a lot of information to absorb, and I apologise for it. For a more concise summary of the Anglo-Saxon Calendar, you can see <a href="https://larhusfyrnsida.com/fundamentals/calendar/">the Calendar page</a> on the Larhus Fyrnsida website.
 
 So how do I take all this information and use it to form a reconstructed Anglo-Saxon Calendar? I first get the dates of the December Solstices of the previous year and the current year. I then find all the new moon dates in between, and add 36 hours to each to estimate the young moon. If there's twelve of them in between the December Solstices, it's a normal year. If there's thirteen of them, it'll be a leap year and we will add the leap month as the seventh month. Then I find the dates for the four holy tides. Midsummer and Yule will be on the date of the winter and summer solstices, and Ēastre and Winterfylleþ will be on the full moons of Ēosturmōnaþ and Wintermōnaþ, respectively.
+
+</div>
 
 * * *
 
