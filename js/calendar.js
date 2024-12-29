@@ -193,16 +193,16 @@ class Calendar {
 		this.addHoliday("Midsumor", this.SummerSolstice, "high", null);
 		this.addHoliday("Winterfylleþ", this.Months[this.IsLeapYear ? 10 : 9].FullMoon, "high", null);
 		this.addHoliday("Ġēola", this.WinterSolstice, "high", null);
-		this.addHoliday("Sigetiber", this.Months[1].FullMoon, "minor", null);
-		this.addHoliday("Lencten-Tīd", this.Months[2].FullMoon, "minor", null);
+		//this.addHoliday("Sigetiber", this.Months[1].FullMoon, "minor", null);
+		//this.addHoliday("Lencten-Tīd", this.Months[2].FullMoon, "minor", null);
 		this.addHoliday("Blōstmfrēols", this.addDays(this.Months[4].NewMoon, -1), "minor", { Text: "(Lārhūs Fyrnsida)", Url: "https://larhusfyrnsida.com/2017/03/18/blostmfreols/" });
-		this.addHoliday("Bendfeorm", this.Months[this.IsLeapYear ? 8 : 7].FullMoon, "minor", null);
-		this.addHoliday("Hærfestlīc Freōlsung", this.Months[this.IsLeapYear ? 9 : 8].FullMoon, "minor", null);
-		this.addHoliday("Andetnes-blōt", this.Months[this.IsLeapYear ? 11 : 10].FullMoon, "minor", null);
+		//this.addHoliday("Bendfeorm", this.Months[this.IsLeapYear ? 8 : 7].FullMoon, "minor", null);
+		//this.addHoliday("Hærfestlīc Freōlsung", this.Months[this.IsLeapYear ? 9 : 8].FullMoon, "minor", null);
+		//this.addHoliday("Andetnes-blōt", this.Months[this.IsLeapYear ? 11 : 10].FullMoon, "minor", null);
 		this.addHoliday("Mōdraniht (Traditional)", this.calculateMothersNight(0), "minor", null);
 		this.addHoliday("Mōdraniht (Mine Wyrtruman)", this.calculateMothersNight(2), "minor", null);
-		this.addHoliday("Mōdraniht (Ingwine)", this.calculateMothersNight(8), "minor", null);
-		this.addHoliday("Twelftadæg", this.calculateMothersNight(11), "minor", null);
+		//this.addHoliday("Mōdraniht (Ingwine)", this.calculateMothersNight(8), "minor", null);
+		//this.addHoliday("Twelftadæg", this.calculateMothersNight(11), "minor", null);
 
 		this.Holidays.sort(function(a, b) { return a.ModernDate - b.ModernDate });
 	}

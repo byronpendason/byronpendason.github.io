@@ -2,7 +2,7 @@
 title: The Reconstructed Anglo-Saxon Calendar
 author: Byron Pendason
 layout: page
-excerpt: "Everything we know about the Anglo-Saxon Calendar comes from the Venerable Bede's On the Reckoning of Time, in which he relates the calendars of many ancient cultures. He gives us quite a bit of information. Unfortunately, as we shall soon see, he doesn't give us quite enough information to reconstruct the calendar in its entirety."
+excerpt: "Enter a Common Era year to see the reconstructed calendar dates -OR- enter a specific date, and it will be converted to the Anglo-Saxon date."
 permalink: /anglosaxoncalendar_proposed
 categories: [anglo-saxon calendar, heathen worship, reconstruction]
 ---
