@@ -228,6 +228,7 @@ class Calendar {
 	}
 	ConvertDate(date) {
 		date = new Date(date);
+		console.log(date);
 		this.Load(date.getFullYear());
 		let m = 0;
 		while (date <= this.newMoons[m]) {
