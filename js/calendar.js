@@ -227,7 +227,7 @@ class Calendar {
 		this.Holidays.push({ Name: name, Type: type, Link: link, ModernDate: date, AngloSaxonDate: asdate });
 	}
 	ConvertDate(date) {
-		date = new Date(Date.UTC(date));
+		date = new Date(Date.UTC(date.GetFullYear(), date.getMonth(), date.getDate()));
 		date.setUTCHours(0, 0, 0, 0)
 		let lastYear = date.getUTCFullYear() - 1;
 		let thisYear = date.getUTCFullYear();
