@@ -252,14 +252,14 @@ class Calendar {
 		monthNames.push("Æfterra Ġēola");
 		let m = 0;
 
-		let newMoon = this.getNewMoon(newYear);
+		let newMoon = new Date(Date.UTC(this.getNewMoon(newYear)));
 		
 		while (1) {
 			if (newMoon > date) {
 				break;
 			}
 			months.push(newMoon);
-			this.getNewMoon(this.addDays(newMoon, 14));
+			newMoon = this.getNewMoon(this.addDays(newMoon, 14));
 			m += 1;
 		}
 		
