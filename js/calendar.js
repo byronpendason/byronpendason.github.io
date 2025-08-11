@@ -231,10 +231,9 @@ class Calendar {
 		date.setHours(0, 0, 0, 0);
 		let lastYear = date.getUTCFullYear() - 1;
 		let thisYear = date.getUTCFullYear();
-		/*
-		console.log(lastYear, thisYear);
-		return " ";
-  		*/
+		
+		return "*** UNAVAILABLE ***";
+  		
 		let newYear =  AstroCalc.getWinterSolstice(lastYear);
 		let winterSolstice =  AstroCalc.getWinterSolstice(thisYear);
 		let months = [];
