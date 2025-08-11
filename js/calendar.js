@@ -223,7 +223,7 @@ class Calendar {
 	}
 	addHoliday(name, date, type, link) {
 		date = new Date(date);
-		let asdate = this.ConvertDate(date);
+		let asdate = ""; //this.ConvertDate(date);
 		this.Holidays.push({ Name: name, Type: type, Link: link, ModernDate: date, AngloSaxonDate: asdate });
 	}
 	ConvertDate(date) {
@@ -231,11 +231,11 @@ class Calendar {
 		console.log(date);
 		this.Load(date.getFullYear());
 		let m = 0;
-		while (date <= this.newMoons[m]) {
+		while (date <= thisMonths[m].newMoon) {
 			m += 1;
 		}
-		let month = this.monthNames[m];
-		let day = Math.round((date.getTime() - this.newMoons[m].getTime()) / 86400000 ) + 1;
+		let month = this.Months[m].Name;
+		let day = Math.round((date.getTime() - this.Months[m].NewMoon.getTime()) / 86400000 ) + 1;
 		let asDate = getOrdinal(day) + " of " + month;
 		return asDate;
 	}
