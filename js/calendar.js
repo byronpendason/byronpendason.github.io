@@ -227,34 +227,15 @@ class Calendar {
 		this.Holidays.push({ Name: name, Type: type, Link: link, ModernDate: date, AngloSaxonDate: asdate });
 	}
 	ConvertDate(date) {
-		date = new Date(date);
-		let firstNewMoon = this.getNewMoon(AstroCalc.nextFullMoon(this.Months[0].NewMoon, true));
-		let lastNewMoon = this.getNewMoon(this.addDays(AstroCalc.nextFullMoon(this.Months[this.Months.length - 1].NextNewMoon), 21));
-		if (!this.IsBetween(date, firstNewMoon, lastNewMoon)) {
-			this.Load(date.getFullYear());
+		date = new Date(Date.UTC(date));
+		this.Load(date.getUTCFullYear());
+		let m = 0;
+		while (date <= this.newMoons[m]) {
+			m += 1;
 		}
-
-		let str = Intl.DateTimeFormat('en-u-ca-islamic').format(date); //get Islamic date, based upon astronomical calculations
-		let day = Number(str.split("/")[1]); //extract day of the lunar month
-		let asDate;
-		for (let month of this.Months) {
-			if (month.NewMoon <= date && date < month.NextNewMoon) {
-				asDate = `${this.getOrdinal(day)} of ${month.Name}`;
-				break;
-			}
-		}
-		if (asDate == undefined) {
-			let month = "";
-			if (date < this.Months[0].NewMoon) {
-				month = "Ærra Ġēola";
-			} else if (date >= this.Months[this.Months.length - 1].NextNewMoon) {
-				month = "Æfterra Ġēola";
-			} else {
-				console.log("Unknown Error in converting date.");
-				return "ERROR";
-			}
-			asDate = `${this.getOrdinal(day)} of ${month}`;
-		}
+		let month = this.monthNames[m];
+		let day = Math.round((date.getTime() - this.newMoons[m].getTime()) / 86400000 ) + 1;
+		let asDate = getOrdinal(day) + " of " + month;
 		return asDate;
 	}
 	calculateMothersNight(days) {
