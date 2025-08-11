@@ -229,7 +229,9 @@ class Calendar {
 	ConvertDate(date) {
 		date = new Date(Date.UTC(date));
 		date.setUTCHours(0, 0, 0, 0)
-		let newYear =  AstroCalc.getWinterSolstice(date.getUTCFullYear() - 1);
+		let lastYear = date.getUTCFullYear() - 1;
+		console.log(lastYear);
+		let newYear =  AstroCalc.getWinterSolstice(lastYear);
 		let winterSolstice =  AstroCalc.getWinterSolstice(date.getUTCFullYear());
 		let months = [];
 		
