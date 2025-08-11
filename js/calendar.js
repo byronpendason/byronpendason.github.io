@@ -258,7 +258,7 @@ class Calendar {
 		monthNames.push("Æfterra Ġēola");
 		let m = 0;
 
-		let newMoon = new Date(Date.UTC(this.getNewMoon(newYear)));
+		let newMoon = new Date(this.getNewMoon(newYear));
 		
 		while (1) {
 			if (newMoon > date) {
