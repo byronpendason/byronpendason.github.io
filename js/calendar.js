@@ -223,19 +223,48 @@ class Calendar {
 	}
 	addHoliday(name, date, type, link) {
 		date = new Date(date);
-		let asdate = ""; //this.ConvertDate(date);
+		let asdate = this.ConvertDate(date);
 		this.Holidays.push({ Name: name, Type: type, Link: link, ModernDate: date, AngloSaxonDate: asdate });
 	}
 	ConvertDate(date) {
-		date = new Date(date);
-		console.log(date);
-		this.Load(date.getFullYear());
+		date = new Date(Date.UTC(date));
+		date.setUTCHours(0, 0, 0, 0)
+		let newYear =  AstroCalc.getWinterSolstice(date.getUTCFullYear() - 1);
+		let winterSolstice =  AstroCalc.getWinterSolstice(date.getUTCFullYear());
+		let months = [];
+		
+		let monthNames = [];
+		let MetonicYear = this.calculateMetonicYear(date.getUTCFullYear());
+		let IsLeapYear = ([0, 3, 6, 8, 11, 14, 17, 19].includes(this.MetonicYear)) ? true : false; //Year 19 is same as 0, but including both for compatibility
+		monthNames.push("Æfterra Ġēola");
+		monthNames.push("Solmōnaþ");
+		monthNames.push("Hreðmōnaþ")
+		monthNames.push("Ēosturmōnaþ");
+		monthNames.push("Þrimilcemōnaþ");
+		monthNames.push("Ærra Liða");
+		if (this.IsLeapYear) monthNames.push("Þriliða"); // Figuring out I needed to make adding this conditional was a PITA
+		monthNames.push("Æfterra Liða");
+		monthNames.push("Weodmōnaþ");
+		monthNames.push("Hāliġmōnaþ");
+		monthNames.push("Wintermōnaþ");
+		monthNames.push("Blōtmōnaþ");
+		monthNames.push("Ærra Ġēola");
+		monthNames.push("Æfterra Ġēola");
 		let m = 0;
-		while (date <= thisMonths[m].newMoon) {
+
+		let newMoon = this.getNewMoon(newYear);
+		
+		while (1) {
+			if (newMoon > date) {
+				break;
+			}
+			months.push(newMoon);
+			this.getNewMoon(this.addDays(newMoon, 14);
 			m += 1;
 		}
-		let month = this.Months[m].Name;
-		let day = Math.round((date.getTime() - this.Months[m].NewMoon.getTime()) / 86400000 ) + 1;
+		
+		let month = monthNames[m];
+		let day = Math.round((date.getTime() - months[m].getTime()) / 86400000 ) + 1;
 		let asDate = getOrdinal(day) + " of " + month;
 		return asDate;
 	}
