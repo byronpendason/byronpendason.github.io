@@ -227,6 +227,8 @@ class Calendar {
 		this.Holidays.push({ Name: name, Type: type, Link: link, ModernDate: date, AngloSaxonDate: asdate });
 	}
 	ConvertDate(date) {
+		console.log("Check!");
+		return " ";
 		date = new Date(Date.UTC(date));
 		date.setUTCHours(0, 0, 0, 0)
 		let lastYear = date.getUTCFullYear() - 1;
