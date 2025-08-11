@@ -227,14 +227,14 @@ class Calendar {
 		this.Holidays.push({ Name: name, Type: type, Link: link, ModernDate: date, AngloSaxonDate: asdate });
 	}
 	ConvertDate(date) {
-		console.log("Check!");
-		return " ";
 		date = new Date(Date.UTC(date));
 		date.setUTCHours(0, 0, 0, 0)
 		let lastYear = date.getUTCFullYear() - 1;
-		console.log(lastYear);
+		let thisYear = date.getUTCFullYear();
+		console.log(lastYear, thisYear);
+		return " ";
 		let newYear =  AstroCalc.getWinterSolstice(lastYear);
-		let winterSolstice =  AstroCalc.getWinterSolstice(date.getUTCFullYear());
+		let winterSolstice =  AstroCalc.getWinterSolstice(thisYear);
 		let months = [];
 		
 		let monthNames = [];
