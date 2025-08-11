@@ -259,7 +259,7 @@ class Calendar {
 				break;
 			}
 			months.push(newMoon);
-			this.getNewMoon(this.addDays(newMoon, 14);
+			this.getNewMoon(this.addDays(newMoon, 14));
 			m += 1;
 		}
 		
