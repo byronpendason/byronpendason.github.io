@@ -208,9 +208,11 @@ class Calendar {
 	}
 	getNewMoon(date) {
 		date = new Date(AstroCalc.nextNewMoon(date));
-		while (AstroCalc.getMoonIllumination(date) < 0.01) {
-			date.setDate(date.getDate() + 1);
+		let days = 1;
+		if (date.getUTCHours() >= 12) {
+			days = 2;
 		}
+		date.setDate(date.getDate() + days);
 		date.setUTCHours(0, 0, 0, 0);
 		return date;
 	}
