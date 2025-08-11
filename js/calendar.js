@@ -208,7 +208,7 @@ class Calendar {
 	}
 	getNewMoon(date) {
 		date = new Date(AstroCalc.nextNewMoon(date));
-		while (AstroCalc.getMoonIllumination(date) < 0.0175) {
+		while (AstroCalc.getMoonIllumination(date) < 0.01) {
 			date.setDate(date.getDate() + 1);
 		}
 		date.setUTCHours(0, 0, 0, 0);
