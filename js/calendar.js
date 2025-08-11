@@ -231,9 +231,9 @@ class Calendar {
 		date.setHours(0, 0, 0, 0);
 		let lastYear = date.getUTCFullYear() - 1;
 		let thisYear = date.getUTCFullYear();
-		
+		/*
 		return "*** UNAVAILABLE ***";
-  		
+  		*/
 		let newYear =  AstroCalc.getWinterSolstice(lastYear);
 		let winterSolstice =  AstroCalc.getWinterSolstice(thisYear);
 		let months = [];
@@ -264,13 +264,13 @@ class Calendar {
 				break;
 			}
 			months.push(newMoon);
-			newMoon = this.getNewMoon(this.addDays(newMoon, 14));
-			m += 1;
+			newMoon = this.getNewMoon(newMoon);
+			m = months.length - 1;
 		}
 		
 		let month = monthNames[m];
 		let day = Math.round((date.getTime() - months[m].getTime()) / 86400000 ) + 1;
-		let asDate = getOrdinal(day) + " of " + month;
+		let asDate = this.getOrdinal(day) + " of " + month;
 		return asDate;
 	}
 	calculateMothersNight(days) {
@@ -352,10 +352,3 @@ END:VEVENT
 		ical += "END:VCALENDAR";
 	}
 }
-
-/*
-let year = Math.floor(Math.random() * (3000 - 101)) + 101;
-console.log(year);
-let calendar = new Calendar(year);
-console.log(JSON.stringify(calendar, null, '\t'));
-*/
