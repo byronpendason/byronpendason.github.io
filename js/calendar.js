@@ -258,6 +258,7 @@ class Calendar {
 		let m = 0;
 
 		let newMoon = new Date(this.getNewMoon(newYear));
+   newMoon.setHours(0, 0, 0, 0);
 		
 		while (1) {
 			if (newMoon > date) {
