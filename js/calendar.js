@@ -166,6 +166,8 @@ class Calendar {
 			}
 			this.Months[i].Length = Math.round(((new Date(this.Months[i].NextNewMoon)).getTime() - (new Date(this.Months[i].NewMoon)).getTime()) / 86400000);
 		}
+		
+		/* This correction should no longer be needed. Keeping the code but commenting it out in case I am wrong and need to restore it. 
 		// Months should be either 29 or 30 days. If calculations made the month too long or too short,
 		// the following for loop adjusts months length to correct it.
 		for (let i = 0; i < this.Months.length; i++) {
@@ -188,6 +190,7 @@ class Calendar {
 			}
 			this.Months[i].Length = Math.round(((new Date(this.Months[i].NextNewMoon)).getTime() - (new Date(this.Months[i].NewMoon)).getTime()) / 86400000);
 		}
+  		*/
 
 		this.addHoliday("Ēosturdæġ", this.Months[3].FullMoon, "high", null);
 		this.addHoliday("Midsumor", this.SummerSolstice, "high", null);
