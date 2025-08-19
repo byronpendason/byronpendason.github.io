@@ -269,6 +269,7 @@ class Calendar {
 				break;
 			}
 			months.push(newMoon);
+			newMoon.setDate(newMoon.getDate() + 1);
 			newMoon = this.getNewMoon(newMoon);
 			newMoon = new Date(newMoon.getFullYear(), newMoon.getMonth(), newMoon.getDate());
 		    newMoon.setHours(0, 0, 0, 0);
