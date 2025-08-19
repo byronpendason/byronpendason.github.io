@@ -232,8 +232,8 @@ class Calendar {
 	ConvertDate(date) {
 		date = new Date(date.getFullYear(), date.getMonth(), date.getDate());
 		date.setHours(0, 0, 0, 0);
-		let lastYear = date.getUTCFullYear() - 1;
-		let thisYear = date.getUTCFullYear();
+		let lastYear = date.getFullYear() - 1;
+		let thisYear = date.getFullYear();
 		/*
 		return "*** UNAVAILABLE ***";
   		*/
@@ -243,14 +243,14 @@ class Calendar {
 		
 		let monthNames = [];
 		let MetonicYear = this.calculateMetonicYear(date.getUTCFullYear());
-		let IsLeapYear = ([0, 3, 6, 8, 11, 14, 17, 19].includes(this.MetonicYear)) ? true : false; //Year 19 is same as 0, but including both for compatibility
+		let IsLeapYear = ([0, 3, 6, 8, 11, 14, 17, 19].includes(MetonicYear)) ? true : false; //Year 19 is same as 0, but including both for compatibility
 		monthNames.push("Æfterra Ġēola");
 		monthNames.push("Solmōnaþ");
 		monthNames.push("Hreðmōnaþ")
 		monthNames.push("Ēosturmōnaþ");
 		monthNames.push("Þrimilcemōnaþ");
 		monthNames.push("Ærra Liða");
-		if (this.IsLeapYear) monthNames.push("Þriliða"); // Figuring out I needed to make adding this conditional was a PITA
+		if (IsLeapYear) monthNames.push("Þriliða"); // Figuring out I needed to make adding this conditional was a PITA
 		monthNames.push("Æfterra Liða");
 		monthNames.push("Weodmōnaþ");
 		monthNames.push("Hāliġmōnaþ");
