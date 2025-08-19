@@ -225,7 +225,7 @@ class Calendar {
 		return date;
 	}
 	addHoliday(name, date, type, link) {
-		date = new Date(date);
+		date = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0, 0);
 		let asdate = this.ConvertDate(date);
 		this.Holidays.push({ Name: name, Type: type, Link: link, ModernDate: date, AngloSaxonDate: asdate });
 	}
