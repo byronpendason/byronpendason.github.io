@@ -261,7 +261,8 @@ class Calendar {
 		let m = 0;
 
 		let newMoon = new Date(this.getNewMoon(newYear));
-   newMoon.setHours(0, 0, 0, 0);
+        newMoon = new Date(newMoon.getFullYear(), newMoon.getMonth(), newMoon.getDate());
+		newMoon.setHours(0, 0, 0, 0);
 		
 		while (1) {
 			if (newMoon > date) {
@@ -269,6 +270,8 @@ class Calendar {
 			}
 			months.push(newMoon);
 			newMoon = this.getNewMoon(newMoon);
+			newMoon = new Date(newMoon.getFullYear(), newMoon.getMonth(), newMoon.getDate());
+		    newMoon.setHours(0, 0, 0, 0);
 			m = months.length - 1;
 		}
 		
