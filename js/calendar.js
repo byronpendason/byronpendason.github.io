@@ -269,8 +269,9 @@ END:VEVENT
 		ical += "END:VCALENDAR";
 	}
 }
-
+/*
 let calendar =new Calendar(2025);
 console.log(JSON.stringify(calendar, null, 2))
 console.log(JSON.stringify(calendar.Holidays, null, 2))
 console.log(calendar.ConvertDate(new Date(2026, 0, 5)))
+*/
