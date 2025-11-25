@@ -37,8 +37,16 @@ For further evidence, consider the following words for each night of the week:
 
 (Each of these terms can also be written without a hyphen or space between the two components, for example *Sunnanniht*.)
 
+Another point to consider is that it seems it was nearly universal for lunisolar calendars to begin the day the evening before, especially those cultures in Europe. The most well known example of Florentine Reckoning is the Hebrew calendar, which begins their Sabbaths and holy days the evening before.[^2] But Germanic calendars are widely recognized as beginning their days with the night (as seen in the earlier quoted *Germania*). The [Celtic calendars](https://en.wikipedia.org/wiki/Celtic_calendar) began the day in the evening as well, as did the [Ancient Greeks](https://www.hellenion.org/calendar/). Medieval Europe also followed this convention, and many Christian liturgical calendars still follow it[^3]. Considering how widespread Florentine Reckoning was in ancient Europe[^4], added with the other points discussed here, I think it's very unlikely that they didn't start the day at sunset.
+
 The critic mentioned at the beginning of this post wouldn't argue this point. His criticism was that he thought I was starting my days at midnight, and knew they should start in the evening. This post is mainly to assure any critics that I do indeed start the day the evening before, and to give the reasons why.
 
 I hope that clears up any confusion. *Beo gesund!*[^1]
 
 [^1]  *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
+
+[^2]: I spent the final years of my childhood observing the Hebrew calendar, as my family joined the Messianic movement. As such, Florentine Reckoning is second nature to me, so the thought that this point would need clarified never even crossed my mind.
+
+[^3]: The Roman Catholic Church, for example, counts attending Saturday evening mass as fulfilling the weekly obligation of attending Sunday mass.
+
+[^4]: The only exception in Europe I could find was the ancient Romans, who started their days at either midnight or sunrise (accounts varied by the source I consulted to check this). But it's also worth pointing out that the ancient Romans had abandoned their lunisolar calendar for a purely solar one.
