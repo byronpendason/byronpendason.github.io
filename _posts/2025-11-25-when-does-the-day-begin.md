@@ -23,7 +23,7 @@ Let's start with Tacitus, who wrote a book on the Germanic peoples in the first 
 
 This was written several centuries before the Anglo-Saxons came to Britain, though. How do we know that the Anglo-Saxons still practiced this way of reckoning by the time period we reconstruct from (roughly from the fifth century CE to the mid seventh century)? 
 
-As far as I am aware, our primary source on the Anglo-Saxon calendar (Bede, *On The Reckoning of Time* ) doesn't define when the day begins. However, the Florentine Reckoning seems to be encoded in the Anglo-Saxons language, Old English. They counted their days by nights, which can seen in phrases such as *feowertiene niht*, which survives into modern English as *[fortnight](https://en.wiktionary.org/wiki/fortnight)*. It literally means *fourteen nights*, but indicated a two week period of time.
+As far as I am aware, our primary source on the Anglo-Saxon calendar (Bede, *On The Reckoning of Time* ) doesn't define when the day begins. However, the Florentine Reckoning seems to be encoded in the Anglo-Saxons language, Old English. They counted their days by nights, which can be seen in phrases such as *feowertiene niht*, which survives into modern English as *[fortnight](https://en.wiktionary.org/wiki/fortnight)*. It literally means *fourteen nights*, but indicated a two week period of time.
 
 For further evidence, consider the following words for each night of the week:
 
