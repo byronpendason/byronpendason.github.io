@@ -2,7 +2,7 @@
 title: 'When Does The Day Begin?'
 author: Byron Pendason
 date: 2025-11-25
-layout: post
+layout: post 
 categories: [Heathenry, anglo-saxon calendar, reconstruction]
 ---
 
