@@ -42,7 +42,7 @@ The critic mentioned at the beginning of this post wouldn't argue this point. Hi
 
 I hope that clears up any confusion. *Beo gesund!*[^1]
 
-[^1]  *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
+[^1]: *Wes hāl* and *Beo gesund* are Old English greetings and farewells that literally mean *Be well/whole/healthy*. The first seemed to be more common among the Anglian dialects and the second more common among the Saxon dialects. I prefer to use both though, the first as a greeting and the second as a farewell.
 
 [^2]: I spent the final years of my childhood observing the Hebrew calendar, as my family joined the Messianic movement. As such, Florentine Reckoning is second nature to me, so the thought that this point would need clarified never even crossed my mind.
 
