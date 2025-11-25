@@ -3,7 +3,6 @@ title: 'When Does The Day Begin?'
 author: Byron Pendason
 date: 2025-11-25
 layout: post
-published: false
 categories: [Heathenry, anglo-saxon calendar, reconstruction]
 ---
 
@@ -37,7 +36,7 @@ For further evidence, consider the following words for each night of the week:
 
 (Each of these terms can also be written without a hyphen or space between the two components, for example *Sunnanniht*.)
 
-Another point to consider is that it seems it was nearly universal for lunisolar calendars to begin the day the evening before, especially those cultures in Europe. The most well known example of Florentine Reckoning is the Hebrew calendar, which begins their Sabbaths and holy days the evening before.[^2] But Germanic calendars are widely recognized as beginning their days with the night (as seen in the earlier quoted *Germania*). The [Celtic calendars](https://en.wikipedia.org/wiki/Celtic_calendar) began the day in the evening as well, as did the [Ancient Greeks](https://www.hellenion.org/calendar/). Medieval Europe also followed this convention, and many Christian liturgical calendars still follow it[^3]. Considering how widespread Florentine Reckoning was in ancient Europe[^4], added with the other points discussed here, I think it's very unlikely that they didn't start the day at sunset.
+Another point to consider is that it seems it was nearly universal for lunisolar calendars to begin the day the evening before, especially those cultures in Europe. The most well known example of Florentine Reckoning is the Hebrew calendar, which begins their Sabbaths and holy days the evening before.[^2] But Germanic calendars are widely recognized as beginning their days with the night (as seen in the earlier quoted *Germania*). The [Celtic calendars](https://en.wikipedia.org/wiki/Celtic_calendar) also began their day in the evening, as did the [Ancient Greeks](https://www.hellenion.org/calendar/). Medieval Europe also followed this convention, and many Christian liturgical calendars still follow it[^3]. Considering how widespread Florentine Reckoning was in ancient Europe[^4], added together with the other points discussed here, I think it's very unlikely that they didn't start the day at sunset.
 
 The critic mentioned at the beginning of this post wouldn't argue this point. His criticism was that he thought I was starting my days at midnight, and knew they should start in the evening. This post is mainly to assure any critics that I do indeed start the day the evening before, and to give the reasons why.
 
