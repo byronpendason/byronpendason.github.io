@@ -65,6 +65,8 @@ header_pages:
     url: /anglosaxoncalendar
   - title: Declaration of Deeds 
     url: /declaration-of-deeds
+  - title: FyrnWiki
+    url: /fyrnwiki/
   - title: Contact
     subpages:
       - title: Contact Byron
