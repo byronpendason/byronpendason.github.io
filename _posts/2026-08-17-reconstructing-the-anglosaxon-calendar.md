@@ -47,8 +47,8 @@ Note, I use UTC times for all calculations. You need a constant frame of referen
             Aug 31  17:41     Sep  7  18:31     Sep 15  23:04     Sep 23  10:20    
             Sep 30  02:36     Oct  7  11:47     Oct 15  13:47     Oct 22  17:29    
             Oct 29  13:36     Nov  6  08:00     Nov 14  03:26     Nov 21  00:48    
-            Nov 28  03:24     Dec  6  05:22     Dec 13  16:09     Dec 20  09:11
-	    Dec 27  20:12
+            Nov 28  03:24     Dec  6  05:22     Dec 13  16:09     Dec 20  09:11    
+	        Dec 27  20:12
     ```
 
 I included the last lunar cycle of this year so that you can see that it is before the winter solstice of that year, and so not the first month of 2027's calendar. Sometimes, the last new moon of the year is after the winter solstice, and when that's the case, the Anglo-Saxon year actually begins before our common calendar year (the Gregorian calendar begins on January 1 of every year).
