@@ -3,7 +3,6 @@ title: 'Reconstructing the Anglo-Saxon Calendar: A Tutorial'
 author: Byron Pendason
 date: 2026-08-19
 layout: post
-published: false
 categories: [Heathenry, anglo-saxon calendar, reconstruction]
 ---
 
@@ -11,7 +10,7 @@ categories: [Heathenry, anglo-saxon calendar, reconstruction]
 
 Today's blog post is one that I have been wanting to write for a while. In fact, it's one that was almost finished a while back when an OS update messed my system up so badly that I needed to do a complete reinstall. Using a rolling release of Linux that tries to be bleeding edge ain't always all sunshine and roses, you know. (Still worth it though!)
 
-Anyways, today I want to take you step by step through the process of manually reconstructing a year on the [Anglo-Saxon calendar](https://www.minewyrtruman.com/anglosaxoncalendar). For this process, let's do next year, 2027.
+Anyway, today I want to take you step by step through the process of manually reconstructing a year on the [Anglo-Saxon calendar](https://www.minewyrtruman.com/anglosaxoncalendar). For this process, let's do next year, 2027.
 
 I will not be going through the theory behind the calendar much, because I've discussed it much more in depth in other places on this website.
 
@@ -58,7 +57,7 @@ I included the last lunar cycle of this year so that you can see that it is befo
 
 ## Calculating the Months
 
-The first sliver of the new moon is notoriously difficult to calulate, which means calculating the begining of the months with 100% accuracy is almost impossible. So you have two options. You can either go with a best guess estimate that is accurate enough, or you can go with the visible sightings and not be able to have a calendar before hand for a reference. I go with the first option, and my [current method](https://www.minewyrtruman.com/2025/08/22/updated-my-new-moon-calculations/) of calculating the begining of the months seems to be accurate the vast majority of the time. (If you have another method that you prefer for estimating the begining of the month, feel free to use that instead.)
+The first sliver of the new moon is notoriously difficult to calculate, which means calculating the beginning of the months with 100% accuracy is almost impossible. So you have two options. You can either go with a best guess estimate that is accurate enough, or you can go with the visible sightings and not be able to have a calendar before hand for a reference. I go with the first option, and my [current method](https://www.minewyrtruman.com/2025/08/22/updated-my-new-moon-calculations/) of calculating the beginning of the months seems to be accurate the vast majority of the time. (If you have another method that you prefer for estimating the beginning of the month, feel free to use that instead.)
 
 It's a deceptively simple method. Just look at the time of the new moon (conjunction) in UTC. If it's before noon (12:00 pm), the month begins the following day. Otherwise, it's two days after the new moon. After you calculate each, make sure to eliminate each one that is either before the previous year's winter solstice or after the current year's winter solstice. then count how many months you have. Twelve means it is a common year, whereas thirteen means it's an intercalary (leap) year and you need to add the intercalary month[^2].
 
@@ -84,13 +83,13 @@ The final new moon of the year 2027 is after the solstice, so the Anglo-Saxon ye
 Now is the fun part, holidays! What holidays one celebrates is largely personal, but there are four that almost every Fyrnsidere (Anglo-Saxon Heathen) celebrates. Eostre's Feast is generally celebrated on the full moon of the fourth month, Midsummer is on the summer solstice, Winter's Night is the full moon of the third to last month (the tenth month in common years, and the eleventh month in intercalary years), and [Yule is celebrated on the winter solstice](https://www.minewyrtruman.com/2021/12/07/in-defense-of-a-december-yule/) by Anglo-Saxon reckoning[^3]. For our reconstructed year, the holidays would be on:
 
 - Eostre's Feast: April 20
-- MidSummer: June 21
+- Midsummer: June 21
 - Winter's Night: October 15
 - Yule: December 22
 
 Remember that all dates begin the evening before at sunset.
 
-Beyond these four days, the days that one celebrates is up to you. There is a tradition in Heathen circles to celebrate holidays on the full moon, or an equinox or solstice. The reason is mostly practical: these days can be calculated with 100% accuracy, whereas any other date must be either tied to another calendar or be dependant on having the beginning and end of lumar months calculated. If you calculate the months though, this is easy to do. For example, I celebrate the new year on the first day of the first month (January 9th in 2027), and Blostmfreols on the last day of Eosturmonath (May 6th in 2027).
+Beyond these four days, the days that one celebrates is up to you. There is a tradition in Heathen circles to celebrate holidays on the full moon, or an equinox or solstice. The reason is mostly practical: these days can be calculated with 100% accuracy, whereas any other date must be either tied to another calendar or be dependent on having the beginning and end of lunar months calculated. If you calculate the months though, this is easy to do. For example, I celebrate the new year on the first day of the first month (January 9th in 2027), and Blostmfreols on the last day of Eosturmonath (May 6th in 2027).
 
 Well, that concludes today's tutorial. If you have any questions, feel free to reach out to me. I always enjoy a good calendar discussion!
 
